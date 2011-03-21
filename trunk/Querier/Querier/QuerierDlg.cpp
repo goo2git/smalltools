@@ -362,7 +362,8 @@ void CQuerierDlg::OnBnClickedButtonSelect()
 		result = sqlite3_open("data.db", &db);
 		if (result != SQLITE_OK)
 		{
-			MessageBox("数据库打开失败!", "打开出错", MB_OK | MB_ICONERROR);
+			GetDlgItem(IDC_STATIC_SHOW)->SetWindowText("对不起，数据读取失败！");
+			GetDlgItem(IDC_STATIC_BIRTHDAY)->SetWindowText("");
 			return;
 		}
 
@@ -415,6 +416,11 @@ void CQuerierDlg::OnBnClickedButtonSelect()
 				GetDlgItem(IDC_STATIC_SHOW)->SetWindowText("没有找到该身份证号码！");
 				GetDlgItem(IDC_STATIC_BIRTHDAY)->SetWindowText("");
 			}
+		}
+		else
+		{
+			GetDlgItem(IDC_STATIC_SHOW)->SetWindowText("对不起，数据读取失败！");
+			GetDlgItem(IDC_STATIC_BIRTHDAY)->SetWindowText("");
 		}
 
 		sqlite3_free_table(dbResult);
