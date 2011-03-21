@@ -22,13 +22,13 @@ class CAboutDlg : public CDialog
 public:
 	CAboutDlg();
 
-// 对话框数据
+	// 对话框数据
 	enum { IDD = IDD_ABOUTBOX };
 
-	protected:
+protected:
 	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV 支持
 
-// 实现
+	// 实现
 protected:
 	DECLARE_MESSAGE_MAP()
 };
@@ -52,7 +52,7 @@ END_MESSAGE_MAP()
 
 
 CQuerierDlg::CQuerierDlg(CWnd* pParent /*=NULL*/)
-	: CDialog(CQuerierDlg::IDD, pParent)
+: CDialog(CQuerierDlg::IDD, pParent)
 {
 	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
 }
@@ -68,6 +68,7 @@ BEGIN_MESSAGE_MAP(CQuerierDlg, CDialog)
 	ON_WM_QUERYDRAGICON()
 	//}}AFX_MSG_MAP
 	ON_BN_CLICKED(IDC_BUTTON_SELECT, &CQuerierDlg::OnBnClickedButtonSelect)
+	ON_BN_CLICKED(IDC_BUTTON_EXIT, &CQuerierDlg::OnBnClickedButtonExit)
 END_MESSAGE_MAP()
 
 
@@ -154,6 +155,195 @@ HCURSOR CQuerierDlg::OnQueryDragIcon()
 	return static_cast<HCURSOR>(m_hIcon);
 }
 
+std::string CQuerierDlg::UTF8ToAnsi( const std::string& strIn, std::string& strOut )
+{
+	WCHAR* strSrc    = NULL;
+	TCHAR* szRes    = NULL;
+
+	int i = MultiByteToWideChar(CP_UTF8, 0, strIn.c_str(), -1, NULL, 0);
+
+	strSrc = new WCHAR[i+1];
+	MultiByteToWideChar(CP_UTF8, 0, strIn.c_str(), -1, strSrc, i);
+
+	i = WideCharToMultiByte(CP_ACP, 0, strSrc, -1, NULL, 0, NULL, NULL);
+
+	szRes = new TCHAR[i+1];
+	WideCharToMultiByte(CP_ACP, 0, strSrc, -1, szRes, i, NULL, NULL);
+
+	strOut = szRes;
+
+	delete[] strSrc;
+	delete[] szRes;
+
+	return strOut;
+}
+
+std::string CQuerierDlg::AnsiToUTF8( const std::string& strIn, std::string& strOut )
+{
+	WCHAR* strSrc    = NULL;
+	TCHAR* szRes    = NULL;
+
+	int len = MultiByteToWideChar(CP_ACP, 0, (LPCTSTR)strIn.c_str(), -1, NULL,0);
+
+	unsigned short* wszUtf8 = new unsigned short[len+1];
+	memset(wszUtf8, 0, len * 2 + 2);
+	MultiByteToWideChar(CP_ACP, 0, (LPCTSTR)strIn.c_str(), -1, (LPWSTR)wszUtf8, len);
+
+	len = WideCharToMultiByte(CP_UTF8, 0, (LPCWSTR)wszUtf8, -1, NULL, 0, NULL, NULL);
+
+	char* szUtf8 = new char[len + 1];
+	memset(szUtf8, 0, len + 1);
+	WideCharToMultiByte (CP_UTF8, 0, (LPCWSTR)wszUtf8, -1, szUtf8, len, NULL,NULL);
+
+	strOut = szUtf8;
+
+	delete[] szUtf8;
+	delete[] wszUtf8;
+
+	return strOut;
+}
+
+int CQuerierDlg::Test_Identity(const char* str)
+{
+	static CRegexpT<char> regexp("^(\\d{15}$|^\\d{18}$|^\\d{17}(\\d|x|X))$");
+	MatchResult result = regexp.MatchExact(str);
+	if (result.IsMatched() == 0)
+	{
+		return 0;
+	}
+
+	CString strID(str);
+	CString strYear("");
+	CString strMonth("");
+	CString strDay("");
+	int iYear;
+	int iMonth;
+	int iDay;
+	if (strID.GetLength() == 15)
+	{
+		strYear = "19" + strID.Mid(6, 2);
+		iYear = atoi(strYear.GetBuffer());		
+
+		strMonth = strID.Mid(8, 2);
+		iMonth = atoi(strMonth.GetBuffer());
+		if (iMonth < 1 || iMonth > 12)
+		{
+			return 0;
+		}
+
+		CString strDay = strID.Mid(10, 2);
+		iDay = atoi(strDay.GetBuffer());		
+		switch(iMonth)
+		{
+		case 1:
+		case 3:
+		case 5:
+		case 7:
+		case 8:
+		case 10:
+		case 12:
+			{
+				if (iDay < 1 || iDay > 31)
+				{
+					return 0;
+				}
+			}
+			break;
+		case 4:
+		case 6:
+		case 9:
+		case 11:
+			{
+				if (iDay < 1 || iDay > 30)
+				{
+					return 0;
+				}
+			}
+			break;
+		case 2:
+			{
+				if (iYear % 4 == 0 && iYear % 100 != 0 || iYear % 400 == 0)
+				{
+					if (iDay < 1 || iDay > 29)
+					{
+						return 0;
+					}
+				}
+				else
+				{
+					if (iDay < 1 || iDay > 28)
+					{
+						return 0;
+					}
+				}
+
+			}
+		}		
+	}
+	else if (strID.GetLength() == 18)
+	{
+		strYear = strID.Mid(6, 4);
+		iYear = atoi(strYear.GetBuffer());	
+
+		strMonth = strID.Mid(10, 2);
+		iMonth = atoi(strMonth.GetBuffer());
+		if (iMonth < 1 || iMonth > 12)
+		{
+			return 0;
+		}
+
+		CString strDay = strID.Mid(12, 2);
+		iDay = atoi(strDay.GetBuffer());
+		switch(iMonth)
+		{
+		case 1:
+		case 3:
+		case 5:
+		case 7:
+		case 8:
+		case 10:
+		case 12:
+			{
+				if (iDay < 1 || iDay > 31)
+				{
+					return 0;
+				}
+			}
+			break;
+		case 4:
+		case 6:
+		case 9:
+		case 11:
+			{
+				if (iDay < 1 || iDay > 30)
+				{
+					return 0;
+				}
+			}
+			break;
+		case 2:
+			{
+				if (iYear % 4 == 0 && iYear % 100 != 0 || iYear % 400 == 0)
+				{
+					if (iDay < 1 || iDay > 29)
+					{
+						return 0;
+					}
+				}
+				else
+				{
+					if (iDay < 1 || iDay > 28)
+					{
+						return 0;
+					}
+				}
+			}
+		}		
+	}
+
+	return 1;
+}
+
 //查找按钮
 void CQuerierDlg::OnBnClickedButtonSelect()
 {
@@ -164,27 +354,82 @@ void CQuerierDlg::OnBnClickedButtonSelect()
 	char** dbResult;
 	int nRow,nColumn;
 
-	CString str;
-	GetDlgItem(IDC_EDIT_ID)->GetWindowText(str);
-
-	result = sqlite3_open("data.db", &db);
-	if (result != SQLITE_OK)
+	CString strID;
+	GetDlgItem(IDC_EDIT_ID)->GetWindowText(strID);
+	int bMatching = Test_Identity(strID.GetBuffer());
+	if (bMatching != 0)//如果身份证格式正确
 	{
-		MessageBox(L"数据库打开失败!", L"打开出错", MB_OK | MB_ICONERROR);
-		return;
-	}
-
-	result = sqlite3_get_table(db, "select * from Card where Data='320323'", &dbResult,&nRow, &nColumn, &errmsg);
-	if (SQLITE_OK == result)
-	{
-		int index = nColumn;
-		for (int i = 0; i < nRow; ++i)
+		result = sqlite3_open("data.db", &db);
+		if (result != SQLITE_OK)
 		{
-
+			MessageBox("数据库打开失败!", "打开出错", MB_OK | MB_ICONERROR);
+			return;
 		}
+
+		CString strArea = strID.Left(6);//区号		
+		CString strBirth("");           //用来保存完整生日 
+		CString strNumber("");          //号码
+		CString strCheckCode("");       //校验码
+		if (strID.GetLength() == 15)
+		{
+			strBirth = "19" + strID.Mid(6, 2) + "年" + strID.Mid(8, 2) + "月" + strID.Mid(10, 2) + "日";
+
+			strNumber = strID.Right(3);
+		}
+		else if (strID.GetLength() == 18)
+		{
+			strBirth = strID.Mid(6, 4) + "年" + strID.Mid(10, 2) + "月" + strID.Mid(12, 2) + "日";
+
+			strNumber = strID.Mid(14, 3);
+			strCheckCode = strID.Right(1);
+		}
+
+		CString strSQL;
+		strSQL.Format("SELECT * FROM Card WHERE Data='%s'", strArea.GetBuffer());
+		result = sqlite3_get_table(db, strSQL.GetBuffer(), &dbResult, &nRow, &nColumn, &errmsg);
+		if (SQLITE_OK == result)
+		{
+			if (nRow > 0)
+			{			
+				int index = nColumn;
+				for (int i = 0; i < nRow; ++i)
+				{
+					string strSheng;
+					string strShi;
+					string strXian;
+					string strPath;
+
+					UTF8ToAnsi(dbResult[index + 1], strSheng);
+					UTF8ToAnsi(dbResult[index + 2], strShi);
+					UTF8ToAnsi(dbResult[index + 3], strXian);
+					strPath = strSheng + strShi + strXian;
+
+					GetDlgItem(IDC_STATIC_SHOW)->SetWindowText(strPath.c_str());//设置地区
+					GetDlgItem(IDC_STATIC_BIRTHDAY)->SetWindowText(strBirth);//设置生日
+
+					break;
+				}
+			}
+			else
+			{
+				GetDlgItem(IDC_STATIC_SHOW)->SetWindowText("没有找到该身份证号码！");
+				GetDlgItem(IDC_STATIC_BIRTHDAY)->SetWindowText("");
+			}
+		}
+
+		sqlite3_free_table(dbResult);
+		sqlite3_close(db);
 	}
+	else
+	{
+		GetDlgItem(IDC_STATIC_SHOW)->SetWindowText("对不起，咱们国家还没有人用这一号身份证！");
+		GetDlgItem(IDC_STATIC_BIRTHDAY)->SetWindowText("");
+	}
+}
 
-	sqlite3_free_table(dbResult);
+void CQuerierDlg::OnBnClickedButtonExit()
+{
+	// TODO: 在此添加控件通知处理程序代码
 
-	sqlite3_close(db);
+	this->DestroyWindow();
 }
