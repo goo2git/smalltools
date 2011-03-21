@@ -10,6 +10,9 @@
 #define IDC_EDIT_ID                     1000
 #define IDC_BUTTON_SELECT               1001
 #define IDC_STATIC_SHOW                 1002
+#define IDC_STATIC_BIRTHDAY             1003
+#define IDC_BUTTON_SELECT2              1004
+#define IDC_BUTTON_EXIT                 1004
 
 // Next default values for new objects
 // 

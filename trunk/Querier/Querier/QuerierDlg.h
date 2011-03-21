@@ -2,7 +2,7 @@
 //
 
 #pragma once
-
+#include "deelx.h"
 
 // CQuerierDlg 对话框
 class CQuerierDlg : public CDialog
@@ -22,6 +22,10 @@ public:
 protected:
 	HICON m_hIcon;
 
+	static std::string UTF8ToAnsi( const std::string& strIn, std::string& strOut );
+	static std::string AnsiToUTF8( const std::string& strIn, std::string& strOut );
+	static int Test_Identity(const char* str);
+
 	// 生成的消息映射函数
 	virtual BOOL OnInitDialog();
 	afx_msg void OnSysCommand(UINT nID, LPARAM lParam);
@@ -29,5 +33,7 @@ protected:
 	afx_msg HCURSOR OnQueryDragIcon();
 	DECLARE_MESSAGE_MAP()
 public:
-	afx_msg void OnBnClickedButtonSelect();
+	afx_msg void OnBnClickedButtonSelect();	
+	
+	afx_msg void OnBnClickedButtonExit();
 };
