@@ -1,15 +1,15 @@
 From: <ÓÉ Windows Internet Explorer 8 ±£´æ>
 Subject: Play Wave file with DirectSound and display its spectrum in real time - CodeProject
-Date: Wed, 30 Mar 2011 00:27:25 +0800
+Date: Wed, 30 Mar 2011 11:31:53 +0800
 MIME-Version: 1.0
 Content-Type: multipart/related;
 	type="text/html";
-	boundary="----=_NextPart_000_0051_01CBEE71.3EA66B00"
+	boundary="----=_NextPart_000_0051_01CBEECE.11BA3240"
 X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5994
 
 This is a multi-part message in MIME format.
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: text/html;
 	charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
@@ -23,7 +23,7 @@ http-equiv=3D"X-UA-Compatible">
 time - CodeProject</TITLE><LINK=20
 rel=3Dstylesheet type=3Dtext/css=20
 href=3D"http://s.codeproject.com/App_Themes/Std/CSS/CodeProject.min.css?d=
-t=3D2.3.110328.1">
+t=3D2.3.110329.1">
 <META content=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>
 <META name=3DDescription=20
 content=3D"An article to show how to play a Wave file with DirectSound =
@@ -82,6 +82,83 @@ http'+'-equiv=3D"re' +'fresh" =
 con'+'tent=3D"1;url=3D'+DemoUrl+unescape('"%3CE'));
 function SelfCheck(){ return window.confirm("You are about to reply to =
 your own message. Is this really what you want?");}
+function MarkAns(MemberID,MsgID,gp,bp,mt,QID){
+ document.write(unescape("%3Ca href=3D\"#xx" + MsgID.toString() + "xx\"  =
+onclick=3D\"RateMsg("+MemberID.toString()+","+MsgID.toString()+",6,"+QID.=
+toString()+");\"%3E"));
+ document.write(unescape("%3Cimg height=3D\"20\" width=3D\"20\" =
+src=3D\"/script/Forums/Images/good.png\" alt=3D\"good\" border=3D\"0\" =
+align=3D\"absmiddle\" /%3E "+gp+" "+mt+"%3C/a%3E "));=0A=
+ document.write(" &nbsp;"); document.write(unescape("%3Ca href=3D\"#xx" =
++ MsgID.toString() + "xx\"  =
+onclick=3D\"RateMsg("+MemberID.toString()+","+MsgID.toString()+",7,"+QID.=
+toString()+");\"%3E"));
+ document.write(unescape("%3Cimg height=3D\"20\" width=3D\"20\" =
+src=3D\"/script/Forums/Images/bad.png\" alt=3D\"bad\" border=3D\"0\" =
+align=3D\"absmiddle\" /%3E "+bp+" "+mt+"%3C/a%3E"));=0A=
+}=0A=
+=0A=
+function MsgVFrm(MemberID,MsgID,GB,gp,bp,mt){
+ if(!GB)document.write("Rate this message: ");
+ document.write(unescape("%3Ca href=3D\"#xx" + MsgID.toString() + "xx\" =
+onclick=3D\"RateMsg(" + MemberID.toString() + ", " + MsgID.toString() + =
+","));document.write((GB?"5":"1")+unescape(",0);\"%3E"));
+ if(GB) document.write(unescape("%3Cimg height=3D\"20\" width=3D\"20\" =
+src=3D\"/script/Forums/Images/good.png\" alt=3D\"good\" border=3D\"0\" =
+align=3D\"absmiddle\" /%3E "+gp+" "+mt+"%3C/a%3E "));=0A=
+ else document.write(unescape("%3Cimg height=3D\"14px\" width=3D\"14px\" =
+src=3D\"http://s.codeproject.com/script/Forums/Images/thumbs_down.gif\" =
+alt=3D\"vote 1\" border=3D\"0\" align=3D\"middle\" /%3E%3C/a%3E "));=0A=
+ if(GB)document.write(" &nbsp;"); else for(var i=3D1; i<=3D5;i++)
+  document.write(unescape("%3Ca class=3D\"toolbar\" href=3D\"#xx" + =
+MsgID.toString() + "xx\" title=3D\"vote this message a " + i.toString() =
++ "\" onclick=3D\"RateMsg(" + MemberID.toString() + ", " + =
+MsgID.toString() + ", " + i.toString() + ",0)\"%3E%3Cb%3E" + =
+i.toString() + "%3C/b%3E%3C/a%3E "));=0A=
+ document.write(unescape("%3Ca href=3D\"#xx" + MsgID.toString() + "xx\" =
+onclick=3D\"RateMsg(" + MemberID.toString() + ", " + MsgID.toString() + =
+","));document.write((GB?"1":"5")+unescape(",0);\"%3E"));=0A=
+ if(GB)document.write(unescape("%3Cimg height=3D\"20\" width=3D\"20\" =
+src=3D\"/script/Forums/Images/bad.png\" alt=3D\"bad\" border=3D\"0\" =
+align=3D\"absmiddle\" /%3E "+bp+" "+mt+"%3C/a%3E"));=0A=
+ else document.write(unescape("%3Cimg height=3D\"14px\" width=3D\"14px\" =
+src=3D\"http://s.codeproject.com/script/Forums/Images/thumbs_up.gif\" =
+border=3D\"0\" alt=3D\"vote 5\" align=3D\"middle\" /%3E%3C/a%3E "));=0A=
+}=0A=
+=0A=
+function ReportMsg(userid, msgid, score) {=0A=
+ if (confirm("Are you sure you want this message removed?"))=0A=
+  return RateMsg(userid, msgid, score, 0);=0A=
+ else return false;=0A=
+}=0A=
+function RateMsg(memberid, msgid, score, questionId) {=0A=
+ var req =3D new ActiveXObject("MSXML2.XMLHTTP");=0A=
+ req.onreadystatechange =3D function() {=0A=
+  if (req.readyState =3D=3D 4){=0A=
+   if (req.status =3D=3D 200){=0A=
+    var respText =3D req.responseText;=0A=
+    var re =3D new RegExp(unescape("\%3Cdiv\%3E(.*)\%3C/div\%3E"), "g");=0A=
+    var match =3D re.exec(respText);=0A=
+    voteStatus.innerHTML =3D unescape("%3Cb%3E") + =
+(match&&match.length>1&&match[1])?match[1]:"An error occured" + =
+unescape("%3C/b%3E");=0A=
+   } else=0A=
+    voteStatus.innerHTML =3D unescape("%3Cb =
+style=3D'color:red'%3EFailed!") + req.statusText + unescape("%3C/b%3E");=0A=
+  }=0A=
+ }=0A=
+ var voteStatus =3D document.getElementById("MVF" + msgid);=0A=
+ if (!voteStatus) return;=0A=
+ voteStatus.innerHTML =3D unescape("%3Cb =
+style=3D'color:green'%3EVoting...%3C/b%3E");=0A=
+ var strAction =3D =
+"/script/Forums/Vote.aspx?js=3D1&fmid=3D"+memberid.toString()+"&select=3D=
+"+msgid.toString()+"&score=3D"+score.toString()+"&qid=3D"+questionId.toSt=
+ring();=0A=
+ req.open("GET", strAction, true);=0A=
+ req.send(null);=0A=
+  return false;=0A=
+}
 var Selected =3D "-1";
 function Pin(elm){
  CloseMsg(Selected);
@@ -194,57 +271,63 @@ src=3D"http://s.codeproject.com/Images/t.gif"></A>=20
 <DIV class=3Dpage-background>
 <DIV id=3DA class=3Dcontainer-content>
 <DIV class=3D"container nav-memberbar clearfix">
-<DIV class=3D"member-stats float-left">7,665,001 members and growing! =
-(28,613=20
+<DIV class=3D"member-stats float-left">7,667,421 members and growing! =
+(28,942=20
 online)</DIV>
 <DIV class=3Dfloat-left></DIV>
-<DIV class=3Dfloat-right>
-<SCRIPT type=3Dtext/javascript>//<!--
-	function doSubmit(secure)
-	{
-		if (secure)
-			document.subForm.action =3D =
-"https://www.codeproject.com/script/Membership/LogOn.aspx?rp=3D%2fKB%2fau=
-dio-video%2fDSound_Spectrum.aspx"
-		else
-			document.subForm.action =3D =
-"/script/Membership/LogOn.aspx?rp=3D%2fKB%2faudio-video%2fDSound_Spectrum=
-.aspx"
-		document.subForm.submit();
-		return true;
-	}//-->
-	</SCRIPT>
-<A name=3DSignUp></A>
-<FORM id=3DsubForm class=3Dtight method=3Dpost name=3DsubForm=20
-action=3D/script/Membership/LogOn.aspx?rp=3D%2fKB%2faudio-video%2fDSound_=
-Spectrum.aspx><INPUT=20
-id=3DFormName value=3DMenuBarForm type=3Dhidden name=3DFormName> Email =
-<INPUT=20
-style=3D"WIDTH: 150px" id=3DEmail class=3Dsmall-text name=3DEmail> =
-Password <INPUT=20
-style=3D"WIDTH: 60px" id=3DPassword class=3Dsmall-text type=3Dpassword =
-name=3DPassword> <INPUT class=3Dbutton onclick=3D"return =
-doSubmit(false);" value=3D"Sign in" type=3Dsubmit>=20
-<INPUT class=3Dalign-bottom title=3D"Sign on securely"=20
-onclick=3D"return doSubmit(true);"=20
-src=3D"http://www.codeproject.com/images/secure.png" type=3Dimage>
-<SCRIPT type=3Dtext/javascript>=0A=
-function =
-Join(){document.location.href=3D'http://www.codeproject.com/script/Member=
-ship/Modify.aspx';return false;}=0A=
-document.write('<input type=3D"button" class=3D"button" =
-onclick=3D"return Join();" value=3D"Join"');=0A=
-document.write('<input type=3D"hidden" name=3D"fld_quicksign" =
-value=3D"true" />');=0A=
-</SCRIPT>
- <SPAN class=3Dnowrap><INPUT id=3DRememberMeCheck value=3D1 CHECKED =
-type=3Dcheckbox=20
-name=3DRememberMeCheck> <LABEL =
-for=3DRememberMeCheck>Remember&nbsp;me?</LABEL>=20
-</SPAN>&nbsp; <A id=3Dctl00_MemberMenu_SendPassword=20
-href=3D"http://www.codeproject.com/script/Membership/SendPassword.aspx?rp=
-=3D%2fKB%2faudio-video%2fDSound_Spectrum.aspx">Lost=20
-password?</A> </FORM></DIV></DIV>
+<DIV class=3Dfloat-right>&nbsp; <SPAN id=3Dctl00_MemberMenu_CurRat =
+class=3Dtooltip><A=20
+id=3Dctl00_MemberMenu_MyProfile=20
+href=3D"http://www.codeproject.com/script/Membership/View.aspx?mid=3D3988=
+924">gookings</A><IMG=20
+style=3D"WIDTH: 16px; HEIGHT: 16px; VERTICAL-ALIGN: bottom"=20
+src=3D"http://www.codeproject.com/Images/arrow-down-16.png">=20
+<DIV style=3D"WIDTH: 110px !important" class=3Dtooltip-flyout>
+<DIV><A id=3Dctl00_MemberMenu_MySettingsNonSSL=20
+href=3D"http://www.codeproject.com/script/Membership/Modify.aspx">My=20
+Settings</A></DIV>
+<DIV><A id=3Dctl00_MemberMenu_MySettings=20
+href=3D"https://www.codeproject.com/script/Membership/Modify.aspx"><IMG=20
+style=3D"BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; =
+BORDER-BOTTOM-WIDTH: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT-WIDTH: =
+0px"=20
+src=3D"http://www.codeproject.com/images/secure.png" width=3D13 =
+height=3D14>My=20
+Settings (SSL)</A></DIV>
+<DIV><A id=3Dctl00_MemberMenu_MyContacts=20
+href=3D"http://www.codeproject.com/script/Membership/ListContacts.aspx">M=
+y Contact=20
+info</A></DIV>
+<DIV><A id=3Dctl00_MemberMenu_MyBookmarks=20
+href=3D"http://www.codeproject.com/script/Bookmarks/List.aspx?obtid=3D2">=
+My=20
+Bookmarks</A></DIV>
+<DIV><A id=3Dctl00_MemberMenu_MyCodeProject=20
+href=3D"http://www.codeproject.com/script/Membership/MyCodeProject.aspx">=
+My=20
+Watched Items</A></DIV>
+<DIV><A id=3Dctl00_MemberMenu_MyArticles=20
+href=3D"http://www.codeproject.com/script/Articles/MemberArticles.aspx?am=
+id=3D3988924">My=20
+Articles</A></DIV>
+<DIV><A id=3Dctl00_MemberMenu_MyMessages=20
+href=3D"http://www.codeproject.com/script/Forums/Messages.aspx?fmid=3D398=
+8924">My=20
+Messages</A></DIV>
+<DIV><A id=3Dctl00_MemberMenu_MyQuestions=20
+href=3D"http://www.codeproject.com/script/Answers/MemberPosts.aspx?tab=3D=
+questions&amp;mid=3D3988924&amp;showall=3DTrue">My=20
+Questions</A></DIV>
+<DIV><A id=3Dctl00_MemberMenu_MyAnswers=20
+href=3D"http://www.codeproject.com/script/Answers/MemberPosts.aspx?tab=3D=
+answers&amp;mid=3D3988924&amp;showall=3DTrue">My=20
+Answers</A></DIV></DIV></SPAN><SPAN style=3D"MARGIN-LEFT: 0px"=20
+id=3Dctl00_MemberMenu_TotalPoints class=3D"member-rep-box bronze"=20
+title=3D"Total reputation points 368">368</SPAN> &nbsp; <A=20
+id=3Dctl00_MemberMenu_Signout=20
+href=3D"http://www.codeproject.com/script/Membership/LogOff.aspx?rp=3D%2f=
+KB%2faudio-video%2fDSound_Spectrum.aspx">Sign=20
+out</A> </DIV></DIV>
 <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
   <TBODY>
   <TR>
@@ -260,9 +343,10 @@ TD>
       =
 lqm_tags=3D"WinXP,Win2003,C++,Windows,Win32,MFC,GDI,DirectX,Dev,COM,Inter=
 mediate"=20
-      lqm_format=3D"8" lqm_zone=3D"77" lqm_publisher=3D"495" =
-lqm_channel=3D"1"=20
-      height=3D"90px" width=3D"728px"></DIV></TD></TR></TBODY></TABLE>
+      lqm_country=3D"CN" lqm_format=3D"8" lqm_zone=3D"77" =
+lqm_publisher=3D"495"=20
+      lqm_channel=3D"1" height=3D"90px" =
+width=3D"728px"></DIV></TD></TR></TBODY></TABLE>
 <TABLE class=3D"contrast1-background extended" cellSpacing=3D0 =
 cellPadding=3D0>
   <TBODY>
@@ -776,13 +860,13 @@ src=3D"http://www.codeproject.com/images/fluid-width.png"></A> =
 href=3D"http://www.codeproject.com/info/cpol10.aspx">CPOL</A></TD></TR>
   <TR>
     <TD>First Posted&nbsp;</TD>
-    <TD noWrap><B>15 Sep 2008</B></TD></TR>
+    <TD noWrap><B>16 Sep 2008</B></TD></TR>
   <TR>
     <TD>Views&nbsp;</TD>
-    <TD><B>23,957</B></TD></TR>
+    <TD><B>23,980</B></TD></TR>
   <TR>
     <TD>Downloads&nbsp;</TD>
-    <TD><B>138</B></TD></TR>
+    <TD><B>147</B></TD></TR>
   <TR>
     <TD>Bookmarked&nbsp;</TD>
     <TD><B>41 times</B></TD></TR></TBODY></TABLE></DIV></DIV>
@@ -792,7 +876,7 @@ its spectrum in real time</H1>
 <DIV class=3Dauthor>By <B><A=20
 href=3D"http://www.codeproject.com/script/Membership/View.aspx?mid=3D1982=
 172">jacky_zz</A></B>=20
-| 15 Sep 2008 </DIV>
+| 16 Sep 2008 </DIV>
 <DIV class=3Dtags><SPAN id=3Dctl00_TitleArea_TagsList_TagWrp =
 class=3Dtags><SPAN=20
 id=3Dctl00_TitleArea_TagsList_VisibleTags><SPAN class=3Dt><A=20
@@ -868,7 +952,26 @@ id=3Dctl00_ActionLinks_AddTo_Img=20
 alt=3Dadd src=3D"http://s.codeproject.com/images/share_drop24.png" =
 width=3D37=20
 height=3D24> </SPAN>
-<DIV id=3DATD class=3Dlist-socialbookmark></DIV><SPAN class=3Dtooltip>
+<DIV id=3DATD class=3Dlist-socialbookmark></DIV><SPAN class=3Dtooltip><A =
+
+style=3D"BORDER-RIGHT-WIDTH: 0px; WIDTH: 24px; DISPLAY: inline-block; =
+BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 24px; =
+VERTICAL-ALIGN: middle; BORDER-LEFT-WIDTH: 0px"=20
+id=3Dctl00_ActionLinks_ArticleBmk_ImgBt title=3DBookmark=20
+onclick=3D"return =
+bookmarkMe(29366,2,'/script/Bookmarks/Ajax/Add.aspx?obid=3D29366&amp;obti=
+d=3D2&amp;action=3DAddBookmark&amp;bio=3Dtrue',true);"=20
+href=3D"http://www.codeproject.com/script/Bookmarks/Add.aspx?obid=3D29366=
+&amp;obtid=3D2&amp;action=3DAddBookmark&amp;bio=3Dtrue"=20
+name=3Dbm_29366_2 AlternateText=3D"Bookmark"><IMG=20
+style=3D"BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; =
+BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px"=20
+title=3DBookmark alt=3D""=20
+src=3D"http://s.codeproject.com/script/Bookmarks/Images/bookmark.png"></A=
+> <SPAN=20
+style=3D"DISPLAY: none" id=3Dctl00_ActionLinks_ArticleBmk_StatusMsg =
+class=3Dtiny-text=20
+name=3D"bm_29366_2"></SPAN>
 <DIV class=3Dspeech-bubble-container-up>
 <DIV class=3Dspeech-bubble-up>Add to your CodeProject bookmarks</DIV>
 <DIV class=3Dspeech-bubble-pointer-up>
@@ -968,6 +1071,27 @@ V></DIV>
 <DIV>Sponsored Links</DIV></DIV></DIV>
 <DIV class=3Dcontainer-text>
 <DIV id=3DAT class=3Dtext>
+<DIV=20
+style=3D"PADDING-BOTTOM: 10px; MARGIN: 20px; PADDING-LEFT: 10px; =
+PADDING-RIGHT: 10px; PADDING-TOP: 10px"=20
+id=3Dctl00_confirmWarning class=3D"Callout small-text"><IMG=20
+style=3D"FLOAT: left; MARGIN-RIGHT: 10px"=20
+src=3D"http://www.codeproject.com/images/warning_32.png" width=3D32 =
+height=3D32><B>Is=20
+your email address OK?</B> You are signed up for our newsletters but =
+your email=20
+address has not been reconfirmed in a long time. To make this warning go =
+away=20
+please click <A id=3Dctl00_RequestConfirmLink=20
+href=3D"http://www.codeproject.com/script/Membership/SendConfirmRequest.a=
+spx?rp=3D%2fKB%2faudio-video%2fDSound_Spectrum.aspx">here</A>=20
+to have a confirmation email sent so we can confirm your email address =
+and=20
+continue sending you your newsletters. Alternatively, you can <A=20
+id=3Dctl00_SubscribeLink=20
+href=3D"http://www.codeproject.com/script/Membership/Subscribe.aspx?rp=3D=
+%2fKB%2faudio-video%2fDSound_Spectrum.aspx">update=20
+your subscriptions</A>.</DIV>
 <FORM=20
 style=3D"PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; =
 PADDING-RIGHT: 0px; PADDING-TOP: 0px"=20
@@ -981,13 +1105,22 @@ hc3B4P29iaWQ9MjkzNjYmb2J0aWQ9MmRkAgoPDxYCHwAFLy9zY3JpcHQvQXJ0aWNsZXMvQWRt=
 aW4vUXVldWVFZGl0LmFzcHg/YWlkPTI5MzY2ZGQCEw9kFgICAQ9kFgICAQ9kFgZmDw8WAh8AB=
 TIvS0IvYXVkaW8tdmlkZW8vRFNvdW5kX1NwZWN0cnVtLmFzcHg/ZGlzcGxheT1QcmludGRkAg=
 QPFgIeCWlubmVyaHRtbAUCMTFkAgUPDxYCHwAFJi9zY3JpcHQvQXJ0aWNsZXMvUmVwb3J0LmF=
-zcHg/YWlkPTI5MzY2ZGQCFQ9kFgICCw9kFggCAw8WAh4GYWN0aW9uBSQvS0IvYXVkaW8tdmlk=
-ZW8vRFNvdW5kX1NwZWN0cnVtLmFzcHgWBgIBD2QWAgIBDxYCHgdWaXNpYmxlaGQCAw9kFgICA=
-g9kFgICAQ8QZGQWAGQCCQ8WAh4LXyFJdGVtQ291bnQCAWQCCw8PFgIfAAUkL0tCL2F1ZGlvLX=
-ZpZGVvL0RTb3VuZF9TcGVjdHJ1bS5hc3B4ZGQCEw8WAh4EVGV4dAULMTUgU2VwIDIwMDhkAhc=
-PFgIfBQUaQ29weXJpZ2h0IDIwMDggYnkgamFja3lfenpkAhcPZBYCAgUPDxYCHwNoZGRkT3k+=
-iItx/0wMmiwnaWm0e7WSb34=3D=20
-type=3Dhidden name=3D__VIEWSTATE> </DIV><!-- Article Text Start -->
+zcHg/YWlkPTI5MzY2ZGQCFQ9kFgICCw9kFgoCAQ8WAh4HVmlzaWJsZWcWBAIBDw8WAh8ABVgv=
+c2NyaXB0L01lbWJlcnNoaXAvU2VuZENvbmZpcm1SZXF1ZXN0LmFzcHg/cnA9JTJmS0IlMmZhd=
+WRpby12aWRlbyUyZkRTb3VuZF9TcGVjdHJ1bS5hc3B4ZGQCAw8PFgIfAAVPL3NjcmlwdC9NZW=
+1iZXJzaGlwL1N1YnNjcmliZS5hc3B4P3JwPSUyZktCJTJmYXVkaW8tdmlkZW8lMmZEU291bmR=
+fU3BlY3RydW0uYXNweGRkAgMPFgIeBmFjdGlvbgUkL0tCL2F1ZGlvLXZpZGVvL0RTb3VuZF9T=
+cGVjdHJ1bS5hc3B4FgYCAQ9kFgICAQ8WAh8CaGQCAw9kFgICAg9kFgICAQ8QZGQWAGQCCQ8WA=
+h4LXyFJdGVtQ291bnQCAWQCCw8PFgIfAAUkL0tCL2F1ZGlvLXZpZGVvL0RTb3VuZF9TcGVjdH=
+J1bS5hc3B4ZGQCEw8WAh4EVGV4dAULMTYgU2VwIDIwMDhkAhcPFgIfBQUaQ29weXJpZ2h0IDI=
+wMDggYnkgamFja3lfenpkAhcPZBYCAgUPDxYCHwJoZGRkqkNRiBakQtV7a+GyflWmvXv4+Ac=3D=
+=20
+type=3Dhidden name=3D__VIEWSTATE> </DIV>
+<DIV><INPUT id=3D__EVENTVALIDATION=20
+value=3D/wEWCAK/r+X/CALAlMXDBwLBlMXDBwLClMXDBwLDlMXDBwLElMXDBwLP+++tCwK5u=
+pDkC0Hq7Iir7uVAjjDYDw+7u0qd1vpK=20
+type=3Dhidden name=3D__EVENTVALIDATION> </DIV><!-- Article Text Start =
+-->
 <DIV id=3Dcontentdiv><!-- Article Starts -->
 <UL class=3Ddownload>
   <LI><A=20
@@ -1472,9 +1605,9 @@ Open License (CPOL)</A></P></DIV>
 <DIV class=3Dlqm_ad=20
 lqm_tags=3D"WinXP,Win2003,C++,Windows,Win32,MFC,GDI,DirectX,Dev,COM,Inter=
 mediate"=20
-lqm_format=3D"6" lqm_zone=3D"77" lqm_publisher=3D"495" lqm_channel=3D"1" =
-height=3D"250px"=20
-width=3D"300px"></DIV></DIV>
+lqm_country=3D"CN" lqm_format=3D"6" lqm_zone=3D"77" =
+lqm_publisher=3D"495"=20
+lqm_channel=3D"1" height=3D"250px" width=3D"300px"></DIV></DIV>
 <TABLE border=3D0 cellSpacing=3D5 cellPadding=3D0>
   <TBODY>
   <TR vAlign=3Dtop>
@@ -1523,18 +1656,65 @@ name=3D"RateItem_29366">
 <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" small-text>
   <TBODY>
   <TR>
+    <TD id=3Dctl00_RateArticle_VoteResultDiv width=3D"100%" noWrap=20
+      align=3Dright><SPAN class=3DvoteRes></SPAN><IMG style=3D"DISPLAY: =
+none"=20
+      class=3DloaderImg alt=3Dloading...=20
+      =
+src=3D"http://www.codeproject.com/script/Ratings/Images/ajax-loader.gif" =
+
+      width=3D16 height=3D16> </TD>
     <TD style=3D"WHITE-SPACE: nowrap" class=3DvoteTbl align=3Dright>
       <TABLE class=3Dsmall-text>
         <TBODY>
         <TR vAlign=3Dcenter>
-          <TD id=3Dctl00_RateArticle_SignIn noWrap><A=20
-            =
-href=3D"http://www.codeproject.com/KB/audio-video/DSound_Spectrum.aspx#Si=
-gnUp">Sign=20
-            Up</A> to vote for this article =
-</TD></TR></TBODY></TABLE><SPAN=20
-      id=3Dctl00_RateArticle_ErrorMessage =
-class=3Derror></SPAN></TD></TR></TBODY></TABLE>
+          <TD style=3D"PADDING-RIGHT: 5px; WHITE-SPACE: nowrap"=20
+          id=3Dctl00_RateArticle_RateText><I><B>Rate this article for=20
+            us!</B></I> </TD>
+          <TD id=3Dctl00_RateArticle_StartForm noWrap=20
+            align=3Dright><I>&nbsp;&nbsp;Poor</I> </TD>
+          <TD style=3D"WHITE-SPACE: nowrap" =
+id=3Dctl00_RateArticle_VoteFormDiv=20
+          align=3Dleft>
+            <TABLE id=3Dctl00_RateArticle_VoteRBL class=3Dradio =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD><INPUT id=3Dctl00_RateArticle_VoteRBL_0=20
+                  onclick=3D"ChkRtctl00_RateArticle(1, =
+29366);&#10;$('#ctl00_RateArticle_RCD').show();&#10;;"=20
+                  value=3D1 type=3Dradio =
+name=3Dctl00$RateArticle$VoteRBL></TD>
+                <TD><INPUT id=3Dctl00_RateArticle_VoteRBL_1=20
+                  onclick=3D"ChkRtctl00_RateArticle(2, =
+29366);&#10;$('#ctl00_RateArticle_RCD').show();&#10;;"=20
+                  value=3D2 type=3Dradio =
+name=3Dctl00$RateArticle$VoteRBL></TD>
+                <TD><INPUT id=3Dctl00_RateArticle_VoteRBL_2=20
+                  onclick=3D"ChkRtctl00_RateArticle(3, =
+29366);&#10;$('#ctl00_RateArticle_RCD').show();&#10;;"=20
+                  value=3D3 type=3Dradio =
+name=3Dctl00$RateArticle$VoteRBL></TD>
+                <TD><INPUT id=3Dctl00_RateArticle_VoteRBL_3=20
+                  onclick=3D"ChkRtctl00_RateArticle(4, =
+29366);&#10;$('#ctl00_RateArticle_RCD').show();&#10;;"=20
+                  value=3D4 type=3Dradio =
+name=3Dctl00$RateArticle$VoteRBL></TD>
+                <TD><INPUT id=3Dctl00_RateArticle_VoteRBL_4=20
+                  onclick=3D"ChkRtctl00_RateArticle(5, =
+29366);&#10;$('#ctl00_RateArticle_RCD').show();&#10;;"=20
+                  value=3D5 type=3Dradio=20
+              =
+name=3Dctl00$RateArticle$VoteRBL></TD></TR></TBODY></TABLE></TD>
+          <TD id=3Dctl00_RateArticle_EndForm =
+align=3Dleft><I>Excellent</I> </TD>
+          <TD id=3Dctl00_RateArticle_VoteBtn><INPUT =
+id=3Dctl00_RateArticle_SubmitRateBtn class=3Dbutton onclick=3D"return =
+rateItem(29366,2,1,true,true,3);" value=3DVote type=3Dsubmit =
+name=3Dctl00$RateArticle$SubmitRateBtn>=20
+          </TD></TR></TBODY></TABLE><SPAN =
+id=3Dctl00_RateArticle_ErrorMessage=20
+      class=3Derror></SPAN></TD></TR></TBODY></TABLE>
 <DIV class=3Dhover-container>
 <DIV id=3Dctl00_RateArticle_RCD class=3D"rating-comment align-left =
 float-right">Add=20
@@ -1552,25 +1732,15 @@ hidden; PADDING-TOP: 0px">
 <DIV class=3Dlqm_ad=20
 lqm_tags=3D"WinXP,Win2003,C++,Windows,Win32,MFC,GDI,DirectX,Dev,COM,Inter=
 mediate"=20
-lqm_format=3D"1" lqm_zone=3D"77" lqm_publisher=3D"495" lqm_channel=3D"1" =
-height=3D"60px"=20
-width=3D"468px"></DIV></DIV>
+lqm_country=3D"CN" lqm_format=3D"1" lqm_zone=3D"77" =
+lqm_publisher=3D"495"=20
+lqm_channel=3D"1" height=3D"60px" width=3D"468px"></DIV></DIV>
 <H2>Comments and Discussions</H2><A name=3D_comments></A><!-- Forum =
 Start -->
 <DIV id=3D_MessageBoard onclick=3D"return SwitchMessage(event, null)">
 <TABLE id=3DForumTable class=3D"box forum" cellSpacing=3D0 =
 cellPadding=3D0>
   <TBODY>
-  <TR>
-    <TD class=3D"forum-header1 highlight"><B>You must <A=20
-      =
-href=3D"http://www.codeproject.com/script/Membership/LogOn.aspx?rp=3D%2fK=
-B%2faudio-video%2fDSound_Spectrum.aspx%3ffid%3d1526600">Sign=20
-      In</A> to use this message board.</B> (<A=20
-      =
-href=3D"https://www.codeproject.com/script/Membership/LogOn.aspx?rp=3D%2f=
-KB%2faudio-video%2fDSound_Spectrum.aspx%3ffid%3d1526600">secure=20
-      sign-in</A>)</TD></TR>
   <TR>
     <TD>
       <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D3 width=3D"100%">
@@ -1639,7 +1809,15 @@ class=3Dbutton value=3DUpdate type=3Dsubmit name=3DSetOpt>=20
       <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D2 width=3D"100%">
         <TBODY>
         <TR class=3Dforum-navbar>
-          <TD>&nbsp;</TD>
+          <TD><IMG border=3D0 alt=3Dnew align=3Dtop=20
+            =
+src=3D"http://s.codeproject.com/script/Forums/Images/forum_newmsg.gif"=20
+            width=3D16 height=3D16><A class=3Dtoolbar=20
+            title=3D"Create a new message thread"=20
+            =
+href=3D"http://www.codeproject.com/script/Forums/Edit.aspx?fid=3D1526600&=
+amp;floc=3D/KB/audio-video/DSound_Spectrum.aspx"=20
+            name=3DFrm_HoverNL target=3D_top><B>New Message</B></A></TD>
           <TD>Msgs 1 to 11 of 11 (Total in Forum: 11) (<A=20
             =
 href=3D"http://www.codeproject.com/KB/audio-video/DSound_Spectrum.aspx?fi=
@@ -1699,7 +1877,7 @@ src=3D"http://s.codeproject.com/script/Membership/Images/member_sm.gif"=20
 href=3D"http://www.codeproject.com/script/Membership/View.aspx?mid=3D2729=
 938">satmosc</A></TD>
                 <TD style=3D"WHITE-SPACE: nowrap; VERTICAL-ALIGN: top"=20
-                class=3DFrm_MsgDate>11:16 24 Feb '11=20
+                class=3DFrm_MsgDate>13:16 24 Feb '11=20
           &nbsp;</TD></TR></TBODY></TABLE></TD></TR><!-- End Message =
 head -->
         <TR style=3D"DISPLAY: none" id=3DF3783787_h1>
@@ -1730,12 +1908,18 @@ infected by a=20
                               virus , detected by McAfee &amp; norton=20
                           2011<BR></TD></TR>
                           <TR style=3D"VERTICAL-ALIGN: middle">
-                            <TD class=3Dmsg-footer><A class=3Dtoolbar=20
+                            <TD class=3Dmsg-footer><A class=3Dtoolbar =
+title=3DReply=20
                               =
-href=3D"http://www.codeproject.com/script/Membership/LogOn.aspx?rp=3D%2fK=
-B%2faudio-video%2fDSound_Spectrum.aspx">Sign=20
-                              In</A>=C2=B7<A class=3Dtoolbar =
-title=3DView&nbsp;Thread=20
+href=3D"http://www.codeproject.com/script/Forums/Edit.aspx?fid=3D1526600&=
+amp;select=3D3783787&amp;floc=3D/KB/audio-video/DSound_Spectrum.aspx&amp;=
+action=3Dr">Reply</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3DEmail=20
+                              =
+href=3D"http://www.codeproject.com/script/Forums/Edit.aspx?fid=3D1526600&=
+amp;select=3D3783787&amp;floc=3D/KB/audio-video/DSound_Spectrum.aspx&amp;=
+action=3De">Email</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3DView&nbsp;Thread=20
                               =
 href=3D"http://www.codeproject.com/KB/audio-video/DSound_Spectrum.aspx?fi=
 d=3D1526600&amp;tid=3D3783787">View&nbsp;Thread</A>=C2=B7<A=20
@@ -1743,13 +1927,23 @@ d=3D1526600&amp;tid=3D3783787">View&nbsp;Thread</A>=C2=B7<A=20
 link"=20
                               =
 href=3D"http://www.codeproject.com/Messages/3783787/Demo-File-is-Infected=
--by-Virus.aspx">Link</A></TD>
+-by-Virus.aspx">Link</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3D"Bookmark this =
+post"=20
+                              =
+href=3D"http://www.codeproject.com/script/Bookmarks/Add.aspx?obid=3D37837=
+87&amp;obtid=3D3&amp;action=3DAddBookmark&amp;bio=3Dfalse">Bookmark</A></=
+TD>
                             <TD style=3D"TEXT-ALIGN: right"=20
                               class=3Dmsg-footer><SPAN =
 style=3D"WHITE-SPACE: nowrap"=20
+                              id=3DMVF3783787>
+                              <SCRIPT type=3Dtext/javascript>
+MsgVFrm(2729938,3783787,false,"","","");
+</SCRIPT>
                               =
-id=3DMVF3783787></SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABL=
-E></TD></TR></TBODY></TABLE></TD></TR>
+</SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TB=
+ODY></TABLE></TD></TR>
         <TR class=3Dquick>
           <TD class=3D"root msg-divide"><IMG border=3D0 alt=3D""=20
             src=3D"http://s.codeproject.com/script/Forums/Images/t.gif" =
@@ -1796,9 +1990,9 @@ href=3D"http://www.codeproject.com/script/Membership/View.aspx?mid=3D7554=
 645">liao=20
                   gang</A></TD>
                 <TD style=3D"WHITE-SPACE: nowrap; VERTICAL-ALIGN: top"=20
-                class=3DFrm_MsgDate>22:02 13 Jan '11=20
-          &nbsp;</TD></TR></TBODY></TABLE></TD></TR><!-- End Message =
-head -->
+                class=3DFrm_MsgDate>0:02 14 Jan '11=20
+        &nbsp;</TD></TR></TBODY></TABLE></TD></TR><!-- End Message head =
+-->
         <TR style=3D"DISPLAY: none" id=3DF3733536_h1>
           <TD width=3D"100%">
             <TABLE class=3DquickBd border=3D0 cellSpacing=3D0 =
@@ -1826,12 +2020,18 @@ width=3D"100%">
 =E5=80=BC=E4=B8=BA=E4=BB=80=E4=B9=88=E8=A6=81=E8=BF=99=E4=B9=88=E6=B1=82?=
 <BR></TD></TR>
                           <TR style=3D"VERTICAL-ALIGN: middle">
-                            <TD class=3Dmsg-footer><A class=3Dtoolbar=20
+                            <TD class=3Dmsg-footer><A class=3Dtoolbar =
+title=3DReply=20
                               =
-href=3D"http://www.codeproject.com/script/Membership/LogOn.aspx?rp=3D%2fK=
-B%2faudio-video%2fDSound_Spectrum.aspx">Sign=20
-                              In</A>=C2=B7<A class=3Dtoolbar =
-title=3DView&nbsp;Thread=20
+href=3D"http://www.codeproject.com/script/Forums/Edit.aspx?fid=3D1526600&=
+amp;select=3D3733536&amp;floc=3D/KB/audio-video/DSound_Spectrum.aspx&amp;=
+action=3Dr">Reply</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3DEmail=20
+                              =
+href=3D"http://www.codeproject.com/script/Forums/Edit.aspx?fid=3D1526600&=
+amp;select=3D3733536&amp;floc=3D/KB/audio-video/DSound_Spectrum.aspx&amp;=
+action=3De">Email</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3DView&nbsp;Thread=20
                               =
 href=3D"http://www.codeproject.com/KB/audio-video/DSound_Spectrum.aspx?fi=
 d=3D1526600&amp;tid=3D3733536">View&nbsp;Thread</A>=C2=B7<A=20
@@ -1839,13 +2039,23 @@ d=3D1526600&amp;tid=3D3733536">View&nbsp;Thread</A>=C2=B7<A=20
 link"=20
                               =
 href=3D"http://www.codeproject.com/Messages/3733536/left-and-right-value.=
-aspx">Link</A></TD>
+aspx">Link</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3D"Bookmark this =
+post"=20
+                              =
+href=3D"http://www.codeproject.com/script/Bookmarks/Add.aspx?obid=3D37335=
+36&amp;obtid=3D3&amp;action=3DAddBookmark&amp;bio=3Dfalse">Bookmark</A></=
+TD>
                             <TD style=3D"TEXT-ALIGN: right"=20
                               class=3Dmsg-footer><SPAN =
 style=3D"WHITE-SPACE: nowrap"=20
+                              id=3DMVF3733536>
+                              <SCRIPT type=3Dtext/javascript>
+MsgVFrm(7554645,3733536,false,"","","");
+</SCRIPT>
                               =
-id=3DMVF3733536></SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABL=
-E></TD></TR></TBODY></TABLE></TD></TR>
+</SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TB=
+ODY></TABLE></TD></TR>
         <TR class=3Dquick>
           <TD class=3Dmsg-divide><IMG border=3D0 alt=3D""=20
             src=3D"http://s.codeproject.com/script/Forums/Images/t.gif" =
@@ -1891,7 +2101,7 @@ href=3D"http://www.codeproject.com/script/Membership/View.aspx?mid=3D7554=
 645">liao=20
                   gang</A></TD>
                 <TD style=3D"WHITE-SPACE: nowrap; VERTICAL-ALIGN: top"=20
-                class=3DFrm_MsgDate>21:17 16 Jan '11=20
+                class=3DFrm_MsgDate>23:17 16 Jan '11=20
           &nbsp;</TD></TR></TBODY></TABLE></TD></TR><!-- End Message =
 head -->
         <TR style=3D"DISPLAY: none" id=3DF3735921_h1>
@@ -1927,12 +2137,18 @@ lpAudioBuffer[dwCurPlayPos+0])/32767;<BR>=E9=97=AE=E9=A2=98=E4=B8=BA=E4=BB=
 =80=E4=B9=881=E4=BD=8D=E7=BD=AE=E7=9A=84=E6=95=B0=E6=8D=AE=E8=A6=81=E5=B7=
 =A6=E7=A7=BB8=E5=91=A2?<BR></TD></TR>
                           <TR style=3D"VERTICAL-ALIGN: middle">
-                            <TD class=3Dmsg-footer><A class=3Dtoolbar=20
+                            <TD class=3Dmsg-footer><A class=3Dtoolbar =
+title=3DReply=20
                               =
-href=3D"http://www.codeproject.com/script/Membership/LogOn.aspx?rp=3D%2fK=
-B%2faudio-video%2fDSound_Spectrum.aspx">Sign=20
-                              In</A>=C2=B7<A class=3Dtoolbar =
-title=3DView&nbsp;Thread=20
+href=3D"http://www.codeproject.com/script/Forums/Edit.aspx?fid=3D1526600&=
+amp;select=3D3735921&amp;floc=3D/KB/audio-video/DSound_Spectrum.aspx&amp;=
+action=3Dr">Reply</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3DEmail=20
+                              =
+href=3D"http://www.codeproject.com/script/Forums/Edit.aspx?fid=3D1526600&=
+amp;select=3D3735921&amp;floc=3D/KB/audio-video/DSound_Spectrum.aspx&amp;=
+action=3De">Email</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3DView&nbsp;Thread=20
                               =
 href=3D"http://www.codeproject.com/KB/audio-video/DSound_Spectrum.aspx?fi=
 d=3D1526600&amp;tid=3D3733536">View&nbsp;Thread</A>=C2=B7<A=20
@@ -1940,13 +2156,23 @@ d=3D1526600&amp;tid=3D3733536">View&nbsp;Thread</A>=C2=B7<A=20
 link"=20
                               =
 href=3D"http://www.codeproject.com/Messages/3735921/Re-left-and-right-val=
-ue.aspx">Link</A></TD>
+ue.aspx">Link</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3D"Bookmark this =
+post"=20
+                              =
+href=3D"http://www.codeproject.com/script/Bookmarks/Add.aspx?obid=3D37359=
+21&amp;obtid=3D3&amp;action=3DAddBookmark&amp;bio=3Dfalse">Bookmark</A></=
+TD>
                             <TD style=3D"TEXT-ALIGN: right"=20
                               class=3Dmsg-footer><SPAN =
 style=3D"WHITE-SPACE: nowrap"=20
+                              id=3DMVF3735921>
+                              <SCRIPT type=3Dtext/javascript>
+MsgVFrm(7554645,3735921,false,"","","");
+</SCRIPT>
                               =
-id=3DMVF3735921></SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABL=
-E></TD></TR></TBODY></TABLE></TD></TR>
+</SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TB=
+ODY></TABLE></TD></TR>
         <TR class=3Dquick>
           <TD class=3Dmsg-divide><IMG border=3D0 alt=3D""=20
             src=3D"http://s.codeproject.com/script/Forums/Images/t.gif" =
@@ -1991,7 +2217,7 @@ src=3D"http://s.codeproject.com/script/Membership/Images/member_sm.gif"=20
 href=3D"http://www.codeproject.com/script/Membership/View.aspx?mid=3D1982=
 172">jacky_zz</A></TD>
                 <TD style=3D"WHITE-SPACE: nowrap; VERTICAL-ALIGN: top"=20
-                class=3DFrm_MsgDate>16:50 17 Jan '11=20
+                class=3DFrm_MsgDate>18:50 17 Jan '11=20
           &nbsp;</TD></TR></TBODY></TABLE></TD></TR><!-- End Message =
 head -->
         <TR style=3D"DISPLAY: none" id=3DF3737390_h1>
@@ -2021,12 +2247,18 @@ width=3D"100%">
 word)=20
                               store.<BR></TD></TR>
                           <TR style=3D"VERTICAL-ALIGN: middle">
-                            <TD class=3Dmsg-footer><A class=3Dtoolbar=20
+                            <TD class=3Dmsg-footer><A class=3Dtoolbar =
+title=3DReply=20
                               =
-href=3D"http://www.codeproject.com/script/Membership/LogOn.aspx?rp=3D%2fK=
-B%2faudio-video%2fDSound_Spectrum.aspx">Sign=20
-                              In</A>=C2=B7<A class=3Dtoolbar =
-title=3DView&nbsp;Thread=20
+href=3D"http://www.codeproject.com/script/Forums/Edit.aspx?fid=3D1526600&=
+amp;select=3D3737390&amp;floc=3D/KB/audio-video/DSound_Spectrum.aspx&amp;=
+action=3Dr">Reply</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3DEmail=20
+                              =
+href=3D"http://www.codeproject.com/script/Forums/Edit.aspx?fid=3D1526600&=
+amp;select=3D3737390&amp;floc=3D/KB/audio-video/DSound_Spectrum.aspx&amp;=
+action=3De">Email</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3DView&nbsp;Thread=20
                               =
 href=3D"http://www.codeproject.com/KB/audio-video/DSound_Spectrum.aspx?fi=
 d=3D1526600&amp;tid=3D3733536">View&nbsp;Thread</A>=C2=B7<A=20
@@ -2034,13 +2266,23 @@ d=3D1526600&amp;tid=3D3733536">View&nbsp;Thread</A>=C2=B7<A=20
 link"=20
                               =
 href=3D"http://www.codeproject.com/Messages/3737390/Re-left-and-right-val=
-ue.aspx">Link</A></TD>
+ue.aspx">Link</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3D"Bookmark this =
+post"=20
+                              =
+href=3D"http://www.codeproject.com/script/Bookmarks/Add.aspx?obid=3D37373=
+90&amp;obtid=3D3&amp;action=3DAddBookmark&amp;bio=3Dfalse">Bookmark</A></=
+TD>
                             <TD style=3D"TEXT-ALIGN: right"=20
                               class=3Dmsg-footer><SPAN =
 style=3D"WHITE-SPACE: nowrap"=20
+                              id=3DMVF3737390>
+                              <SCRIPT type=3Dtext/javascript>
+MsgVFrm(1982172,3737390,false,"","","");
+</SCRIPT>
                               =
-id=3DMVF3737390></SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABL=
-E></TD></TR></TBODY></TABLE></TD></TR>
+</SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TB=
+ODY></TABLE></TD></TR>
         <TR class=3Dquick>
           <TD class=3Dmsg-divide><IMG border=3D0 alt=3D""=20
             src=3D"http://s.codeproject.com/script/Forums/Images/t.gif" =
@@ -2085,7 +2327,7 @@ src=3D"http://s.codeproject.com/script/Membership/Images/member_sm.gif"=20
 href=3D"http://www.codeproject.com/script/Membership/View.aspx?mid=3D1982=
 172">jacky_zz</A></TD>
                 <TD style=3D"WHITE-SPACE: nowrap; VERTICAL-ALIGN: top"=20
-                class=3DFrm_MsgDate>16:54 17 Jan '11=20
+                class=3DFrm_MsgDate>18:54 17 Jan '11=20
           &nbsp;</TD></TR></TBODY></TABLE></TD></TR><!-- End Message =
 head -->
         <TR style=3D"DISPLAY: none" id=3DF3737392_h1>
@@ -2117,12 +2359,18 @@ width=3D"100%">
 left=20
                               shift.<BR></TD></TR>
                           <TR style=3D"VERTICAL-ALIGN: middle">
-                            <TD class=3Dmsg-footer><A class=3Dtoolbar=20
+                            <TD class=3Dmsg-footer><A class=3Dtoolbar =
+title=3DReply=20
                               =
-href=3D"http://www.codeproject.com/script/Membership/LogOn.aspx?rp=3D%2fK=
-B%2faudio-video%2fDSound_Spectrum.aspx">Sign=20
-                              In</A>=C2=B7<A class=3Dtoolbar =
-title=3DView&nbsp;Thread=20
+href=3D"http://www.codeproject.com/script/Forums/Edit.aspx?fid=3D1526600&=
+amp;select=3D3737392&amp;floc=3D/KB/audio-video/DSound_Spectrum.aspx&amp;=
+action=3Dr">Reply</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3DEmail=20
+                              =
+href=3D"http://www.codeproject.com/script/Forums/Edit.aspx?fid=3D1526600&=
+amp;select=3D3737392&amp;floc=3D/KB/audio-video/DSound_Spectrum.aspx&amp;=
+action=3De">Email</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3DView&nbsp;Thread=20
                               =
 href=3D"http://www.codeproject.com/KB/audio-video/DSound_Spectrum.aspx?fi=
 d=3D1526600&amp;tid=3D3733536">View&nbsp;Thread</A>=C2=B7<A=20
@@ -2130,13 +2378,23 @@ d=3D1526600&amp;tid=3D3733536">View&nbsp;Thread</A>=C2=B7<A=20
 link"=20
                               =
 href=3D"http://www.codeproject.com/Messages/3737392/Re-left-and-right-val=
-ue.aspx">Link</A></TD>
+ue.aspx">Link</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3D"Bookmark this =
+post"=20
+                              =
+href=3D"http://www.codeproject.com/script/Bookmarks/Add.aspx?obid=3D37373=
+92&amp;obtid=3D3&amp;action=3DAddBookmark&amp;bio=3Dfalse">Bookmark</A></=
+TD>
                             <TD style=3D"TEXT-ALIGN: right"=20
                               class=3Dmsg-footer><SPAN =
 style=3D"WHITE-SPACE: nowrap"=20
+                              id=3DMVF3737392>
+                              <SCRIPT type=3Dtext/javascript>
+MsgVFrm(1982172,3737392,false,"","","");
+</SCRIPT>
                               =
-id=3DMVF3737392></SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABL=
-E></TD></TR></TBODY></TABLE></TD></TR>
+</SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TB=
+ODY></TABLE></TD></TR>
         <TR class=3Dquick>
           <TD class=3D"root msg-divide"><IMG border=3D0 alt=3D""=20
             src=3D"http://s.codeproject.com/script/Forums/Images/t.gif" =
@@ -2181,7 +2439,7 @@ src=3D"http://s.codeproject.com/script/Membership/Images/member_sm.gif"=20
 href=3D"http://www.codeproject.com/script/Membership/View.aspx?mid=3D6116=
 316">catalin77</A></TD>
                 <TD style=3D"WHITE-SPACE: nowrap; VERTICAL-ALIGN: top"=20
-                class=3DFrm_MsgDate>10:51 16 Apr '09=20
+                class=3DFrm_MsgDate>12:51 16 Apr '09=20
           &nbsp;</TD></TR></TBODY></TABLE></TD></TR><!-- End Message =
 head -->
         <TR style=3D"DISPLAY: none" id=3DF3006985_h1>
@@ -2218,12 +2476,18 @@ showing=20
                               us your project, it's a really nice=20
 work.<BR></TD></TR>
                           <TR style=3D"VERTICAL-ALIGN: middle">
-                            <TD class=3Dmsg-footer><A class=3Dtoolbar=20
+                            <TD class=3Dmsg-footer><A class=3Dtoolbar =
+title=3DReply=20
                               =
-href=3D"http://www.codeproject.com/script/Membership/LogOn.aspx?rp=3D%2fK=
-B%2faudio-video%2fDSound_Spectrum.aspx">Sign=20
-                              In</A>=C2=B7<A class=3Dtoolbar =
-title=3DView&nbsp;Thread=20
+href=3D"http://www.codeproject.com/script/Forums/Edit.aspx?fid=3D1526600&=
+amp;select=3D3006985&amp;floc=3D/KB/audio-video/DSound_Spectrum.aspx&amp;=
+action=3Dr">Reply</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3DEmail=20
+                              =
+href=3D"http://www.codeproject.com/script/Forums/Edit.aspx?fid=3D1526600&=
+amp;select=3D3006985&amp;floc=3D/KB/audio-video/DSound_Spectrum.aspx&amp;=
+action=3De">Email</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3DView&nbsp;Thread=20
                               =
 href=3D"http://www.codeproject.com/KB/audio-video/DSound_Spectrum.aspx?fi=
 d=3D1526600&amp;tid=3D3006985">View&nbsp;Thread</A>=C2=B7<A=20
@@ -2231,13 +2495,23 @@ d=3D1526600&amp;tid=3D3006985">View&nbsp;Thread</A>=C2=B7<A=20
 link"=20
                               =
 href=3D"http://www.codeproject.com/Messages/3006985/Error-at-compilation.=
-aspx">Link</A></TD>
+aspx">Link</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3D"Bookmark this =
+post"=20
+                              =
+href=3D"http://www.codeproject.com/script/Bookmarks/Add.aspx?obid=3D30069=
+85&amp;obtid=3D3&amp;action=3DAddBookmark&amp;bio=3Dfalse">Bookmark</A></=
+TD>
                             <TD style=3D"TEXT-ALIGN: right"=20
                               class=3Dmsg-footer><SPAN =
 style=3D"WHITE-SPACE: nowrap"=20
+                              id=3DMVF3006985>
+                              <SCRIPT type=3Dtext/javascript>
+MsgVFrm(6116316,3006985,false,"","","");
+</SCRIPT>
                               =
-id=3DMVF3006985></SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABL=
-E></TD></TR></TBODY></TABLE></TD></TR>
+</SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TB=
+ODY></TABLE></TD></TR>
         <TR class=3Dquick>
           <TD class=3Dmsg-divide><IMG border=3D0 alt=3D""=20
             src=3D"http://s.codeproject.com/script/Forums/Images/t.gif" =
@@ -2282,7 +2556,7 @@ src=3D"http://s.codeproject.com/script/Membership/Images/member_sm.gif"=20
 href=3D"http://www.codeproject.com/script/Membership/View.aspx?mid=3D1982=
 172">jacky_zz</A></TD>
                 <TD style=3D"WHITE-SPACE: nowrap; VERTICAL-ALIGN: top"=20
-                class=3DFrm_MsgDate>15:10 16 Apr '09=20
+                class=3DFrm_MsgDate>17:10 16 Apr '09=20
           &nbsp;</TD></TR></TBODY></TABLE></TD></TR><!-- End Message =
 head -->
         <TR style=3D"DISPLAY: none" id=3DF3007254_h1>
@@ -2329,12 +2603,18 @@ href=3D"http://www.codeproject.com/KB/audio-video/DSound_Spectrum3.aspx" =
 it, with=20
                               pure Win32 code, enjoy.<BR></TD></TR>
                           <TR style=3D"VERTICAL-ALIGN: middle">
-                            <TD class=3Dmsg-footer><A class=3Dtoolbar=20
+                            <TD class=3Dmsg-footer><A class=3Dtoolbar =
+title=3DReply=20
                               =
-href=3D"http://www.codeproject.com/script/Membership/LogOn.aspx?rp=3D%2fK=
-B%2faudio-video%2fDSound_Spectrum.aspx">Sign=20
-                              In</A>=C2=B7<A class=3Dtoolbar =
-title=3DView&nbsp;Thread=20
+href=3D"http://www.codeproject.com/script/Forums/Edit.aspx?fid=3D1526600&=
+amp;select=3D3007254&amp;floc=3D/KB/audio-video/DSound_Spectrum.aspx&amp;=
+action=3Dr">Reply</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3DEmail=20
+                              =
+href=3D"http://www.codeproject.com/script/Forums/Edit.aspx?fid=3D1526600&=
+amp;select=3D3007254&amp;floc=3D/KB/audio-video/DSound_Spectrum.aspx&amp;=
+action=3De">Email</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3DView&nbsp;Thread=20
                               =
 href=3D"http://www.codeproject.com/KB/audio-video/DSound_Spectrum.aspx?fi=
 d=3D1526600&amp;tid=3D3006985">View&nbsp;Thread</A>=C2=B7<A=20
@@ -2342,13 +2622,23 @@ d=3D1526600&amp;tid=3D3006985">View&nbsp;Thread</A>=C2=B7<A=20
 link"=20
                               =
 href=3D"http://www.codeproject.com/Messages/3007254/Re-Error-at-compilati=
-on.aspx">Link</A></TD>
+on.aspx">Link</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3D"Bookmark this =
+post"=20
+                              =
+href=3D"http://www.codeproject.com/script/Bookmarks/Add.aspx?obid=3D30072=
+54&amp;obtid=3D3&amp;action=3DAddBookmark&amp;bio=3Dfalse">Bookmark</A></=
+TD>
                             <TD style=3D"TEXT-ALIGN: right"=20
                               class=3Dmsg-footer><SPAN =
 style=3D"WHITE-SPACE: nowrap"=20
+                              id=3DMVF3007254>
+                              <SCRIPT type=3Dtext/javascript>
+MsgVFrm(1982172,3007254,false,"","","");
+</SCRIPT>
                               =
-id=3DMVF3007254></SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABL=
-E></TD></TR></TBODY></TABLE></TD></TR>
+</SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TB=
+ODY></TABLE></TD></TR>
         <TR class=3Dquick>
           <TD class=3Dmsg-divide><IMG border=3D0 alt=3D""=20
             src=3D"http://s.codeproject.com/script/Forums/Images/t.gif" =
@@ -2393,7 +2683,7 @@ src=3D"http://s.codeproject.com/script/Membership/Images/member_sm.gif"=20
 href=3D"http://www.codeproject.com/script/Membership/View.aspx?mid=3D6116=
 316">catalin77</A></TD>
                 <TD style=3D"WHITE-SPACE: nowrap; VERTICAL-ALIGN: top"=20
-                class=3DFrm_MsgDate>10:36 20 Apr '09=20
+                class=3DFrm_MsgDate>12:36 20 Apr '09=20
           &nbsp;</TD></TR></TBODY></TABLE></TD></TR><!-- End Message =
 head -->
         <TR style=3D"DISPLAY: none" id=3DF3010976_h1>
@@ -2428,12 +2718,18 @@ all the=20
                               documentation necesary to accomplish=20
                           this.<BR></TD></TR>
                           <TR style=3D"VERTICAL-ALIGN: middle">
-                            <TD class=3Dmsg-footer><A class=3Dtoolbar=20
+                            <TD class=3Dmsg-footer><A class=3Dtoolbar =
+title=3DReply=20
                               =
-href=3D"http://www.codeproject.com/script/Membership/LogOn.aspx?rp=3D%2fK=
-B%2faudio-video%2fDSound_Spectrum.aspx">Sign=20
-                              In</A>=C2=B7<A class=3Dtoolbar =
-title=3DView&nbsp;Thread=20
+href=3D"http://www.codeproject.com/script/Forums/Edit.aspx?fid=3D1526600&=
+amp;select=3D3010976&amp;floc=3D/KB/audio-video/DSound_Spectrum.aspx&amp;=
+action=3Dr">Reply</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3DEmail=20
+                              =
+href=3D"http://www.codeproject.com/script/Forums/Edit.aspx?fid=3D1526600&=
+amp;select=3D3010976&amp;floc=3D/KB/audio-video/DSound_Spectrum.aspx&amp;=
+action=3De">Email</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3DView&nbsp;Thread=20
                               =
 href=3D"http://www.codeproject.com/KB/audio-video/DSound_Spectrum.aspx?fi=
 d=3D1526600&amp;tid=3D3006985">View&nbsp;Thread</A>=C2=B7<A=20
@@ -2441,13 +2737,23 @@ d=3D1526600&amp;tid=3D3006985">View&nbsp;Thread</A>=C2=B7<A=20
 link"=20
                               =
 href=3D"http://www.codeproject.com/Messages/3010976/Re-Error-at-compilati=
-on.aspx">Link</A></TD>
+on.aspx">Link</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3D"Bookmark this =
+post"=20
+                              =
+href=3D"http://www.codeproject.com/script/Bookmarks/Add.aspx?obid=3D30109=
+76&amp;obtid=3D3&amp;action=3DAddBookmark&amp;bio=3Dfalse">Bookmark</A></=
+TD>
                             <TD style=3D"TEXT-ALIGN: right"=20
                               class=3Dmsg-footer><SPAN =
 style=3D"WHITE-SPACE: nowrap"=20
+                              id=3DMVF3010976>
+                              <SCRIPT type=3Dtext/javascript>
+MsgVFrm(6116316,3010976,false,"","","");
+</SCRIPT>
                               =
-id=3DMVF3010976></SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABL=
-E></TD></TR></TBODY></TABLE></TD></TR>
+</SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TB=
+ODY></TABLE></TD></TR>
         <TR class=3Dquick>
           <TD class=3Dmsg-divide><IMG border=3D0 alt=3D""=20
             src=3D"http://s.codeproject.com/script/Forums/Images/t.gif" =
@@ -2492,9 +2798,9 @@ src=3D"http://s.codeproject.com/script/Membership/Images/member_sm.gif"=20
 href=3D"http://www.codeproject.com/script/Membership/View.aspx?mid=3D1982=
 172">jacky_zz</A></TD>
                 <TD style=3D"WHITE-SPACE: nowrap; VERTICAL-ALIGN: top"=20
-                class=3DFrm_MsgDate>22:06 20 Apr '09=20
-          &nbsp;</TD></TR></TBODY></TABLE></TD></TR><!-- End Message =
-head -->
+                class=3DFrm_MsgDate>0:06 21 Apr '09=20
+        &nbsp;</TD></TR></TBODY></TABLE></TD></TR><!-- End Message head =
+-->
         <TR style=3D"DISPLAY: none" id=3DF3011485_h1>
           <TD width=3D"100%">
             <TABLE class=3DquickBd border=3D0 cellSpacing=3D0 =
@@ -2525,12 +2831,18 @@ google.=20
                               And this project take me more free time=20
                             indeed.<BR></TD></TR>
                           <TR style=3D"VERTICAL-ALIGN: middle">
-                            <TD class=3Dmsg-footer><A class=3Dtoolbar=20
+                            <TD class=3Dmsg-footer><A class=3Dtoolbar =
+title=3DReply=20
                               =
-href=3D"http://www.codeproject.com/script/Membership/LogOn.aspx?rp=3D%2fK=
-B%2faudio-video%2fDSound_Spectrum.aspx">Sign=20
-                              In</A>=C2=B7<A class=3Dtoolbar =
-title=3DView&nbsp;Thread=20
+href=3D"http://www.codeproject.com/script/Forums/Edit.aspx?fid=3D1526600&=
+amp;select=3D3011485&amp;floc=3D/KB/audio-video/DSound_Spectrum.aspx&amp;=
+action=3Dr">Reply</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3DEmail=20
+                              =
+href=3D"http://www.codeproject.com/script/Forums/Edit.aspx?fid=3D1526600&=
+amp;select=3D3011485&amp;floc=3D/KB/audio-video/DSound_Spectrum.aspx&amp;=
+action=3De">Email</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3DView&nbsp;Thread=20
                               =
 href=3D"http://www.codeproject.com/KB/audio-video/DSound_Spectrum.aspx?fi=
 d=3D1526600&amp;tid=3D3006985">View&nbsp;Thread</A>=C2=B7<A=20
@@ -2538,12 +2850,22 @@ d=3D1526600&amp;tid=3D3006985">View&nbsp;Thread</A>=C2=B7<A=20
 link"=20
                               =
 href=3D"http://www.codeproject.com/Messages/3011485/Re-Error-at-compilati=
-on.aspx">Link</A></TD>
+on.aspx">Link</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3D"Bookmark this =
+post"=20
+                              =
+href=3D"http://www.codeproject.com/script/Bookmarks/Add.aspx?obid=3D30114=
+85&amp;obtid=3D3&amp;action=3DAddBookmark&amp;bio=3Dfalse">Bookmark</A></=
+TD>
                             <TD style=3D"TEXT-ALIGN: right"=20
                               class=3Dmsg-footer><SPAN =
 style=3D"WHITE-SPACE: nowrap"=20
-                              id=3DMVF3011485>2.00/5 (1 vote)=20
-                        =
+                              id=3DMVF3011485>2.00/5 (1 vote)
+                              <SCRIPT type=3Dtext/javascript>
+MsgVFrm(1982172,3011485,false,"","","");
+</SCRIPT>
+                              =20
+              =
 </SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TB=
 ODY></TABLE></TD></TR>
         <TR class=3Dquick>
@@ -2589,7 +2911,7 @@ src=3D"http://s.codeproject.com/script/Membership/Images/member_sm.gif"=20
 href=3D"http://www.codeproject.com/script/Membership/View.aspx?mid=3D5539=
 862">Breezium</A></TD>
                 <TD style=3D"WHITE-SPACE: nowrap; VERTICAL-ALIGN: top"=20
-                class=3DFrm_MsgDate>4:16 22 Sep '08=20
+                class=3DFrm_MsgDate>6:16 22 Sep '08=20
         &nbsp;</TD></TR></TBODY></TABLE></TD></TR><!-- End Message head =
 -->
         <TR style=3D"DISPLAY: none" id=3DF2734275_h1>
@@ -2622,12 +2944,18 @@ download=20
 zip file=20
                               of 0 bytes.<BR></TD></TR>
                           <TR style=3D"VERTICAL-ALIGN: middle">
-                            <TD class=3Dmsg-footer><A class=3Dtoolbar=20
+                            <TD class=3Dmsg-footer><A class=3Dtoolbar =
+title=3DReply=20
                               =
-href=3D"http://www.codeproject.com/script/Membership/LogOn.aspx?rp=3D%2fK=
-B%2faudio-video%2fDSound_Spectrum.aspx">Sign=20
-                              In</A>=C2=B7<A class=3Dtoolbar =
-title=3DView&nbsp;Thread=20
+href=3D"http://www.codeproject.com/script/Forums/Edit.aspx?fid=3D1526600&=
+amp;select=3D2734275&amp;floc=3D/KB/audio-video/DSound_Spectrum.aspx&amp;=
+action=3Dr">Reply</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3DEmail=20
+                              =
+href=3D"http://www.codeproject.com/script/Forums/Edit.aspx?fid=3D1526600&=
+amp;select=3D2734275&amp;floc=3D/KB/audio-video/DSound_Spectrum.aspx&amp;=
+action=3De">Email</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3DView&nbsp;Thread=20
                               =
 href=3D"http://www.codeproject.com/KB/audio-video/DSound_Spectrum.aspx?fi=
 d=3D1526600&amp;tid=3D2734275">View&nbsp;Thread</A>=C2=B7<A=20
@@ -2635,13 +2963,23 @@ d=3D1526600&amp;tid=3D2734275">View&nbsp;Thread</A>=C2=B7<A=20
 link"=20
                               =
 href=3D"http://www.codeproject.com/Messages/2734275/Missing-Files.aspx">L=
-ink</A></TD>
+ink</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3D"Bookmark this =
+post"=20
+                              =
+href=3D"http://www.codeproject.com/script/Bookmarks/Add.aspx?obid=3D27342=
+75&amp;obtid=3D3&amp;action=3DAddBookmark&amp;bio=3Dfalse">Bookmark</A></=
+TD>
                             <TD style=3D"TEXT-ALIGN: right"=20
                               class=3Dmsg-footer><SPAN =
 style=3D"WHITE-SPACE: nowrap"=20
+                              id=3DMVF2734275>
+                              <SCRIPT type=3Dtext/javascript>
+MsgVFrm(5539862,2734275,false,"","","");
+</SCRIPT>
                               =
-id=3DMVF2734275></SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABL=
-E></TD></TR></TBODY></TABLE></TD></TR>
+</SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TB=
+ODY></TABLE></TD></TR>
         <TR class=3Dquick>
           <TD class=3Dmsg-divide><IMG border=3D0 alt=3D""=20
             src=3D"http://s.codeproject.com/script/Forums/Images/t.gif" =
@@ -2686,7 +3024,7 @@ src=3D"http://s.codeproject.com/script/Membership/Images/member_sm.gif"=20
 href=3D"http://www.codeproject.com/script/Membership/View.aspx?mid=3D1982=
 172">jacky_zz</A></TD>
                 <TD style=3D"WHITE-SPACE: nowrap; VERTICAL-ALIGN: top"=20
-                class=3DFrm_MsgDate>15:35 22 Sep '08=20
+                class=3DFrm_MsgDate>17:35 22 Sep '08=20
           &nbsp;</TD></TR></TBODY></TABLE></TD></TR><!-- End Message =
 head -->
         <TR style=3D"DISPLAY: none" id=3DF2735062_h1>
@@ -2740,12 +3078,18 @@ you have=20
 please tell=20
                               me, thanks.<BR></TD></TR>
                           <TR style=3D"VERTICAL-ALIGN: middle">
-                            <TD class=3Dmsg-footer><A class=3Dtoolbar=20
+                            <TD class=3Dmsg-footer><A class=3Dtoolbar =
+title=3DReply=20
                               =
-href=3D"http://www.codeproject.com/script/Membership/LogOn.aspx?rp=3D%2fK=
-B%2faudio-video%2fDSound_Spectrum.aspx">Sign=20
-                              In</A>=C2=B7<A class=3Dtoolbar =
-title=3DView&nbsp;Thread=20
+href=3D"http://www.codeproject.com/script/Forums/Edit.aspx?fid=3D1526600&=
+amp;select=3D2735062&amp;floc=3D/KB/audio-video/DSound_Spectrum.aspx&amp;=
+action=3Dr">Reply</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3DEmail=20
+                              =
+href=3D"http://www.codeproject.com/script/Forums/Edit.aspx?fid=3D1526600&=
+amp;select=3D2735062&amp;floc=3D/KB/audio-video/DSound_Spectrum.aspx&amp;=
+action=3De">Email</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3DView&nbsp;Thread=20
                               =
 href=3D"http://www.codeproject.com/KB/audio-video/DSound_Spectrum.aspx?fi=
 d=3D1526600&amp;tid=3D2734275">View&nbsp;Thread</A>=C2=B7<A=20
@@ -2753,12 +3097,22 @@ d=3D1526600&amp;tid=3D2734275">View&nbsp;Thread</A>=C2=B7<A=20
 link"=20
                               =
 href=3D"http://www.codeproject.com/Messages/2735062/Re-Missing-Files.aspx=
-">Link</A></TD>
+">Link</A>=C2=B7<A=20
+                              class=3Dtoolbar title=3D"Bookmark this =
+post"=20
+                              =
+href=3D"http://www.codeproject.com/script/Bookmarks/Add.aspx?obid=3D27350=
+62&amp;obtid=3D3&amp;action=3DAddBookmark&amp;bio=3Dfalse">Bookmark</A></=
+TD>
                             <TD style=3D"TEXT-ALIGN: right"=20
                               class=3Dmsg-footer><SPAN =
 style=3D"WHITE-SPACE: nowrap"=20
-                              id=3DMVF2735062>2.00/5 (2 votes)=20
-                          =
+                              id=3DMVF2735062>2.00/5 (2 votes)
+                              <SCRIPT type=3Dtext/javascript>
+MsgVFrm(1982172,2735062,false,"","","");
+</SCRIPT>
+                              =20
+              =
 </SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TB=
 ODY></TABLE></TD></TR>
         <TR>
@@ -2771,8 +3125,8 @@ width=3D1=20
       <TABLE cellSpacing=3D0 cellPadding=3D2 width=3D"100%">
         <TBODY>
         <TR class=3Dforum-footer>
-          <TD>Last Visit: 19:00 31 Dec '99 &nbsp; &nbsp; Last Update: =
-7:26 29=20
+          <TD>Last Visit: 18:59 29 Mar '11 &nbsp; &nbsp; Last Update: =
+20:30 29=20
             Mar '11 </TD>
           <TD style=3D"TEXT-ALIGN: right; WHITE-SPACE: nowrap"><INPUT =
 id=3D_mbnUrl=20
@@ -2820,12 +3174,12 @@ Use</A> | <A=20
 id=3Dctl00_Mobile=20
 href=3D"http://www.codeproject.com/KB/audio-video/DSound_Spectrum.aspx?di=
 splay=3DMobile">Mobile</A>=20
-<BR>Last Updated: 15 Sep 2008<BR><BR></DIV>
+<BR>Last Updated: 16 Sep 2008<BR><BR></DIV>
 <DIV class=3D"float-right align-right">Copyright 2008 by =
 jacky_zz<BR>Everything=20
 else Copyright =C2=A9 <A =
 href=3D"mailto:webmaster@codeproject.com">CodeProject</A>,=20
-1999-2011<BR>Web02 | <A id=3Dctl00_AdvertiseLink=20
+1999-2011<BR>Web24 | <A id=3Dctl00_AdvertiseLink=20
 href=3D"http://www.codeproject.com/info/MediaKit.aspx">Advertise on the =
 Code=20
 Project </A></DIV></DIV></DIV></DIV>
@@ -2835,34 +3189,33 @@ class%3d%22announce%22%3e%0d%0a%0d%0a%3cdiv =
 class%3d%22announce-content%22%3e%09%0d%0a%0d%0a%0d%0a%3cdiv =
 class%3d%22container-adwords%22%3e%0d%0a%09%3ca =
 id%3d%22ctl00_CatalogItems_FeatureItemRptr_ctl00_Link%22 =
-href%3d%22%2fscript%2fCatalog%2fRedir.aspx%3fctid%3d2967%26amp%3bcttype%3=
-d2%22 target%3d%22_blank%22%3e%3cspan =
-id%3d%22ctl00_CatalogItems_FeatureItemRptr_ctl00_Title%22 =
-class%3d%22title%22%3eSpread for COM%2fActiveX%3c%2fspan%3e%3cbr =
-%2f%3e%0d%0a%09%09%3cspan =
-id%3d%22ctl00_CatalogItems_FeatureItemRptr_ctl00_Teaser%22 =
-title%3d%22FarPoint Spread for COM%2fActiveX by GrapeCity is an =
-Award-winning%2c World%26%2339%3bs Best Selling Microsoft Excel =
-Compatible SpreadSheet Component for COM%2fActiveX with powerful =
-features and near unlimited customization with support for native Excel =
-export%2fimport%2c event based coding and built-in calculation e%22 =
-class%3d%22desc%22%3eFarPoint Spread for COM%2fActiveX by =
-GrapeCity...%3c%2fspan%3e%3cbr %2f%3e%0d%0a%09%09%3cspan =
-id%3d%22ctl00_CatalogItems_FeatureItemRptr_ctl00_Url%22 =
-class%3d%22link%22%3ewww.gcpowertools.com%3c%2fspan%3e%3c%2fa%3e%0d%0a%3c=
-%2fdiv%3e%0d%0a%0d%0a%3cdiv =
-class%3d%22container-adwords%22%3e%0d%0a%09%3ca =
-id%3d%22ctl00_CatalogItems_FeatureItemRptr_ctl01_Link%22 =
 href%3d%22%2fscript%2fCatalog%2fRedir.aspx%3fctid%3d2393%26amp%3bcttype%3=
 d2%22 target%3d%22_blank%22%3e%3cspan =
-id%3d%22ctl00_CatalogItems_FeatureItemRptr_ctl01_Title%22 =
+id%3d%22ctl00_CatalogItems_FeatureItemRptr_ctl00_Title%22 =
 class%3d%22title%22%3eResco MobileForms Toolkit%3c%2fspan%3e%3cbr =
 %2f%3e%0d%0a%09%09%3cspan =
-id%3d%22ctl00_CatalogItems_FeatureItemRptr_ctl01_Teaser%22 =
+id%3d%22ctl00_CatalogItems_FeatureItemRptr_ctl00_Teaser%22 =
 title%3d%22The richest%2c most complete and award winning set of =
 components for .NET Compact Framework%22 class%3d%22desc%22%3eThe =
 richest%2c most complete and award winning...%3c%2fspan%3e%3cbr =
 %2f%3e%0d%0a%09%09%3cspan =
+id%3d%22ctl00_CatalogItems_FeatureItemRptr_ctl00_Url%22 =
+class%3d%22link%22%3ewww.resco.net%3c%2fspan%3e%3c%2fa%3e%0d%0a%3c%2fdiv%=
+3e%0d%0a%0d%0a%3cdiv class%3d%22container-adwords%22%3e%0d%0a%09%3ca =
+id%3d%22ctl00_CatalogItems_FeatureItemRptr_ctl01_Link%22 =
+href%3d%22%2fscript%2fCatalog%2fRedir.aspx%3fctid%3d3348%26amp%3bcttype%3=
+d2%22 target%3d%22_blank%22%3e%3cspan =
+id%3d%22ctl00_CatalogItems_FeatureItemRptr_ctl01_Title%22 =
+class%3d%22title%22%3eResco MobileApp Studio%3c%2fspan%3e%3cbr =
+%2f%3e%0d%0a%09%09%3cspan =
+id%3d%22ctl00_CatalogItems_FeatureItemRptr_ctl01_Teaser%22 =
+title%3d%22Resco MobileApp Studio is a Microsoft Visual Studio based =
+developer platform%2c which can be used for development of mobile =
+applications for multiple mobile device types %e2%80%94 Windows =
+Mobile%2c Windows CE%2c Tablet PC%2c Windows Phone 7%2c iPhone%2c iPad =
+and Android (Android support is scheduled for Q1 2011).%22 =
+class%3d%22desc%22%3eResco MobileApp Studio is a Microsoft =
+Visual...%3c%2fspan%3e%3cbr %2f%3e%0d%0a%09%09%3cspan =
 id%3d%22ctl00_CatalogItems_FeatureItemRptr_ctl01_Url%22 =
 class%3d%22link%22%3ewww.resco.net%3c%2fspan%3e%3c%2fa%3e%0d%0a%3c%2fdiv%=
 3e%0d%0a%0d%0a%3cdiv class%3d%22container-adwords%22%3e%0d%0a%09%3ca =
@@ -2978,14 +3331,15 @@ href=3D"http://www.codeproject.com/Feature/Insider/">Signup now</A>. =
 <DIV class=3Dlqm_ad=20
 lqm_tags=3D"WinXP,Win2003,C++,Windows,Win32,MFC,GDI,DirectX,Dev,COM,Inter=
 mediate"=20
-lqm_format=3D"21" lqm_zone=3D"77" lqm_publisher=3D"495" =
-lqm_channel=3D"1" height=3D"80px"=20
-width=3D"150px"></DIV></DIV>
+lqm_country=3D"CN" lqm_format=3D"21" lqm_zone=3D"77" =
+lqm_publisher=3D"495"=20
+lqm_channel=3D"1" height=3D"80px" width=3D"150px"></DIV></DIV>
 <DIV style=3D"MARGIN: 10px auto auto; WIDTH: 160px">
 <DIV class=3Dlqm_ad=20
 lqm_tags=3D"WinXP,Win2003,C++,Windows,Win32,MFC,GDI,DirectX,Dev,COM,Inter=
 mediate"=20
-lqm_format=3D"18" lqm_zone=3D"77" lqm_publisher=3D"495" =
+lqm_country=3D"CN" lqm_format=3D"18" lqm_zone=3D"77" =
+lqm_publisher=3D"495"=20
 lqm_channel=3D"1" height=3D"600px"=20
 width=3D"160px"></DIV></DIV></DIV></DIV></DIV></DIV></DIV>
 <SCRIPT language=3DJavascript type=3Dtext/javascript=20
@@ -3001,10 +3355,10 @@ src=3D'/script/JS/jquery-1.4.2.min.js' type=3D'text/javascript' =
 
 <SCRIPT language=3DJavascript type=3Dtext/javascript=20
 src=3D"http://s.codeproject.com/script/Articles/JS/article.min.js?dt=3D2.=
-3.110328.1"></SCRIPT>
+3.110329.1"></SCRIPT>
 
 <SCRIPT language=3DJavascript type=3Dtext/javascript=20
-src=3D"http://cdn1.lakequincy.com/m.min.js?dt=3D2.3.110328.1"></SCRIPT>
+src=3D"http://cdn1.lakequincy.com/m.min.js?dt=3D2.3.110329.1"></SCRIPT>
 
 <SCRIPT language=3DJavascript type=3Dtext/javascript>//<![CDATA[
 var socialLinks =3D new social();=0A=
@@ -3067,14 +3421,39 @@ document.getElementsByTagName('body')[0]).appendChild(ga);
 </SCRIPT>
 </BODY></HTML>
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: http://s.codeproject.com/Images/t.gif
 
 R0lGODlhAQABAIAAAP//////zCH5BAUUAAAALAAAAAABAAEAAAICRAEAOw==
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.codeproject.com/Images/arrow-down-16.png
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAB3RJTUUH2wEBFAAdSdhv7AAAAJ9J
+REFUeJxj/P//PwMpgIkk1XTRwAJnlc60waOuO/0IugYGBgZjDUd38wg0pTtPrjh7Yz8WJ7nIFyFL
+wMHZG/td5IuwaHD3CIKYh2Y8XAqLk1zki/bc6JNWfI1k/BVk4xnQQgli0tVrbyBcCAPZeHQNEEvu
+PnwBYd99+ALNeCwa4JZgNR6LBrglWI1nYGBgxJr4du5Yh9V4nBrwAJLTEgD4CETb4+2R3QAAAABJ
+RU5ErkJggg==
+
+------=_NextPart_000_0051_01CBEECE.11BA3240
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.codeproject.com/images/secure.png
+
+iVBORw0KGgoAAAANSUhEUgAAABIAAAAVCAMAAAB8FU7dAAAAA3NCSVQICAjb4U/gAAAAYFBMVEX/
+///w8PDn5+ft5M/d3d3n3L//5jjW1tb/2jHMzMz/yifSxqrzzSrFxcXzuB69spXJsHDVuSOvr6/h
+pBSioqKZmZm2l0nDkw+NjY23jQ2siCuHh4erhCCWejOlegSfcgCmRDspAAAAIHRSTlMA////////
+/////////////////////////////////5KarXYAAAAJcEhZcwAADnQAAA50AWsks9YAAAAhdEVY
+dFNvZnR3YXJlAE1hY3JvbWVkaWEgRmlyZXdvcmtzIDMuMO9pMfAAAACYSURBVHiclZBBEsIgDEUb
+rFBQtNQEaWPh/reUWtB2xoW+RRZvfjJ/0jR/ANpq2BnFRMRqa8KAiEPYOEQiS4T4UTwwNJDnTuU5
+TzPsVR9d7GuBwAvJSZcORTEACB+llKOve1rrazrLrrukY1EgxDR2GXN/1JTNoSyMqTEW4pScWcyt
+KmutTyvlPou2bVVGv+uvvV78+syvPAFVJAtHx8A6FwAAAABJRU5ErkJggg==
+
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: http://s.codeproject.com/App_Themes/Std/Img/logo225x90.gif
@@ -3198,7 +3577,7 @@ GRlmZKGEhh66y6BExiljMHR+qWekkk66I58bUuQJYWQSOWinnhIJKpxxZvpZEDQaQ2mqqq66IJ99
 hslJRXHOWsNFtt6Kq620jupZqaZCwCerwg476ZcSTUQRC78YkOmuzj6b6bKxagKaRJASi222XBp7
 LLWx/rlsuOKO2+i01MJhrZ3arssuhYEAADs=
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: http://www.codeproject.com/images/animated.gif
@@ -3580,7 +3959,7 @@ ATBqTixToQM8M41KmAADslrOwgYAncb8QQ7GmLeB8dVGkxFMHotwgA4MtrDlZEAHWmlVLqCmRpW5
 4dfwY9U8EQGuly0sA+hqRWZ8IpJwuuABUHvZ1XJVph3pSFnXNFvL2vacKHybFMKwm2c+qZVdU5Nw
 mXO05CgHj8tdhBE6G90psO1KBgoCADs=
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: http://www.codeproject.com/images/sitemap16.png
@@ -3591,7 +3970,7 @@ GIAJr+b+/7yEDGEiqJmAIUz4NP99cIqBkCFMuDT/PrGA4Vu3OcPPzTV4DWHCqvnUYoYfS1PAQr92
 tDL83FqPyxAGRmA0fkKTJAwKGT9D9fAxQeMZIUisZqg+JmgiIQeA9bFgTWFA8DmbEc7mnfofm5Jr
 2BISyWDgDWBBClFL5JjgZUMJeXR9x9FdUIgsSAAcR445gAADAD96SFJci9LkAAAAAElFTkSuQmCC
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: http://www.codeproject.com/images/fixed-width.png
@@ -3606,7 +3985,7 @@ i0WjU+3/a/1Xl9cSOi3j37bFCzkovh9WXD8dp/8s4Spz1jMIqOvlOfk/6EfmGDIO8vmfuu12u4qi
 DPSLx4+BON4jprkM9vJj2vG/+p9K3vRu9Wv/tfjJdPqPwgeVl/JUHNFcfX3e298B0zQzmYxhGI16
 a/IpC4vzoVBI1/UvyI+gnK7RNtYAAAAASUVORK5CYII=
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: http://www.codeproject.com/images/fluid-width.png
@@ -3618,7 +3997,7 @@ GaIFqHcw6P/85R15COp+8jQDdSH0LycdoOjH74SPH94AEaaaoeJ+XL4bdT84/wCDh/TksxyafkpL
 i69evUxGEr527Qoo/DduXD9nzqxLly6QZMSNG9eAulavXsnw48e3tWtX19RUEVnyQZRVVpavW7fm
 168fAMplCtUMzKo6AAAAAElFTkSuQmCC
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: http://s.codeproject.com/script/Content/Images/print.gif
@@ -3639,7 +4018,7 @@ UZKoCYgWTkAUmEBiqg8fQoRoSdMGThsjVqgQ9UvRSWIlUaJQ+aLmDRzHXnwo4SIEUw8hFxaYUKJE
 SBQ3n+GwCSNk4gUQQpRcECR6woIah33I5mKEBNQLKXg0saLFR7AeSv7++BHFCw2wEEDwiMLFixaL
 F0wJatFkORcyX6LQYOGkuxYhKSDYG0QCcw+nKrVY8WGcW62w/gVwwQTiZRIIADs=
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: http://s.codeproject.com/images/share_drop24.png
@@ -3661,7 +4040,44 @@ liSJVCqxikz2XW5eOlKploWthJRgFalOpJS2XsvNZnW5I9OFJofYH06kKIjWGlahqVOJiPwghLwN
 +otg/Igvuv772Dv9hTKK9/ia4n/kHmNKtw6FFKW0LakZVvuypZXb9xCNAGbJ1mJtGv73d4C2YZbK
 VI4zyUJ78lV/AIAxJif8yiO/AAAAAElFTkSuQmCC
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://s.codeproject.com/script/Bookmarks/Images/bookmark.png
+
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAAK/INwWK6QAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAZTSURBVHjafFVZjxzVFf6q6tbS1dU93V29
+zNJjz+IxnmG84JFJwIkdWRgJBUGEJZK3RHninWceIvEQpAjxC0IeEZC8AJYshURAEkc4HhLHNsbO
+aPaepZfp7uqa2qs4t9vYE7ZSXZVu6Z7vO8t3zhXee7UELVOA53Thux0YholPr69DlvHgiWNAN6T8
+0UcrL0ZR2Fu+u/vHwIcrCA/PhBEwP1VCz2pCTROmaqDZqoHha49AVrJMv5OQNveNA8AsV86e+/mr
+r3X3Wlu7m7/5vOlYi+yAtcykvu3XH/HgJo4T5AtZXLy4ANcd4Cfkma4LuSPHT7+gl34yVKyePzb5
+yOwLGiNMspYlICJffnzmOHJZvY/xnQT8SRJ+IIGiSv19ROkpj1TOHnns3NNIVsD0HiZPPPVsJpee
+T2IeMZEQC7dLEnx/BH0C8kDXNUzNmAjIIGVw7x+7ZFanx9DdAHpNjB09cXJ8+tjzukp8FMr4WAGq
+qnzD+28leBAFvYosolwxz1B6LiKmnNl1ItgFUzVMzD7xs2w2NadpGq/A/ci/JwJ+II4iiiBGRF9R
+hDw5nq3OHp/7RaFcqqK7SdUmEq/TJxmbeuRkeWz6xSAIzCBwWRJz24gweKriBwSMgPUwDHOSxLLp
+TL4ip4yyqhv54dHxUko3Hp2ZPfGMGOwBrkPHlYFP1jZUJYu50xd+rermsO/Y/1P1bNPzw2Y6a++I
+krIbRqFF2C3hz7+rvjQ6PftTVdNKqXR6REmlyqmUqulGliJXCbhHXluEO0gFuLITHjiJgPROogeX
+nNPtwO5Ztme3dpyeVQs6O4079xZ/zyNYODZ16FkhX6AUEFDgkXTIW8sa6I/nVuCC9wagfCW0RAmx
+14IfcT4JCtOQyihpZIangENTwbqIO3fFa+zOytabwgfvjz2xcOoZvUQkAQf2B0BCPGgEvqgu/crz
+WlKBbC/B1VqAtb0AMXWiJgn4wWgBM8UK2rUN7+NbN99da3euSE8tJPWtpr3s99ojI9nCETlDqfHb
+5HBrQObz1aVl094epAv7WN9cxZ+2NKwXz8IpnsJSV4NJKqvElv/XG4tv3W50X1cZbkvP/RARpXRn
+a89Zca3GyKguHpFVYaAWGjj9QcRFEdO/iHIf8uAYartt/DMyMXTmSQxXJ5B0LbB7f/ej9tLbzXD/
+ddPAzVSCgPGgSe5uwvDpf2vt3yK+FT45f/hiJs2Ufg34wOAEjFKkCAMiFsLUc1DlEiylCYGEsNRc
+RtBuvv2vrvPKchMrPLuVwxMPhx1NBof8vXpj235NkzdT5+aGLwgip4/7JG1LwmY7gE1gkuRR7slg
+UkfeTEP0POwmbtSsOXfqbfSuf4YCAohzharJvhqA/EMjxQsi3Oj50T2avxf6PwVqQOK5vKHiXWsU
+E5USCtS9G+S5Wi2SekI0201MVEeE+sLTvyw5vfM/mk9cISbvJCnPnOAhAQeSJZGVUnJF4PLsZ4g6
+m4b9tp1gpajDOxlgrJiDmZ+HKoTY6Wxie3kbhjckjj0+PSMwaSYtyShRj1x+78OQfTVC+jOUzx8R
+hZwsVREm96WJvgxVQYRC3/+sfYbr1CPj/jAUV0a8SiWpqygUKcFmgkw6S6YRZIP6JI5ClmcPLwke
+QZqJo2lJKsMLB41Gt4pMjcYbyelp8NZ0dJa7cJYaGKVIurU9SEaCXOk03E4Ep17HfuD2GqwTCrFg
+ME2SDhLwfZXkZZJ4CTxDYTFqBQdDdn1jrt64dSxy2Vwqf0raMMyr4xX8u+KDHXLQc7tofVi7tl7f
+vtzyvLuCL3rHR09PMengdUlosoDDGaboYIX+xFhqtOq3242P257/wXk5WYwpoKNMfNxxM5f+sZ8+
+m+iCappFyC0DpXD7yhdd6w3bi3pwSX/DicwacfigBqRZZVzUJuVEEVZ3Ons36/VPVhznyr4Qf0LE
+q9R/VGpIq0l8o+batZ4bTEWBNxHSLPJpyhoI1Es51ftDYz/0BxdBxOIDEfCsbwb+4pW17Xc2fO/a
+XhR+RPfuEoG3SQBRv6HpTEBlC8NkXZUla2L4EHK6SIWlSz8WSD+y+KtSDm+utwdOS/9/Afn1IHh/
+Jwk+4r1FzdcgLP/+mBtcILRqSRl2MR/oYbrT/IvvbUlOqOuJNpTK7RuyRr4IeDmXx98ojC8FGADT
++wLGpq4WbgAAAABJRU5ErkJggg==
+
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: http://s.codeproject.com/script/Content/Images/discuss.gif
@@ -3681,7 +4097,7 @@ dlwYQIDMHT168rj5QXXHAw4tIHT4MKFHka9LBVUYEnVOEiNokxAhkgQJEidNaJqw5TAIQJY+fMZE
 edJkb9+4TZzAjUtXLB88IwIEqWKlypUrVSJbmTxZSkhBKNYcEHTARY8goIMs8eLFShQhNRTgUlZI
 mesBLr6E2cKQkSEAGLakoYHLdl0CUsYQ8H0oA5YExJMrFxQIADs=
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: http://www.codeproject.com/script/Ratings/Images/stars_orange.gif
@@ -3701,7 +4117,7 @@ jXDfA/H998h+JQxYoIJ+KfzBVVTHmASdg09ByICEhBnyoFQY9mbHhhGKFtyHFXIoIjgIMKBAYnUx
 gAB5KKrI4lguwihAiis60eKLKNwoo4408niCjzm+VWOPB4SlWAEH2JjkVcIw6aSSUTaJJJU8EGXl
 kE/SpSWMQPQ1g5jMhZnDmI+hWYOaJpjJA5trOhECADs=
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: http://www.codeproject.com/script/Ratings/Images/pollcol.gif
@@ -3710,7 +4126,36 @@ R0lGODdhDwAPALMAAP////+9Wf+6U/21Sf+0Q/isOe6fKN6OF8x+CrtxA7ZtAK1oAKVjAP4BAgAA
 AAAAACwAAAAADwAPAAAEO5CIEEYxB6XFupKUhWmcB1ZXtnXMN6Hjar6iWrZnTbJumO4zX+zWg9l4
 uZ8MR1MSk0NkMxo0ApnCoycCADs=
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.codeproject.com/images/warning_32.png
+
+iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAA3NCSVQICAjb4U/gAAAB+FBMVEX/
+//9iXxFDQzxCQkE6OQ8zMzMwMDsAAAAAAAheXCtWVStQT0FDQzwAAAA+PQ86OQ8GBgt5dhxTUBNL
+SRJFQxA+PQ9oZRFiXxFcWhNXVRIoJw8AAAhoZRFEQxkKCg2nozCkoDGZmTOVkjiOizOnozCopCuk
+oDEeHRUcHBUaGhGopCt1ciCPiyKKhiOVkSCSjiGPiyKcmBmVkSC+uSm6tSm3siqxrS6zriKemhmc
+mBlhXhTl3hzQyiHOyCHMxifIwiPFvyS+uSn//2b/+W3/+XH/+Vn/+V/++FH/+EL++Ev/+Dv/9zL6
+9E3481n/9yj/9yLy7XH171L78yj28EX58jD170rw61Xy7EHy7En07Tnp5W7w6kPx6zrz7Cju6Efz
+7CLw6jHx6ijo41nw6B/w6Bfq5C/l4E7k3jPm3ynf2l7j3STl3hzd2FLh2yDW0l3Uz1Xd1h7MzGbW
+zx/Lx1jMzDPQyiHHw1jIxEPOyCHMxifIwyexsbLEvym9uVitrbC4tWO+uSm6tkO7tza8uDWzsGCz
+sFykpKWgoKOZmZmkoDGSkpWdmSyalimWk0eKio2FhYqQjTGCgod7e4R4eH14d2l1dWpwcFdvblBr
+alpmZmZoZ01eXmNhYExbW1xcW01UVE9VVEpQT0FKSlNDRFJDQzxCQkEzMzMwMDs3ZeLXAAAAqHRS
+TlMAEREREREREREiIiIiIjMzM0REREREVVVVVVVVZmZmd3d3d3eIiIiIiIiZmaqqu7u7zMzd3d3d
+3d3d3e7u7u7u7u7/////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////9B
+ZVfvAAAACXBIWXMAABu8AAAbvAG6t6C7AAAAIXRFWHRTb2Z0d2FyZQBNYWNyb21lZGlhIEZpcmV3
+b3JrcyAzLjDvaTHwAAABtklEQVR4nGNgIBEwsuCXl7c2F8Qnz1nkGm3BgUeBVqqLc5UMbnkuG19n
+lwhLdpwKVFNdnJycq8RwGmAb6Ozk5BJhiEuBSoazk7Ozs1OVOHZ5HrvAqPqWlvqAcBxGAA1oXTR5
+8vxCpyoJbPLc9qFOtTOr62bmOWE3Qi3Lza1sZlv7zEw3V2xGMDmEu7oWz23vmJnk6hZphKlAIdfd
+3TV/bkfHjDBXd/cqSQwDHGPcPd1z5nf1zQh0d3dP0MMwoMDTw9MzbX5f/wwfTyCoEUKVZzZO8PDw
+8IxbMHHSDKC0h2csmhGKRR4gEAxUMA3M8qgRRjHAJNHLywsovGTx4lkgaS+PWH1UA7yBAKiksbe3
+HCgNBN41Igh5NtNkb2+IEggAsWMNkAwo9fMDK0ifM2Xq9BCIYu8GUYQBKX5+YCXpS2fOngdTEK8D
+U6BU6u/vD1aSumTm7DlgBSBuAz9EntUsxR+qInXZ8uUL/WAgXheiQLnCHwL8/IJKmptKoNJAgRo+
+sALtbH9/uBI4AHErZcEKpCZ0IoFuCOgBASsBsAJeOXUNCNAEEwggDckh7Oy8OAAiB7FjBWApANk/
+oc6lqhKHAAAAAElFTkSuQmCC
+
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: http://www.codeproject.com/KB/audio-video/DSound_Spectrum/DSound_Spectrum.gif
@@ -3874,7 +4319,7 @@ RViMRVmcRVqsRVu8RVzMRV3cRVFEi374RWAMRmEcRmIsRmM8RmRMRmVcRmZsRmd8RmiMRmmcRmqs
 Rmu8RmzMRm3cRm6cRn/4RnAMR3EcR3IsR3M8R3RMR3VcR3ZsR3d8R3iMR3mcR3qsR3u8R3zMR33c
 R360x4AAADs=
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: http://www.codeproject.com/script/Membership/ProfileImages/%7B698fd1f4-6ec6-498c-84e0-8d051dc118ec%7D.gif
@@ -3963,7 +4408,7 @@ qrpeq68uCw61KLuFawED8LkoQbV5abW4K60ocLlLi5c/ELx8awFJihLimYwKYLTI26wxijdmVr3W
 a2a9Rg/au73cSw/PAAmhPRa+4hu+0cAQvFsSABAAR7AFW3AJftVXozC+0KAQ/qmgGvEMeWq/+ru/
 /Nu//vu/ABzAAjzABFzABlweAQEAOw==
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: http://www.codeproject.com/script/Geo/Images/CN.gif
@@ -3976,7 +4421,25 @@ J9wtjovfLxQSCHi3jSG2kWFErQFJguMIehtXYQWjBBQfGwHluHwNBQSONnql145IBtDTTSYzIwF3
 DHkVDXw5OCwqAQ0eBIURGiAdAAsYLCcKj5F5lAkmPgsimymQkqAWB6MtCqeekyAJFhYPPj9aXBAX
 GQ01HSYHDw8lS01OAgDLAD4+JSU+QQA7
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.codeproject.com/script/Ratings/Images/ajax-loader.gif
+
+R0lGODlhEAAQAPIAAP/gswAAAMKriEI6LgAAAGJWRYJyW5KAZiH/C05FVFNDQVBFMi4wAwEAAAAh
+/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklr
+E2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAA
+EAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUk
+KhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9
+HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYum
+CYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzII
+unInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQJCgAA
+ACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJ
+ibufbSlKAAAh+QQJCgAAACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFG
+xTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAkKAAAALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdce
+CAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA==
+
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: http://s.codeproject.com/Images/info-16.gif
@@ -3984,14 +4447,39 @@ Content-Location: http://s.codeproject.com/Images/info-16.gif
 R0lGODlhEAAQAPECAP///1+UEP///wAAACH5BAEAAAIALAAAAAAQABAAAAIaVI6Zpu0PIwRAImpz
 otVyjWWfF2rm6TCWUAAAOw==
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://s.codeproject.com/script/Forums/Images/forum_newmsg.gif
+
+R0lGODlhEAAQAPf/AHmr522S0V9rpf8A/9AyJ7QZDPD0++/0++/z+u/y+O/y98DC2GyDwb9jAu1F
+L9MxEJUKAf///8XH3E+R0cGPBt6TA7ogA7IYA5kLAXWd2vv+//f+/7rB2lZflVhdnqeELfC7Bt6O
+AJUPAIEAAPz+/+/2/Obz/Kq1z2Zml6mq73NtjJ95Hr2YDPD3/OXv+rXB11tbiqam5ouLynV1tkJE
+fkVBPvD3/sDO4VhZh6Gh4Y6OzHR0sFFRhjw7Y2iCvPD2/Obv+s7c611ejKGh4o+PznZ2tFJShjg/
+XE5MdvL3/tXl8GJda6Gk6ZCQz3V1slNThzU8WFBpelRTgWt1p/z//+bw+trq+J2fj11VYoyQ3Xl5
+uFdXjjc9W1FrfV2Bml5ckvD7/9zq+Mrd7mxXIoJeFmVddFRSfTk/XlhyhmaMp3OqzmdloFtnoOX0
+/8/l94CPnGNGDZJiA1Q7C0FHS157kWyXtXSr0X2/6WlnpNrv/sbg9i0tMCclIUZFN2iEmW+SrXSg
+wnqy3H6854HE787q/LrY8KDB3ImqxICkv4Kvz4G13H644n+96Xh39AAVE/Rn+QAAd+UAAHf0ZgAA
+AFFkAIwBnwEoCgAAUNoMAAIAEgAAAAoACK6QAAJ3+AAAAJoAmOwAAIJ//QF1BBLanAAAABoAAAAA
+AgAAAACYALwAAAAS1xLbaCwgACgAHQAAAhLXsAMsAEwAQwAS2/RaNK5wd/93+P////SwUrHGdwF3
+9AAAABLaYNrkAAAAEgAAABUAAOwAAEV//QAAAAGYENnMAIAAEsAQABLbTFo0AFh39Hf4lP///2f5
+/wB39AAAAPRm5ZhgdwB35AAAAJy/wP//AcAAAAGcvwAAGAAAAOQAAAAS2gAAQAAAAMgAAAAS2gAA
+AAAAAAAAAAAAAAAAAAAMAAIAAAAAAPQBAewAd5h//QAAAAAAAAACAKAAAAIaAB0sIP//AAAAAAAA
+AB0sIAAFACAAAAAS2+SacTODdyF39HfkkgABxNtEAEwAEgAS2wAACCH5BAkAAAMALAAAAAAQABAA
+AAjeAAEEGEhwoIABCAkUGADAwAEECBIoULBAAIMBDRw8gAAggsePESQImEChgoULGDKAjKBhA4cO
+Hj6ACCFihMqPJEqYOIEihYoVLFgMCICzhYsXMGLImEGjBkKiEUjYcHEDRw4dO3j0QDjAR9QfQIII
+GUKkiJEjSLh6TQJEyRImTZw8gRJFCtcpVKpYuYIli5YtXLp4+XIXTBgxY8iUMXMGTRo1a7iyaePm
+DZw4cubQqWPnDh7JefTs4dPHzx9AgQQN+owQD6FChg4hSqRokSBGq7ni2c27N2+uwIMLHxAQACH+
+ADs=
+
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: http://s.codeproject.com/script/Forums/Images/t.gif
 
 R0lGODlhAQABAIAAAP//////zCH5BAUUAAAALAAAAAABAAEAAAICRAEAOw==
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: http://www.codeproject.com/script/Forums/Images/msg_general.gif
@@ -4014,7 +4502,7 @@ AAh1AAEIBBCgoMGCAxMSFMCQ4QACARQKDFCgYsUBBiBKDHCgY0eMBhBETBgggcmTClIqGDlxgcuX
 DBg0cMCS4IObOCHohFAzQISfQIP2lEC0qNGeE5IqXdqTgtOnUHtWmEq1ak8LWLNq7Xmhq9evXL+K
 7XmwbMGAACH+ADs=
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: http://s.codeproject.com/script/Forums/Images/pin.gif
@@ -4022,7 +4510,7 @@ Content-Location: http://s.codeproject.com/script/Forums/Images/pin.gif
 R0lGODlhDQAMAJEAAP///8zMzP///wAAACH5BAUUAAIALAAAAAANAAwAAAIflC8RyLbbDoRNzeqA
 cwpZGmhSFG6VAlBe1zGtKalRAQA7
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: http://s.codeproject.com/script/Membership/Images/member_sm.gif
@@ -4031,7 +4519,7 @@ R0lGODlhDgAPAKIAAP///+zi3NTGtLOahYRmTGxaRCQeFAAAACH5BAUUAAAALAAAAAAOAA8AAANK
 CKrVtRA0IcZosVDbTDmQxgWkATJVQwaCEQqFsQaEuxSXTFLtfcWsiil0CVpsIVllUIsoZIYoEkIg
 BAZTalWaBVS/tWjkQC6bFwkAOw==
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: http://www.codeproject.com/script/Forums/Images/msg_question.gif
@@ -4056,7 +4544,7 @@ aXAESRIlS5g0aeDkCZQoUqZQaVDFyhUsWbQ02MKli5cvYMKIaTCGTBkzZ9CkUbOGTRs3b+DEkTOH
 Th07d/Dk0bOHD5s+fv4AANQgkKBBhAoZOnQIUSJFiwQyauToEaRIkiZRqmTpEibRAuNk0rSJUydP
 n0CFEjWKIalSpk6hSqVqFSvgDAG0cvUKVizsAgMBAgAh/gA7
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: http://www.codeproject.com/script/Forums/Images/msg_answer.gif
@@ -4079,7 +4567,7 @@ AAiYAKcJHEiw4MBfCBMqTHjQn0OH/frly4cP36yGECNOrFjvosBf/jCJHDmSnsdpwPxFlEixXj16
 JgfuWkkRn0uY707OJMnT3clcE1vCjPfOHbufLW+2S5SI3bqTtyomkicPF9N169BBdZnITpxEc7Ki
 M3dy1kt5TBOJNVfupCx6RN2pRYeunN2TruI6pcv27kBXswILHhx4WkAAOw==
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: http://www.codeproject.com/script/Forums/Images/msg_news.gif
@@ -4102,7 +4590,7 @@ AAiYAAEIHEiw4MAAAhIqXCiAYIABECNKJOBwQIGLGC8OoDjQgMWMGDcSPCCxpMiBCD5qTMBSAUeB
 CywyaFDAwQMIESS8BDDBIoUKBSywTHBhJwaVBTJo2MChw04PH0CEEDGCRAkTJ1DsTKFiqNcEK3ay
 aLGhhIsXMGLImEFjZw0bX4fe2Ikjh44dPHr4+AEESJCdQoYIHkyYY0AAIf4AOw==
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: http://www.codeproject.com/script/Forums/Images/msg_joke.gif
@@ -4120,7 +4608,7 @@ DCZWaVQEFQkTKyxjYN8RGD9xCBxpJTB1QTlxtBERJlhcHIBIMeJEkCdI0EjxQ+HCByxUkrzJ0MFF
 jTtywixsaIJImRB5zuwAgqbPEzM8GHJ4MaSNkRN69uzhc8SJGgkMNXjAUcTOkRpKlORQUkcHJA5b
 smRpAmUOmilT0LQRkioACSE+svqokiZNFRuo/AQCADs=
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: http://www.codeproject.com/script/Forums/Images/msg_rant.gif
@@ -4144,7 +4632,7 @@ MB+UGBNIjhw+XipMdMCThJ0wJzJ4qJGmjQWFDJKu2bKgQ4QPNGaYKaNQgYIXfjSEwGPCxaAoS/a0
 EJgggRYxHFCwWBHjyBQpbKwINGAAzBcRKUaogJHDCRI1XQQWKMCkjg0caAQBOvPEyZ0kAgkQuDDn
 iownQH5o5hJHgsAAoIX8qXKDBw8gWfoEUQgatA89b8iQcZOnhwCFBZtAwUKHDhYoAA4GBAA7
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: http://www.codeproject.com/script/Forums/Images/msg_admin.gif
@@ -4168,7 +4656,7 @@ GjZw6DBwgIcCH0CEEDGCRAkTJ1BEDJCigIoVLFq4eAEjhowZNGrYEFDgBo4cOnbw6OHjxw8gQYQM
 oUqkyA4jR5AkUfJjCZMmTp4EgFIgipQpVKpYuYIli5YtXLp09FLgC5gwYsaEIVPGzJmTHdFsSKNm
 DZs2Wty8gaNwQBw5c+jUsXPnMUc8efTs4dPHzx+OAgcACiRoEGTYhAoZOiQxIAAh/gA7
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: http://www.codeproject.com/script/News/NewsImages/14362.png
@@ -4200,7 +4688,7 @@ tZxOeyvZ61fnooM+izjnRISY+ZweBAKCYBak9lx7WJaJ8w9PZx+dNEelP53ao2Fja0vgF1eKu5vL
 P1zvRsFWs7rd7igiYpHnODkjgADwAuulYYSzaw08cr5y3ARJFPXyaKWICk1nzx3Pg5jlOUwEBBEC
 CYEgEoS8CIvQmYTIKOgzLQsDpAgi/3f8H8RGNXkDQym6AAAAAElFTkSuQmCC
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: http://www.codeproject.com/script/News/NewsImages/13673.jpg
@@ -4223,24 +4711,10 @@ ZHZJrj48SYoyOyaX2s+iWXNZshNx8jUux0lRqUugkmE8y2Se6VJPxINhdNx2BBBxJlbwH6+uSz0Z
 Qak5dpoypPK8+ioqkFxH8mQmyjb8Cq3zwC548Od7YnB3Vbuwk9nsWcHdUjoPwraf6I6X1ET0xmCW
 k32aqSlK1oBT7jSuZoIR2bQhW6U3JvuST2bXkEP+1sfQMNFRCYCA1TRCoIWIDVf/2Q==
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
-Content-Type: application/octet-stream
-Content-Transfer-Encoding: base64
-Content-Location: http://www.codeproject.com/images/secure.png
-
-iVBORw0KGgoAAAANSUhEUgAAABIAAAAVCAMAAAB8FU7dAAAAA3NCSVQICAjb4U/gAAAAYFBMVEX/
-///w8PDn5+ft5M/d3d3n3L//5jjW1tb/2jHMzMz/yifSxqrzzSrFxcXzuB69spXJsHDVuSOvr6/h
-pBSioqKZmZm2l0nDkw+NjY23jQ2siCuHh4erhCCWejOlegSfcgCmRDspAAAAIHRSTlMA////////
-/////////////////////////////////5KarXYAAAAJcEhZcwAADnQAAA50AWsks9YAAAAhdEVY
-dFNvZnR3YXJlAE1hY3JvbWVkaWEgRmlyZXdvcmtzIDMuMO9pMfAAAACYSURBVHiclZBBEsIgDEUb
-rFBQtNQEaWPh/reUWtB2xoW+RRZvfjJ/0jR/ANpq2BnFRMRqa8KAiEPYOEQiS4T4UTwwNJDnTuU5
-TzPsVR9d7GuBwAvJSZcORTEACB+llKOve1rrazrLrrukY1EgxDR2GXN/1JTNoSyMqTEW4pScWcyt
-KmutTyvlPou2bVVGv+uvvV78+syvPAFVJAtHx8A6FwAAAABJRU5ErkJggg==
-
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: quoted-printable
-Content-Location: http://s.codeproject.com/App_Themes/Std/CSS/CodeProject.min.css?dt=2.3.110328.1
+Content-Location: http://s.codeproject.com/App_Themes/Std/CSS/CodeProject.min.css?dt=2.3.110329.1
 
 .theme1-color {
 	COLOR: #f90
@@ -6312,6 +6786,15 @@ BORDER-TOP: #cfe7ff 3px solid; BORDER-RIGHT: #cfe7ff 3px solid
 }
 .member-rep-container {
 	MAX-WIDTH: 175px
+}
+.member-popup TD {
+	FONT-SIZE: 8pt
+}
+.member-popup .name {
+	PADDING-BOTTOM: 5px; FONT-WEIGHT: bold
+}
+.member-popup .rep {
+	FONT-WEIGHT: bold; PADDING-TOP: 5px
 }
 .survey .themed TD {
 	PADDING-BOTTOM: 2px !important; PADDING-LEFT: 2px !important; =
@@ -8933,7 +9416,7 @@ A.videoPlayer IMG {
 BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
 }
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: quoted-printable
 Content-Location: http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.4.2.min.js
@@ -10285,10 +10768,10 @@ ent["scroll"+b],e.body["offset"+b],e.documentElement["offset"+b]):f=3D=3D=
 =3Dw?c.css(e,d):this.css(d,typeof =
 f=3D=3D=3D"string"?f:f+"px")}});A.jQuery=3DA.$=3Dc})(window);
 
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: quoted-printable
-Content-Location: http://s.codeproject.com/script/Articles/JS/article.min.js?dt=2.3.110328.1
+Content-Location: http://s.codeproject.com/script/Articles/JS/article.min.js?dt=2.3.110329.1
 
 function copyCode(){try{var =
 c=3Ddocument.selection.createRange();if(document.selection.type!=3D"none"=
@@ -10859,10 +11342,10 @@ b},domReady:p,asString:t,getHTML:n});if(r){jQuery.fn.flashembed=3Dfunctio=
 n(b,a){var =
 c=3Dnull;this.each(function(){c=3Dflashembed(this,b,a)});return =
 b.api=3D=3D=3Dfalse?this:c}}})();
-------=_NextPart_000_0051_01CBEE71.3EA66B00
+------=_NextPart_000_0051_01CBEECE.11BA3240
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: quoted-printable
-Content-Location: http://cdn1.lakequincy.com/m.min.js?dt=2.3.110328.1
+Content-Location: http://cdn1.lakequincy.com/m.min.js?dt=2.3.110329.1
 
 (function(a){a.LqmAds=3Dfunction(f){var =
 k=3D"http://a.lakequincy.com";var =
@@ -10901,4 +11384,4 @@ e(n){if(n=3D=3D"undefined"){return""}var =
 l=3D/\bAND\b|\bNOT\b|^NOT\b|\bOR\b|\B\+|\B\-|[^A-Z0-9\+\-\#\._\s]+|\b[A-Z=
 0-9]+:/gi;var m=3Da.trim(n);if(m!=3D"undefined"){m=3Dm.replace(l," =
 ");m=3Dm.replace(/\s+/g,", ");return m}else{return""}}}})(jQuery);
-------=_NextPart_000_0051_01CBEE71.3EA66B00--
+------=_NextPart_000_0051_01CBEECE.11BA3240--

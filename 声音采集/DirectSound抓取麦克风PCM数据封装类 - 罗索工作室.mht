@@ -1,0 +1,4105 @@
+From: <ÓÉ Windows Internet Explorer 8 ±£´æ>
+Subject: =?gb2312?B?RGlyZWN0U291bmTXpcihwvO/y7fnUENNyv2+3bfi17DA4CAtIMLey/e5pNf3?=
+	=?gb2312?B?ytI=?=
+Date: Wed, 30 Mar 2011 09:30:29 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_005E_01CBEEBD.1BCED300"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5994
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.rosoo.net/a/201011/10384.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><META =
+content=3D"IE=3D7.0000"=20
+http-equiv=3D"X-UA-Compatible">
+<TITLE>DirectSound=D7=A5=C8=A1=C2=F3=BF=CB=B7=E7PCM=CA=FD=BE=DD=B7=E2=D7=B0=
+=C0=E0 - =C2=DE=CB=F7=B9=A4=D7=F7=CA=D2</TITLE>
+<META content=3D"text/html; charset=3Dgb2312" http-equiv=3DContent-Type>
+<META name=3Dkeywords =
+content=3D=D2=F4=C6=B5=B2=C9=BC=AF,DirectSound,=C2=F3=BF=CB=B7=E7,PCM,=B7=
+=E2=D7=B0=C0=E0>
+<META name=3Ddescription=20
+content=3D=D4=DA=D5=E2=C0=EF=B7=A2=B2=BC=D2=BB=B8=F6=CE=D2=D7=D4=BC=BA=D0=
+=B4=B5=C4directsound=B5=C4=C2=F3=BF=CB=B7=E7PCM=CA=FD=BE=DD=B2=C9=BC=AF=C0=
+=E0=A3=AC=CD=A8=B9=FD=CB=FC=A3=AC=BF=C9=D2=D4=BA=DC=B7=BD=B1=E3=B5=C4=C0=FB=
+=D3=C3directsound=BC=BC=CA=F5=B0=D1=C2=F3=BF=CB=B7=E7=B5=C4=CA=FD=BE=DD=B2=
+=C9=BC=AF=B5=BD=A3=AC=B6=F8=C7=D2=B1=BE=C9=ED=A3=AC=BF=AA=B7=A2=D5=DF=B2=BB=
+=B1=D8=CC=AB=D4=DA=D2=E2=D7=D4=BC=BA=BB=E1=B2=BB=BB=E1directsound=B1=E0=B3=
+=CC=A3=AC=BF=C9=D2=D4=BA=DC=B7=BD=B1=E3=B5=C4=C8=C3=BF=AA=B7=A2=D5=DF=B5=C4=
+=D6=F7=D2=AA=BE=AB=C1=A6=BC=AF=D6=D0=D3=DA=B3=CC=D0=F2=B1=BE=C9=ED=A3=AC=B6=
+=F8=B2=BB=CA=C7=CF=B8=BD=DA=A1=A3><LINK=20
+rel=3Dstylesheet type=3Dtext/css=20
+href=3D"http://www.rosoo.net/templets/style/dedecms.css" media=3Dscreen>
+<SCRIPT type=3Dtext/javascript =
+src=3D"http://www.rosoo.net/js/rs_top.js"></SCRIPT>
+
+<SCRIPT language=3Djavascript type=3Dtext/javascript=20
+src=3D"http://www.rosoo.net/include/dedeajax2.js"></SCRIPT>
+
+<SCRIPT language=3Djavascript type=3Dtext/javascript>=0A=
+<!--=0A=
+function CheckLogin(){=0A=
+	  var taget_obj =3D document.getElementById('_ajax_feedback');=0A=
+	  myajax =3D new DedeAjax(taget_obj,false,false,'','','');=0A=
+	  myajax.SendGet2("/member/ajax_feedback.php");=0A=
+	  DedeXHTTP =3D null;=0A=
+}=0A=
+function postBadGood(ftype,fid)=0A=
+{=0A=
+	var taget_obj =3D document.getElementById(ftype+fid);=0A=
+	var saveid =3D GetCookie('badgoodid');=0A=
+	if(saveid !=3D null)=0A=
+	{=0A=
+		var saveids =3D saveid.split(',');=0A=
+		var hasid =3D false;=0A=
+		saveid =3D '';=0A=
+		j =3D 1;=0A=
+		for(i=3Dsaveids.length-1;i>=3D0;i--)=0A=
+		{=0A=
+			if(saveids[i]=3D=3Dfid && hasid) continue;=0A=
+			else {=0A=
+				if(saveids[i]=3D=3Dfid && !hasid) hasid =3D true;=0A=
+				saveid +=3D (saveid=3D=3D'' ? saveids[i] : ','+saveids[i]);=0A=
+				j++;=0A=
+				if(j=3D=3D10 && hasid) break;=0A=
+				if(j=3D=3D9 && !hasid) break;=0A=
+			}=0A=
+		}=0A=
+		if(hasid) { =
+alert('=C4=FA=B8=D5=B2=C5=D2=D1=B1=ED=BE=F6=B9=FD=C1=CB=E0=B8=A3=A1'); =
+return false;}=0A=
+		else saveid +=3D ','+fid;=0A=
+		SetCookie('badgoodid',saveid,1);=0A=
+	}=0A=
+	else=0A=
+	{=0A=
+		SetCookie('badgoodid',fid,1);=0A=
+	}=0A=
+	myajax =3D new DedeAjax(taget_obj,false,false,'','','');=0A=
+	=
+myajax.SendGet2("/plus/feedback.php?aid=3D"+fid+"&action=3D"+ftype+"&fid=3D=
+"+fid);=0A=
+}=0A=
+function postDigg(ftype,aid)=0A=
+{=0A=
+	var taget_obj =3D document.getElementById('newdigg');=0A=
+	var saveid =3D GetCookie('diggid');=0A=
+	if(saveid !=3D null)=0A=
+	{=0A=
+		var saveids =3D saveid.split(',');=0A=
+		var hasid =3D false;=0A=
+		saveid =3D '';=0A=
+		j =3D 1;=0A=
+		for(i=3Dsaveids.length-1;i>=3D0;i--)=0A=
+		{=0A=
+			if(saveids[i]=3D=3Daid && hasid) continue;=0A=
+			else {=0A=
+				if(saveids[i]=3D=3Daid && !hasid) hasid =3D true;=0A=
+				saveid +=3D (saveid=3D=3D'' ? saveids[i] : ','+saveids[i]);=0A=
+				j++;=0A=
+				if(j=3D=3D20 && hasid) break;=0A=
+				if(j=3D=3D19 && !hasid) break;=0A=
+			}=0A=
+		}=0A=
+		if(hasid) { =
+alert("=C4=FA=D2=D1=BE=AD=B6=A5=B9=FD=B8=C3=CC=FB=A3=AC=C7=EB=B2=BB=D2=AA=
+=D6=D8=B8=B4=B6=A5=CC=FB =A3=A1"); return; }=0A=
+		else saveid +=3D ','+aid;=0A=
+		SetCookie('diggid',saveid,1);=0A=
+	}=0A=
+	else=0A=
+	{=0A=
+		SetCookie('diggid',aid,1);=0A=
+	}=0A=
+	myajax =3D new DedeAjax(taget_obj,false,false,'','','');=0A=
+	var url =3D "/plus/digg_ajax.php?action=3D"+ftype+"&id=3D"+aid;=0A=
+	myajax.SendGet2(url);=0A=
+}=0A=
+function getDigg(aid)=0A=
+{=0A=
+	var taget_obj =3D document.getElementById('newdigg');=0A=
+	myajax =3D new DedeAjax(taget_obj,false,false,'','','');=0A=
+	myajax.SendGet2("/plus/digg_ajax.php?id=3D"+aid);=0A=
+	DedeXHTTP =3D null;=0A=
+}=0A=
+-->=0A=
+</SCRIPT>
+
+<META name=3DGENERATOR content=3D"MSHTML 8.00.6001.19019"></HEAD>
+<BODY class=3Darticleview>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D960 =
+align=3Dcenter=20
+topmargin=3D"3">
+  <TBODY>
+  <TR>
+    <TD align=3Dright>
+      <SCRIPT type=3Dtext/javascript charset=3Dgb2312=20
+      src=3D"http://www.rosoo.net/js/page_head.js"></SCRIPT>
+    </TD></TR></TBODY></TABLE>
+<DIV class=3Dheader>
+<DIV class=3D"top w960 center">
+<DIV class=3Dtitle>
+<H1><A href=3D"http://www.rosoo.net/">=C2=DE=CB=F7=B9=A4=D7=F7=CA=D2</A> =
+</H1></DIV>
+<DIV class=3Dbanner>
+<SCRIPT src=3D"http://www.rosoo.net/ad/js_ad_728x90_100.js"></SCRIPT>
+</DIV></DIV><!-- //top --><!-- //=B2=CB=B5=A5 -->
+<DIV class=3D"module blue mT10 wrapper w963">
+<DIV class=3Dtop>
+<DIV class=3Dt_l></DIV>
+<DIV class=3Dt_r></DIV><!-- =
+//=C8=E7=B9=FB=B2=BB=CA=B9=D3=C3currentstyle=A3=AC=BF=C9=D2=D4=D4=DAchann=
+el=B1=EA=C7=A9=BC=D3=C8=EB cacheid=3D'channeltoplist' =
+=CA=F4=D0=D4=CC=E1=C9=FD=D0=D4=C4=DC -->
+<DIV id=3DnavMenu>
+<UL>
+  <LI><A href=3D"http://www.rosoo.net/">=D6=F7=D2=B3</A> </LI>
+  <LI class=3Dhover><A href=3D"http://www.rosoo.net/a/Media/"=20
+  rel=3Ddropmenu1>=C1=F7=C3=BD=CC=E5=BF=AA=B7=A2</A> </LI>
+  <LI><A href=3D"http://www.rosoo.net/a/embedded/" =
+rel=3Ddropmenu33>=C7=B6=C8=EB=CA=BD=BF=AA=B7=A2</A> </LI>
+  <LI><A href=3D"http://www.rosoo.net/a/specials/" =
+rel=3Ddropmenu18>=D7=A8=CC=E2=BC=BC=CA=F5</A> </LI>
+  <LI><A href=3D"http://www.rosoo.net/a/product/" =
+rel=3Ddropmenu8>*=C2=DE=CB=F7=D7=F7=C6=B7*</A> </LI>
+  <LI><A href=3D"http://www.rosoo.net/a/SoftEng/" =
+rel=3Ddropmenu7>=C8=ED=BC=FE=B9=A4=B3=CC</A> </LI>
+  <LI><A href=3D"http://www.rosoo.net/a/Dev/" =
+rel=3Ddropmenu13>=C8=ED=BC=FE=BF=AA=B7=A2</A> </LI>
+  <LI><A href=3D"http://www.rosoo.net/a/DevSpecial/" =
+rel=3Ddropmenu2>=D7=A8=CC=E2=CF=EE=C4=BF</A> </LI>
+  <LI><A href=3D"http://www.rosoo.net/a/Management/" =
+rel=3Ddropmenu101>=B9=DC=C0=ED=D1=A7=D4=BA</A>=20
+</LI>
+  <LI><A href=3D"http://www.rosoo.net/a/Digest/" =
+rel=3Ddropmenu95>=BA=F0=C9=BD=CE=C4=D5=AA</A> </LI>
+  <LI><A href=3D"http://www.rosoo.net/a/Game/" =
+rel=3Ddropmenu5>=D3=CE=CF=B7=C7=F8</A>=20
+</LI></UL></DIV>
+<DIV class=3Dsearch>
+<FORM name=3Dformsearch action=3D/plus/search.php>
+<DIV class=3Dform>
+<H4>=CB=D1=CB=F7</H4><INPUT value=3D0 type=3Dhidden name=3Dkwtype> =
+<INPUT id=3Dsearch-keyword=20
+class=3Dsearch-keyword name=3Dkeyword> <SELECT id=3Dsearch-option =
+class=3Dsearch-option=20
+name=3Dsearchtype> <OPTION selected =
+value=3Dtitlekeyword>=D6=C7=C4=DC=C4=A3=BA=FD=CB=D1=CB=F7</OPTION> =
+<OPTION=20
+  value=3Dtitle>=BD=F6=CB=D1=CB=F7=B1=EA=CC=E2</OPTION></SELECT><BUTTON =
+class=3Dsearch-submit=20
+type=3Dsubmit>=CB=D1=CB=F7</BUTTON> </DIV></FORM>
+<DIV class=3Dtags>
+<H4>=C8=C8=C3=C5=B1=EA=C7=A9</H4>
+<UL>
+  <LI>=A1=A1<A=20
+  =
+href=3D"http://www.rosoo.net/plus/search.php?keyword=3DH.264+%C2%EB%C1%F7=
+%B7%D6%CE%F6">H.264=20
+  =C2=EB=C1=F7=B7=D6=CE=F6</A> =A1=A1<A=20
+  =
+href=3D"http://www.rosoo.net/plus/search.php?keyword=3D%CA%D3%C6%B5%BC%E0=
+%BF%D8%BC%BC%CA%F5">=CA=D3=C6=B5=BC=E0=BF=D8=BC=BC=CA=F5</A>=20
+  =A1=A1<A =
+href=3D"http://www.rosoo.net/plus/search.php?keyword=3D264">264</A> =
+=A1=A1<A=20
+  =
+href=3D"http://www.rosoo.net/plus/search.php?keyword=3Dffmpeg+ce">ffmpeg =
+ce</A>=20
+  =A1=A1<A =
+href=3D"http://www.rosoo.net/plus/search.php?keyword=3Dffmpeg">ffmpeg</A>=
+ =A1=A1<A=20
+  href=3D"http://www.rosoo.net/plus/search.php?keyword=3Drtp">rtp</A>=20
+</LI></UL></DIV></DIV><!-- //search --></DIV></DIV></DIV><!-- //header =
+--><!-- /header -->
+<DIV class=3D"channel-nav w960 center clear">
+<DIV class=3Dsonnav><SPAN><A=20
+href=3D"http://www.rosoo.net/a/list_44_1.html">=D2=B5=BD=E7=B6=AF=CC=AC</=
+A></SPAN> <SPAN><A=20
+href=3D"http://www.rosoo.net/a/list_53_1.html">=D2=F4=CA=D3=C6=B5=B1=E0=BD=
+=E2=C2=EB</A></SPAN><SPAN><A=20
+class=3Dthisclass =
+href=3D"http://www.rosoo.net/a/list_45_1.html">=D2=F4=CA=D3=C6=B5=B2=A5=B7=
+=C5</A></SPAN>=20
+<SPAN><A =
+href=3D"http://www.rosoo.net/a/list_51_1.html">=C1=F7=C3=BD=CC=E5=BF=AA=B7=
+=A2</A></SPAN> <SPAN><A=20
+href=3D"http://www.rosoo.net/a/list_46_1.html">=B9=E6=B7=B6=BC=B0=D0=AD=D2=
+=E9</A></SPAN> <SPAN><A=20
+href=3D"http://www.rosoo.net/a/list_48_1.html">=BD=E2=BE=F6=B7=BD=B0=B8</=
+A></SPAN> <SPAN><A=20
+href=3D"http://www.rosoo.net/a/list_50_1.html">=B4=F3=D4=D3=BB=E2</A></SP=
+AN> </DIV><SPAN=20
+class=3Dback><A =
+href=3D"http://www.rosoo.net/">=B7=B5=BB=D8=CA=D7=D2=B3</A> =
+</SPAN></DIV><!-- /channel-nav -->
+<DIV class=3D"w960 center clear mt1">
+<DIV class=3Dpleft>
+<DIV class=3Dplace><STRONG>=B5=B1=C7=B0=CE=BB=D6=C3:</STRONG> <A=20
+href=3D"http://www.rosoo.net/">=D6=F7=D2=B3</A>&gt;<A=20
+href=3D"http://www.rosoo.net/a/Media/">=C1=F7=C3=BD=CC=E5=BF=AA=B7=A2</A>=
+&gt;<A=20
+href=3D"http://www.rosoo.net/a/list_45_1.html">=D2=F4=CA=D3=C6=B5=B2=A5=B7=
+=C5</A>&gt; </DIV><!-- /place -->
+<DIV class=3Dviewbox>
+<DIV class=3Dtitle>
+<H2>DirectSound=D7=A5=C8=A1=C2=F3=BF=CB=B7=E7PCM=CA=FD=BE=DD=B7=E2=D7=B0=C0=
+=E0</H2></DIV><!-- /title -->
+<DIV class=3Dinfo><SMALL>=CA=B1=BC=E4:</SMALL>2010-11-01 =
+10:06<SMALL>=C0=B4=D4=B4:</SMALL>=B1=B1=BE=A9=C0=ED=B9=A4=B4=F3=D1=A7 =
+20981=20
+<SMALL>=D7=F7=D5=DF:</SMALL>=B3=C2=EE=B8 <SMALL>=B5=E3=BB=F7:</SMALL>
+<SCRIPT language=3Djavascript type=3Dtext/javascript=20
+src=3D"http://www.rosoo.net/plus/count.php?view=3Dyes&amp;aid=3D10384&amp=
+;mid=3D11927"></SCRIPT>
+=B4=CE</DIV><!-- /info -->
+<DIV=20
+class=3Dintro>=D4=DA=D5=E2=C0=EF=B7=A2=B2=BC=D2=BB=B8=F6=CE=D2=D7=D4=BC=BA=
+=D0=B4=B5=C4directsound=B5=C4=C2=F3=BF=CB=B7=E7PCM=CA=FD=BE=DD=B2=C9=BC=AF=
+=C0=E0=A3=AC=CD=A8=B9=FD=CB=FC=A3=AC=BF=C9=D2=D4=BA=DC=B7=BD=B1=E3=B5=C4=C0=
+=FB=D3=C3directsound=BC=BC=CA=F5=B0=D1=C2=F3=BF=CB=B7=E7=B5=C4=CA=FD=BE=DD=
+=B2=C9=BC=AF=B5=BD=A3=AC=B6=F8=C7=D2=B1=BE=C9=ED=A3=AC=BF=AA=B7=A2=D5=DF=B2=
+=BB=B1=D8=CC=AB=D4=DA=D2=E2=D7=D4=BC=BA=BB=E1=B2=BB=BB=E1directsound=B1=E0=
+=B3=CC=A3=AC=BF=C9=D2=D4=BA=DC=B7=BD=B1=E3=B5=C4=C8=C3=BF=AA=B7=A2=D5=DF=B5=
+=C4=D6=F7=D2=AA=BE=AB=C1=A6=BC=AF=D6=D0=D3=DA=B3=CC=D0=F2=B1=BE=C9=ED=A3=AC=
+=B6=F8=B2=BB=CA=C7=CF=B8=BD=DA=A1=A3</DIV>
+<DIV class=3Dcontent>
+<DIV align=3Dright>
+<SCRIPT src=3D"http://www.rosoo.net/js/sc/sc.js"></SCRIPT>
+</DIV>
+<DIV><B>TAG: </B><A=20
+href=3D"http://www.rosoo.net/tags.php?/%B7%E2%D7%B0%C0%E0/">=B7=E2=D7=B0=C0=
+=E0</A>&nbsp;&nbsp;<A=20
+href=3D"http://www.rosoo.net/tags.php?/%D2%F4%C6%B5%B2%C9%BC%AF/">=D2=F4=C6=
+=B5=B2=C9=BC=AF</A>&nbsp;&nbsp;<A=20
+href=3D"http://www.rosoo.net/tags.php?/DirectSound/">DirectSound</A>&nbsp=
+;&nbsp;<A=20
+href=3D"http://www.rosoo.net/tags.php?/%C2%F3%BF%CB%B7%E7/">=C2=F3=BF=CB=B7=
+=E7</A>&nbsp;&nbsp;<A=20
+href=3D"http://www.rosoo.net/tags.php?/PCM/">PCM</A>&nbsp;&nbsp;</DIV>
+<TABLE width=3D"100%">
+  <TBODY>
+  <TR>
+    <TD>
+      <SCRIPT type=3Dtext/javascript=20
+      src=3D"http://www.rosoo.net/ad/js_ad_468x15_100.js"></SCRIPT>
+      <BR>
+      =
+<DIV>=CD=F8=C9=CF=D3=D0=BA=DC=B6=E0=B7=BD=B7=A8=B4=D3=C2=F3=BF=CB=B7=E7=B6=
+=C1=C8=A1PCM=CA=FD=BE=DD=A3=AC=B2=BB=CF=EB=D2=BB=D2=BB=BE=D9=C0=FD=A1=A3=D6=
+=BB=CA=C7=D4=DA=D5=E2=C0=EF=B7=A2=B2=BC=D2=BB=B8=F6=CE=D2=D7=D4=BC=BA=D0=B4=
+=B5=C4directsound=B5=C4=C2=F3=BF=CB=B7=E7PCM=CA=FD=BE=DD=B2=C9=BC=AF=C0=E0=
+=A3=AC=CD=A8=B9=FD=CB=FC=A3=AC=BF=C9=D2=D4=BA=DC=B7=BD=B1=E3=B5=C4=C0=FB=D3=
+=C3directsound=BC=BC=CA=F5=B0=D1=C2=F3=BF=CB=B7=E7=B5=C4=CA=FD=BE=DD=B2=C9=
+=BC=AF=B5=BD=A3=AC=B6=F8=C7=D2=B1=BE=C9=ED=A3=AC=BF=AA=B7=A2=D5=DF=B2=BB=B1=
+=D8=CC=AB=D4=DA=D2=E2=D7=D4=BC=BA=BB=E1=B2=BB=BB=E1directsound=B1=E0=B3=CC=
+=A3=AC=BF=C9=D2=D4=BA=DC=B7=BD=B1=E3=B5=C4=C8=C3=BF=AA=B7=A2=D5=DF=B5=C4=D6=
+=F7=D2=AA=BE=AB=C1=A6=BC=AF=D6=D0=D3=DA=B3=CC=D0=F2=B1=BE=C9=ED=A3=AC=B6=F8=
+=B2=BB=CA=C7=CF=B8=BD=DA=A1=A3</DIV>
+      <DIV><STRONG><SPAN=20
+      style=3D"COLOR: =
+rgb(0,0,255)">=D5=E2=B8=F6=CA=C7=CD=B7=CE=C4=BC=FE=A3=BA</SPAN></STRONG><=
+/DIV><PRE><OL class=3Ddp-cpp><LI class=3Dalt><SPAN><SPAN =
+class=3Dpreprocessor>#pragma&nbsp;once</SPAN><SPAN>&nbsp;</SPAN></SPAN><L=
+I><SPAN><SPAN =
+class=3Dpreprocessor>#ifndef&nbsp;_CAPTURE_SOUND_H_</SPAN><SPAN>&nbsp;</S=
+PAN></SPAN><LI class=3Dalt><SPAN><SPAN =
+class=3Dpreprocessor>#define&nbsp;_CAPTURE_SOUND_H_</SPAN><SPAN>&nbsp;</S=
+PAN></SPAN><LI><SPAN><SPAN =
+class=3Dpreprocessor>#include&nbsp;&lt;mmsystem.h&gt;</SPAN><SPAN>&nbsp;<=
+/SPAN></SPAN><LI class=3Dalt><SPAN><SPAN =
+class=3Dpreprocessor>#include&nbsp;&lt;dsound.h&gt;</SPAN><SPAN>&nbsp;</S=
+PAN></SPAN><LI><SPAN><SPAN =
+class=3Dpreprocessor>#define&nbsp;NUM_REC_NOTIFICATIONS&nbsp;&nbsp;16</SP=
+AN><SPAN>&nbsp;</SPAN></SPAN><LI class=3Dalt><SPAN><SPAN =
+class=3Dkeyword>class</SPAN><SPAN>&nbsp;CAdoFrameHandler&nbsp;{&nbsp;</SP=
+AN></SPAN><LI><SPAN><SPAN =
+class=3Dkeyword>public</SPAN><SPAN>:&nbsp;</SPAN></SPAN><LI =
+class=3Dalt><SPAN>&nbsp;<SPAN =
+class=3Dkeyword>virtual</SPAN><SPAN>&nbsp;</SPAN><SPAN =
+class=3Dkeyword>void</SPAN><SPAN>&nbsp;AdoFrameData(</SPAN><SPAN =
+class=3Ddatatypes>BYTE</SPAN><SPAN>*&nbsp;pBuffer,&nbsp;</SPAN><SPAN =
+class=3Ddatatypes>long</SPAN><SPAN>&nbsp;lBufferSize)&nbsp;=3D&nbsp;0&nbs=
+p;;&nbsp;</SPAN></SPAN><LI><SPAN>};&nbsp;</SPAN><LI =
+class=3Dalt><SPAN><SPAN =
+class=3Dkeyword>class</SPAN><SPAN>&nbsp;CCaptureAudio&nbsp;</SPAN></SPAN>=
+<LI><SPAN>{&nbsp;</SPAN><LI class=3Dalt><SPAN><SPAN =
+class=3Dkeyword>public</SPAN><SPAN>:&nbsp;</SPAN></SPAN><LI><SPAN>&nbsp;<=
+SPAN =
+class=3Ddatatypes>BOOL</SPAN><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;m_bRecording&nbsp;;&nbsp;&nbsp;</SPAN><SPAN =
+class=3Dcomment>//recording&nbsp;now&nbsp;?&nbsp;also&nbsp;used&nbsp;by&n=
+bsp;event&nbsp;recv&nbsp;thread</SPAN><SPAN>&nbsp;</SPAN></SPAN><LI =
+class=3Dalt><SPAN><SPAN =
+class=3Dkeyword>protected</SPAN><SPAN>:&nbsp;</SPAN></SPAN><LI><SPAN>&nbs=
+p;LPDIRECTSOUNDCAPTURE8&nbsp;&nbsp;&nbsp;&nbsp;m_pCapDev&nbsp;;&nbsp;&nbs=
+p;&nbsp;<SPAN =
+class=3Dcomment>//capture&nbsp;device&nbsp;ptr</SPAN><SPAN>&nbsp;</SPAN><=
+/SPAN><LI =
+class=3Dalt><SPAN>&nbsp;LPDIRECTSOUNDCAPTUREBUFFER&nbsp;m_pCapBuf&nbsp;;&=
+nbsp;&nbsp;&nbsp;<SPAN =
+class=3Dcomment>//capture&nbsp;loop&nbsp;buffer&nbsp;ptr</SPAN><SPAN>&nbs=
+p;</SPAN></SPAN><LI><SPAN>&nbsp;LPDIRECTSOUNDNOTIFY8&nbsp;&nbsp;&nbsp;&nb=
+sp;m_pNotify&nbsp;;&nbsp;&nbsp;&nbsp;<SPAN =
+class=3Dcomment>//capture&nbsp;auto-notify&nbsp;event&nbsp;callback&nbsp;=
+handler&nbsp;ptr</SPAN><SPAN>&nbsp;</SPAN></SPAN><LI =
+class=3Dalt><SPAN>&nbsp;GUID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;m_guidCapDevId&nbsp;;&nbsp;&nbsp;<SPAN =
+class=3Dcomment>//capture&nbsp;device&nbsp;id</SPAN><SPAN>&nbsp;</SPAN></=
+SPAN><LI><SPAN>&nbsp;WAVEFORMATEX&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;m_wf=
+xInput;&nbsp;&nbsp;&nbsp;<SPAN =
+class=3Dcomment>//input&nbsp;wave&nbsp;format&nbsp;description&nbsp;struc=
+t</SPAN><SPAN>&nbsp;</SPAN></SPAN><LI =
+class=3Dalt><SPAN>&nbsp;DSBPOSITIONNOTIFY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;m_=
+aPosNotify[NUM_REC_NOTIFICATIONS&nbsp;+&nbsp;1];&nbsp;<SPAN =
+class=3Dcomment>//notify&nbsp;flag&nbsp;array</SPAN><SPAN>&nbsp;</SPAN></=
+SPAN><LI><SPAN>&nbsp;<SPAN =
+class=3Ddatatypes>HANDLE</SPAN><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;m_hNotifyEvent;&nbsp;&nbsp;&nbsp;</SPAN><SPAN =
+class=3Dcomment>//notify&nbsp;event</SPAN><SPAN>&nbsp;</SPAN></SPAN><LI =
+class=3Dalt><SPAN>&nbsp;<SPAN =
+class=3Ddatatypes>BOOL</SPAN><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;m_abInputFmtSupported[20];&nbsp;</SPAN></SPAN><LI><SPAN>&nbsp;<=
+SPAN =
+class=3Ddatatypes>DWORD</SPAN><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;m_dwCapBufSize;&nbsp;&nbsp;</SPAN><SPAN =
+class=3Dcomment>//capture&nbsp;loop&nbsp;buffer&nbsp;size</SPAN><SPAN>&nb=
+sp;</SPAN></SPAN><LI class=3Dalt><SPAN>&nbsp;<SPAN =
+class=3Ddatatypes>DWORD</SPAN><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;m_dwNextCapOffset;</SPAN><SPAN =
+class=3Dcomment>//offset&nbsp;in&nbsp;loop&nbsp;buffer</SPAN><SPAN>&nbsp;=
+</SPAN></SPAN><LI><SPAN>&nbsp;<SPAN =
+class=3Ddatatypes>DWORD</SPAN><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;m_dwNotifySize;&nbsp;&nbsp;</SPAN><SPAN =
+class=3Dcomment>//notify&nbsp;pos&nbsp;when&nbsp;loop&nbsp;buffer&nbsp;ne=
+ed&nbsp;to&nbsp;emit&nbsp;the&nbsp;event</SPAN><SPAN>&nbsp;</SPAN></SPAN>=
+<LI =
+class=3Dalt><SPAN>&nbsp;CAdoFrameHandler*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;m_=
+frame_handler&nbsp;;&nbsp;<SPAN =
+class=3Dcomment>//&nbsp;outer&nbsp;frame&nbsp;data&nbsp;dealer&nbsp;ptr</=
+SPAN><SPAN>&nbsp;</SPAN></SPAN><LI><SPAN><SPAN =
+class=3Dkeyword>public</SPAN><SPAN>:&nbsp;</SPAN><SPAN =
+class=3Dcomment>//&nbsp;callback&nbsp;func&nbsp;to&nbsp;add&nbsp;enum&nbs=
+p;devices&nbsp;string&nbsp;name</SPAN><SPAN>&nbsp;</SPAN></SPAN><LI =
+class=3Dalt><SPAN>&nbsp;<SPAN =
+class=3Dkeyword>static</SPAN><SPAN>&nbsp;</SPAN><SPAN =
+class=3Ddatatypes>BOOL</SPAN><SPAN>&nbsp;CALLBACK&nbsp;enum_dev_proc(LPGU=
+ID&nbsp;lpGUID,&nbsp;</SPAN><SPAN =
+class=3Ddatatypes>LPCTSTR</SPAN><SPAN>&nbsp;lpszDesc,&nbsp;</SPAN></SPAN>=
+<LI><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;<SPAN =
+class=3Ddatatypes>LPCTSTR</SPAN><SPAN>&nbsp;lpszDrvName,&nbsp;</SPAN><SPA=
+N =
+class=3Ddatatypes>LPVOID</SPAN><SPAN>&nbsp;lpContext&nbsp;)&nbsp;;&nbsp;<=
+/SPAN></SPAN><LI class=3Dalt><SPAN>&nbsp;<SPAN =
+class=3Dkeyword>static</SPAN><SPAN>&nbsp;</SPAN><SPAN =
+class=3Ddatatypes>UINT</SPAN><SPAN>&nbsp;notify_capture_thd(</SPAN><SPAN =
+class=3Ddatatypes>LPVOID</SPAN><SPAN>&nbsp;data)&nbsp;;&nbsp;</SPAN></SPA=
+N><LI><SPAN><SPAN =
+class=3Dkeyword>protected</SPAN><SPAN>:&nbsp;</SPAN></SPAN><LI =
+class=3Dalt><SPAN>&nbsp;<SPAN =
+class=3Ddatatypes>HRESULT</SPAN><SPAN>&nbsp;InitDirectSound(GUID&nbsp;dev=
+_id&nbsp;=3D&nbsp;GUID_NULL)&nbsp;;&nbsp;</SPAN></SPAN><LI><SPAN>&nbsp;<S=
+PAN =
+class=3Ddatatypes>HRESULT</SPAN><SPAN>&nbsp;FreeDirectSound()&nbsp;;&nbsp=
+;</SPAN></SPAN><LI class=3Dalt><SPAN>&nbsp;<SPAN =
+class=3Ddatatypes>HRESULT</SPAN><SPAN>&nbsp;InitNotifications()&nbsp;;&nb=
+sp;</SPAN></SPAN><LI><SPAN>&nbsp;<SPAN =
+class=3Ddatatypes>HRESULT</SPAN><SPAN>&nbsp;CreateCaptureBuffer(WAVEFORMA=
+TEX&nbsp;*&nbsp;wfx)&nbsp;;&nbsp;</SPAN></SPAN><LI =
+class=3Dalt><SPAN>&nbsp;<SPAN =
+class=3Ddatatypes>HRESULT</SPAN><SPAN>&nbsp;StartOrStopRecord(</SPAN><SPA=
+N =
+class=3Ddatatypes>BOOL</SPAN><SPAN>&nbsp;bStartRec)&nbsp;;&nbsp;</SPAN></=
+SPAN><LI><SPAN>&nbsp;<SPAN =
+class=3Ddatatypes>HRESULT</SPAN><SPAN>&nbsp;RecordCapturedData()&nbsp;;&n=
+bsp;</SPAN></SPAN><LI class=3Dalt><SPAN>&nbsp;<SPAN =
+class=3Dkeyword>void</SPAN><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;SetWavFormat(WAV=
+EFORMATEX&nbsp;*&nbsp;wfx)&nbsp;;&nbsp;</SPAN></SPAN><LI><SPAN><SPAN =
+class=3Dkeyword>public</SPAN><SPAN>:&nbsp;</SPAN></SPAN><LI =
+class=3Dalt><SPAN>&nbsp;CCaptureAudio(<SPAN =
+class=3Dkeyword>void</SPAN><SPAN>);&nbsp;</SPAN></SPAN><LI><SPAN>&nbsp;~C=
+CaptureAudio(<SPAN =
+class=3Dkeyword>void</SPAN><SPAN>);&nbsp;</SPAN></SPAN><LI =
+class=3Dalt><SPAN>&nbsp;<SPAN =
+class=3Ddatatypes>BOOL</SPAN><SPAN>&nbsp;EnumDevices(</SPAN><SPAN =
+class=3Ddatatypes>HWND</SPAN><SPAN>&nbsp;hList)&nbsp;;&nbsp;</SPAN></SPAN=
+><LI><SPAN>&nbsp;<SPAN =
+class=3Ddatatypes>BOOL</SPAN><SPAN>&nbsp;Open(</SPAN><SPAN =
+class=3Dkeyword>void</SPAN><SPAN>)&nbsp;;&nbsp;</SPAN></SPAN><LI =
+class=3Dalt><SPAN>&nbsp;<SPAN =
+class=3Ddatatypes>BOOL</SPAN><SPAN>&nbsp;Close()&nbsp;;&nbsp;</SPAN></SPA=
+N><LI><SPAN>&nbsp;<SPAN =
+class=3Dkeyword>void</SPAN><SPAN>&nbsp;GrabAudioFrames(</SPAN><SPAN =
+class=3Ddatatypes>BOOL</SPAN><SPAN>&nbsp;bGrabAudioFrames,&nbsp;CAdoFrame=
+Handler*&nbsp;frame_handler)&nbsp;;&nbsp;</SPAN></SPAN><LI =
+class=3Dalt><SPAN>};&nbsp;</SPAN><LI><SPAN><SPAN =
+class=3Dpreprocessor>#endif</SPAN><SPAN>&nbsp;</SPAN></SPAN></LI></OL></P=
+RE>
+      <DIV>&nbsp;</DIV>
+      <DIV>
+      =
+<DIV>=CA=B9=D3=C3=B5=C4=CA=B1=BA=F2=A3=AC=D2=B2=BA=DC=BC=F2=B5=A5=A3=AC=CE=
+=D2=D5=E2=C0=EF=C9=F9=C3=F7=C1=CB=D2=BB=B8=F6=B4=BF=D0=E9=C0=E0CAdoFrameH=
+andler=A3=AC=D5=E2=B8=F6=C0=E0=D7=A8=C3=C5=CA=C7=D3=C3=C0=B4=C8=C3=CA=B9=D3=
+=C3=D5=DF=D6=D8=D4=D8=CB=FC=B5=C4=B4=BF=D0=E9=BA=AF=CA=FD=B5=C4=A3=AC=D6=BB=
+=D2=AA=D6=D8=D4=D8=C1=CB=D2=D4=20
+      =
+=BA=F3=A3=AC=C9=E8=D6=C3=D5=FD=C8=B7=A3=AC=BE=CD=BF=C9=D2=D4=D7=D4=B6=AF=BF=
+=AA=CA=BC=B2=C9=BC=AF=D2=F4=C6=B5=CA=FD=BE=DD=C1=CB=A1=A3=D7=A2=D2=E2=A3=AC=
+=D4=DA=D5=E2=B8=F6=C0=E0=C0=EF=C3=E6=A3=AC=CE=D2=D3=C3=B5=C4=CA=C78KHz,16=
+Bits,Mono=B5=A5=C9=F9=B5=C0=B5=C4PCM=CA=FD=BE=DD=B2=C9=BC=AF=A1=A3</DIV>
+      <DIV>=CA=B9=D3=C3=B5=C4=CA=B1=BA=F2=A3=AC=CA=D7=CF=C8=A3=BA</DIV>
+      <DIV><SPAN style=3D"COLOR: rgb(0,0,128)">#include=20
+      "CaptureAudio.h"</SPAN></DIV>
+      <DIV>=C8=BB=BA=F3=A3=BA</DIV>
+      <DIV><SPAN style=3D"COLOR: rgb(0,0,128)">class CMyClass : public=20
+      CAdoFrameHandler {</SPAN></DIV>
+      <DIV><SPAN style=3D"COLOR: rgb(0,0,128)">...</SPAN></DIV>
+      <DIV><SPAN style=3D"COLOR: rgb(0,0,128)">public: // override the=20
+      CAdoFrameHandler<BR>&nbsp;void AdoFrameData(BYTE* pBuffer, long=20
+      lBufferSize) ;&nbsp; // =
+=D5=E2=B8=F6=C0=E0=D6=D8=D4=D8=D2=BB=CF=C2=A3=AC=BE=CD=BF=C9=D2=D4=B2=C9=BC=
+=AF=C1=CB</SPAN></DIV>
+      <DIV><SPAN style=3D"COLOR: rgb(0,0,128)"></SPAN>&nbsp;</DIV>
+      <DIV><SPAN style=3D"COLOR: rgb(0,0,128)">protected:</SPAN></DIV>
+      <DIV><SPAN style=3D"COLOR: rgb(0,0,128)">&nbsp; =
+CCaptureAudio&nbsp;&nbsp;=20
+      m_cap_ado ; // =
+=D5=E2=B8=F6=B6=D4=CF=F3=BE=CD=CA=C7=D3=C3=C0=B4=B2=C9=BC=AF=D2=F4=C6=B5=CA=
+=FD=BE=DD=B5=C4</SPAN></DIV>
+      <DIV><SPAN style=3D"COLOR: rgb(0,0,128)">} ;</SPAN></DIV>
+      <DIV>&nbsp;</DIV>
+      =
+<DIV>=D4=DAOnInitDialog=C0=E0=D6=D0=A3=AC=CE=D2=C3=C7=BF=C9=D2=D4=CA=B9=D3=
+=C3=C8=E7=CF=C2=B3=F5=CA=BC=BB=AF=B7=BD=B7=A8=A3=BA</DIV>
+      <DIV>&nbsp;</DIV>
+      =
+<DIV>=B4=F2=BF=AAmic=A3=AC=CD=AC=CA=B1=B3=F5=CA=BC=BB=AFdirectsound=A3=BA=
+</DIV>
+      <DIV><SPAN style=3D"COLOR: rgb(0,0,128)">m_cap_ado.Open() =
+;</SPAN></DIV>
+      <DIV>&nbsp;</DIV>
+      <DIV>=BF=AA=CA=BC=B2=C9=BC=AF=C9=F9=D2=F4=BE=CD=CA=C7=A3=BA</DIV>
+      <DIV><SPAN style=3D"COLOR: =
+rgb(0,0,128)">m_cap_ado.GrabAudioFrames(TRUE,=20
+      this) ;</SPAN></DIV>
+      =
+<DIV>=B5=F7=D3=C3=CB=FC=D2=D4=BA=F3=A3=AC=D6=BB=D2=AA=C4=E3=D6=D8=D4=D8=C1=
+=CB=C9=CF=C3=E6=B5=C4=C4=C7=B8=F6=BA=AF=CA=FD=A3=ACdirectsound=BE=CD=BB=E1=
+=D6=DC=C6=DA=D0=D4=B5=C4=B4=D3=C2=F3=BF=CB=B2=C9=BC=AF=CA=FD=BE=DD=A3=AC=C8=
+=BB=BA=F3=B5=F7=D3=C3=B8=C3=BA=AF=CA=FD=A1=A3</DIV>
+      <DIV>&nbsp;</DIV>
+      <DIV>=CD=A3=D6=B9=C9=F9=D2=F4=B2=C9=BC=AF=CA=C7=A3=BA</DIV>
+      <DIV><SPAN style=3D"COLOR: =
+rgb(0,0,128)">m_cap_ado.GrabAudioFrames(FALSE,=20
+      NULL) ;</SPAN></DIV>
+      <DIV>&nbsp;</DIV>
+      =
+<DIV>=B9=D8=B1=D5mic=A3=AC=CD=AC=CA=B1=CA=CD=B7=C5directsound=A3=BA</DIV>=
+
+      <DIV><SPAN style=3D"COLOR: rgb(0,0,128)">m_cap_ado.Close() =
+;</SPAN></DIV>
+      <DIV>&nbsp;</DIV>
+      =
+<DIV>=BE=CD=D5=E2=C3=B4=BC=F2=B5=A5=B5=C4=BC=B8=B2=BD=A3=AC=BE=CD=BF=C9=D2=
+=D4=CD=EA=B3=C9=C2=F3=BF=CB=B7=E7=B5=C4=D2=F4=C6=B5=CA=FD=BE=DD=B2=C9=BC=AF=
+=A1=A3</DIV>
+      =
+<DIV>=D3=D0=CE=CA=CC=E2=BB=B6=D3=AD=B4=F3=BC=D2=B6=E0=B6=E0=BD=BB=C1=F7=A1=
+=A3</DIV>
+      <P><SPAN style=3D"COLOR: =
+rgb(255,0,0)">CPP=B5=C4=D4=B4=C2=EB=BC=FB=BA=F3=D2=BB=D2=B3=A1=A3</SPAN><=
+/P><BR>
+      <SCRIPT type=3Dtext/javascript=20
+      src=3D"http://www.rosoo.net/ad/js_ad_468x15_101.js"></SCRIPT>
+
+      <P align=3Dright>(=D4=F0=C8=CE=B1=E0=BC=AD=A3=BAjacky) =
+</P></DIV></TD></TR></TBODY></TABLE></DIV><!-- /content -->
+<DIV class=3Ddede_pages>
+<UL class=3Dpagelist>
+  <LI><A>=B9=B22=D2=B3: </A>
+  <LI><A =
+href=3D"http://www.rosoo.net/a/201011/10384.html#">=C9=CF=D2=BB=D2=B3</A>=
+
+  <LI class=3Dthisclass><A =
+href=3D"http://www.rosoo.net/a/201011/10384.html#">1</A>
+  <LI><A href=3D"http://www.rosoo.net/a/201011/10384_2.html">2</A>
+  <LI><A =
+href=3D"http://www.rosoo.net/a/201011/10384_2.html">=CF=C2=D2=BB=D2=B3</A=
+>=20
+</LI></UL></DIV><!-- /pages --><!-- //=B6=A5=B2=C8 -->
+<DIV id=3Dnewdigg class=3Dnewdigg>
+<DIV class=3D"diggbox digg_good"=20
+onmousemove=3D"this.style.backgroundPosition=3D'left bottom';"=20
+onmouseout=3D"this.style.backgroundPosition=3D'left top';"=20
+onclick=3D"javascript:postDigg('good',10384)">
+<DIV class=3Ddigg_act>=B6=A5=D2=BB=CF=C2</DIV>
+<DIV class=3Ddigg_num>(0)</DIV>
+<DIV class=3Ddigg_percent>
+<DIV class=3Ddigg_percent_bar><SPAN style=3D"WIDTH: 0%"></SPAN></DIV>
+<DIV class=3Ddigg_percent_num>0%</DIV></DIV></DIV>
+<DIV class=3D"diggbox digg_bad"=20
+onmousemove=3D"this.style.backgroundPosition=3D'right bottom';"=20
+onmouseout=3D"this.style.backgroundPosition=3D'right top';"=20
+onclick=3D"javascript:postDigg('bad',10384)">
+<DIV class=3Ddigg_act>=B2=C8=D2=BB=CF=C2</DIV>
+<DIV class=3Ddigg_num>(0)</DIV>
+<DIV class=3Ddigg_percent>
+<DIV class=3Ddigg_percent_bar><SPAN style=3D"WIDTH: 0%"></SPAN></DIV>
+<DIV class=3Ddigg_percent_num>0%</DIV></DIV></DIV></DIV>
+<SCRIPT language=3Djavascript =
+type=3Dtext/javascript>getDigg(10384);</SCRIPT>
+<!-- //=B6=A5=B2=C8=B2=BF=B7=DD=B5=C4=D4=B4=C2=EB=BD=E1=CA=F8 -->
+<DIV =
+class=3Dboxoff><STRONG>------=B7=D6=B8=F4=CF=DF--------------------------=
+--</STRONG> </DIV>
+<DIV class=3Dhandle>
+<DIV class=3Dcontext>
+<UL>
+  <LI>=C9=CF=D2=BB=C6=AA=A3=BA<A=20
+  =
+href=3D"http://www.rosoo.net/a/201010/10371.html">=B9=D8=D3=DACCaptureVid=
+eo=C0=E0bug=D2=D4=BC=B0=D0=DE=B8=C4=B7=BD=B7=A8</A>=20
+  <LI>=CF=C2=D2=BB=C6=AA=A3=BA<A=20
+  =
+href=3D"http://www.rosoo.net/a/201011/10385.html">directshow=D7=A5=C8=A1=C9=
+=E3=CF=F1=CD=B7=CA=FD=BE=DD=B5=C4=B7=E2=D7=B0=C0=E0</A>=20
+</LI></UL></DIV><!-- /context -->
+<DIV class=3Dactbox>
+<UL>
+  <LI id=3Dact-fav><A =
+href=3D"http://www.rosoo.net/plus/stow.php?aid=3D10384"=20
+  target=3D_blank>=CA=D5=B2=D8</A>=20
+  <LI id=3Dact-err><A=20
+  =
+href=3D"http://www.rosoo.net/plus/erraddsave.php?aid=3D10384&amp;title=3D=
+DirectSound=D7=A5=C8=A1=C2=F3=BF=CB=B7=E7PCM=CA=FD=BE=DD=B7=E2=D7=B0=C0=E0=
+"=20
+  target=3D_blank>=CC=F4=B4=ED</A>=20
+  <LI id=3Dact-pus><A =
+href=3D"http://www.rosoo.net/plus/recommend.php?aid=3D10384"=20
+  target=3D_blank>=CD=C6=BC=F6</A>=20
+  <LI id=3Dact-pnt><A onclick=3Dwindow.print();=20
+  href=3D"http://www.rosoo.net/a/201011/10384.html#">=B4=F2=D3=A1</A> =
+</LI></UL></DIV><!-- /actbox --></DIV><!-- /handle --><!--related =
+archives-->
+<DIV class=3Dmt1>
+<DL class=3Dtbox>
+  <DT><STRONG>=CF=E0=B9=D8=CE=C4=D5=C2</STRONG> </DT>
+  <DD>
+  <UL class=3D"c1 ico2">
+    <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+      <TBODY>
+      <TR>
+        <TD width=3D"50%">
+          <LI><A=20
+          =
+href=3D"http://www.rosoo.net/a/201003/8726.html">=B2=C9=D3=C3libmad+libao=
+=CA=B5=CF=D6=D7=EE=BC=F2=B5=A5=B5=C4mp3=B2=A5=B7=C5=C6=F7</A>=20
+          </LI></TD>
+        <TD width=3D"50%">
+          <LI><A =
+href=3D"http://www.rosoo.net/a/201003/8725.html">Linux=D2=F4=C6=B5=C9=E8=B1=
+=B8=B2=D9=D7=F7</A>=20
+          </LI></TD></TR>
+      <TR>
+        <TD width=3D"50%">
+          <LI><A =
+href=3D"http://www.rosoo.net/a/201003/8722.html">Linux=CF=C2=B5=C4=C2=BC=D2=
+=F4=B1=E0=B3=CC</A>=20
+          </LI></TD>
+        <TD width=3D"50%">
+          <LI><A href=3D"http://www.rosoo.net/a/200911/7597.html"><FONT=20
+          =
+color=3D#ff0000>DirectX=A3=BA=D2=F4=CA=D3=C6=B5=B2=A5=B7=C5=D7=A8=CC=E2</=
+FONT></A> </LI></TD></TR>
+      <TR>
+        <TD width=3D"50%">
+          <LI><A =
+href=3D"http://www.rosoo.net/a/200611/6291.html">WIN32=D2=F4=C6=B5=CA=FD=BE=
+=DD=B2=C9=BC=AF=20
+          WaveIn-Out=CA=B5=CF=D6</A> </LI></TD>
+        <TD width=3D"50%">
+          <LI><A=20
+          =
+href=3D"http://www.rosoo.net/a/200603/5713.html">=C8=E7=BA=CE=D3=C3=B3=CC=
+=D0=F2=BF=D8=D6=C6windows=B5=C4=C2=F3=BF=CB=B7=E7=B5=C4=BE=B2=D2=F4=BF=AA=
+=B9=D8</A>=20
+          </LI></TD></TR>
+      <TR>
+        <TD width=3D"50%">
+          <LI><A =
+href=3D"http://www.rosoo.net/a/200312/1058.html">=C0=FB=D3=C3Microsoft=20
+          =
+DirectSound=B4=A6=C0=ED=BA=CD=BD=E2=C2=EB=D2=F4=C6=B5Sample</A> =
+</LI></TD>
+        <TD width=3D"50%">
+          <LI><A=20
+          =
+href=3D"http://www.rosoo.net/a/200312/1056.html">=D4=D3=CF=EE=D4=B4=B4=FA=
+=C2=EB:DSound_demo</A>=20
+          </LI></TD></TR>
+      <TR>
+        <TD width=3D"50%">
+          <LI><A=20
+          =
+href=3D"http://www.rosoo.net/a/200312/1055.html">=D4=D3=CF=EE=D4=B4=B4=FA=
+=C2=EB:DSound_src</A>=20
+          </LI></TD>
+        <TD =
+width=3D"50%"></TD></TR></TBODY></TABLE></UL></DD></DL></DIV><!--related =
+archives--></DIV><!-- /viewbox --><!-- //AJAX=C6=C0=C2=DB=C7=F8 --><!-- =
+//=D6=F7=C4=A3=B0=E5=B1=D8=D0=EB=D2=AA=D2=FD=C8=EB/include/dedeajax2.js =
+--><A=20
+name=3Dpostform></A>
+<DIV class=3Dmt1>
+<DL class=3Dtbox>
+  <DT><STRONG>=B7=A2=B1=ED=C6=C0=C2=DB</STRONG> <SPAN =
+class=3Dmore></SPAN></DT>
+  <DD>
+  <DIV class=3Ddede_comment_post>
+  <FORM method=3Dpost name=3Dfeedback action=3D#><INPUT value=3Dsend =
+type=3Dhidden=20
+  name=3Ddopost> <INPUT value=3Dcomments type=3Dhidden name=3Dcomtype> =
+<INPUT=20
+  value=3D10384 type=3Dhidden name=3Daid> <INPUT id=3Dfeedbackfid =
+value=3D0 type=3Dhidden=20
+  name=3Dfid>=20
+  <DIV =
+class=3Ddcmp-title><SMALL>=C7=EB=D7=D4=BE=F5=D7=F1=CA=D8=BB=A5=C1=AA=CD=F8=
+=CF=E0=B9=D8=B5=C4=D5=FE=B2=DF=B7=A8=B9=E6=A3=AC=D1=CF=BD=FB=B7=A2=B2=BC=C9=
+=AB=C7=E9=A1=A2=B1=A9=C1=A6=A1=A2=B7=B4=B6=AF=B5=C4=D1=D4=C2=DB=A1=A3</SM=
+ALL> </DIV><!-- /dcmp-title -->
+  <DIV class=3Ddcmp-stand><STRONG>=C6=C0=BC=DB:</STRONG> <INPUT =
+id=3Ddcmp-stand-neu=20
+  value=3Dfeedback CHECKED type=3Dradio name=3Dfeedbacktype><LABEL=20
+  for=3Ddcmp-stand-neu><IMG=20
+  =
+src=3D"http://www.rosoo.net/templets/images/cmt-neu.gif">=D6=D0=C1=A2</LA=
+BEL> <INPUT=20
+  id=3Ddcmp-stand-good value=3Dgood type=3Dradio =
+name=3Dfeedbacktype><LABEL=20
+  for=3Ddcmp-stand-good><IMG=20
+  =
+src=3D"http://www.rosoo.net/templets/images/cmt-good.gif">=BA=C3=C6=C0</L=
+ABEL> <INPUT=20
+  id=3Ddcmp-stand-bad value=3Dbad type=3Dradio =
+name=3Dfeedbacktype><LABEL=20
+  for=3Ddcmp-stand-bad><IMG=20
+  =
+src=3D"http://www.rosoo.net/templets/images/cmt-bad.gif">=B2=EE=C6=C0</LA=
+BEL> </DIV><!-- /dcmp-stand -->
+  <DIV class=3Ddcmp-content><TEXTAREA class=3Dipt-txt rows=3D5 cols=3D60 =
+name=3Dmsg></TEXTAREA>=20
+  </DIV><!-- /dcmp-content -->
+  <DIV class=3Ddcmp-mood><STRONG>=B1=ED=C7=E9:</STRONG>=20
+  <UL>
+    <LI><INPUT value=3D6 CHECKED type=3Dradio name=3Dface><IMG=20
+    src=3D"http://www.rosoo.net/templets/images/mood/ico-mood-6.gif"> =
+</LI>
+    <LI><INPUT value=3D4 type=3Dradio name=3Dface><IMG=20
+    src=3D"http://www.rosoo.net/templets/images/mood/ico-mood-4.gif"> =
+</LI>
+    <LI><INPUT value=3D3 type=3Dradio name=3Dface><IMG=20
+    src=3D"http://www.rosoo.net/templets/images/mood/ico-mood-3.gif"> =
+</LI>
+    <LI><INPUT value=3D5 type=3Dradio name=3Dface><IMG=20
+    src=3D"http://www.rosoo.net/templets/images/mood/ico-mood-5.gif"> =
+</LI>
+    <LI><INPUT value=3D2 type=3Dradio name=3Dface><IMG=20
+    src=3D"http://www.rosoo.net/templets/images/mood/ico-mood-2.gif"> =
+</LI>
+    <LI><INPUT value=3D1 type=3Dradio name=3Dface><IMG=20
+    src=3D"http://www.rosoo.net/templets/images/mood/ico-mood-1.gif"> =
+</LI>
+    <LI><INPUT value=3D7 type=3Dradio name=3Dface><IMG=20
+    src=3D"http://www.rosoo.net/templets/images/mood/ico-mood-7.gif">=20
+  </LI></UL></DIV><!-- /dcmp-mood -->
+  <DIV class=3Ddcmp-post><!--=CE=B4=B5=C7=C2=BD-->
+  <DIV id=3D_ajax_feedback =
+class=3Ddcmp-userinfo>=D3=C3=BB=A7=C3=FB:<INPUT class=3Dipt-txt =
+size=3D16=20
+  name=3Dusername>=C3=DC=C2=EB:<INPUT class=3Dipt-txt size=3D16 =
+type=3Dpassword name=3Dpwd>=20
+  =D1=E9=D6=A4=C2=EB:<INPUT class=3Dipt-txt size=3D4 =
+name=3Dvalidate><IMG style=3D"CURSOR: pointer"=20
+  id=3Dvalidateimg title=3D=B5=E3=BB=F7=CE=D2=B8=FC=BB=BB=CD=BC=C6=AC =
+onclick=3D"this.src=3Dthis.src+'?'" =
+alt=3D=B5=E3=BB=F7=CE=D2=B8=FC=BB=BB=CD=BC=C6=AC=20
+  src=3D"http://www.rosoo.net/include/vdimgck.php"> <INPUT =
+id=3Ddcmp-submit-guest=20
+  type=3Dcheckbox name=3Dnotuser><LABEL =
+for=3Ddcmp-submit-guest>=C4=E4=C3=FB? </LABEL></DIV>
+  <SCRIPT language=3Djavascript =
+type=3Dtext/javascript>CheckLogin();</SCRIPT>
+
+  <DIV class=3Ddcmp-submit><BUTTON =
+onclick=3DPostComment()>=B7=A2=B1=ED=C6=C0=C2=DB</BUTTON>=20
+  </DIV></DIV></FORM></DIV></DD></DL></DIV><!-- =
+//=C6=C0=C2=DB=B1=ED=B5=A5=C7=F8=BD=E1=CA=F8 --><!-- =
+//=C6=C0=C2=DB=C4=DA=C8=DD=C7=F8 --><A=20
+name=3Dcommettop></A>
+<DIV class=3Dmt1>
+<DL class=3Dtbox>
+  <DT><STRONG>=D7=EE=D0=C2=C6=C0=C2=DB</STRONG> <SPAN class=3Dmore><A=20
+  =
+href=3D"http://www.rosoo.net/plus/feedback.php?aid=3D10384">=BD=F8=C8=EB=CF=
+=EA=CF=B8=C6=C0=C2=DB=D2=B3&gt;&gt;</A></SPAN>=20
+<!-- =
+//=D5=E2=C1=BD=B8=F6ID=B5=C4=C7=F8=BF=E9=B1=D8=D0=EB=B4=E6=D4=DA=A3=AC=B7=
+=F1=D4=F2JS=BB=E1=B3=F6=B4=ED --></DT>
+  <DD id=3DcommetcontentNew></DD>
+  <DD id=3Dcommetcontent></DD></DL></DIV><!--=0A=
+//=D3=C9=D3=DA=C6=C0=C2=DB=D4=D8=C8=EB=CA=B1=CA=B9=D3=C3=D2=EC=B2=BD=B4=AB=
+=CA=E4=A3=AC=D2=F2=B4=CB=B1=D8=D0=EB=D4=DA=D7=EE=BA=F3=D2=BB=B2=BD=BC=D3=D4=
+=D8=A3=A8DIGG=BA=CD=C6=C0=C2=DB=BF=F2=D0=EB=B7=C5=D4=DA=C6=C0=C2=DB=C4=DA=
+=C8=DD=C7=B0=C3=E6=A3=A9=0A=
+//=C8=E7=B9=FB=D2=BB=B6=A8=D0=E8=D2=AA=CC=E1=C7=B0=B5=C4=B0=D1myajax.Send=
+Get=B8=C4=CE=AAmyajax.SendGet2=A3=AC=B5=AB=BF=C9=C4=DC=BB=E1=D2=FD=C6=F0=D2=
+=B3=C3=E6=D7=E8=D6=CD=0A=
+-->
+<SCRIPT language=3Djavascript>=0A=
+function LoadCommets(page)=0A=
+{=0A=
+		var taget_obj =3D document.getElementById('commetcontent');=0A=
+		var waithtml =3D "<div style=3D'line-height:50px'><img =
+src=3D'/images/loadinglit.gif' =
+/>=C6=C0=C2=DB=BC=D3=D4=D8=D6=D0...</div>";=0A=
+		var myajax =3D new DedeAjax(taget_obj, true, true, '', 'x', waithtml);=0A=
+		=
+myajax.SendGet2("/plus/feedback_ajax.php?dopost=3Dgetlist&aid=3D10384&pag=
+e=3D"+page);=0A=
+		DedeXHTTP =3D null;=0A=
+}=0A=
+function PostComment()=0A=
+{=0A=
+		var f =3D document.feedback;=0A=
+		var nface =3D '6';=0A=
+		var nfeedbacktype =3D 'feedback';=0A=
+		var nvalidate =3D '';=0A=
+		var nnotuser =3D '';=0A=
+		var nusername =3D '';=0A=
+		var npwd =3D '';=0A=
+		var taget_obj =3D $DE('commetcontentNew');=0A=
+		var waithtml =3D "<div style=3D'line-height:30px'><img =
+src=3D'/images/loadinglit.gif' =
+/>=D5=FD=D4=DA=B7=A2=CB=CD=D6=D0...</div>";=0A=
+		if(f.msg.value=3D=3D'')=0A=
+		{=0A=
+			alert("=C6=C0=C2=DB=C4=DA=C8=DD=B2=BB=C4=DC=CE=AA=BF=D5=A3=A1");=0A=
+			return;=0A=
+		}=0A=
+		if(f.validate)=0A=
+		{=0A=
+			if(f.validate.value=3D=3D'') {=0A=
+				alert("=C7=EB=CC=EE=D0=B4=D1=E9=D6=A4=C2=EB=A3=A1");=0A=
+				return;=0A=
+			}=0A=
+			else {=0A=
+				nvalidate =3D f.validate.value;=0A=
+			}=0A=
+		}=0A=
+		if(f.msg.value.length > 2000)=0A=
+		{=0A=
+			=
+alert("=C4=E3=B5=C4=C6=C0=C2=DB=CA=C7=B2=BB=CA=C7=CC=AB=B3=A4=C1=CB=A3=BF=
+=C7=EB=CC=EE=D0=B42000=D7=D6=D2=D4=C4=DA=B5=C4=C6=C0=C2=DB=A1=A3");=0A=
+			return;=0A=
+		}=0A=
+		if(f.feedbacktype) {=0A=
+			for(var i=3D0; i < f.feedbacktype.length; i++)=0A=
+				if(f.feedbacktype[i].checked) nfeedbacktype =3D =
+f.feedbacktype[i].value;=0A=
+		}=0A=
+		if(f.face) {=0A=
+			for(var j=3D0; j < f.face.length; j++)=0A=
+				if(f.face[j].checked) nface =3D f.face[j].value;=0A=
+		}=0A=
+		if(f.notuser.checked) nnotuser =3D '1';=0A=
+		if(f.username) nusername =3D f.username.value;=0A=
+		if(f.pwd) npwd =3D f.pwd.value;=0A=
+		=0A=
+		var myajax =3D new DedeAjax(taget_obj, false, true, '', '', waithtml);=0A=
+		myajax.sendlang =3D 'gb2312';=0A=
+		myajax.AddKeyN('dopost', 'send');=0A=
+		myajax.AddKeyN('aid', '10384');=0A=
+		myajax.AddKeyN('fid', f.fid.value);=0A=
+		myajax.AddKeyN('face', nface);=0A=
+		myajax.AddKeyN('feedbacktype', nfeedbacktype);=0A=
+		myajax.AddKeyN('validate', nvalidate);=0A=
+		myajax.AddKeyN('notuser', nnotuser);=0A=
+		myajax.AddKeyN('username', nusername);=0A=
+		myajax.AddKeyN('pwd', npwd);=0A=
+		myajax.AddKeyN('msg', f.msg.value);=0A=
+		myajax.SendPost2('/plus/feedback_ajax.php');=0A=
+		f.msg.value =3D '';=0A=
+		f.fid.value =3D 0;=0A=
+		if(f.validate)=0A=
+		{=0A=
+			if($DE('validateimg')) $DE('validateimg').src =3D =
+"/include/vdimgck.php?"+f.validate.value;=0A=
+			f.validate.value =3D '';=0A=
+		}=0A=
+}=0A=
+function quoteCommet(fid)=0A=
+{=0A=
+	document.feedback.fid.value =3D fid;=0A=
+}=0A=
+LoadCommets(1);=0A=
+</SCRIPT>
+<!-- //=C6=C0=C2=DB=C4=DA=C8=DD=C7=F8=BD=E1=CA=F8 --></DIV><!-- =
+//=D7=F3=B1=DF=C4=DA=C8=DD=BD=E1=CA=F8 --><!-- =
+//=D3=D2=B1=DF=C4=DA=C8=DD=BF=AA=CA=BC -->
+<DIV class=3Dpright>
+<DIV class=3D"commend mt1">
+<DL class=3D"tbox light">
+  <DT class=3Dlight><STRONG>=CD=C6=BC=F6=C4=DA=C8=DD</STRONG> </DT>
+  <DD class=3Dlight>
+  <UL class=3Dd4>
+    <LI><A=20
+    =
+href=3D"http://www.rosoo.net/a/201011/10385.html">directshow=D7=A5=C8=A1=C9=
+=E3=CF=F1=CD=B7=CA=FD=BE=DD=B5=C4=B7=E2=D7=B0=C0=E0</A>=20
+    =
+<P>=CE=AA=C1=CB=B7=BD=B1=E3=BF=AA=B7=A2=C8=CB=D4=B1=CA=B9=D3=C3directshow=
+=B5=C4=B7=BD=B1=E3=B9=A6=C4=DC=A3=AC=CE=D2=D3=D6=D6=D8=D0=C2=B7=E2=D7=B0=C1=
+=CB=D2=BB=CF=C2=A3=AC=B4=FA=C2=EB=D2=B2=B8=C4=C1=CB=D2=BB=D0=A9=A3=AC=D0=DE=
+...</P></LI>
+    <LI><A=20
+    =
+href=3D"http://www.rosoo.net/a/201011/10384.html">DirectSound=D7=A5=C8=A1=
+=C2=F3=BF=CB=B7=E7PCM=CA=FD=BE=DD=B7=E2=D7=B0=C0=E0</A>=20
+
+    =
+<P>=D4=DA=D5=E2=C0=EF=B7=A2=B2=BC=D2=BB=B8=F6=CE=D2=D7=D4=BC=BA=D0=B4=B5=C4=
+directsound=B5=C4=C2=F3=BF=CB=B7=E7PCM=CA=FD=BE=DD=B2=C9=BC=AF=C0=E0=A3=AC=
+=CD=A8=B9=FD=CB=FC=A3=AC=BF=C9=D2=D4=BA=DC=B7=BD=B1=E3=B5=C4=C0=FB...</P>=
+</LI>
+    <LI><A =
+href=3D"http://www.rosoo.net/a/201008/9987.html">=D4=DAD3D=BB=B7=BE=B3=CF=
+=C2=BD=F8=D0=D02D=CD=BC=D0=CE=BB=E6=D6=C6</A>=20
+    =
+<P>=C2=E4=BA=D7=C9=FA=A3=BA=D5=E2=CA=C7=D2=BB=B8=F6D3DImage=B7=E2=D7=B0=C0=
+=E0=B5=C4=CD=EA=D5=FB=B4=FA=C2=EB=A1=A3=D5=E2=B8=F6=C0=E0=CA=C7=CA=C7=D3=C3=
+=C0=B4=D4=D8=C8=EB=CD=BC=C6=AC=A3=AC=D4=DAD3D=BB=B7=BE=B3=CF=C2=BD=F8...<=
+/P></LI>
+    <LI><A=20
+    =
+href=3D"http://www.rosoo.net/a/201008/9974.html">=D4=DAvs2005=CF=C2=B5=C4=
+=B5=DA=D2=BB=B8=F6OpenGL=B3=CC=D0=F2=A1=A3</A>=20
+    =
+<P>GLUT=D4=DA=D1=A7=CF=B0=B5=C4=BF=AA=CA=BC=CA=B1=C6=DA=BB=E1=B8=F8=B2=E9=
+=B4=ED=B4=F8=C0=B4=B7=BD=B1=E3=A3=AC=D2=F2=B4=CB=CA=B9=D3=C3GLUT=A3=AC=B2=
+=A2=C7=D2=B4=F2=BF=AA=C3=FC=C1=EE=D0=D0=CA=C7=B1=C8=BD=CF=BA=C3=B5=C4=D7=F6=
+=B7=A8...</P></LI>
+    <LI><A =
+href=3D"http://www.rosoo.net/a/201007/9882.html">WinCE5.0=CF=C2=D6=B1=BD=D3=
+=D0=B4=C6=C1=B2=D9=D7=F7=D3=EB=BA=AF=CA=FD=20
+    CreateDIBSect</A>=20
+    =
+<P>=D5=E2=B6=CE=CA=B1=BC=E4=D4=DA=D1=D0=BE=BF=D6=B1=BD=D3=D0=B4=C6=C1=B5=C4=
+=B7=BD=B7=A8.=B4=CB=CE=CA=CC=E2=B5=C4=C6=F0=D2=F2=CA=C7: =D4=DA =
+iMX31(WinCE 5.0)=C9=CF, =C6=C1=B5=C4=B7=D6=B1=E6=CE=AA: ...</P></LI>
+    <LI><A=20
+    =
+href=3D"http://www.rosoo.net/a/201006/9759.html">WM=C4=A3=C4=E2=C6=F7=C9=CF=
+DirectDraw=B5=C4BackBuffer=CE=CA=CC=E2=BD=E2=BE=F6=B7=BD</A>=20
+
+    <P>mobile sdk=20
+6.0=D6=D0=D7=D4=B4=F8=B5=C4DDraw=C0=FD=D7=D3=CA=B1=B7=A2=CF=D6=D4=DA=C4=A3=
+=C4=E2=C6=F7=C9=CF=C5=DC=B5=BD=B4=B4=BD=A8=BA=F3=B1=B8=BB=BA=B3=E5=CA=B1=D3=
+=C9=D3=DA=B2=BB=D6=A7=B3=D6DDSCA...</P></LI></UL></DD></DL></DIV><!-- =
+/commend -->
+<DIV class=3D"hot mt1">
+<SCRIPT language=3Djavascript=20
+src=3D"http://www.rosoo.net/ad/js_ad_250x250_100.js"></SCRIPT>
+</DIV>
+<DIV class=3D"hot mt1">
+<DL class=3D"tbox light">
+  <DT class=3Dlight><STRONG>=C8=C8=B5=E3=C4=DA=C8=DD</STRONG> </DT>
+  <DD class=3Dlight>
+  <UL class=3D"c1 ico2">
+    <LI><A =
+href=3D"http://www.rosoo.net/a/200604/6048.html">=BF=EC=CB=D9=B8=B5=C1=A2=
+=D2=B6=B1=E4=BB=BB=BC=B0=C6=E4=C4=E6=B1=E4=BB=BB(FFT=A1=A2</A>=20
+    </LI>
+    <LI><A=20
+    =
+href=3D"http://www.rosoo.net/a/200611/6376.html">=B9=D8=D3=DA24=CE=BB=C9=AB=
+bmp=D3=EB16=CE=BB=C9=ABbmp=B5=C4=CF=E0=BB=A5</A>=20
+</LI>
+    <LI><A href=3D"http://www.rosoo.net/a/200701/6512.html">24-bit RGB =
+bitmap to=20
+    YUV conve</A> </LI>
+    <LI><A =
+href=3D"http://www.rosoo.net/a/200512/817.html">YV12_to_RGB24=B5=C4=D4=B4=
+=B4=FA=C2=EB</A>=20
+    </LI>
+    <LI><A =
+href=3D"http://www.rosoo.net/a/200611/6425.html">=CC=F9=D2=BB=B8=F6CMemDC=
+ =B4=FA=C2=EB=A3=AC=D5=E2=B6=AB=CE=F7=D5=E6=B2=BB</A>=20
+    </LI>
+    <LI><A =
+href=3D"http://www.rosoo.net/a/200611/6304.html">=C7=EB=B4=F3=BC=D2=B7=D6=
+=CE=F6=D2=BB=CF=C2=CE=AA=CA=B2=C3=B4=D5=E2=B8=F6YUV420</A>=20
+    </LI>
+    <LI><A =
+href=3D"http://www.rosoo.net/a/200611/6424.html">=B9=D8=D3=DA=BA=A3=BF=B5=
+=CD=FE=CA=D3D1=CA=B5=CA=B1=CD=BC=CF=F1=C1=F7=B3=A9=B6=C8=B5=C4</A>=20
+    </LI>
+    <LI><A =
+href=3D"http://www.rosoo.net/a/200611/6377.html">=C8=E7=BA=CE=D4=DA=D2=BB=
+=B8=F6jpg=CD=BC=C6=AC=C9=CF=C3=E6=B5=FE=BC=D3=CE=C4=D7=D6</A>=20
+    </LI>
+    <LI><A href=3D"http://www.rosoo.net/a/200604/6041.html">How to =
+convert RGB565=20
+    to RGB24</A> </LI>
+    <LI><A =
+href=3D"http://www.rosoo.net/a/200512/386.html">DirectDraw=B4=FA=C2=EB=BC=
+=E6=C8=DD=D0=D4=CE=CA=CC=E2</A>=20
+    </LI></UL></DD></DL></DIV></DIV><!-- /pright --></DIV><!-- =
+//=B6=FE=BC=B6=D7=D3=C0=E0=CF=C2=C0=AD=B2=CB=B5=A5=A3=AC=BF=BC=C2=C7SEO=D4=
+=AD=D2=F2=B7=C5=D6=C3=D3=DA=B5=D7=B2=BF  -->
+<SCRIPT type=3Dtext/javascript=20
+src=3D"http://www.rosoo.net/images/js/dropdown.js"></SCRIPT>
+
+<UL id=3Ddropmenu1 class=3DdropMenu>
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_44_1.html">=D2=B5=BD=E7=B6=AF=CC=AC</=
+A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_53_1.html">=D2=F4=CA=D3=C6=B5=B1=E0=BD=
+=E2=C2=EB</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_45_1.html">=D2=F4=CA=D3=C6=B5=B2=A5=B7=
+=C5</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_51_1.html">=C1=F7=C3=BD=CC=E5=BF=AA=B7=
+=A2</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_46_1.html">=B9=E6=B7=B6=BC=B0=D0=AD=D2=
+=E9</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_48_1.html">=BD=E2=BE=F6=B7=BD=B0=B8</=
+A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_50_1.html">=B4=F3=D4=D3=BB=E2</A> =
+</LI></UL>
+<UL id=3Ddropmenu33 class=3DdropMenu>
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_34_1.html">=B9=CC=BC=FE=C7=FD=B6=AF=BF=
+=AA=B7=A2</A>=20
+  <LI><A href=3D"http://www.rosoo.net/a/list_35_1.html">Windows =
+Mobile</A>=20
+  <LI><A href=3D"http://www.rosoo.net/a/list_36_1.html">Symbian OS</A>=20
+  <LI><A href=3D"http://www.rosoo.net/a/list_37_1.html">Android</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_97_1.html">Apple=C6=BD=CC=A8=BF=AA=B7=
+=A2</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_38_1.html">=CA=D6=BB=FA=D3=A6=D3=C3=D7=
+=DB=BA=CF</A> </LI></UL>
+<UL id=3Ddropmenu18 class=3DdropMenu>
+  <LI><A href=3D"http://www.rosoo.net/a/list_100_1.html">C &amp; CPP</A> =
+
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_49_1.html">Linux=BF=AA=B7=A2</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_52_1.html">=B7=FE=CE=F1=C6=F7=C4=A3=D0=
+=CD</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_47_1.html">=D6=C7=C4=DC=CA=D3=C6=B5Op=
+enCV</A> </LI></UL>
+<UL id=3Ddropmenu8 class=3DdropMenu>
+  <LI><A href=3D"http://www.rosoo.net/a/list_21_1.html">MobileVOD</A>=20
+  <LI><A href=3D"http://www.rosoo.net/a/product/ezguard/">EzGuard</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/product/avtool/">AV=BF=AA=B7=A2=B9=A4=BE=DF=
+</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/product/utils/">=B3=A3=D3=C3=BF=D8=BC=FE</=
+A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/product/tools/">=B9=A4=BE=DF=C8=ED=BC=FE</=
+A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/product/others/">=C6=E4=CB=FB=D4=D3=CF=EE<=
+/A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/product/gameediter/">=CE=D2=B5=C4=D0=DE=B8=
+=C4=C6=F7</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_27_1.html">=BC=AA=CB=FB=C6=D7</A> =
+</LI></UL>
+<UL id=3Ddropmenu7 class=3DdropMenu>
+  <LI><A href=3D"http://www.rosoo.net/a/list_39_1.html">Soft.Eng</A>=20
+  <LI><A href=3D"http://www.rosoo.net/a/list_40_1.html">UML,RUP,SCM</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_42_1.html">=B0=B2=D7=B0=D6=C6=D7=F7</=
+A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_41_1.html">=BE=AD=B5=E4=D4=B4=C2=EB</=
+A> </LI></UL>
+<UL id=3Ddropmenu13 class=3DdropMenu>
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_17_1.html">=A1=BAVC++=A1=BB</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_20_1.html">=A1=BAJAVA=A1=BB</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_19_1.html">=A1=BADatabase=A1=BB</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_16_1.html">=A1=BAWeb=A1=BB</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_14_1.html">=A1=BADotNet=A1=BB</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_15_1.html">=A1=BAPC=B3=A3=CA=B6=A1=BB=
+</A> </LI></UL>
+<UL id=3Ddropmenu2 class=3DdropMenu>
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_54_1.html">=A1=BAERP&amp;CRM=A1=BB</A=
+>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_55_1.html">=A1=BA=CA=FD=BE=DD=CD=DA=BE=
+=F2=A1=BB</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_56_1.html">=A1=BACallCenter=A1=BB</A>=
+=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_57_1.html">=A1=BASMS=A1=BB</A> =
+</LI></UL>
+<UL id=3Ddropmenu101 class=3DdropMenu>
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_70_1.html">=A1=BA=BE=AD=C0=ED=C8=CB=CA=
+=D6=B2=E1=A1=BB</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_59_1.html">=A1=BA=B3=C9=B9=A6=D1=A7=A1=
+=BB</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_61_1.html">=A1=BA=C8=CB=C1=A6=D7=CA=D4=
+=B4=A1=BB</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_64_1.html">=A1=BA=B2=FA=C6=B7=D1=A7=A1=
+=BB</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_63_1.html">=A1=BA=CA=D0=B3=A1=D3=AA=CF=
+=FA=A1=BB</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_58_1.html">=A1=BA=BA=CF=CD=AC=BA=CF=D4=
+=BC=A1=BB</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_62_1.html">=A1=BA=B2=C6=CE=F1=CF=E0=B9=
+=D8=A1=BB</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_65_1.html">=A1=BA=B9=E6=D5=C2=D6=C6=B6=
+=C8=A1=BB</A> </LI></UL>
+<UL id=3Ddropmenu95 class=3DdropMenu>
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_43_1.html">=86=AA=C0=EF=86=AA=E0=C2</=
+A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_32_1.html">=BA=F0=C9=BD=CA=E9=BF=E2</=
+A>=20
+  <LI><A href=3D"http://www.rosoo.net/a/list_86_1.html">FilmReview</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_94_1.html">=D4=D3=C6=DF=D4=D3=B0=CB</=
+A> </LI></UL>
+<UL id=3Ddropmenu5 class=3DdropMenu>
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_89_1.html">=A1=BA=BD=C7=C9=AB=B0=E7=D1=
+=DD=A1=BB</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_93_1.html">=A1=BA=B2=DF=C2=D4=BB=D8=BA=
+=CF=A1=BB</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_92_1.html">=A1=BA=BC=B4=CA=B1=D5=BD=C2=
+=D4=A1=BB</A>=20
+  <LI><A =
+href=3D"http://www.rosoo.net/a/list_88_1.html">=A1=BA=CF=C2=D4=D8=C7=F8=A1=
+=BB</A> </LI></UL>
+<SCRIPT =
+type=3Dtext/javascript>cssdropdown.startchrome("navMenu")</SCRIPT>
+<!-- //=B5=D7=B2=BF=C4=A3=B0=E5 --><BR><!--PAGE BOTTOM START-->
+<DIV class=3D"footer w960 center mt1 clear">
+<TABLE style=3D"BORDER-COLLAPSE: collapse" border=3D1 cellSpacing=3D0=20
+borderColor=3D#b5cfff cellPadding=3D0 width=3D938 align=3Dcenter>
+  <TBODY>
+  <TR>
+    <TD colSpan=3D2>
+      <SCRIPT language=3Djavascript=20
+      src=3D"http://www.rosoo.net/js/catalog.js"></SCRIPT>
+    </TD></TR></TBODY></TABLE>
+<TABLE width=3D938 align=3Dcenter>
+  <TBODY>
+  <TR>
+    <TD align=3Dmiddle>
+      <SCRIPT =
+src=3D"http://www.rosoo.net/ad/js_ad_728x90_101.js"></SCRIPT>
+    </TD></TR>
+  <TR align=3Dmiddle>
+    <TD><BR>
+      <SCRIPT =
+src=3D"http://www.rosoo.net/js/some.rights.reserved.js"></SCRIPT>
+      <BR>
+      <SCRIPT type=3Dtext/javascript=20
+      src=3D"http://www.rosoo.net/js/stat.php?type=3D0"></SCRIPT>
+    </TD></TR></TBODY></TABLE><BR></DIV><!--PAGE BOTTOM END--><!-- =
+/footer -->
+<SCRIPT type=3Dtext/javascript=20
+src=3D"http://www.rosoo.net/js/rs_bottom.js"></SCRIPT>
+</BODY></HTML>
+
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.rosoo.net/templets/images/cmt-neu.gif
+
+R0lGODlhDQANAJEAAHtTAP/uy+7IhP///yH5BAEHAAMALAAAAAANAA0AAAIrnA95axAOWIMvLorv
+21CHD1oJIAjjF5HCU5adupLgM60zetmzhei0NFIYCgA7
+
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.rosoo.net/templets/images/cmt-good.gif
+
+R0lGODlhDQANAJEAAHtTAPTVnf/////uyyH5BAEHAAIALAAAAAANAA0AAAIqlAV5axAP2HFQohei
+pDn5iQ0iplGi912ByJ7NM6Cp2brqiYJrrTWyYigAADs=
+
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.rosoo.net/templets/images/cmt-bad.gif
+
+R0lGODlhDQANAJEAAHtSAPXWnv/////vzCH5BAEHAAIALAAAAAANAA0AAAIolICJZhAxogTMwaFo
+e7Jri2Uf10XjJW7k8ASnmzFHq8kVbd9PnSd5AQA7
+
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.rosoo.net/templets/images/mood/ico-mood-6.gif
+
+R0lGODlhEgASAMQAAEEeANTU1POPBo96ZP3PishrA//MALJfBP3EANezkP///9Guj8iAAP//eIhG
+Bv+wOppoOv//APDw8Lp9QOycOtLCr5yUjOSVAK+tq9d2EWkxAPiWC+Pj4/zXoP/mALBeGSH5BAEH
+AAoALAAAAAASABIAAAW6oCIqEvFsgkAR0ugq3YYgRm1cWfcqxGZ4wCBiU0i4Yr+MIJj5GIiVkc+T
+aTQEkUwk8kEIPi0CAri1boO1z0LxGHsiDVHjDERkJgpfoZDa+IkFHx8OAhoKAgYHOy8ahXmJHIsi
+HBoZhhQIDBYYAS0iEgEYFg4FEDwXFx+SChoFGmsKGRsMeDsaB66eHQWzHwkcEhwJtxkAUSMJfBcF
+DhoapAUAsC4VgkoCGa4axyPBoQMQzs8DnMCr5wohADs=
+
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.rosoo.net/templets/images/mood/ico-mood-4.gif
+
+R0lGODlhEgASAMQAAAAAAABa4e4pDFxcXPOflf///8IQAUZGRv9CAOewr3YxLP93ALy8vKSkpGkD
+AJyPjP9mAP+ZM+Pj4/9gQapFQf/Ed+xOOtcbBXR0dP+QAEEBANGSj/1gALAcGczMzOgzACH5BAEH
+AAUALAAAAAASABIAAAXJIIMVZGmWTEOOJDEJsEWUXlpjBIJwUI98FwKj0MAwUhgEZMHscQSNKGYg
+PVyWTGaEg3k8MIfD1ArJmDOL3mBcIIQ7iEylYm4KwpvC5KeskOgZET0CFxQFAj1lC350FWkQTw6H
+SwAAHYtyCx2VBgKSAjwIBQwAZwBDnReSFkoLogEACwABBZ0CBoYEHzxYTU4IqnkFF6CJPg6gt5Ik
+CcQckQ6XCIQaCSYbnToLERGEBhrCJgkdHcTeDg7WJhISHkUK6A4KGA0e7CQhADs=
+
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.rosoo.net/templets/images/mood/ico-mood-3.gif
+
+R0lGODlhEgASAMQAACUAAN7OyvmXDO2KC/9zULVmBcKslf/mAKwSEv/MAP//eGkxAP///5pzTf3E
+AP3Rj2kAAOycOuPAovvFiPDw8H9OGUEeANd2Bf+zQeeUAP//AP+wOk4AANuvhuPj4+axACH5BAEH
+AAwALAAAAAASABIAAAWwICMy1LMJwxBN1Ogyj+A4SZ1kl/Qyk5AcwKBDcOm4Yr+gMiEo6EQ+oGaq
+UToGhdbDAbRoFIpFFVgrGDHcA0MxGgMdlwYjeviKFO7DdcEYJKdgU0EJe302LxU2NRd8EVwDLwsf
+b1hyDxlXEBwcAACSB4sLBiIXKAiamwsZhFgLLQwSFwMIpwQECxdXFxZPIh2QLgsFFwUWoy8DASMB
+wgsLvSIUHszO1RUNBgEerzvdLyEAOw==
+
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.rosoo.net/templets/images/mood/ico-mood-5.gif
+
+R0lGODlhEgASAMQAAEIfAMzMzPmXDJ+AZP3RkNd2Ef/mAK5YEf/TAOa5kf///6JFCO6LC//MALGt
+q/+zQblySOycOv//d4w5Af+yAPbt582ZesJlAf//AI9aK9zDreeUANmti2oxAOPj4+KtACH5BAEH
+AAoALAAAAAASABIAAAWzoCIqVRIxjPAQ1eiWxUYhNEIJhCsekND8hqChgXNxDgegUIgokhaWAy2I
+qVaHAhFn4YE0DIWqRHItUHIZi8KyGRYaokahMHwoJiO6u6B4f5t3IxdCGGMYTAyBIhcIBkgHVY8I
+iRkcFRaMS0s2EWsTC2Y1mkMbORUdFww/NRStNAJ8IhoABQwUPxQjNxcaLhYAF7Wtua0XCToKGh2o
+tQwFSL0vHgEOAxnLHRkDDgEeLcjgyCEAOw==
+
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.rosoo.net/templets/images/mood/ico-mood-2.gif
+
+R0lGODlhEgASAMQAAEEeAABa4fiWC////+CICLZgDPPHlXjS/wAqaf/MALmvoqWnhqBCErNtQNjc
+4f3EADyk///xhGkxAP9zUNZ1D62MTtuvhnNjX/3PiuycOmkAAP/xANbOp3j///+5f/+zQSH5BAEH
+AAMALAAAAAASABIAAAW74CCKmCQIUmaMrGgIwJPMgECt7Qc/W0/bFhZGkOgZfQlBgTMi9iiCZ2H2
+IBRIvA3FAYlsDpDprBD8ZDsHkRdNpTQGTs4hQmEwJA9woiqBF8EUABqDEmgcfH4JaBSDdhoMHRAP
+FH0ZMpECjxMGE5AHVm8GBHkHGwIEFKlfEJQKIlAQEDM9XglgBX0uFAEHFzNUCxABAEwjFgUBARUP
+zATJCK4tHAgIFw2oAdTRLA4OChV3EhLVCt0t5+gjIQA7
+
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.rosoo.net/templets/images/mood/ico-mood-1.gif
+
+R0lGODlhEgASAMQAAEEeANra2v+wAI96ZP3Pit57C8RoAP+zQYZdMf/mAP/yptzBq/////OPBrCt
+q//MAP/6dP327//yTuycOrBeGfzmXv3EANuvhv//xdd2D/Dw8L+njGkxAP//APPHleiPCCH5BAEH
+AAwALAAAAAASABIAAAW5ICMyEXE06ORFY8t4jWA1yfN9mecyhPAkiowkKGkYLi2PLwEUEh/GhSjS
++CU6RGLC8qGwesxOB+MU1gQU5MEShjAyEO02M2BUw5gGA4K9fbgcdlAoDQp8HQkQihIfgR8PFYqL
+EhJMZxmBEwKWEgWenkxcBggvf0ydFakFlxwbJBlVD6iqD6IcLAwLBg0WsxUFAjgAUiMXBh++BRkG
+AK4uCxQUn54cHMQjGgEBDgMI1RwIAw7aGjvm5iEAOw==
+
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.rosoo.net/templets/images/mood/ico-mood-7.gif
+
+R0lGODlhEgASAMQAAAAAAOPj46+vr3p6elZWVkMBcmZmZqd7vczMzGMBqf///zMzM4yMjEZGRry8
+vERERIpPp3R0dPDw8KWlpZmZmd7e3sfHx7S0tNTU1FlZWfT09AAAAAAAAAAAAAAAAAAAACH5BAEH
+AAoALAAAAAASABIAAAWcoCKOzjQN1KiqpeMKZ7qKjuBYmFVPDDMrEwdmOCxNDDMXTsLMwXqrIEYi
+0kgwjh4hOrhiFFbN8LFVdQGAhrXSQF8eqwEGcEg02JAEAANXUTANCQV7AHoNFxErFXJtABZohw8I
+MwNyFjo7Bgs/DgYGAy4DBg8LEz8KAxMCGDAGBH2nBhEmDKOnKgQRurAzEgEIMBkPGaoIAVS3yQoh
+ADs=
+
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.rosoo.net/include/vdimgck.php
+
+/9j/4AAQSkZJRgABAQAAAQABAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcg
+SlBFRyB2NjIpLCBxdWFsaXR5ID0gOTAK/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwK
+DAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU/9sAQwEDBAQFBAUJBQUJFA0LDRQU
+FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU/8AAEQgAGAA0
+AwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMF
+BQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkq
+NDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqi
+o6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/E
+AB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMR
+BAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVG
+R0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKz
+tLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A
+/QjW/Gmm6N4YuNeVzqNhD1exKybvm28HOOD15qz4Y8QW/irQLLVbYFYblNwVuqnJBB+hBH4V4r8N
+db07SfC/ivwj4lvIrBIXkjBnOD8wKsFHUkFQ3HrXVfs7yXSeB7oXIItI7tzbytwCuBuxntnPPrmv
+kaWIdScV0aenZo+szDJKeCwteSvzQnG0ukoSV1bo31dj0ddb099UfTRewf2gihja+YPMwRnO3r0r
+C+I3xJ0f4XaJBqutef8AZZrhbVfs6B23FWbOCRxhTXgSeIbyXx23jwgjTV1ZYC567CpG3/v2MfjX
+nnxr8bXXjXxLZ29/qUqaDPqTSKkjEpBHlVDAdsIx6e9e7w9Cnm2ZU8JUT5ZN3tvypN3/AAseZxHk
+lXJcunjYTT5Yxvf+eTScfle/ofZ2reNdH0Dw3Dr2p3f2HTJURxLKjZG8ZUFQCc89K5fw78e/CXi3
+xHa6No893fz3BZRMlo6xLhS3zFgCM4x06kVgfFjxH4b+I/wZ8Sw+H9WstTNpbpcmO2lBeJY3VslO
+qjCkcisv9nTSfE+reF/Dusy+Ls6HbrJCuiR2SAYUvGA8gIJ6BuQe1fU0Mqwccqq43FXjUjJxUW2t
+eW8dFCTbeu7itNWjyqEKNTCuu5Xd7b6beSf5o93ooor4o4zD1LwP4f1jUPt17o9ndXfGZZYgS2Om
+fX8a1msbdrJrTyUW1ZDEYlG1dpGMADoMUUVCjFXaRvKvVmoxlNtR21enp2OR1j4V6ReeC7vw7p6D
+TLeaUXCOAZNkmQc8nJ4GOvSmeE/hTo+j+E4NH1bT7DWmV3eR7m2WRWZj2DA44Cj8KKKIQVKoqtPS
+SVrrQ6auYYmvh5YWrNyhKXM09bu1rtvUu6P8K/Cfh+HVotN0O2sodVh+z3kcO5Vljww24zgDDN0x
+1+lbHh/w3pnhTTU0/SLKKwskJZYYhgZPU0UV2VMVXrJqpUbTs3dt3aVl9y0XkebCKpw9nBWj2W33
+GlRRRXMUf//Z
+
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.rosoo.net/a/201011/layout.css
+
+.tbox {
+	BORDER-BOTTOM: #dff2f5 1px solid; MARGIN: 0px 0px 8px; BACKGROUND: =
+url(../images/fl-bg.gif) repeat-x 0px 0px; OVERFLOW: hidden
+}
+.tbox DT {
+	BORDER-BOTTOM: #dff2f5 1px solid; BORDER-LEFT: #dff2f5 1px solid; =
+HEIGHT: 25px; CLEAR: both; OVERFLOW: hidden; BORDER-TOP: #dff2f5 1px =
+solid; BORDER-RIGHT: #dff2f5 1px solid
+}
+.tbox DD {
+	BORDER-LEFT: #dff2f5 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 4px; =
+PADDING-RIGHT: 4px; OVERFLOW: hidden; BORDER-RIGHT: #dff2f5 1px solid; =
+PADDING-TOP: 4px
+}
+.tbox DT STRONG {
+	LINE-HEIGHT: 25px; PADDING-LEFT: 22px; PADDING-RIGHT: 4px; DISPLAY: =
+block; BACKGROUND: url(../images/fbico.gif) no-repeat 5px 6px; FLOAT: =
+left; LETTER-SPACING: 1px; HEIGHT: 26px; COLOR: #397cbe
+}
+.tbox DT STRONG A {
+	COLOR: #397cbe
+}
+.tbox DT STRONG A:hover {
+	COLOR: #4c94f6; TEXT-DECORATION: none
+}
+.tbox DT SPAN.more {
+	POSITION: relative; LINE-HEIGHT: 26px; PADDING-RIGHT: 8px; FLOAT: =
+right; COLOR: #397cbe
+}
+.tbox DT SPAN.more A {
+	COLOR: #397cbe; TEXT-DECORATION: none
+}
+.tbox DT SPAN.more A:hover {
+	COLOR: #333
+}
+.tbox DT SPAN.label {
+	PADDING-RIGHT: 1px; FLOAT: right; HEIGHT: 24px; OVERFLOW: hidden; =
+PADDING-TOP: 2px
+}
+.tbox DT SPAN.label A {
+	BORDER-LEFT: #bfe0f9 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 23px; =
+PADDING-LEFT: 8px; PADDING-RIGHT: 7px; DISPLAY: block; FLOAT: left; =
+LETTER-SPACING: 1px; HEIGHT: 25px; COLOR: #666; OVERFLOW: hidden; =
+TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.tbox DT SPAN.label A:hover {
+	COLOR: #360
+}
+.tbox DT SPAN.label A.thisclass {
+	BACKGROUND: #fff; COLOR: #333; BORDER-TOP: #bfe0f9 3px solid
+}
+.light {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: =
+none; BACKGROUND: none transparent scroll repeat 0% 0%; =
+BORDER-LEFT-STYLE: none
+}
+.light DT {
+	BORDER-BOTTOM: #bfe0f9 1px solid; BORDER-LEFT: #bfe0f9 1px solid; =
+BACKGROUND: url(../images/fr-bg2.gif) repeat-x 0px 0px; HEIGHT: 25px; =
+CLEAR: both; OVERFLOW: hidden; BORDER-TOP: #bfe0f9 1px solid; =
+BORDER-RIGHT: #bfe0f9 1px solid
+}
+.light DD {
+	BORDER-BOTTOM: #bfe0f9 1px solid; BORDER-LEFT: #bfe0f9 1px solid; =
+PADDING-BOTTOM: 0px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; OVERFLOW: =
+hidden; BORDER-RIGHT: #bfe0f9 1px solid; PADDING-TOP: 4px
+}
+DT.light STRONG {
+	BACKGROUND: url(../images/fbico2.gif) no-repeat 5px 5px
+}
+.c1 {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; CLEAR: =
+right; PADDING-TOP: 4px
+}
+.c1 LI {
+	LINE-HEIGHT: 27px; PADDING-LEFT: 16px; BACKGROUND: =
+url(../images/ico-2.gif) no-repeat 7px 11px; HEIGHT: 27px; OVERFLOW: =
+hidden
+}
+.c1 A {
+=09
+}
+.c2 {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: =
+0px; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 4px
+}
+.c2 LI {
+	LINE-HEIGHT: 27px; PADDING-LEFT: 16px; WIDTH: 44%; BACKGROUND: =
+url(../images/ico-2.gif) no-repeat 7px 11px; FLOAT: left; HEIGHT: 27px; =
+OVERFLOW: hidden; MARGIN-RIGHT: 1%
+}
+.d1 {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 4px
+}
+.d1 LI {
+	LINE-HEIGHT: 27px; HEIGHT: 27px; OVERFLOW: hidden
+}
+.d1 LI SPAN {
+	FLOAT: left; COLOR: #777; MARGIN-RIGHT: 5px
+}
+.d1 LI A {
+=09
+}
+.d2 {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 4px
+}
+.d2 LI {
+	LINE-HEIGHT: 27px; HEIGHT: 27px; OVERFLOW: hidden
+}
+.d2 LI SPAN {
+	PADDING-RIGHT: 10px; FLOAT: right; COLOR: #777; MARGIN-LEFT: 10px
+}
+.d2 LI A {
+	OVERFLOW: hidden
+}
+.d4 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 0px
+}
+.d4 LI {
+	BORDER-BOTTOM: #dcebd7 1px dashed; PADDING-BOTTOM: 4px; PADDING-LEFT: =
+8px; PADDING-RIGHT: 8px; HEIGHT: 60px; OVERFLOW: hidden; PADDING-TOP: =
+4px
+}
+.d4 LI A {
+	LINE-HEIGHT: 23px; TEXT-INDENT: 14px; DISPLAY: block; BACKGROUND: =
+url(../images/ico-3.gif) no-repeat 4px 9px; OVERFLOW: hidden
+}
+.d4 LI P {
+	LINE-HEIGHT: 17px; HEIGHT: 33px; COLOR: #888; OVERFLOW: hidden
+}
+.d5 {
+	BORDER-BOTTOM: #eee 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; =
+PADDING-RIGHT: 8px; PADDING-TOP: 8px
+}
+.d5 LI {
+	LINE-HEIGHT: 41px; PADDING-LEFT: 16px; BACKGROUND: =
+url(../images/ico-2.gif) no-repeat 2px 17px; HEIGHT: 41px
+}
+.d5 LI A {
+	FONT-SIZE: 14px
+}
+.d5 LI SPAN {
+	COLOR: #777; MARGIN-LEFT: 10px
+}
+.e1 {
+	PADDING-BOTTOM: 8px; WIDTH: 100%; CLEAR: both; OVERFLOW: hidden; =
+PADDING-TOP: 10px
+}
+.e1 LI {
+	TEXT-ALIGN: center; PADDING-LEFT: 12px; WIDTH: 126px; FLOAT: left; =
+OVERFLOW: hidden
+}
+.e1 LI A {
+	DISPLAY: block
+}
+.e1 LI A:hover IMG {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; =
+PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BORDER-TOP: =
+#999 1px solid; BORDER-RIGHT: #999 1px solid; PADDING-TOP: 2px
+}
+.e1 LI A IMG {
+	BORDER-BOTTOM: #e3e3e3 1px solid; BORDER-LEFT: #e3e3e3 1px solid; =
+PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; WIDTH: 120px; PADDING-RIGHT: =
+2px; DISPLAY: block; HEIGHT: 90px; BORDER-TOP: #e3e3e3 1px solid; =
+BORDER-RIGHT: #e3e3e3 1px solid; PADDING-TOP: 2px
+}
+.e1 LI A SPAN {
+	LINE-HEIGHT: 17px; DISPLAY: block; PADDING-TOP: 6px
+}
+.e1 LI SPAN {
+=09
+}
+.e2 {
+=09
+}
+.e2 LI {
+	BORDER-BOTTOM: #eee 1px solid; PADDING-BOTTOM: 12px; PADDING-LEFT: 0px; =
+WIDTH: 100%; PADDING-RIGHT: 0px; CLEAR: both; OVERFLOW: hidden; =
+PADDING-TOP: 12px
+}
+.e2 LI A.preview {
+	WIDTH: 84px; DISPLAY: inline; MARGIN-BOTTOM: 3px; FLOAT: left; =
+MARGIN-LEFT: 10px; MARGIN-RIGHT: 7px
+}
+.e2 LI A.preview IMG {
+	BORDER-BOTTOM: #eee 1px solid; BORDER-LEFT: #eee 1px solid; =
+PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; WIDTH: 80px; PADDING-RIGHT: 1px; =
+DISPLAY: block; BORDER-TOP: #eee 1px solid; BORDER-RIGHT: #eee 1px =
+solid; PADDING-TOP: 1px
+}
+.e2 LI A.preview:hover IMG {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; BORDER-TOP: =
+#aaa 1px solid; BORDER-RIGHT: #aaa 1px solid
+}
+.e2 LI A.title {
+	LINE-HEIGHT: 25px; MARGIN-LEFT: 2px; FONT-SIZE: 14px; OVERFLOW: hidden; =
+FONT-WEIGHT: bold
+}
+.e2 SPAN.info {
+	LINE-HEIGHT: 23px; PADDING-LEFT: 12px; DISPLAY: block; COLOR: #555
+}
+.e2 SPAN.info SMALL {
+	COLOR: #aaa; MARGIN-LEFT: 3px; FONT-SIZE: 12px
+}
+.e2 SPAN.info A {
+	COLOR: #690
+}
+.e2 P.intro {
+	LINE-HEIGHT: 20px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; COLOR: =
+#776955; MARGIN-LEFT: 5px
+}
+.e3 {
+	CLEAR: both; OVERFLOW: hidden
+}
+.e3 LI {
+	BORDER-BOTTOM: #dcebd7 1px dashed; PADDING-BOTTOM: 6px; PADDING-LEFT: =
+6px; PADDING-RIGHT: 6px; HEIGHT: 50px; OVERFLOW: hidden; PADDING-TOP: =
+6px
+}
+.e3 LI A.preview {
+	WIDTH: 58px; DISPLAY: block; FLOAT: left; HEIGHT: 48px; OVERFLOW: =
+hidden; MARGIN-RIGHT: 6px
+}
+.e3 LI A.preview IMG {
+	WIDTH: 58px; HEIGHT: 48px
+}
+.e3 LI A.title {
+	LINE-HEIGHT: 21px; DISPLAY: block; HEIGHT: 21px; OVERFLOW: hidden
+}
+.e3 LI .intro {
+	LINE-HEIGHT: 23px; DISPLAY: block; FLOAT: left; COLOR: #777
+}
+.e5 {
+	LINE-HEIGHT: 0px; PADDING-LEFT: 8px; WIDTH: 112px; FLOAT: left; =
+FONT-SIZE: 0px
+}
+.e5 LI {
+	WIDTH: 104px; DISPLAY: block; OVERFLOW: hidden; PADDING-TOP: 8px
+}
+.e6 {
+	PADDING-LEFT: 6px; HEIGHT: 81px; CLEAR: both; OVERFLOW: hidden
+}
+.e6 LI {
+	WIDTH: 104px; PADDING-RIGHT: 8px; DISPLAY: block; FLOAT: left; =
+OVERFLOW: hidden; PADDING-TOP: 8px
+}
+.e5 LI A {
+	BORDER-BOTTOM: #676767 1px solid; BORDER-LEFT: #676767 1px solid; =
+WIDTH: 102px; DISPLAY: block; HEIGHT: 70px; OVERFLOW: hidden; =
+BORDER-TOP: #676767 1px solid; BORDER-RIGHT: #676767 1px solid
+}
+.e6 LI A {
+	BORDER-BOTTOM: #676767 1px solid; BORDER-LEFT: #676767 1px solid; =
+WIDTH: 102px; DISPLAY: block; HEIGHT: 70px; OVERFLOW: hidden; =
+BORDER-TOP: #676767 1px solid; BORDER-RIGHT: #676767 1px solid
+}
+.e5 LI A IMG {
+	WIDTH: 102px; DISPLAY: block; HEIGHT: 70px
+}
+.e6 LI A IMG {
+	WIDTH: 102px; DISPLAY: block; HEIGHT: 70px
+}
+.e5 LI A:hover {
+	BORDER-BOTTOM: #333 1px solid; BORDER-LEFT: #333 1px solid; BORDER-TOP: =
+#333 1px solid; BORDER-RIGHT: #333 1px solid
+}
+.e6 LI A:hover {
+	BORDER-BOTTOM: #333 1px solid; BORDER-LEFT: #333 1px solid; BORDER-TOP: =
+#333 1px solid; BORDER-RIGHT: #333 1px solid
+}
+.e7 {
+	CLEAR: both; OVERFLOW: hidden
+}
+.e7 LI {
+	PADDING-LEFT: 11px; WIDTH: 60px; FLOAT: left; HEIGHT: 86px; OVERFLOW: =
+hidden
+}
+.e7 LI A {
+	TEXT-ALIGN: center; MARGIN: 0px auto; DISPLAY: block
+}
+.e7 LI A IMG {
+	BORDER-BOTTOM: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; =
+PADDING-BOTTOM: 2px; MARGIN: 0px auto 6px; PADDING-LEFT: 2px; WIDTH: =
+52px; PADDING-RIGHT: 2px; DISPLAY: block; HEIGHT: 52px; BORDER-TOP: #ddd =
+1px solid; BORDER-RIGHT: #ddd 1px solid; PADDING-TOP: 2px
+}
+.e7 LI A:hover IMG {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; BORDER-TOP: =
+#aaa 1px solid; BORDER-RIGHT: #aaa 1px solid
+}
+.e8 {
+	MARGIN-TOP: 16px; WIDTH: 100%; MARGIN-LEFT: 12px; CLEAR: both; =
+OVERFLOW: hidden
+}
+.e8 LI {
+	TEXT-ALIGN: center; WIDTH: 168px; DISPLAY: block; FLOAT: left; HEIGHT: =
+184px; OVERFLOW: hidden; MARGIN-RIGHT: 8px
+}
+.e8 LI .pic {
+	TEXT-ALIGN: left; WIDTH: 160px; DISPLAY: block; BACKGROUND: =
+url(../images/picbox-listbg.gif) no-repeat; HEIGHT: 120px; OVERFLOW: =
+hidden
+}
+.e8 LI .pic IMG {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; MARGIN-TOP: 3px; =
+WIDTH: 152px; DISPLAY: block; BORDER-TOP-STYLE: none; HEIGHT: 112px; =
+MARGIN-LEFT: 3px; BORDER-LEFT-STYLE: none
+}
+.e8 LI .title {
+	LINE-HEIGHT: 31px; DISPLAY: block; HEIGHT: 31px; OVERFLOW: hidden; =
+FONT-WEIGHT: bold
+}
+.e8 LI .date {
+	COLOR: #666
+}
+.e8 LI .date SMALL {
+	LINE-HEIGHT: 17px; COLOR: #999; FONT-SIZE: 12px
+}
+.e9 {
+	WIDTH: 100%; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 4px
+}
+.e9 LI {
+	TEXT-ALIGN: center; WIDTH: 106px; DISPLAY: inline; FLOAT: left; HEIGHT: =
+110px; MARGIN-LEFT: 6px; OVERFLOW: hidden
+}
+.e9 LI A {
+	COLOR: #777
+}
+.e9 LI A IMG {
+	BORDER-BOTTOM: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; =
+PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; WIDTH: 102px; PADDING-RIGHT: =
+1px; DISPLAY: block; HEIGHT: 76px; BORDER-TOP: #ddd 1px solid; =
+BORDER-RIGHT: #ddd 1px solid; PADDING-TOP: 1px
+}
+.e9 LI A SPAN.title {
+	LINE-HEIGHT: 29px; DISPLAY: block; HEIGHT: 29px; OVERFLOW: hidden
+}
+.f1 {
+	BACKGROUND: url(../images/number-range.gif) no-repeat 5px 5px; =
+OVERFLOW: hidden
+}
+.f1 LI {
+	BORDER-BOTTOM: #dcebd7 1px dashed; PADDING-BOTTOM: 4px; PADDING-LEFT: =
+38px; PADDING-RIGHT: 0px; DISPLAY: block; HEIGHT: 38px; OVERFLOW: =
+hidden; PADDING-TOP: 3px
+}
+.f1 LI A {
+	LINE-HEIGHT: 21px; DISPLAY: block; HEIGHT: 21px; OVERFLOW: hidden
+}
+.f1 LI SPAN {
+	LINE-HEIGHT: 15px; COLOR: #666666; MARGIN-LEFT: 5px
+}
+.f1 LI SPAN SMALL {
+	COLOR: #999; FONT-SIZE: 12px
+}
+.f1 LI SPAN A {
+	LINE-HEIGHT: 15px; DISPLAY: inline; COLOR: #690
+}
+.f2 {
+	OVERFLOW: hidden
+}
+.f2 LI {
+	BORDER-BOTTOM: #dcebd7 1px dashed; PADDING-BOTTOM: 0px; PADDING-LEFT: =
+8px; PADDING-RIGHT: 8px; HEIGHT: 73px; CLEAR: both; OVERFLOW: hidden; =
+PADDING-TOP: 0px
+}
+.f2 SMALL {
+	LINE-HEIGHT: 21px; DISPLAY: block; HEIGHT: 21px; COLOR: #999; =
+FONT-SIZE: 12px; OVERFLOW: hidden; PADDING-TOP: 6px
+}
+.f2 SMALL A.username {
+	COLOR: #666
+}
+.f2 P {
+	LINE-HEIGHT: 21px; TEXT-INDENT: 17px; BACKGROUND: =
+url(../images/ico-comment-quote.gif) no-repeat 0px 4px; HEIGHT: 42px; =
+COLOR: #888; OVERFLOW: hidden
+}
+.f4 {
+=09
+}
+.f4 LI {
+	MARGIN: 10px 12px 2px 8px; WIDTH: 94px; DISPLAY: block; FLOAT: left; =
+HEIGHT: 37px; OVERFLOW: hidden
+}
+.f4 LI A {
+	BORDER-BOTTOM: #fff 3px solid; BORDER-LEFT: #fff 3px solid; WIDTH: =
+88px; FLOAT: left; HEIGHT: 31px; OVERFLOW: hidden; BORDER-TOP: #fff 3px =
+solid; BORDER-RIGHT: #fff 3px solid
+}
+.f4 LI A:hover {
+	BORDER-BOTTOM: #eee 3px solid; BORDER-LEFT: #eee 3px solid; BORDER-TOP: =
+#eee 3px solid; BORDER-RIGHT: #eee 3px solid
+}
+.f5 {
+	PADDING-BOTTOM: 10px; WIDTH: 100%; CLEAR: both; OVERFLOW: hidden
+}
+.f5 LI {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 14px; PADDING-LEFT: 10px; =
+PADDING-RIGHT: 10px; WHITE-SPACE: nowrap; FLOAT: left; PADDING-TOP: 8px
+}
+.f5 LI A {
+	FLOAT: left; COLOR: #666666
+}
+.f6 {
+	PADDING-BOTTOM: 10px; WIDTH: 100%; CLEAR: both; OVERFLOW: hidden
+}
+.f6 LI {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 14px; PADDING-LEFT: 10px; =
+PADDING-RIGHT: 10px; WHITE-SPACE: nowrap; FLOAT: left; PADDING-TOP: 8px
+}
+.f6 LI A {
+	FLOAT: left; COLOR: #666666
+}
+.ico1 LI {
+	PADDING-LEFT: 16px; BACKGROUND: url(../images/ico-1.gif) no-repeat 7px =
+11px
+}
+.ico2 LI {
+	PADDING-LEFT: 16px; BACKGROUND: url(../images/ico-2.gif) no-repeat 6px =
+11px
+}
+.ico3 LI {
+	PADDING-LEFT: 16px; BACKGROUND: url(../images/ico-3.gif) no-repeat 7px =
+11px
+}
+LI.dotline {
+	BORDER-BOTTOM: #cde0fa 1px dashed; LINE-HEIGHT: 26px; HEIGHT: 26px
+}
+
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.rosoo.net/a/201011/page.css
+
+.pleft {
+	WIDTH: 712px; FLOAT: left; OVERFLOW: hidden
+}
+.pleft .place {
+	BORDER-BOTTOM: #e0ecf3 1px solid; LINE-HEIGHT: 24px; TEXT-INDENT: 12px; =
+WIDTH: 712px; BACKGROUND: #f2fcfe; HEIGHT: 24px; COLOR: #ccc; OVERFLOW: =
+hidden; BORDER-TOP: #e0ecf3 1px solid
+}
+.pleft .place STRONG {
+	LETTER-SPACING: 1px; COLOR: #397cbe; FONT-WEIGHT: normal
+}
+.pleft .place A {
+	MARGIN: 0px 2px; COLOR: #397cbe
+}
+.pleft .place A:hover {
+	COLOR: #469cf2; TEXT-DECORATION: none
+}
+.pleft .place SMALL {
+	WIDTH: 8px; DISPLAY: inline-block; BACKGROUND: url(../images/ico-3.gif) =
+no-repeat 2px 8px; HEIGHT: 24px; FONT-SIZE: 0px; VERTICAL-ALIGN: middle; =
+OVERFLOW: hidden
+}
+.pright {
+	WIDTH: 240px; FLOAT: right; OVERFLOW: hidden
+}
+.dede_pages {
+=09
+}
+.dede_pages UL {
+	PADDING-BOTTOM: 12px; PADDING-LEFT: 16px; PADDING-RIGHT: 0px; FLOAT: =
+left; PADDING-TOP: 12px
+}
+.dede_pages UL LI {
+	LINE-HEIGHT: 17px; FONT-FAMILY: Tahoma; FLOAT: left; MARGIN-RIGHT: 6px
+}
+.dede_pages UL LI A {
+	BORDER-BOTTOM: #eee 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 4px; =
+PADDING-RIGHT: 4px; FLOAT: left; COLOR: #555; PADDING-TOP: 2px
+}
+.dede_pages UL LI A:hover {
+	BORDER-BOTTOM: #690 2px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 4px; =
+PADDING-RIGHT: 4px; COLOR: #690; TEXT-DECORATION: none; PADDING-TOP: 2px
+}
+.dede_pages UL LI.thisclass A {
+	BORDER-BOTTOM: #f63 2px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 4px; =
+PADDING-RIGHT: 4px; COLOR: #f63; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.pagebox UL LI.thisclass A:hover {
+	BORDER-BOTTOM: #f63 2px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 4px; =
+PADDING-RIGHT: 4px; COLOR: #f63; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.dede_pages .pageinfo {
+	PADDING-BOTTOM: 12px; LINE-HEIGHT: 21px; PADDING-LEFT: 16px; =
+PADDING-RIGHT: 10px; COLOR: #999; PADDING-TOP: 12px
+}
+.dede_pages .pageinfo STRONG {
+	MARGIN: 0px 2px; COLOR: #555; FONT-WEIGHT: normal
+}
+.index .bignews {
+	BORDER-BOTTOM: #dff2f5 1px solid; BORDER-LEFT: #dff2f5 1px solid; =
+WIDTH: 424px; BACKGROUND: url(../images/headbg-top.gif) repeat-x; FLOAT: =
+right; HEIGHT: 400px; OVERFLOW: hidden; BORDER-TOP: #dff2f5 1px solid; =
+BORDER-RIGHT: #dff2f5 1px solid
+}
+.index .bignews A {
+	COLOR: #555
+}
+.index .bignews .onenews {
+	BORDER-BOTTOM: #ebebeb 1px dashed; PADDING-BOTTOM: 7px; MARGIN: 0px =
+3px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; PADDING-TOP: 7px
+}
+.index .bignews .onenews H2 {
+	TEXT-ALIGN: center; LINE-HEIGHT: 28px; DISPLAY: block; HEIGHT: 32px
+}
+.index .bignews .onenews H2 A {
+	FONT-SIZE: 16px
+}
+.index .bignews .onenews P {
+	LINE-HEIGHT: 19px; COLOR: #666
+}
+.index .bignews DIV.newarticle {
+	BACKGROUND: url(../images/new-article.gif) no-repeat 8px 3px; HEIGHT: =
+24px; COLOR: #fff; FONT-SIZE: 0px
+}
+.index .bignews DIV.d1 {
+	PADDING-BOTTOM: 6px; PADDING-LEFT: 10px; WIDTH: 406px; PADDING-RIGHT: =
+10px; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 6px
+}
+.index .bignews DIV.d1arc {
+	LINE-HEIGHT: 24px; WIDTH: 190px; FLOAT: left; HEIGHT: 24px; OVERFLOW: =
+hidden; MARGIN-RIGHT: 12px
+}
+.index .bignews DIV.d1arc A {
+=09
+}
+.index .bignews UL.c2 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 4px; WIDTH: 416px; PADDING-RIGHT: =
+4px; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.index .bignews UL.c2 A {
+	FONT-SIZE: 13px
+}
+.index .flashnews {
+	WIDTH: 280px; FLOAT: left; HEIGHT: 192px; OVERFLOW: hidden
+}
+.index .latestnews {
+	MARGIN-TOP: 8px; WIDTH: 280px; FLOAT: left; HEIGHT: 200px
+}
+.index .latestnews DL DD {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; =
+PADDING-TOP: 2px
+}
+.index .latestnews UL A {
+	COLOR: #555
+}
+.index .picnews {
+	MARGIN-TOP: 10px; WIDTH: 712px; FLOAT: left; CLEAR: both; OVERFLOW: =
+hidden
+}
+.index .listbox {
+	WIDTH: 720px; FLOAT: left; CLEAR: both; OVERFLOW: hidden
+}
+.index .listbox DL {
+	MARGIN-TOP: 8px; WIDTH: 352px; FLOAT: left; MARGIN-RIGHT: 8px
+}
+.index .listbox UL A {
+	COLOR: #666
+}
+.index .usercenter .tbox DD {
+	DISPLAY: none; HEIGHT: 370px
+}
+.index .usercenter .tbox DD#loading {
+	TEXT-ALIGN: center; LINE-HEIGHT: 200px; DISPLAY: block; LETTER-SPACING: =
+2px; COLOR: #999999
+}
+.index .userlogin {
+	PADDING-TOP: 10px
+}
+.index .userlogin .fb {
+	HEIGHT: 37px
+}
+.index .userlogin .fb SPAN {
+	TEXT-ALIGN: right; WIDTH: 60px; PADDING-RIGHT: 6px; FLOAT: left; COLOR: =
+#888
+}
+.index .userlogin .fb IMG {
+	MARGIN-LEFT: 5px; VERTICAL-ALIGN: middle
+}
+.index .userlogin .submit {
+	TEXT-ALIGN: center; PADDING-TOP: 3px
+}
+.index .userlogin .submit A {
+	COLOR: #030; MARGIN-LEFT: 7px
+}
+.index .userinfo {
+=09
+}
+.index .userinfo .welcome {
+	BORDER-BOTTOM: #eee 1px solid; LINE-HEIGHT: 23px; TEXT-INDENT: 10px; =
+MARGIN: 12px auto; WIDTH: 220px; BACKGROUND: #f9f9f9; HEIGHT: 24px; =
+COLOR: #666; BORDER-TOP: #eee 1px solid
+}
+.index .userinfo .welcome STRONG {
+	COLOR: #f60; FONT-WEIGHT: bold
+}
+.index .userinfo .userface {
+	PADDING-LEFT: 16px; WIDTH: 60px; FLOAT: left; HEIGHT: 64px; OVERFLOW: =
+hidden; PADDING-TOP: 2px
+}
+.index .userinfo .userface A {
+	TEXT-ALIGN: center; MARGIN: 0px auto; DISPLAY: block
+}
+.index .userinfo .userface A IMG {
+	BORDER-BOTTOM: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; =
+PADDING-BOTTOM: 2px; MARGIN: 0px auto 6px; PADDING-LEFT: 2px; WIDTH: =
+52px; PADDING-RIGHT: 2px; DISPLAY: block; HEIGHT: 52px; BORDER-TOP: #ddd =
+1px solid; BORDER-RIGHT: #ddd 1px solid; PADDING-TOP: 2px
+}
+.index .userinfo .mylink {
+	WIDTH: 144px; FLOAT: left; OVERFLOW: hidden
+}
+.index .userinfo .mylink UL {
+=09
+}
+.index .userinfo .mylink UL LI {
+	LINE-HEIGHT: 21px; TEXT-INDENT: 12px; WIDTH: 72px; FLOAT: left
+}
+.index .userinfo .mylink UL LI A {
+	COLOR: #555
+}
+.index .userinfo .uclink {
+	TEXT-ALIGN: center; LINE-HEIGHT: 31px; HEIGHT: 31px; COLOR: #ddd; =
+CLEAR: both; OVERFLOW: hidden
+}
+.index .userinfo .uclink A {
+	MARGIN: 0px 2px; COLOR: #690
+}
+.index .latestlogin {
+	PADDING-TOP: 16px
+}
+.index .latestlogin STRONG {
+	Z-INDEX: 5; POSITION: relative; LINE-HEIGHT: 21px; PADDING-LEFT: 6px; =
+WIDTH: 102px; DISPLAY: block; BACKGROUND: #fff; LETTER-SPACING: 1px; =
+COLOR: #555
+}
+.index .latestlogin UL {
+	Z-INDEX: 3; MARGIN: -12px auto 0px; WIDTH: 224px; BORDER-TOP: #c5ddbc =
+1px solid; PADDING-TOP: 20px
+}
+.index .commend DL DD {
+	PADDING-TOP: 0px
+}
+.index .hot DL DD {
+	PADDING-TOP: 0px
+}
+.index .hot DL DD .c1 LI {
+	WIDTH: 210px; OVERFLOW: hidden
+}
+.index .vote DL DD STRONG {
+	BORDER-BOTTOM: #daedf8 1px solid; LINE-HEIGHT: 27px; MARGIN: 0px 4px; =
+PADDING-LEFT: 8px; DISPLAY: block; LETTER-SPACING: 1px; COLOR: #397cbe
+}
+.index .vote DL DD .fb {
+	PADDING-LEFT: 10px; HEIGHT: 21px; COLOR: #555; PADDING-TOP: 10px
+}
+.index .vote DL DD .fb INPUT {
+	MARGIN-RIGHT: 4px
+}
+.index .vote DL DD .submit {
+	TEXT-ALIGN: center; HEIGHT: 35px; PADDING-TOP: 8px
+}
+.index .vote DL DD .submit BUTTON {
+	MARGIN-RIGHT: 10px
+}
+.index .vote DL DD .submit A {
+	COLOR: #003300
+}
+.channel .flashnews {
+	WIDTH: 280px; BACKGROUND: #f00; FLOAT: left; HEIGHT: 192px; OVERFLOW: =
+hidden
+}
+.channel .topcommand {
+	WIDTH: 424px; FLOAT: right; OVERFLOW: hidden
+}
+.channel .topcommand DL DD {
+	HEIGHT: 162px
+}
+.channel .topcommand A {
+	COLOR: #666
+}
+.channel .topcommand .onenews {
+	BORDER-BOTTOM: #ebebeb 1px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: =
+12px; PADDING-RIGHT: 12px; PADDING-TOP: 3px
+}
+.channel .topcommand .onenews H2 {
+	LINE-HEIGHT: 25px; DISPLAY: block; HEIGHT: 28px
+}
+.channel .topcommand .onenews H2 A {
+	FONT-SIZE: 16px
+}
+.channel .topcommand .onenews P {
+	LINE-HEIGHT: 19px; COLOR: #666
+}
+.channel .picnews {
+	MARGIN-TOP: 8px; WIDTH: 712px; FLOAT: left; CLEAR: both; OVERFLOW: =
+hidden
+}
+.channel .listbox {
+	WIDTH: 720px; FLOAT: left; CLEAR: both; OVERFLOW: hidden
+}
+.channel .listbox DL {
+	MARGIN-TOP: 8px; WIDTH: 352px; FLOAT: left; MARGIN-RIGHT: 8px
+}
+.channel .listbox UL A {
+	COLOR: #666
+}
+.viewbox {
+	PADDING-BOTTOM: 8px; WIDTH: 712px; OVERFLOW: hidden
+}
+.viewbox .title {
+	TEXT-ALIGN: center; LINE-HEIGHT: 56px; HEIGHT: 56px; OVERFLOW: hidden; =
+PADDING-TOP: 10px
+}
+.viewbox .title H2 {
+	COLOR: #369; FONT-SIZE: 24px
+}
+.viewbox .info {
+	TEXT-ALIGN: center; LINE-HEIGHT: 17px; HEIGHT: 24px; COLOR: #666; =
+OVERFLOW: hidden
+}
+.viewbox .info SMALL {
+	COLOR: #999; MARGIN-LEFT: 8px; FONT-SIZE: 12px; MARGIN-RIGHT: 3px
+}
+.viewbox .info A {
+	COLOR: #690
+}
+.viewbox .intro {
+	BORDER-BOTTOM: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; =
+PADDING-BOTTOM: 8px; LINE-HEIGHT: 25px; MARGIN-TOP: 8px; PADDING-LEFT: =
+16px; PADDING-RIGHT: 16px; BACKGROUND: #fafdfe; COLOR: #555; FONT-SIZE: =
+14px; BORDER-TOP: #ddd 1px solid; BORDER-RIGHT: #ddd 1px solid; =
+PADDING-TOP: 8px
+}
+.viewbox .infolist {
+	WIDTH: 368px; FLOAT: left
+}
+.viewbox .infolist SMALL {
+	TEXT-ALIGN: right; LINE-HEIGHT: 31px; WIDTH: 100px; DISPLAY: block; =
+FLOAT: left; HEIGHT: 31px; COLOR: #999; CLEAR: left; FONT-SIZE: 12px; =
+OVERFLOW: hidden
+}
+.viewbox .infolist SPAN {
+	LINE-HEIGHT: 30px; WIDTH: 200px; FLOAT: left; HEIGHT: 31px; OVERFLOW: =
+hidden
+}
+.viewbox .picview {
+	WIDTH: 320px; PADDING-RIGHT: 24px; FLOAT: right; PADDING-TOP: 16px
+}
+.viewbox .labeltitle {
+	MARGIN: 0px auto; BACKGROUND: url(../images/view-labeltitle-bg.gif) =
+repeat-x left 10px; HEIGHT: 23px; CLEAR: both; OVERFLOW: hidden; =
+PADDING-TOP: 10px
+}
+.viewbox .labeltitle STRONG {
+	TEXT-ALIGN: center; LINE-HEIGHT: 23px; WIDTH: 80px; DISPLAY: block; =
+BACKGROUND: url(../images/view-labeltitle-bg.gif) no-repeat left -44px; =
+FLOAT: left; LETTER-SPACING: 1px; HEIGHT: 23px; COLOR: #fff; OVERFLOW: =
+hidden
+}
+.viewbox .content {
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 25px; PADDING-LEFT: 4px; =
+PADDING-RIGHT: 4px; COLOR: #333; FONT-SIZE: 14px; PADDING-TOP: 4px
+}
+.viewbox .dede_pages {
+	TEXT-ALIGN: center; WIDTH: 700px; FLOAT: none; OVERFLOW: hidden
+}
+.viewbox .dede_pages UL {
+	TEXT-ALIGN: center; MARGIN: 0px auto; WHITE-SPACE: nowrap; FLOAT: none; =
+CLEAR: both; OVERFLOW: hidden
+}
+.viewbox .dede_pages UL LI {
+	DISPLAY: inline; FLOAT: none
+}
+.viewbox .dede_pages UL LI A {
+	DISPLAY: inline; FLOAT: none
+}
+.viewbox .boxoff {
+	MARGIN: 4px auto; BACKGROUND: url(../images/boxoff.gif) repeat-x left =
+15px; HEIGHT: 10px; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+.viewbox .boxoff STRONG {
+	LINE-HEIGHT: 100px; WIDTH: 8px; DISPLAY: block; BACKGROUND: =
+url(../images/boxoff.gif) no-repeat right -10px; FLOAT: left; HEIGHT: =
+10px; FONT-SIZE: 0px; OVERFLOW: hidden
+}
+.viewbox .newdigg {
+	MARGIN: 8px auto; PADDING-LEFT: 8px; WIDTH: 406px; HEIGHT: 51px; CLEAR: =
+both; OVERFLOW: hidden
+}
+.viewbox .diggbox {
+	WIDTH: 195px; FLOAT: left; HEIGHT: 51px; OVERFLOW: hidden; CURSOR: =
+pointer; MARGIN-RIGHT: 8px
+}
+.viewbox .diggbox .digg_act {
+	LINE-HEIGHT: 31px; TEXT-INDENT: 32px; FLOAT: left; HEIGHT: 29px; =
+FONT-SIZE: 14px; OVERFLOW: hidden; FONT-WEIGHT: bold
+}
+.viewbox .diggbox .digg_num {
+	LINE-HEIGHT: 29px; TEXT-INDENT: 5px; FLOAT: left
+}
+.viewbox .diggbox .digg_percent {
+	PADDING-LEFT: 10px; WIDTH: 180px; CLEAR: both; OVERFLOW: hidden
+}
+.viewbox .diggbox .digg_percent .digg_percent_bar {
+	MARGIN-TOP: 3px; WIDTH: 100px; BACKGROUND: #e8e8e8; FLOAT: left; =
+HEIGHT: 7px; OVERFLOW: hidden; BORDER-RIGHT: #ccc 1px solid
+}
+.viewbox .diggbox .digg_percent .digg_percent_num {
+	PADDING-LEFT: 10px; FLOAT: left; FONT-SIZE: 10px
+}
+.viewbox .diggbox .digg_percent .digg_percent_bar SPAN {
+	DISPLAY: block; BACKGROUND: #000; HEIGHT: 5px; OVERFLOW: hidden
+}
+.viewbox .newdigg .digg_good {
+	BACKGROUND: url(../images/newdigg-bg.png) no-repeat left top
+}
+.viewbox .newdigg .digg_bad {
+	BACKGROUND: url(../images/newdigg-bg.png) no-repeat right top
+}
+.viewbox .newdigg .digg_good .digg_act {
+	COLOR: #c30
+}
+.viewbox .newdigg .digg_good .digg_num {
+	COLOR: #c63
+}
+.viewbox .newdigg .digg_bad .digg_act {
+	COLOR: #36c
+}
+.viewbox .newdigg .digg_bad .digg_num {
+	COLOR: #39c
+}
+.viewbox .newdigg .digg_good .digg_percent .digg_percent_bar SPAN {
+	BORDER-BOTTOM: #e37f24 1px solid; BORDER-LEFT: #e37f24 1px solid; =
+BACKGROUND: #ffc535; BORDER-TOP: #e37f24 1px solid; BORDER-RIGHT: =
+#e37f24 1px solid
+}
+.viewbox .newdigg .digg_bad .digg_percent .digg_percent_bar SPAN {
+	BORDER-BOTTOM: #689acc 1px solid; BORDER-LEFT: #689acc 1px solid; =
+BACKGROUND: #94c0e4; BORDER-TOP: #689acc 1px solid; BORDER-RIGHT: =
+#689acc 1px solid
+}
+.viewbox .handle {
+	HEIGHT: 59px; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 12px
+}
+.viewbox .handle .digg {
+	WIDTH: 59px; BACKGROUND: url(../images/digg-bg.gif) no-repeat; FLOAT: =
+left; HEIGHT: 59px; MARGIN-RIGHT: 12px
+}
+.viewbox .handle .digg .digg_num {
+	TEXT-ALIGN: center; LINE-HEIGHT: 34px; WIDTH: 56px; HEIGHT: 34px; =
+COLOR: #6b9169; FONT-SIZE: 20px; OVERFLOW: hidden
+}
+.viewbox .handle .digg .digg_act {
+	LINE-HEIGHT: 23px; WIDTH: 56px; HEIGHT: 22px; OVERFLOW: hidden
+}
+.viewbox .handle .digg .digg_act A {
+	FLOAT: left; COLOR: #666; MARGIN-LEFT: 11px
+}
+.viewbox .handle .context {
+	FLOAT: left
+}
+.viewbox .handle .context UL LI {
+	LINE-HEIGHT: 29px; COLOR: #888
+}
+.viewbox .actbox {
+	TEXT-ALIGN: center; WIDTH: 260px; PADDING-RIGHT: 10px; FLOAT: right; =
+PADDING-TOP: 20px
+}
+.viewbox .actbox UL LI {
+	BACKGROUND-IMAGE: url(../images/actbox-ico.gif); PADDING-LEFT: 22px; =
+DISPLAY: inline; BACKGROUND-REPEAT: no-repeat; MARGIN-RIGHT: 10px
+}
+.viewbox .actbox UL LI A {
+	COLOR: #666
+}
+.viewbox .actbox UL LI#act-fav {
+	BACKGROUND-POSITION: 4px 0px
+}
+.viewbox .actbox UL LI#act-err {
+	BACKGROUND-POSITION: 4px -37px
+}
+.viewbox .actbox UL LI#act-pus {
+	BACKGROUND-POSITION: 4px -73px
+}
+.viewbox .actbox UL LI#act-pnt {
+	BACKGROUND-POSITION: 4px -109px
+}
+.viewbox .downurllist {
+	WIDTH: 100%; CLEAR: both; OVERFLOW: hidden
+}
+.viewbox .downurllist LI {
+	MARGIN-TOP: 10px; PADDING-RIGHT: 4px; BACKGROUND: =
+url(../images/downurl-bg.gif) no-repeat right top; FLOAT: left; HEIGHT: =
+27px; OVERFLOW: hidden; MARGIN-RIGHT: 10px
+}
+.viewbox .downurllist LI A {
+	LINE-HEIGHT: 27px; TEXT-INDENT: 30px; PADDING-RIGHT: 5px; DISPLAY: =
+block; BACKGROUND: url(../images/downurl-bg.gif) no-repeat left top; =
+FLOAT: left; HEIGHT: 27px; COLOR: #555; FONT-SIZE: 12px
+}
+.viewbox .downurllist LI A:hover {
+	COLOR: #f63; TEXT-DECORATION: none
+}
+.viewbox .picbox {
+	TEXT-ALIGN: center; LINE-HEIGHT: 31px; WIDTH: 100%; FONT-SIZE: 14px; =
+OVERFLOW: hidden; PADDING-TOP: 10px
+}
+.viewbox .picbox IMG {
+	MARGIN: 16px auto 6px; DISPLAY: block
+}
+.viewbox .picbox UL.e8 {
+	LINE-HEIGHT: normal; FONT-SIZE: 12px
+}
+.viewbox .picbox UL.e8 LI .pic {
+	BORDER-BOTTOM: #eee 1px solid; BORDER-LEFT: #eee 1px solid; BACKGROUND: =
+none transparent scroll repeat 0% 0%; OVERFLOW: hidden; BORDER-TOP: #eee =
+1px solid; BORDER-RIGHT: #eee 1px solid
+}
+.viewbox .picbox UL.e8 IMG {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; MARGIN: 3px; =
+BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.viewbox .picbox UL.e8 LI .title {
+	PADDING-TOP: 0px
+}
+.specialpic {
+	WIDTH: 200px; FLOAT: left; OVERFLOW: hidden; MARGIN-RIGHT: 20px; =
+PADDING-TOP: 10px
+}
+.specialpic IMG {
+	WIDTH: 200px; DISPLAY: block
+}
+.speciallist {
+	WIDTH: 720px; OVERFLOW: hidden
+}
+.speciallist DL.tbox {
+	MARGIN-TOP: 8px; WIDTH: 352px; FLOAT: left; MARGIN-RIGHT: 8px
+}
+.storypic {
+	WIDTH: 160px; FLOAT: left; OVERFLOW: hidden; MARGIN-RIGHT: 20px; =
+PADDING-TOP: 10px
+}
+.storypic IMG {
+	WIDTH: 160px; DISPLAY: block
+}
+.infos_userinfo {
+	WIDTH: 240px; OVERFLOW: hidden
+}
+.infos_userinfo DD {
+	PADDING-BOTTOM: 12px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px; =
+BACKGROUND: #fff; OVERFLOW: hidden; PADDING-TOP: 12px
+}
+.infos_userinfo DD .userface {
+	BORDER-BOTTOM: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; =
+PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; WIDTH: 52px; PADDING-RIGHT: 1px; =
+FLOAT: left; HEIGHT: 52px; OVERFLOW: hidden; BORDER-TOP: #ddd 1px solid; =
+MARGIN-RIGHT: 8px; BORDER-RIGHT: #ddd 1px solid; PADDING-TOP: 1px
+}
+.infos_userinfo DD .userface IMG {
+	WIDTH: 52px; DISPLAY: block; HEIGHT: 52px; OVERFLOW: hidden
+}
+.infos_userinfo DD .username {
+	LINE-HEIGHT: 19px; DISPLAY: block; HEIGHT: 19px; COLOR: #f60; OVERFLOW: =
+hidden; FONT-WEIGHT: bold
+}
+.infos_userinfo DD .useract {
+	PADDING-LEFT: 4px; WIDTH: 140px; FLOAT: left; HEIGHT: 44px; OVERFLOW: =
+hidden
+}
+.infos_userinfo DD .useract-pm {
+	LINE-HEIGHT: 19px; WIDTH: 70px; FLOAT: left; HEIGHT: 19px; OVERFLOW: =
+hidden
+}
+.infos_userinfo DD .useract-af {
+	LINE-HEIGHT: 19px; WIDTH: 70px; FLOAT: left; HEIGHT: 19px; OVERFLOW: =
+hidden
+}
+.infos_userinfo DD .useract-vi {
+	LINE-HEIGHT: 19px; DISPLAY: block; HEIGHT: 19px; COLOR: #666; CLEAR: =
+both; OVERFLOW: hidden
+}
+.infos_userinfo DD .userinfo-sp {
+	LINE-HEIGHT: 25px; PADDING-LEFT: 10px; DISPLAY: block; HEIGHT: 25px; =
+CLEAR: both
+}
+.infos_userinfo DD .userinfo-sp SMALL {
+	COLOR: #aaa; FONT-SIZE: 12px; MARGIN-RIGHT: 5px
+}
+.infos_search DD {
+	PADDING-BOTTOM: 12px; PADDING-LEFT: 8px; PADDING-RIGHT: 4px; =
+PADDING-TOP: 4px
+}
+.infos_search DD SELECT {
+	MARGIN-TOP: 8px; MARGIN-LEFT: 4px
+}
+.infos_search DD INPUT {
+	MARGIN-TOP: 8px; MARGIN-LEFT: 4px
+}
+.infos_search DD BUTTON {
+	MARGIN-TOP: 8px; MARGIN-LEFT: 4px
+}
+.infos_search DD SELECT {
+	FONT-SIZE: 14px
+}
+.tags_list DD {
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 220%; PADDING-LEFT: 12px; =
+PADDING-RIGHT: 12px; PADDING-TOP: 4px
+}
+.tags_list DD A {
+	WHITE-SPACE: nowrap; MARGIN-RIGHT: 10px
+}
+.tagc1 {
+	COLOR: #666; FONT-SIZE: 12px
+}
+.tagc2 {
+	COLOR: #555; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.sp-title {
+	BORDER-BOTTOM: #eee 1px solid; PADDING-BOTTOM: 4px; PADDING-LEFT: 12px; =
+PADDING-RIGHT: 12px; MARGIN-BOTTOM: 8px; BACKGROUND: #fafafa; COLOR: =
+#888; BORDER-TOP: #eee 1px solid; PADDING-TOP: 4px
+}
+.sp-title H2 {
+	LINE-HEIGHT: 27px; FONT-SIZE: 16px
+}
+.sp-title H2 A {
+	MARGIN-LEFT: 6px
+}
+.sp-title .more {
+	LINE-HEIGHT: 27px; MARGIN: -27px 0px; FLOAT: right
+}
+.linkbox {
+	BORDER-BOTTOM: #eee 1px solid; PADDING-BOTTOM: 10px; PADDING-LEFT: 8px; =
+PADDING-RIGHT: 8px; PADDING-TOP: 10px
+}
+.linkbox H3 {
+	COLOR: #693; FONT-SIZE: 14px
+}
+.linkbox H3 A {
+	COLOR: #693; FONT-SIZE: 14px
+}
+.buycar {
+=09
+}
+.buycar H2 {
+	LINE-HEIGHT: 31px; COLOR: #f60; FONT-SIZE: 14px
+}
+.buycar .flow {
+	BORDER-LEFT: #dee79e 1px solid; WIDTH: 100%; MARGIN-BOTTOM: 16px; =
+BORDER-TOP: #dee79e 1px solid; BORDER-RIGHT: #dee79e 1px solid
+}
+.buycar .flow TD {
+	BORDER-BOTTOM: #eff3cf 1px solid; TEXT-ALIGN: center; LINE-HEIGHT: =
+19px; BACKGROUND: #f8faeb; LETTER-SPACING: 3px; HEIGHT: 23px; COLOR: =
+#888; OVERFLOW: hidden; BORDER-TOP: #fff 3px solid; BORDER-RIGHT: =
+#eff3cf 1px solid
+}
+.buycar .flow TD.thisclass {
+	BORDER-BOTTOM: #fff 1px solid; BACKGROUND: #fff; COLOR: #333; =
+BORDER-TOP: #f8faeb 3px solid; FONT-WEIGHT: bold
+}
+.flinkbox {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; =
+PADDING-TOP: 4px
+}
+.formbox {
+	MARGIN: 0px auto; WIDTH: 90%
+}
+.formbox .fb {
+	MARGIN: 0px auto; WIDTH: 100%; CLEAR: both; OVERFLOW: hidden; =
+PADDING-TOP: 10px
+}
+.formbox .fb .name {
+	TEXT-ALIGN: right; LINE-HEIGHT: 31px; WIDTH: 180px; PADDING-RIGHT: =
+10px; DISPLAY: block; FLOAT: left; HEIGHT: 31px; COLOR: #666; FONT-SIZE: =
+14px
+}
+.formbox .fb .value {
+	FLOAT: left
+}
+.formbox .fb .value IMG {
+	VERTICAL-ALIGN: middle
+}
+.dede_comment {
+	PADDING-BOTTOM: 6px
+}
+.dede_comment .decmt-box {
+	BORDER-BOTTOM: #e5e5e5 1px solid; PADDING-BOTTOM: 8px; MARGIN: 0px =
+auto; PADDING-LEFT: 5px; WIDTH: 98%; PADDING-RIGHT: 5px; CLEAR: both; =
+OVERFLOW: hidden; PADDING-TOP: 6px
+}
+.dede_comment .decmt-box .decmt-title {
+	LINE-HEIGHT: 19px; FONT-FAMILY: Tahoma; COLOR: #999
+}
+.dede_comment .decmt-box .decmt-title SPAN {
+	VERTICAL-ALIGN: middle; MARGIN-RIGHT: 2px
+}
+.dede_comment .decmt-box .decmt-title .moodico {
+	WIDTH: 18px; DISPLAY: inline-block; HEIGHT: 18px
+}
+.dede_comment .decmt-box .decmt-title .username {
+	COLOR: #669
+}
+.dede_comment .decmt-box .decmt-title .username A {
+	COLOR: #669
+}
+.dede_comment .decmt-box .decmt-title .username A:hover {
+	COLOR: #690; TEXT-DECORATION: none
+}
+.dede_comment .decmt-box .decmt-title .ip {
+	COLOR: #669; FONT-SIZE: 11px
+}
+.dede_comment .decmt-box .decmt-title .date {
+	COLOR: #555; FONT-SIZE: 11px
+}
+.dede_comment .decmt-box .decmt-act {
+	POSITION: relative; MARGIN-TOP: -18px; PADDING-RIGHT: 10px; FLOAT: =
+right; COLOR: #999; CLEAR: both
+}
+.dede_comment .decmt-box .decmt-act SPAN {
+	MARGIN-RIGHT: 7px
+}
+.dede_comment .decmt-box .decmt-act SPAN A {
+	COLOR: #888
+}
+.dede_comment .decmt-box .decmt-content {
+	LINE-HEIGHT: 21px; MARGIN: 2px auto 0px; WIDTH: 99%; COLOR: #555; =
+CLEAR: both
+}
+.dede_comment .decmt-box .decmt-content IMG {
+	VERTICAL-ALIGN: middle
+}
+.dede_comment .decmt-box .decmt-box {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; MARGIN: 6px =
+auto; BACKGROUND: #ffe; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc =
+1px solid
+}
+.dede_comment .decmt-box .decmt-box .decmt-title {
+	TEXT-INDENT: 4px
+}
+.dede_comment .decmt-box .decmt-box .decmt-content {
+	COLOR: #555
+}
+.nocomment {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; COLOR: =
+#666; PADDING-TOP: 10px
+}
+.dede_comment_post {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; =
+PADDING-TOP: 5px
+}
+.dcmp-title {
+	LINE-HEIGHT: 25px
+}
+.dcmp-title STRONG {
+	COLOR: #444; FONT-WEIGHT: normal
+}
+.dcmp-title SMALL {
+	COLOR: #999999; FONT-SIZE: 12px
+}
+.dcmp-stand {
+	POSITION: relative; MARGIN-TOP: -18px; PADDING-RIGHT: 10px; FLOAT: =
+right; COLOR: #999; CLEAR: both
+}
+.dcmp-stand STRONG {
+	COLOR: #444; FONT-WEIGHT: normal
+}
+.dcmp-stand INPUT {
+	MARGIN-RIGHT: 2px
+}
+.dcmp-stand IMG {
+	VERTICAL-ALIGN: middle; MARGIN-RIGHT: 2px
+}
+.dcmp-content {
+	PADDING-TOP: 8px
+}
+.dcmp-content TEXTAREA {
+	WIDTH: 96%; HEIGHT: 60px
+}
+.dcmp-mood {
+	WIDTH: 80%; HEIGHT: 25px; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: =
+12px
+}
+.dcmp-mood STRONG {
+	LINE-HEIGHT: 25px; FLOAT: left; COLOR: #444; FONT-WEIGHT: normal
+}
+.dcmp-mood UL {
+	FLOAT: left
+}
+.dcmp-mood UL LI {
+	FLOAT: left; MARGIN-RIGHT: 8px
+}
+.dcmp-mood UL LI INPUT {
+	VERTICAL-ALIGN: middle; MARGIN-RIGHT: 0px
+}
+.dcmp-mood UL LI IMG {
+	VERTICAL-ALIGN: middle; MARGIN-RIGHT: 0px
+}
+.dcmp-post {
+	HEIGHT: 35px; COLOR: #444; CLEAR: both; OVERFLOW: hidden
+}
+.dcmp-post .dcmp-userinfo {
+	FLOAT: left; MARGIN-RIGHT: 6px
+}
+.dcmp-post .dcmp-userinfo INPUT {
+	PADDING-RIGHT: 0px; HEIGHT: 13px
+}
+.dcmp-post .dcmp-userinfo INPUT {
+	MARGIN: 5px; VERTICAL-ALIGN: middle
+}
+.dcmp-post .dcmp-userinfo IMG {
+	MARGIN: 5px; VERTICAL-ALIGN: middle
+}
+.dcmp-post .dcmp-submit {
+	FLOAT: left; PADDING-TOP: 6px
+}
+.dcmp-post .dcmp-submit INPUT {
+	VERTICAL-ALIGN: middle
+}
+.dcmp-post .dcmp-submit BUTTON {
+	VERTICAL-ALIGN: middle
+}
+.dcmp-post .dcmp-submit BUTTON {
+	BORDER-BOTTOM-STYLE: none; LINE-HEIGHT: 25px; BORDER-RIGHT-STYLE: none; =
+WIDTH: 70px; BORDER-TOP-STYLE: none; BACKGROUND: =
+url(../images/btn-bg2.gif) no-repeat; LETTER-SPACING: 1px; HEIGHT: 25px; =
+COLOR: #444; MARGIN-LEFT: 5px; BORDER-LEFT-STYLE: none; OVERFLOW: =
+hidden; CURSOR: pointer
+}
+PRE {
+	MARGIN: 0px 0px 1em; WIDTH: 99%; FONT-FAMILY: 'Courier New' , =
+Monospace; BACKGROUND: #f7f7f7; FONT-SIZE: 12px; OVERFLOW: auto
+}
+PRE OL {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: =
+none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; PADDING-TOP: 0px
+}
+PRE OL LI {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: =
+none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; PADDING-TOP: 0px
+}
+PRE OL LI SPAN {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: =
+none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; PADDING-TOP: 0px
+}
+PRE A {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: =
+none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+BORDER-TOP-STYLE: none; BACKGROUND: none transparent scroll repeat 0% =
+0%; BORDER-LEFT-STYLE: none; PADDING-TOP: 0px
+}
+PRE A:hover {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: =
+none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+BORDER-TOP-STYLE: none; BACKGROUND: none transparent scroll repeat 0% =
+0%; BORDER-LEFT-STYLE: none; PADDING-TOP: 0px
+}
+PRE OL {
+	BORDER-LEFT: #146b00 3px solid; PADDING-BOTTOM: 5px; LIST-STYLE-TYPE: =
+decimal; MARGIN: 0px 0px 1px 3em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+BACKGROUND: #f7f7f7; COLOR: #5c5c5c; PADDING-TOP: 5px
+}
+PRE OL LI {
+	LIST-STYLE-POSITION: outside !important; PADDING-BOTTOM: 0px =
+!important; LINE-HEIGHT: 1.3em; LIST-STYLE-TYPE: decimal-leading-zero; =
+MARGIN: 0px; PADDING-LEFT: 10px !important; PADDING-RIGHT: 3px =
+!important; COLOR: #5c5c5c; PADDING-TOP: 0px !important
+}
+PRE OL LI.alt {
+=09
+}
+PRE OL LI SPAN {
+	COLOR: black
+}
+PRE .comment {
+	COLOR: #008200
+}
+PRE .comments {
+	COLOR: #008200
+}
+PRE .string {
+	COLOR: blue
+}
+PRE .keyword {
+	COLOR: #069; FONT-WEIGHT: bold
+}
+PRE .preprocessor {
+	COLOR: gray
+}
+PRE .dp-xml .cdata {
+	COLOR: #ff1493
+}
+PRE .dp-xml .tag {
+	COLOR: #069; FONT-WEIGHT: bold
+}
+PRE .dp-xml .tag-name {
+	COLOR: #069; FONT-WEIGHT: bold
+}
+PRE .dp-xml .attribute {
+	COLOR: red
+}
+PRE .dp-xml .attribute-value {
+	COLOR: blue
+}
+PRE .dp-sql .func {
+	COLOR: #ff1493
+}
+PRE .dp-sql .op {
+	COLOR: #808080
+}
+PRE .dp-rb .symbol {
+	COLOR: #a70
+}
+PRE .dp-rb .variable {
+	COLOR: #a70; FONT-WEIGHT: bold
+}
+PRE .dp-py .builtins {
+	COLOR: #ff1493
+}
+PRE .dp-py .magicmethods {
+	COLOR: #808080
+}
+PRE .dp-py .exceptions {
+	COLOR: brown
+}
+PRE .dp-py .types {
+	FONT-STYLE: italic; COLOR: brown
+}
+PRE .dp-py .commonlibs {
+	FONT-STYLE: italic; COLOR: #8a2be2
+}
+PRE .dp-j .annotation {
+	COLOR: #646464
+}
+PRE .dp-j .number {
+	COLOR: #c00000
+}
+PRE .dp-delphi .number {
+	COLOR: blue
+}
+PRE .dp-delphi .directive {
+	COLOR: #008284
+}
+PRE .dp-delphi .vars {
+	COLOR: #000
+}
+PRE .dp-css .value {
+	COLOR: black
+}
+PRE .dp-css .important {
+	COLOR: red
+}
+PRE .dp-c .vars {
+	COLOR: #d00
+}
+PRE .dp-cpp .datatypes {
+	COLOR: #2e8b57; FONT-WEIGHT: bold
+}
+#commetpages {
+	TEXT-ALIGN: center; LINE-HEIGHT: 28px
+}
+#commetpages A {
+	BORDER-BOTTOM: #64b1df 1px solid; BORDER-LEFT: #64b1df 1px solid; =
+PADDING-BOTTOM: 0px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; BORDER-TOP: =
+#64b1df 1px solid; BORDER-RIGHT: #64b1df 1px solid; PADDING-TOP: 0px
+}
+
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.rosoo.net/templets/style/dedecms.css
+
+@import url( layout.css );
+@import url( page.css );
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+HTML {
+	BACKGROUND: #fff
+}
+BODY {
+	FONT: 12px Verdana,Arial,Tahoma
+}
+IMG {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: =
+none; BORDER-LEFT-STYLE: none
+}
+A {
+	COLOR: #256eb1; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #f33; TEXT-DECORATION: underline
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+INPUT {
+	FONT: 12px Verdana,Arial,Tahoma; VERTICAL-ALIGN: middle
+}
+SELECT {
+	FONT: 12px Verdana,Arial,Tahoma; VERTICAL-ALIGN: middle
+}
+BUTTON {
+	FONT: 12px Verdana,Arial,Tahoma; VERTICAL-ALIGN: middle
+}
+.center {
+	MARGIN: 0px auto
+}
+.w960 {
+	WIDTH: 960px
+}
+.pright .infos_userinfo {
+	MARGIN-BOTTOM: 0px
+}
+.mt1 {
+	MARGIN-TOP: 8px
+}
+.pright .mt1 {
+	MARGIN-TOP: 0px
+}
+.mt2 {
+	MARGIN-TOP: 16px
+}
+.clear {
+	OVERFLOW: hidden
+}
+.fs-12 {
+	FONT-SIZE: 12px
+}
+.fc-f60 {
+	COLOR: #f60
+}
+.fc-f90 {
+	COLOR: #f90
+}
+.ipt-txt {
+	BORDER-BOTTOM: #bbb 1px solid; BORDER-LEFT: #666 1px solid; =
+PADDING-BOTTOM: 4px; LINE-HEIGHT: 15px; PADDING-LEFT: 5px; =
+PADDING-RIGHT: 5px; FONT-SIZE: 12px; BORDER-TOP: #666 1px solid; =
+MARGIN-RIGHT: 2px; BORDER-RIGHT: #bbb 1px solid; PADDING-TOP: 4px
+}
+.btn-1 {
+	BORDER-BOTTOM-STYLE: none; LINE-HEIGHT: 25px; BORDER-RIGHT-STYLE: none; =
+WIDTH: 56px; BORDER-TOP-STYLE: none; BACKGROUND: =
+url(../images/btn-bg1.gif) no-repeat; LETTER-SPACING: 1px; HEIGHT: 23px; =
+COLOR: #2f592e; BORDER-LEFT-STYLE: none; OVERFLOW: hidden; CURSOR: =
+pointer
+}
+.btn-2 {
+	BORDER-BOTTOM-STYLE: none; LINE-HEIGHT: 25px; BORDER-RIGHT-STYLE: none; =
+WIDTH: 70px; BORDER-TOP-STYLE: none; BACKGROUND: =
+url(../images/btn-bg2.gif) no-repeat left top; HEIGHT: 25px; COLOR: =
+#444; BORDER-LEFT-STYLE: none; OVERFLOW: hidden; MARGIN-RIGHT: 2px
+}
+.header {
+	MARGIN: auto; WIDTH: 960px; OVERFLOW: hidden; PADDING-TOP: 2px
+}
+.header .search {
+	MARGIN-TOP: 5px
+}
+.header A {
+	COLOR: #777
+}
+.header A:hover {
+	COLOR: #390; TEXT-DECORATION: none
+}
+.header .top {
+	CLEAR: both; OVERFLOW: hidden
+}
+.header .title {
+	PADDING-LEFT: 2px; FLOAT: left
+}
+.header .title H1 A {
+	TEXT-INDENT: -200px; WIDTH: 200px; DISPLAY: block; BACKGROUND: =
+url(../images/top-logo.gif) no-repeat center center; HEIGHT: 85px; =
+FONT-SIZE: 0px; OVERFLOW: hidden
+}
+.header .banner {
+	WIDTH: 728px; FLOAT: left; HEIGHT: 90px; MARGIN-LEFT: 25px; OVERFLOW: =
+hidden
+}
+.header .banner IMG {
+	WIDTH: 728px; DISPLAY: block; HEIGHT: 90px
+}
+.header .rlink {
+	WIDTH: 72px; FLOAT: left; HEIGHT: 52px; MARGIN-LEFT: 32px; OVERFLOW: =
+hidden; PADDING-TOP: 4px
+}
+.header .rlink UL LI {
+	WIDTH: 58px; MARGIN-BOTTOM: 8px; FLOAT: left; HEIGHT: 21px; OVERFLOW: =
+hidden; MARGIN-RIGHT: 8px
+}
+UNKNOWN {
+	LINE-HEIGHT: 21px; TEXT-INDENT: 22px; DISPLAY: block; =
+BACKGROUND-REPEAT: no-repeat; COLOR: #777
+}
+UNKNOWN {
+	COLOR: #000
+}
+.header .rlink UL LI.r1 A {
+	BACKGROUND-POSITION: 0px -21px
+}
+.header .rlink UL LI.r2 A {
+	BACKGROUND-POSITION: 0px -42px
+}
+.header .rlink UL LI.r3 A {
+	BACKGROUND-POSITION: 0px -63px
+}
+.header .rlink UL LI.r4 A {
+	BACKGROUND-POSITION: 0px -84px
+}
+.header .welcome {
+	MARGIN-TOP: 20px; PADDING-RIGHT: 10px; FLOAT: right; COLOR: #999
+}
+.header .welcome A {
+	MARGIN: 0px 3px
+}
+.header .nav {
+=09
+}
+.module {
+	OVERFLOW: hidden
+}
+.module .mid {
+	OVERFLOW: hidden
+}
+.module .top .t_l {
+	FLOAT: left; OVERFLOW: hidden
+}
+.module .bottom .b_l {
+	FLOAT: left; OVERFLOW: hidden
+}
+.module .top .t_r {
+	FLOAT: right; OVERFLOW: hidden
+}
+.module .bottom .b_r {
+	FLOAT: right; OVERFLOW: hidden
+}
+.module .top EM {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; FLOAT: left; MARGIN-LEFT: =
+5px; FONT-SIZE: 13px; FONT-WEIGHT: bold
+}
+.module .top EM A:link {
+	FONT-SIZE: 13px; FONT-WEIGHT: bold
+}
+.module .top EM A:visited {
+	FONT-SIZE: 13px; FONT-WEIGHT: bold
+}
+.module .top SPAN {
+	FLOAT: right
+}
+.module .top STRONG {
+	FLOAT: right; CURSOR: pointer; FONT-WEIGHT: normal; MARGIN-RIGHT: 4px
+}
+.module .mid .m_l {
+	OVERFLOW: hidden
+}
+.module .mid .m_r {
+	OVERFLOW: hidden
+}
+.module .mid .content {
+	HEIGHT: 100%; MARGIN-LEFT: 8px; CLEAR: both; OVERFLOW: hidden; =
+MARGIN-RIGHT: 8px; PADDING-TOP: 8px
+}
+.module .top {
+	BACKGROUND-IMAGE: url(../images/header_bg.png)
+}
+.module .top .t_l {
+	BACKGROUND-IMAGE: url(../images/header_bg.png)
+}
+.module .top .t_r {
+	BACKGROUND-IMAGE: url(../images/header_bg.png)
+}
+.module .bottom {
+	BACKGROUND-IMAGE: url(../images/header_bg.png)
+}
+.module .bottom .b_l {
+	BACKGROUND-IMAGE: url(../images/header_bg.png)
+}
+.module .bottom .b_r {
+	BACKGROUND-IMAGE: url(../images/header_bg.png)
+}
+.blue .top {
+	BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 0px -87px; HEIGHT: =
+77px
+}
+.blue .top .t_l {
+	WIDTH: 7px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: -13px =
+0px; HEIGHT: 77px
+}
+.blue .top .t_r {
+	WIDTH: 10px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 0px =
+0px; HEIGHT: 77px
+}
+.w963 {
+	MARGIN-TOP: 8px; WIDTH: 963px; MARGIN-BOTTOM: 0px
+}
+#navMenu {
+	WIDTH: 940px; OVERFLOW: hidden
+}
+#navMenu LI {
+	BACKGROUND-IMAGE: url(../images/header_interval.png); LINE-HEIGHT: =
+34px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 0px center; =
+FLOAT: left; HEIGHT: 34px; MARGIN-LEFT: -2px
+}
+#navMenu LI A {
+	PADDING-LEFT: 1em; PADDING-RIGHT: 1em; DISPLAY: block; COLOR: #fff; =
+MARGIN-LEFT: 2px; FONT-SIZE: 14px
+}
+#navMenu LI A:hover {
+	BACKGROUND-IMAGE: url(../images/header_hover.png); BACKGROUND-REPEAT: =
+no-repeat; BACKGROUND-POSITION: center top; TEXT-DECORATION: none
+}
+#navMenu LI.hover A {
+	BACKGROUND-IMAGE: url(../images/header_hover.png); BACKGROUND-REPEAT: =
+no-repeat; BACKGROUND-POSITION: center top; TEXT-DECORATION: none
+}
+.dropMenu {
+	Z-INDEX: 100; BORDER-BOTTOM: #93e1eb 1px solid; POSITION: absolute; =
+FILTER: progid:DXImageTransform.Microsoft.Shadow(color=3D#CACACA, =
+direction=3D135, strength=3D4); BORDER-LEFT: #93e1eb 1px solid; =
+PADDING-BOTTOM: 6px; MARGIN-TOP: -1px; WIDTH: 120px; BACKGROUND: =
+url(../images/mmenubg.gif); VISIBILITY: hidden; BORDER-TOP: #3ca2dc 0px =
+solid; TOP: 0px; BORDER-RIGHT: #93e1eb 1px solid; PADDING-TOP: 6px
+}
+.dropMenu LI {
+	MARGIN-TOP: 2px; PADDING-LEFT: 6px; MARGIN-BOTTOM: 4px
+}
+.dropMenu A {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 1.2em; WIDTH: auto; PADDING-RIGHT: =
+0px; DISPLAY: block; COLOR: black; PADDING-TOP: 2px
+}
+* HTML .dropMenu A {
+	WIDTH: 100%
+}
+.dropMenu A:hover {
+	COLOR: red; TEXT-DECORATION: underline
+}
+.search-keyword {
+	BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 56px; WIDTH: 160px; BACKGROUND: =
+url(../images/search-bg.gif) no-repeat; BORDER-TOP-WIDTH: 0px; =
+BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 19px; BORDER-LEFT-WIDTH: 0px; =
+PADDING-TOP: 5px
+}
+.search-submit {
+	BORDER-RIGHT-WIDTH: 0px; WIDTH: 68px; BACKGROUND: =
+url(../images/search-bt.gif) no-repeat; BORDER-TOP-WIDTH: 0px; =
+BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 22px; COLOR: #fafafa; FONT-SIZE: 0px; =
+BORDER-LEFT-WIDTH: 0px; CURSOR: pointer
+}
+.search-option {
+	HEIGHT: 22px; MARGIN-LEFT: 3px; MARGIN-RIGHT: 3px
+}
+.w963 .search {
+	LINE-HEIGHT: 32px; PADDING-LEFT: 10px
+}
+.w963 .form H4 {
+	DISPLAY: none
+}
+.w963 .form {
+	FLOAT: left; MARGIN-RIGHT: 10px
+}
+.w963 .tags {
+	WIDTH: 500px; OVERFLOW: hidden
+}
+.w963 .tags H4 {
+	WIDTH: 66px; BACKGROUND: url(../images/search-tags-title.gif) no-repeat =
+0px 6px; FLOAT: left; HEIGHT: 26px; COLOR: #fafafa; FONT-SIZE: 0px; =
+MARGIN-RIGHT: 6px
+}
+.w963 .tags LI {
+	FLOAT: left; MARGIN-RIGHT: 6px
+}
+.header .nav .end {
+=09
+}
+.channel-nav {
+	BORDER-BOTTOM: #d5ecfb 1px solid; BORDER-LEFT: #d5ecfb 1px solid; =
+MARGIN-TOP: 8px; PADDING-LEFT: 6px; WIDTH: 950px; BACKGROUND: =
+url(../images/navbg.gif) repeat-x; OVERFLOW: hidden; BORDER-TOP: #d5ecfb =
+1px solid; BORDER-RIGHT: #d5ecfb 1px solid
+}
+.channel-nav .sonnav {
+	LINE-HEIGHT: 26px; WIDTH: 830px; FLOAT: left; PADDING-TOP: 2px
+}
+.channel-nav .sonnav SPAN {
+	PADDING-LEFT: 14px; BACKGROUND: url(../../images/dd2.gif) no-repeat 0px =
+1px; OVERFLOW: hidden; MARGIN-RIGHT: 8px
+}
+.channel-nav .sonnav A {
+	COLOR: #333; TEXT-DECORATION: none
+}
+.channel-nav .back {
+	LINE-HEIGHT: 21px; PADDING-LEFT: 20px; PADDING-RIGHT: 10px; DISPLAY: =
+block; BACKGROUND: url(../images/ico-home.gif) no-repeat 4px 10px; =
+FLOAT: right; LETTER-SPACING: 2px; HEIGHT: 22px; PADDING-TOP: 6px
+}
+.channel-nav .back A {
+	COLOR: #397cbe
+}
+.channel-nav .back A:hover {
+	COLOR: #777; TEXT-DECORATION: none
+}
+.footer {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 10px; MARGIN: 8px auto auto; WIDTH: =
+960px; COLOR: #999; BORDER-TOP: #e5efd6 1px solid; PADDING-TOP: 10px
+}
+.footer .link {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; =
+PADDING-RIGHT: 0px; PADDING-TOP: 5px
+}
+.footer .link A {
+	MARGIN: 0px 5px; COLOR: #666666
+}
+.footer .powered {
+	LINE-HEIGHT: 25px; FONT-SIZE: 10px
+}
+.footer .powered STRONG {
+	COLOR: #690
+}
+.footer .powered STRONG SPAN {
+	COLOR: #f93
+}
+.footer .copyright {
+	LINE-HEIGHT: 23px; COLOR: #666666
+}
+
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.rosoo.net/js/rs_top.js
+
+var gaJsHost =3D (("https:" =3D=3D document.location.protocol) ? =
+"https://ssl." : "http://www.");=0A=
+document.write(unescape("%3Cscript src=3D'" + gaJsHost + =
+"google-analytics.com/ga.js' type=3D'text/javascript'%3E%3C/script%3E"));=0A=
+=0A=
+=0A=
+
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.rosoo.net/include/dedeajax2.js
+
+<!--
+//xmlhttp=BA=CDxmldom=B6=D4=CF=F3
+var DedeXHTTP =3D null;
+var DedeXDOM =3D null;
+var DedeContainer =3D null;
+var DedeShowError =3D false;
+var DedeShowWait =3D false;
+var DedeErrCon =3D "";
+var DedeErrDisplay =3D "=CF=C2=D4=D8=CA=FD=BE=DD=CA=A7=B0=DC";
+var DedeWaitDisplay =3D "=D5=FD=D4=DA=CF=C2=D4=D8=CA=FD=BE=DD...";
+
+//=BB=F1=C8=A1=D6=B8=B6=A8ID=B5=C4=D4=AA=CB=D8
+
+function $DE(id) {
+	return document.getElementById(id);
+}
+
+//gcontainer =
+=CA=C7=B1=A3=B4=E6=CF=C2=D4=D8=CD=EA=B3=C9=B5=C4=C4=DA=C8=DD=B5=C4=C8=DD=C6=
+=F7
+//mShowError =CA=C7=B7=F1=CC=E1=CA=BE=B4=ED=CE=F3=D0=C5=CF=A2
+//DedeShowWait =CA=C7=B7=F1=CC=E1=CA=BE=B5=C8=B4=FD=D0=C5=CF=A2
+//mErrCon =
+=B7=FE=CE=F1=C6=F7=B7=B5=BB=D8=CA=B2=C3=B4=D7=D6=B7=FB=B4=AE=CA=D3=CE=AA=B4=
+=ED=CE=F3
+//mErrDisplay =
+=B7=A2=C9=FA=B4=ED=CE=F3=CA=B1=CF=D4=CA=BE=B5=C4=D0=C5=CF=A2
+//mWaitDisplay =B5=C8=B4=FD=CA=B1=CC=E1=CA=BE=D0=C5=CF=A2
+//=C4=AC=C8=CF=B5=F7=D3=C3 DedeAjax('divid',false,false,'','','')
+
+function =
+DedeAjax(gcontainer,mShowError,mShowWait,mErrCon,mErrDisplay,mWaitDisplay=
+)
+{
+
+	DedeContainer =3D gcontainer;
+	DedeShowError =3D mShowError;
+	DedeShowWait =3D mShowWait;
+	if(mErrCon!=3D"") DedeErrCon =3D mErrCon;
+	if(mErrDisplay!=3D"") DedeErrDisplay =3D mErrDisplay;
+	if(mErrDisplay=3D=3D"x") DedeErrDisplay =3D "";
+	if(mWaitDisplay!=3D"") DedeWaitDisplay =3D mWaitDisplay;
+
+
+	//post=BB=F2get=B7=A2=CB=CD=CA=FD=BE=DD=B5=C4=BC=FC=D6=B5=B6=D4
+	this.keys =3D Array();
+	this.values =3D Array();
+	this.keyCount =3D -1;
+	this.sendlang =3D 'gb2312';
+
+	//=C7=EB=C7=F3=CD=B7=C0=E0=D0=CD
+	this.rtype =3D 'text';
+
+	//=B3=F5=CA=BC=BB=AFxmlhttp
+	//IE6=A1=A2IE5
+	if(window.ActiveXObject) {
+		try { DedeXHTTP =3D new ActiveXObject("Msxml2.XMLHTTP");} catch (e) { =
+}
+		if (DedeXHTTP =3D=3D null) try { DedeXHTTP =3D new =
+ActiveXObject("Microsoft.XMLHTTP");} catch (e) { }
+	}
+	else {
+		DedeXHTTP =3D new XMLHttpRequest();
+	}
+
+	//=D4=F6=BC=D3=D2=BB=B8=F6POST=BB=F2GET=BC=FC=D6=B5=B6=D4
+	this.AddKeyN =3D function(skey,svalue) {
+		if(this.sendlang=3D=3D'utf-8') this.AddKeyUtf8(skey, svalue);
+		else this.AddKey(skey, svalue);
+	};
+=09
+	this.AddKey =3D function(skey,svalue) {
+		this.keyCount++;
+		this.keys[this.keyCount] =3D skey;
+		svalue =3D svalue+'';
+		if(svalue !=3D '') svalue =3D svalue.replace(/\+/g,'$#$');
+		this.values[this.keyCount] =3D escape(svalue);
+	};
+
+	//=D4=F6=BC=D3=D2=BB=B8=F6POST=BB=F2GET=BC=FC=D6=B5=B6=D4
+	this.AddKeyUtf8 =3D function(skey,svalue) {
+		this.keyCount++;
+		this.keys[this.keyCount] =3D skey;
+		svalue =3D svalue+'';
+		if(svalue !=3D '') svalue =3D svalue.replace(/\+/g,'$#$');
+		this.values[this.keyCount] =3D encodeURI(svalue);
+	};
+
+	//=D4=F6=BC=D3=D2=BB=B8=F6Http=C7=EB=C7=F3=CD=B7=BC=FC=D6=B5=B6=D4
+	this.AddHead =3D function(skey,svalue) {
+		this.rkeyCount++;
+		this.rkeys[this.rkeyCount] =3D skey;
+		this.rvalues[this.rkeyCount] =3D svalue;
+	};
+
+	=
+//=C7=E5=B3=FD=B5=B1=C7=B0=B6=D4=CF=F3=B5=C4=B9=FE=CF=A3=B1=ED=B2=CE=CA=FD=
+
+	this.ClearSet =3D function() {
+		this.keyCount =3D -1;
+		this.keys =3D Array();
+		this.values =3D Array();
+		this.rkeyCount =3D -1;
+		this.rkeys =3D Array();
+		this.rvalues =3D Array();
+	};
+
+
+	DedeXHTTP.onreadystatechange =3D function() {
+		=
+//=D4=DAIE6=D6=D0=B2=BB=B9=DC=D7=E8=B6=CF=BB=F2=D2=EC=B2=BD=C4=A3=CA=BD=B6=
+=BC=BB=E1=D6=B4=D0=D0=D5=E2=B8=F6=CA=C2=BC=FE=B5=C4
+		if(DedeXHTTP.readyState =3D=3D 4){
+			if(DedeXHTTP.status =3D=3D 200)
+			{
+				if(DedeXHTTP.responseText!=3DDedeErrCon) {
+					DedeContainer.innerHTML =3D DedeXHTTP.responseText;
+				}
+				else {
+					if(DedeShowError) DedeContainer.innerHTML =3D DedeErrDisplay;
+				}
+				DedeXHTTP =3D null;
+			}
+			else { if(DedeShowError) DedeContainer.innerHTML =3D DedeErrDisplay; =
+}
+		}
+		else { if(DedeShowWait) DedeContainer.innerHTML =3D DedeWaitDisplay; }
+	};
+
+	//=BC=EC=B2=E2=D7=E8=B6=CF=C4=A3=CA=BD=B5=C4=D7=B4=CC=AC
+	this.BarrageStat =3D function() {
+		if(DedeXHTTP=3D=3Dnull) return;
+		if(typeof(DedeXHTTP.status)!=3Dundefined && DedeXHTTP.status =3D=3D =
+200)
+		{
+			if(DedeXHTTP.responseText!=3DDedeErrCon) {
+				DedeContainer.innerHTML =3D DedeXHTTP.responseText;
+			}
+			else {
+				if(DedeShowError) DedeContainer.innerHTML =3D DedeErrDisplay;
+			}
+		}
+	};
+
+	//=B7=A2=CB=CDhttp=C7=EB=C7=F3=CD=B7
+	this.SendHead =3D function()
+	{
+		=
+//=B7=A2=CB=CD=D3=C3=BB=A7=D7=D4=D0=D0=C9=E8=B6=A8=B5=C4=C7=EB=C7=F3=CD=B7=
+
+		if(this.rkeyCount!=3D-1)
+		{=20
+			for(var i =3D 0;i<=3Dthis.rkeyCount;i++)
+			{
+				DedeXHTTP.setRequestHeader(this.rkeys[i],this.rvalues[i]);
+			}
+		}
+		=A1=A1if(this.rtype=3D=3D'binary'){
+		=
+=A1=A1DedeXHTTP.setRequestHeader("Content-Type","multipart/form-data");
+	}else{
+		=
+DedeXHTTP.setRequestHeader("Content-Type","application/x-www-form-urlenco=
+ded");
+	}
+};
+
+//=D3=C3Post=B7=BD=CA=BD=B7=A2=CB=CD=CA=FD=BE=DD
+this.SendPost =3D function(purl) {
+	var pdata =3D "";
+	var i=3D0;
+	this.state =3D 0;
+	DedeXHTTP.open("POST", purl, true);
+	this.SendHead();
+	//post=CA=FD=BE=DD
+	if(this.keyCount!=3D-1)
+	{
+		for(;i<=3Dthis.keyCount;i++)
+		{
+			if(pdata=3D=3D"") pdata =3D this.keys[i]+'=3D'+this.values[i];
+			else pdata +=3D "&"+this.keys[i]+'=3D'+this.values[i];
+		}
+	}
+	DedeXHTTP.send(pdata);
+};
+
+//=D3=C3GET=B7=BD=CA=BD=B7=A2=CB=CD=CA=FD=BE=DD
+this.SendGet =3D function(purl) {
+	var gkey =3D "";
+	var i=3D0;
+	this.state =3D 0;
+	//get=B2=CE=CA=FD
+	if(this.keyCount!=3D-1)
+	{=20
+		for(;i<=3Dthis.keyCount;i++)
+		{
+			if(gkey=3D=3D"") gkey =3D this.keys[i]+'=3D'+this.values[i];
+			else gkey +=3D "&"+this.keys[i]+'=3D'+this.values[i];
+		}
+		if(purl.indexOf('?')=3D=3D-1) purl =3D purl + '?' + gkey;
+		else  purl =3D purl + '&' + gkey;
+	}
+	DedeXHTTP.open("GET", purl, true);
+	this.SendHead();
+	DedeXHTTP.send(null);
+};
+
+//=D3=C3GET=B7=BD=CA=BD=B7=A2=CB=CD=CA=FD=BE=DD=A3=AC=D7=E8=C8=FB=C4=A3=CA=
+=BD
+this.SendGet2 =3D function(purl) {
+	var gkey =3D "";
+	var i=3D0;
+	this.state =3D 0;
+	//get=B2=CE=CA=FD
+	if(this.keyCount!=3D-1)
+	{=20
+		for(;i<=3Dthis.keyCount;i++)
+		{
+			if(gkey=3D=3D"") gkey =3D this.keys[i]+'=3D'+this.values[i];
+			else gkey +=3D "&"+this.keys[i]+'=3D'+this.values[i];
+		}
+		if(purl.indexOf('?')=3D=3D-1) purl =3D purl + '?' + gkey;
+		else  purl =3D purl + '&' + gkey;
+	}
+	DedeXHTTP.open("GET", purl, false);
+	this.SendHead();
+	DedeXHTTP.send(null);
+	//firefox=D6=D0=D6=B1=BD=D3=BC=EC=B2=E2XHTTP=D7=B4=CC=AC
+	this.BarrageStat();
+};
+
+//=D3=C3Post=B7=BD=CA=BD=B7=A2=CB=CD=CA=FD=BE=DD
+this.SendPost2 =3D function(purl) {
+	var pdata =3D "";
+	var i=3D0;
+	this.state =3D 0;
+	DedeXHTTP.open("POST", purl, false);
+	this.SendHead();
+	//post=CA=FD=BE=DD
+	if(this.keyCount!=3D-1)
+	{
+		for(;i<=3Dthis.keyCount;i++)
+		{
+			if(pdata=3D=3D"") pdata =3D this.keys[i]+'=3D'+this.values[i];
+			else pdata +=3D "&"+this.keys[i]+'=3D'+this.values[i];
+		}
+	}
+	DedeXHTTP.send(pdata);
+	//firefox=D6=D0=D6=B1=BD=D3=BC=EC=B2=E2XHTTP=D7=B4=CC=AC
+	this.BarrageStat();
+};
+
+
+} // End Class DedeAjax
+
+//=B3=F5=CA=BC=BB=AFxmldom
+function InitXDom() {
+	if(DedeXDOM!=3Dnull) return;
+	var obj =3D null;
+	// Gecko=A1=A2Mozilla=A1=A2Firefox
+	if (typeof(DOMParser) !=3D "undefined") {=20
+		var parser =3D new DOMParser();
+		obj =3D parser.parseFromString(xmlText, "text/xml");
+	}
+	// IE
+	else {=20
+		try { obj =3D new ActiveXObject("MSXML2.DOMDocument");} catch (e) { }
+		if (obj =3D=3D null) try { obj =3D new =
+ActiveXObject("Microsoft.XMLDOM"); } catch (e) { }
+	}
+	DedeXDOM =3D obj;
+};
+
+
+
+//=B6=C1=D0=B4cookie=BA=AF=CA=FD
+function GetCookie(c_name)
+{
+	if (document.cookie.length > 0)
+	{
+		c_start =3D document.cookie.indexOf(c_name + "=3D")
+		if (c_start !=3D -1)
+		{
+			c_start =3D c_start + c_name.length + 1;
+			c_end   =3D document.cookie.indexOf(";",c_start);
+			if (c_end =3D=3D -1)
+			{
+				c_end =3D document.cookie.length;
+			}
+			return unescape(document.cookie.substring(c_start,c_end));
+		}
+	}
+	return null
+}
+
+function SetCookie(c_name,value,expiredays)
+{
+	var exdate =3D new Date();
+	exdate.setDate(exdate.getDate() + expiredays);
+	document.cookie =3D c_name + "=3D" +escape(value) + ((expiredays =3D=3D =
+null) ? "" : ";expires=3D" + exdate.toGMTString()); =
+//=CA=B9=C9=E8=D6=C3=B5=C4=D3=D0=D0=A7=CA=B1=BC=E4=D5=FD=C8=B7=A1=A3=D4=F6=
+=BC=D3toGMTString()
+}
+
+-->
+
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.rosoo.net/js/page_head.js
+
+=0A=
+document.write("<br/>");=0A=
+document.write("<table width=3D'520' align=3D'right'><tr><td>");=0A=
+document.write("<a href=3D'/tags.php'>TAG=B1=EA=C7=A9</a>");=0A=
+document.write("</td><td>");=0A=
+document.write("<a =
+href=3D'/data/sitemap.html'>=D5=BE=B5=E3=B5=D8=CD=BC</a>");=0A=
+document.write("</td><td>");=0A=
+document.write("<a href=3D'/data/rssmap.html'>RSS=B6=A9=D4=C4</a>");=0A=
+document.write("</td><td>");=0A=
+document.write("<a href=3D'/rss'><img src=3D'/images/rss.gif' =
+width=3D'41' height=3D'15' alt=3D'=C8=AB=D5=BERSS' border=3D'0'></a>");=0A=
+document.write("</td><td>");=0A=
+document.write("<a href=3D'http://wap.rosoo.net'><img =
+src=3D'/images/wap.gif' width=3D'41' height=3D'15' =
+alt=3D'WAP=E4=AF=C0=C0' border=3D'0'></a>");=0A=
+//document.write("</td><td>");=0A=
+//document.write("<a href=3D'#' =
+id=3D'StranLink'>=B7=B1=CC=E5=D6=D0=CE=C4</a>");=0A=
+document.write("</td><td>");=0A=
+document.write("<a href=3D'http://bbs.rosoo.net' target=3D'_blank'><font =
+color=3D'red'><b>=C1=F7=C3=BD=CC=E5=C2=DB=CC=B3</b></font></a>");=0A=
+document.write("</td><td>");=0A=
+document.write("<a =
+href=3D'/About/About.htm'>=B9=D8=D3=DA=B1=BE=D5=BE</a>");=0A=
+document.write("</td><td>");=0A=
+document.write("<a href=3D'/About/AboutMe.htm'>=B9=D8=D3=DA=CE=D2</a>");=0A=
+document.write("</td><td>");=0A=
+document.write("<a =
+href=3D'/About/Contact.htm'>=C1=AA=CF=B5=B7=BD=CA=BD</a>");=0A=
+document.write("</td></tr></table>");=0A=
+=0A=
+//document.write("<script language=3D'javascript' =
+src=3D'/js/lang.js'></script>");=0A=
+=0A=
+
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.rosoo.net/ad/js_ad_728x90_100.js
+
+var ADcurrentURL=3Ddocument.location.href;=0A=
+var ADstag=3DADcurrentURL.indexOf('//')+1; =0A=
+ADcurrentURL=3DADcurrentURL.substring(ADstag+1,ADcurrentURL.length);=0A=
+ADstag=3DADcurrentURL.indexOf('/'); =0A=
+var ADdomain=3DADcurrentURL.substring(0,ADstag); =0A=
+if (ADdomain=3D=3D"roarsoft.net" || ADdomain =3D=3D "www.roarsoft.net")=0A=
+{=0A=
+	document.open();=0A=
+	document.write("<script type=3D'text/javascript'>");=0A=
+	document.write("alimama_pid=3D\"mm_10026851_117704_1481509\";");=0A=
+	document.write("alimama_titlecolor=3D\"0000FF\";");=0A=
+	document.write("alimama_descolor =3D\"000000\";");=0A=
+	document.write("alimama_bgcolor=3D\"FFFFFF\";");=0A=
+	document.write("alimama_bordercolor=3D\"E6E6E6\";");=0A=
+	document.write("alimama_linkcolor=3D\"008000\";");=0A=
+	document.write("alimama_bottomcolor=3D\"FFFFFF\";");=0A=
+	document.write("alimama_anglesize=3D\"0\";");=0A=
+	document.write("alimama_bgpic=3D\"0\";");=0A=
+	document.write("alimama_icon=3D\"0\";");=0A=
+	document.write("alimama_sizecode=3D\"14\";");=0A=
+	document.write("alimama_width=3D728;");=0A=
+	document.write("alimama_height=3D90;");=0A=
+	document.write("alimama_type=3D2;");=0A=
+	document.write("</script>");=0A=
+	document.write("<script src=3D\"http://a.alimama.cn/inf.js\" =
+type=3Dtext/javascript></script>");=0A=
+	document.close();=0A=
+}=0A=
+else=0A=
+{=0A=
+	document.write("<script type=3D'text/javascript'>");=0A=
+	document.write("google_ad_client =3D 'pub-3349738643245862';");=0A=
+	document.write("google_ad_slot =3D '7827398482';");=0A=
+	document.write("google_ad_width =3D 728;");=0A=
+	document.write("google_ad_height =3D 90;");=0A=
+	document.write("</script>");=0A=
+	document.write("<script type=3D'text/javascript' =
+src=3D'http://pagead2.googlesyndication.com/pagead/show_ads.js'></script>=
+");=0A=
+}=0A=
+=0A=
+=0A=
+=0A=
+
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: 7bit
+Content-Location: http://www.rosoo.net/plus/count.php?view=yes&aid=10384&mid=11927
+
+document.write('398');
+
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.rosoo.net/js/sc/sc.js
+
+document.writeln("<a name=3D\"shoucang\"><font =
+style=3D\"font-size:12px\" =
+color=3D\"#000\">=CA=D5=B2=D8=B5=BD=A3=BA<\/font><\/a> ");=0A=
+document.writeln("<a =
+href=3D\"javascript:var%20shared_url=3D'https://skydrive.live.com/sharefa=
+vorite.aspx/.SharedFavorites/?url=3D'+encodeURIComponent(location.href)+'=
+&amp;title=3D'+encodeURIComponent(document.title);window.open(shared_url,=
+'_blank','scrollbars=3Dno,width=3D500,height=3D320,left=3D75,top=3D20,sta=
+tus=3Dno,resizable=3Dyes');void%200%20\"><img =
+src=3D\"\/js\/sc\/live.gif\" width=3D\"18\" border=3D\"0\" alt=3D\"MSN - =
+Live Favorites\"></a>");=0A=
+document.writeln("<a =
+href=3Djavascript:window.open('http://shuqian.qq.com/post?from=3D3&title=3D=
+'+encodeURIComponent(document.title)+'&uri=3D'+encodeURIComponent(documen=
+t.location.href)+'&jumpback=3D2&noui=3D1','favit','');void(0)><IMG =
+alt=3D=CC=ED=BC=D3=B5=BDQQ=CA=E9=C7=A9 src=3D/js/sc/qq.gif =
+align=3DabsMiddle border=3D0></a> ");=0A=
+document.writeln("<A title=3D=B0=D9=B6=C8=CA=D5=B2=D8 =
+href=3D\"javascript:u=3Dlocation.href;t=3Ddocument.title;c =3D %22%22 + =
+(window.getSelection ? window.getSelection() : document.getSelection ? =
+document.getSelection() : document.selection.createRange().text);var =
+url=3D%22http:\/\/cang.baidu.com\/do\/add?it=3D%22+encodeURIComponent(t)+=
+%22&iu=3D%22+encodeURIComponent(u)+%22&dc=3D%22+encodeURIComponent(c)+%22=
+&fr=3Dien#nw=3D1%22;window.open(url,%22_blank%22,%22scrollbars=3Dno,width=
+=3D600,height=3D450,left=3D75,top=3D20,status=3Dno,resizable=3Dyes%22); =
+void 0\"><IMG alt=3D=B0=D9=B6=C8=CA=D5=B2=D8 src=3D/js/sc/baidu.gif =
+border=3D0><\/A> ");=0A=
+document.writeln("<a =
+href=3D\"JavaScript:d=3Ddocument;t=3Dd.selection?(d.selection.type!=3D'No=
+ne'?d.selection.createRange().text:''):(d.getSelection?d.getSelection():'=
+');void(saveit=3Dwindow.open('http://wz.csdn.net/storeit.aspx?t=3D'+escap=
+e(d.title)+'&u=3D'+escape(d.location.href)+'&c=3D'+escape(t),'keyit','scr=
+ollbars=3Dno,width=3D590,height=3D300,left=3D75,top=3D20,status=3Dno,resi=
+zable=3Dyes'));saveit.focus();\" =
+title=3D'=CA=D5=B2=D8=B5=BDCSDN=BC=BC=CA=F5=CD=F8=D5=AA'><img =
+src=3D'/js/sc/csdn.gif' alt=3D'CSDN=BC=BC=CA=F5=CD=F8=D5=AA'/ =
+border=3D'0'></a>");=0A=
+document.writeln("<a =
+href=3D\"javascript:location.href=3D'http://www.google.com/bookmarks/mark=
+?op=3Dadd&bkmk=3D'+encodeURIComponent(location.href)+'&title=3D'+encodeUR=
+IComponent(document.title)\"><img src=3D/js/sc/google.gif =
+alt=3D\"=CC=ED=BC=D3=B5=BDgoogle\" border=3D0\/></a>");=0A=
+document.writeln("<a =
+href=3D\"javascript:d=3Ddocument;t=3Dd.selection?(d.selection.type!=3D'No=
+ne'?d.selection.createRange().text:''):(d.getSelection?d.getSelection():'=
+');void(keyit=3Dwindow.open('http://www.365key.com/storeit.aspx?t=3D'+esc=
+ape(d.title)+'&u=3D'+escape(d.location.href)+'&c=3D'+escape(t),'keyit','s=
+crollbars=3Dno,width=3D475,height=3D575,left=3D75,top=3D20,status=3Dno,re=
+sizable=3Dyes'));keyit.focus();\"><img src=3D'/js/sc/365key.gif' =
+alt=3D'365Key=CD=F8=D5=AA' border=3D'0'></a>");=0A=
+//document.writeln("<a =
+href=3D\"javascript:location.href=3D\'http:\/\/www.xianguo.com\/service\/=
+submitfav\/?link=3D\'+encodeURIComponent(location.href)+\'&title=3D\'+enc=
+odeURIComponent(document.title)\"><img src=3D\/js\/sc\/xianguo.gif =
+alt=3D\"=CC=ED=BC=D3=B5=BD=CF=CA=B9=FB\" border=3D0 \/><\/a>"); =0A=
+document.writeln("<a target=3D_self =
+href=3D\"javascript:d=3Ddocument;t=3Dd.selection?(d.selection.type!=3D'No=
+ne'?d.selection.createRange().text:''):(d.getSelection?d.getSelection():'=
+');void(vivi=3Dwindow.open('http://vivi.sina.com.cn/collect/icollect.php?=
+pid=3Droarsoft.net&title=3D'+escape(d.title)+'&url=3D'+escape(d.location.=
+href)+'&desc=3D'+escape(t),'vivi','scrollbars=3Dno,width=3D480,height=3D4=
+80,left=3D75,top=3D20,status=3Dno,resizable=3Dyes'));vivi.focus();\" =
+target=3D\"_blank\"><img src=3D'/js/sc/vivi.gif' =
+alt=3D'=D0=C2=C0=CBViVi' border=3D'0'></a>");=0A=
+//document.writeln("<a target=3D_self =
+href=3D\"javascript:d=3Ddocument;t=3Dd.selection?(d.selection.type!=3D'No=
+ne'?d.selection.createRange().text:''):(d.getSelection?d.getSelection():'=
+');void(yesky=3Dwindow.open('http://hot.yesky.com/dp.aspx?t=3D'+escape(d.=
+title)+'&u=3D'+escape(d.location.href)+'&c=3D'+escape(t)+'&st=3D2','yesky=
+','scrollbars=3Dno,width=3D400,height=3D480,left=3D75,top=3D20,status=3Dn=
+o,resizable=3Dyes'));yesky.focus();\" target=3D\"_blank\"><img =
+src=3D'/js/sc/yesky.gif' alt=3D'=CC=EC=BC=AB=CD=F8=D5=AA' =
+border=3D'0'></a>");=0A=
+//document.writeln("<a =
+href=3D\"javascript:d=3Ddocument;t=3Dd.selection?(d.selection.type!=3D'No=
+ne'?d.selection.createRange().text:''):(d.getSelection?d.getSelection():'=
+');void(wozhai=3Dwindow.open('http://www.wozhai.com/wozhai/Cento.asp#t=3D=
+'+escape(d.title)+'&u=3D'+escape(d.location.href)+'&c=3D'+escape(t),'wozh=
+ai','scrollbars=3Dno,width=3D475,height=3D575,left=3D75,top=3D20,status=3D=
+no,resizable=3Dyes'));wozhai.focus();\"><img src=3D'/js/sc/wozhai.gif' =
+alt=3D'=CE=D2=D5=AA' border=3D'0'></a>");=0A=
+//document.writeln("<a =
+href=3D\"javascript:t=3Ddocument.title;u=3Dlocation.href;e=3Ddocument.sel=
+ection?(document.selection.type!=3D'None'?document.selection.createRange(=
+).text:''):(document.getSelection?document.getSelection():'');void(open('=
+http://bookmark.hexun.com/post.aspx?title=3D'+escape(t)+'&url=3D'+escape(=
+u)+'&excerpt=3D'+escape(e),'HexunBookmark','scrollbars=3Dno,width=3D600,h=
+eight=3D450,left=3D80,top=3D80,status=3Dno,resizable=3Dyes'));\"><img =
+src=3D'/js/sc/hexun.gif' alt=3D'=BA=CD=D1=B6=CD=F8=D5=AA' =
+border=3D'0'></a>");=0A=
+document.writeln("<a href=3D\"#\" =
+onclick=3D\"window.open('http://myweb.cn.yahoo.com/popadd.html?url=3D'+en=
+codeURIComponent(document.location.href)+'&title=3D'+encodeURIComponent(d=
+ocument.title), =
+'Yahoo','scrollbars=3Dyes,width=3D780,height=3D550,left=3D80,top=3D80,sta=
+tus=3Dyes,resizable=3Dyes');\"><IMG alt=3Dyahoo src=3D/js/sc/yahoo.gif =
+alt=3D\"=D1=C5=BB=A2=CA=D5=B2=D8\" border=3D0><\/A> <a =
+target=3D\"_blank\" href=3D\"http:\/\/www.shouker.com\/\" =
+onClick=3D\"javascript:var =
+js=3Ddocument.createElement(\'script\');if(typeof(js)!=3D\'object\')js=3D=
+document.standardCreateElement(\'script\');js.type=3D\'text\/javascript\'=
+;js.src=3D\'http:\/\/www.shouker.com\/js\/capageb.js\';document.getElemen=
+tsByTagName(\'html\')[0].appendChild(js);return false;\"><img =
+alt=3D\"=CA=D5=B2=D8=B5=BD=CA=D5=BF=CD=CD=F8\" src=3D/js/sc/sk-cl5.gif =
+border=3D0><\/a>");=0A=
+document.writeln("<a =
+href=3D\"javascript:q=3D(document.location.href);void(open(\'http:\/\/www=
+.digbuzz.com\/submit.php?url=3D\'+escape(q),\'\',\'resizable,location,men=
+ubar,toolbar,scrollbars,status\'));\"><img src=3D/js/sc/digbuzz.gif =
+border=3D0 alt=3D\"Digbuzz=CE=D2=CD=DA=CD=F8\" =
+title=3D\"=CC=ED=BC=D3=B5=BDDigbuzz=CE=D2=CD=DA=CD=F8\" \/><\/a>");=0A=
+//document.writeln("<a href=3D\"javascript:var =
+d=3Ddocument,w=3Dwindow,f=3D\'http:\/\/fanfou.com\/share\',l=3Dd.location=
+,e=3DencodeURIComponent,p=3D\'?u=3D\'+e(l.href)+\'&t=3D\'+e(d.title)+\'&d=
+=3D\'+e(w.getSelection?w.getSelection().toString():d.getSelection?d.getSe=
+lection():d.selection.createRange().text)+\'&s=3Dbm\';a=3Dfunction(){if(!=
+w.open(f+\'r\'+p,\'sharer\',\'toolbar=3D0,status=3D0,resizable=3D0,width=3D=
+600,height=3D400\'))l.href=3Df+\'.new\'+p};if(\/Firefox\/.test(navigator.=
+userAgent))setTimeout(a,0);else{a()}void(0)\"><img =
+src=3D/js/sc/fanfou.gif alt=3D\"=CC=ED=BC=D3=B5=BD=B7=B9=B7=F1\" =
+title=3D\"=CC=ED=BC=D3=B5=BD=B7=B9=B7=F1\" border=3D0\/><\/a>");=0A=
+//document.writeln("<a =
+href=3D\"javascript:q=3D(document.location.href);void(open(\'http:\/\/www=
+.waakee.com\/submit.php?url=3D\'+encodeURIComponent(q),\'\',\'\'));\"><im=
+g alt=3D\"=CD=DA=BF=CD\" src=3D\"\/js\/sc\/waakee18.gif\" width=3D\"18\" =
+alt=3D\"=CA=D5=B2=D8=B5=BD=CD=DA=BF=CD\" border=3D\"0\"><\/a>");=0A=
+document.writeln("<a =
+href=3Djavascript:window.external.AddFavorite(location.href+'#sc','=A1=EF=
+'+document.title)><IMG  src=3D/js/sc/ie.gif align=3DabsMiddle =
+border=3D0></a><br/>");=0A=
+=0A=
+
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.rosoo.net/ad/js_ad_468x15_100.js
+
+var ADcurrentURL=3Ddocument.location.href;=0A=
+var ADstag=3DADcurrentURL.indexOf('//')+1; =0A=
+ADcurrentURL=3DADcurrentURL.substring(ADstag+1,ADcurrentURL.length);=0A=
+ADstag=3DADcurrentURL.indexOf('/'); =0A=
+var ADdomain=3DADcurrentURL.substring(0,ADstag); =0A=
+if (ADdomain=3D=3D"roarsoft.net" || ADdomain =3D=3D "www.roarsoft.net")=0A=
+{=0A=
+	document.open();=0A=
+	document.write("<script type=3D'text/javascript'>");=0A=
+	document.write("alimama_pid=3D\"mm_10026851_117704_2064667\";");=0A=
+	document.write("alimama_titlecolor=3D\"0000FF\";");=0A=
+	document.write("alimama_descolor =3D\"000000\";");=0A=
+	document.write("alimama_bgcolor=3D\"FFFFFF\";");=0A=
+	document.write("alimama_bordercolor=3D\"E6E6E6\";");=0A=
+	document.write("alimama_linkcolor=3D\"008000\";");=0A=
+	document.write("alimama_bottomcolor=3D\"FFFFFF\";");=0A=
+	document.write("alimama_anglesize=3D\"0\";");=0A=
+	document.write("alimama_bgpic=3D\"0\";");=0A=
+	document.write("alimama_icon=3D\"0\";");=0A=
+	document.write("alimama_sizecode=3D\"12\";");=0A=
+	document.write("alimama_width=3D468;");=0A=
+	document.write("alimama_height=3D60;");=0A=
+	document.write("alimama_type=3D2;");=0A=
+	document.write("</script>");=0A=
+	document.write("<script src=3D\"http://a.alimama.cn/inf.js\" =
+type=3Dtext/javascript></script>");=0A=
+	document.close();=0A=
+}=0A=
+else=0A=
+{=0A=
+	document.write("<script type=3D'text/javascript'>");=0A=
+	document.write("google_ad_client =3D 'pub-3349738643245862';");=0A=
+	document.write("google_ad_slot =3D '8382821229';");=0A=
+	document.write("google_ad_width =3D 468;");=0A=
+	document.write("google_ad_height =3D 15;");=0A=
+	document.write("</script>");=0A=
+	document.write("<script type=3D'text/javascript' =
+src=3D'http://pagead2.googlesyndication.com/pagead/show_ads.js'></script>=
+");=0A=
+}=0A=
+
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.rosoo.net/ad/js_ad_468x15_101.js
+
+var ADcurrentURL=3Ddocument.location.href;=0A=
+var ADstag=3DADcurrentURL.indexOf('//')+1; =0A=
+ADcurrentURL=3DADcurrentURL.substring(ADstag+1,ADcurrentURL.length);=0A=
+ADstag=3DADcurrentURL.indexOf('/'); =0A=
+var ADdomain=3DADcurrentURL.substring(0,ADstag); =0A=
+if (ADdomain=3D=3D"roarsoft.net" || ADdomain =3D=3D "www.roarsoft.net")=0A=
+{=0A=
+	document.open();=0A=
+	document.write("<script type=3D'text/javascript'>");=0A=
+	document.write("alimama_pid=3D\"mm_10026851_117704_2064644\";");=0A=
+	document.write("alimama_titlecolor=3D\"0000FF\";");=0A=
+	document.write("alimama_descolor =3D\"000000\";");=0A=
+	document.write("alimama_bgcolor=3D\"FFFFFF\";");=0A=
+	document.write("alimama_bordercolor=3D\"E6E6E6\";");=0A=
+	document.write("alimama_linkcolor=3D\"008000\";");=0A=
+	document.write("alimama_bottomcolor=3D\"FFFFFF\";");=0A=
+	document.write("alimama_anglesize=3D\"0\";");=0A=
+	document.write("alimama_bgpic=3D\"0\";");=0A=
+	document.write("alimama_icon=3D\"0\";");=0A=
+	document.write("alimama_sizecode=3D\"12\";");=0A=
+	document.write("alimama_width=3D468;");=0A=
+	document.write("alimama_height=3D60;");=0A=
+	document.write("alimama_type=3D2;");=0A=
+	document.write("</script>");=0A=
+	document.write("<script src=3D\"http://a.alimama.cn/inf.js\" =
+type=3Dtext/javascript></script>");=0A=
+	document.close();=0A=
+}=0A=
+else=0A=
+{=0A=
+	document.write("<script type=3D'text/javascript'>");=0A=
+	document.write("google_ad_client =3D 'pub-3349738643245862';");=0A=
+	document.write("google_ad_slot =3D '9020816839';");=0A=
+	document.write("google_ad_width =3D 468;");=0A=
+	document.write("google_ad_height =3D 15;");=0A=
+	document.write("</script>");=0A=
+	document.write("<script type=3D'text/javascript' =
+src=3D'http://pagead2.googlesyndication.com/pagead/show_ads.js'></script>=
+");=0A=
+}=0A=
+=0A=
+=0A=
+
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.rosoo.net/ad/js_ad_250x250_100.js
+
+var ADcurrentURL=3Ddocument.location.href;=0A=
+var ADstag=3DADcurrentURL.indexOf('//')+1; =0A=
+ADcurrentURL=3DADcurrentURL.substring(ADstag+1,ADcurrentURL.length);=0A=
+ADstag=3DADcurrentURL.indexOf('/'); =0A=
+var ADdomain=3DADcurrentURL.substring(0,ADstag); =0A=
+=0A=
+if (ADdomain=3D=3D"roarsoft.net" || ADdomain =3D=3D "www.roarsoft.net")=0A=
+{=0A=
+	document.open();=0A=
+	document.write("<script type=3D'text/javascript'>");=0A=
+	document.write("alimama_pid=3D\"mm_10026851_117704_2142029\";");=0A=
+	document.write("alimama_titlecolor=3D\"0000FF\";");=0A=
+	document.write("alimama_descolor =3D\"000000\";");=0A=
+	document.write("alimama_bgcolor=3D\"FFFFFF\";");=0A=
+	document.write("alimama_bordercolor=3D\"E6E6E6\";");=0A=
+	document.write("alimama_linkcolor=3D\"008000\";");=0A=
+	document.write("alimama_bottomcolor=3D\"FFFFFF\";");=0A=
+	document.write("alimama_anglesize=3D\"0\";");=0A=
+	document.write("alimama_bgpic=3D\"0\";");=0A=
+	document.write("alimama_icon=3D\"0\";");=0A=
+	document.write("alimama_sizecode=3D\"32\";");=0A=
+	document.write("alimama_width=3D300;");=0A=
+	document.write("alimama_height=3D250;");=0A=
+	document.write("alimama_type=3D2;");=0A=
+	document.write("</script>");=0A=
+	document.write("<script src=3D\"http://a.alimama.cn/inf.js\" =
+type=3Dtext/javascript></script>");=0A=
+	document.close();=0A=
+}=0A=
+else=0A=
+{=0A=
+	document.write("<script type=3D'text/javascript'>");=0A=
+	document.write("google_ad_client =3D 'pub-3349738643245862';");=0A=
+	document.write("google_ad_slot =3D '8133459122';");=0A=
+	document.write("google_ad_width =3D 250;");=0A=
+	document.write("google_ad_height =3D 250;");=0A=
+	document.write("</script>");=0A=
+	document.write("<script type=3D'text/javascript' =
+src=3D'http://pagead2.googlesyndication.com/pagead/show_ads.js'></script>=
+");=0A=
+}=0A=
+
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.rosoo.net/images/js/dropdown.js
+
+var cssdropdown=3D{
+disappeardelay: 250,=20
+disablemenuclick: false,=20
+enableswipe: 1,=20
+enableiframeshim: 1,=20
+dropmenuobj: null, ie: document.all, firefox: =
+document.getElementById&&!document.all, swipetimer: undefined, =
+bottomclip:0,
+
+getposOffset:function(what, offsettype){
+var totaloffset=3D(offsettype=3D=3D"left")? what.offsetLeft : =
+what.offsetTop;
+var parentEl=3Dwhat.offsetParent;
+while (parentEl!=3Dnull){
+totaloffset=3D(offsettype=3D=3D"left")? totaloffset+parentEl.offsetLeft =
+: totaloffset+parentEl.offsetTop;
+parentEl=3DparentEl.offsetParent;
+}
+return totaloffset;
+},
+
+swipeeffect:function(){
+if (this.bottomclip<parseInt(this.dropmenuobj.offsetHeight)){
+this.bottomclip+=3D10+(this.bottomclip/10)=20
+this.dropmenuobj.style.clip=3D"rect(0 auto "+this.bottomclip+"px 0)"
+}
+else
+return
+this.swipetimer=3DsetTimeout("cssdropdown.swipeeffect()", 10)
+},
+
+showhide:function(obj, e){
+if (this.ie || this.firefox)
+this.dropmenuobj.style.left=3Dthis.dropmenuobj.style.top=3D"-500px"
+if (e.type=3D=3D"click" && obj.visibility=3D=3Dhidden || =
+e.type=3D=3D"mouseover"){
+if (this.enableswipe=3D=3D1){
+if (typeof this.swipetimer!=3D"undefined")
+clearTimeout(this.swipetimer)
+obj.clip=3D"rect(0 auto 0 0)"=20
+this.bottomclip=3D0
+this.swipeeffect()
+}
+obj.visibility=3D"visible"
+}
+else if (e.type=3D=3D"click")
+obj.visibility=3D"hidden"
+},
+
+iecompattest:function(){
+return (document.compatMode && document.compatMode!=3D"BackCompat")? =
+document.documentElement : document.body
+},
+
+clearbrowseredge:function(obj, whichedge){
+var edgeoffset=3D0
+if (whichedge=3D=3D"rightedge"){
+var windowedge=3Dthis.ie && !window.opera? =
+this.iecompattest().scrollLeft+this.iecompattest().clientWidth-15 : =
+window.pageXOffset+window.innerWidth-15
+this.dropmenuobj.contentmeasure=3Dthis.dropmenuobj.offsetWidth
+if (windowedge-this.dropmenuobj.x < this.dropmenuobj.contentmeasure) =20
+edgeoffset=3Dthis.dropmenuobj.contentmeasure-obj.offsetWidth
+}
+else{
+var topedge=3Dthis.ie && !window.opera? this.iecompattest().scrollTop : =
+window.pageYOffset
+var windowedge=3Dthis.ie && !window.opera? =
+this.iecompattest().scrollTop+this.iecompattest().clientHeight-15 : =
+window.pageYOffset+window.innerHeight-18
+this.dropmenuobj.contentmeasure=3Dthis.dropmenuobj.offsetHeight
+if (windowedge-this.dropmenuobj.y < this.dropmenuobj.contentmeasure){=20
+edgeoffset=3Dthis.dropmenuobj.contentmeasure+obj.offsetHeight
+if ((this.dropmenuobj.y-topedge)<this.dropmenuobj.contentmeasure)=20
+edgeoffset=3Dthis.dropmenuobj.y+obj.offsetHeight-topedge
+}
+}
+return edgeoffset
+},
+
+dropit:function(obj, e, dropmenuID){
+if (this.dropmenuobj!=3Dnull)=20
+	this.dropmenuobj.style.visibility=3D"hidden"=20
+this.clearhidemenu()
+if (this.ie||this.firefox){
+obj.onmouseout=3Dfunction(){cssdropdown.delayhidemenu()}
+obj.onclick=3Dfunction(){return !cssdropdown.disablemenuclick}=20
+this.dropmenuobj=3Ddocument.getElementById(dropmenuID)
+if(!this.dropmenuobj) return;
+this.dropmenuobj.onmouseover=3Dfunction(){cssdropdown.clearhidemenu()}
+this.dropmenuobj.onmouseout=3Dfunction(e){cssdropdown.dynamichide(e)}
+this.dropmenuobj.onclick=3Dfunction(){cssdropdown.delayhidemenu()}
+this.showhide(this.dropmenuobj.style, e)
+this.dropmenuobj.x=3Dthis.getposOffset(obj, "left")
+this.dropmenuobj.y=3Dthis.getposOffset(obj, "top")
+this.dropmenuobj.style.left=3Dthis.dropmenuobj.x-this.clearbrowseredge(ob=
+j, "rightedge")+"px"
+this.dropmenuobj.style.top=3Dthis.dropmenuobj.y-this.clearbrowseredge(obj=
+, "bottomedge")+obj.offsetHeight+1+"px"
+this.positionshim()=20
+}
+},
+
+positionshim:function(){=20
+if (this.enableiframeshim && typeof this.shimobject!=3D"undefined"){
+if (this.dropmenuobj.style.visibility=3D=3D"visible"){
+this.shimobject.style.width=3Dthis.dropmenuobj.offsetWidth+"px"
+this.shimobject.style.height=3Dthis.dropmenuobj.offsetHeight+"px"
+this.shimobject.style.left=3Dthis.dropmenuobj.style.left
+this.shimobject.style.top=3Dthis.dropmenuobj.style.top
+}
+this.shimobject.style.display=3D(this.dropmenuobj.style.visibility=3D=3D"=
+visible")? "block" : "none"
+}
+},
+
+hideshim:function(){
+if (this.enableiframeshim && typeof this.shimobject!=3D"undefined")
+this.shimobject.style.display=3D'none'
+},
+
+contains_firefox:function(a, b) {
+while (b.parentNode)
+if ((b =3D b.parentNode) =3D=3D a)
+return true;
+return false;
+},
+
+dynamichide:function(e){
+var evtobj=3Dwindow.event? window.event : e
+if (this.ie&&!this.dropmenuobj.contains(evtobj.toElement))
+this.delayhidemenu()
+else if (this.firefox&&e.currentTarget!=3D evtobj.relatedTarget&& =
+!this.contains_firefox(evtobj.currentTarget, evtobj.relatedTarget))
+this.delayhidemenu()
+},
+
+delayhidemenu:function(){
+this.delayhide=3DsetTimeout("cssdropdown.dropmenuobj.style.visibility=3D'=
+hidden'; cssdropdown.hideshim()",this.disappeardelay)=20
+},
+
+clearhidemenu:function(){
+if (this.delayhide!=3D"undefined")
+clearTimeout(this.delayhide)
+},
+
+startchrome:function(){
+for (var ids=3D0; ids<arguments.length; ids++){
+var =
+menuitems=3Ddocument.getElementById(arguments[ids]).getElementsByTagName(=
+"a")
+for (var i=3D0; i<menuitems.length; i++){
+if (menuitems[i].getAttribute("rel")){
+var relvalue=3Dmenuitems[i].getAttribute("rel")
+menuitems[i].onmouseover=3Dfunction(e){
+var event=3Dtypeof e!=3D"undefined"? e : window.event
+cssdropdown.dropit(this,event,this.getAttribute("rel"))
+}
+}
+}
+}
+if (window.createPopup && !window.XmlHttpRequest){=20
+document.write('<IFRAME id=3D"iframeshim"  src=3D"" style=3D"display: =
+none; left: 0; top: 0; z-index: 90; position: absolute; filter: =
+progid:DXImageTransform.Microsoft.Alpha(style=3D0,opacity=3D0)" =
+frameBorder=3D"0" scrolling=3D"no"></IFRAME>')
+this.shimobject=3Ddocument.getElementById("iframeshim")=20
+}
+}
+
+}
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.rosoo.net/js/catalog.js
+
+=0A=
+//document.write("<table align=3D'center' width=3D'950' border=3D'0' =
+cellspacing=3D'0' cellpadding=3D'0'  style=3D'border-top:#999999 1px =
+solid'>");=0A=
+//document.write("  <tr>");=0A=
+//document.write("    <td align=3D'center'></td>");=0A=
+//document.write("  </tr>");=0A=
+//document.write("</table>");=0A=
+
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.rosoo.net/ad/js_ad_728x90_101.js
+
+var ADcurrentURL=3Ddocument.location.href;=0A=
+var ADstag=3DADcurrentURL.indexOf('//')+1; =0A=
+ADcurrentURL=3DADcurrentURL.substring(ADstag+1,ADcurrentURL.length);=0A=
+ADstag=3DADcurrentURL.indexOf('/'); =0A=
+var ADdomain=3DADcurrentURL.substring(0,ADstag); =0A=
+=0A=
+if (ADdomain=3D=3D"roarsoft.net" || ADdomain =3D=3D "www.roarsoft.net")=0A=
+{=0A=
+	document.open();=0A=
+	document.write("<script type=3D'text/javascript'>");=0A=
+	document.write("alimama_pid=3D\"mm_10026851_117704_122406\";");=0A=
+	document.write("alimama_titlecolor=3D\"0000FF\";");=0A=
+	document.write("alimama_descolor =3D\"000000\";");=0A=
+	document.write("alimama_bgcolor=3D\"FFFFFF\";");=0A=
+	document.write("alimama_bordercolor=3D\"E6E6E6\";");=0A=
+	document.write("alimama_linkcolor=3D\"008000\";");=0A=
+	document.write("alimama_bottomcolor=3D\"FFFFFF\";");=0A=
+	document.write("alimama_anglesize=3D\"0\";");=0A=
+	document.write("alimama_bgpic=3D\"0\";");=0A=
+	document.write("alimama_icon=3D\"0\";");=0A=
+	document.write("alimama_sizecode=3D\"11\";");=0A=
+	document.write("alimama_width=3D760;");=0A=
+	document.write("alimama_height=3D90;");=0A=
+	document.write("alimama_type=3D2;");=0A=
+	document.write("</script>");=0A=
+	document.write("<script src=3D\"http://a.alimama.cn/inf.js\" =
+type=3Dtext/javascript></script>");=0A=
+	document.close();	=0A=
+}else{=0A=
+	document.write("<script type=3D'text/javascript'>");=0A=
+	document.write("google_ad_client =3D 'pub-3349738643245862';");=0A=
+	document.write("google_ad_slot =3D '2360225121';");=0A=
+	document.write("google_ad_width =3D 728;");=0A=
+	document.write("google_ad_height =3D 90;");=0A=
+	document.write("</script>");=0A=
+	document.write("<script type=3D'text/javascript' =
+src=3D'http://pagead2.googlesyndication.com/pagead/show_ads.js'></script>=
+");=0A=
+}=0A=
+
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.rosoo.net/js/some.rights.reserved.js
+
+document.write("Some Rights Reserved 1998 - 2006  <a =
+href=3D'http://www.rosoo.net'><font face=3D'Verdana, Arial, Helvetica, =
+sans-serif' size=3D'1'><b>Rosoo<font =
+color=3D'#CC0000'>.Net</font></b></font></a><br/>");=0A=
+document.write("Except where otherwise noted, content on this site =
+is<br/>");=0A=
+document.write("licensed base <a =
+href=3D'http://creativecommons.org/licenses/by-nc-sa/1.0/deed.en'>a =
+Creative Commons Attribution 2.5 License</a>");=0A=
+document.write("<br/>");=0A=
+document.write("<br/>");=0A=
+document.write("=C1=F7=C3=BD=CC=E5=BF=AA=B7=A2 =
+MSN=C8=BA=A3=BAstreaming@group.live.com");=0A=
+document.write("<br/>");=0A=
+document.write("=C1=F7=C3=BD=CC=E5=BF=AA=B7=A2 QQ=C8=BA=A3=BA8655372");=0A=
+=0A=
+function nocopy()=0A=
+{=0A=
+//document.selection.empty();=0A=
+//alert("nocopy");=0A=
+//return false;=0A=
+//    if (window.clipboardData) {=0A=
+  //      setTimeout(nocopy(){=0A=
+    //        var text =3D clipboardData.getData("text");=0A=
+      //      if (text && text.length > 300) {=0A=
+        //        text =3D text + =
+"\r\n\n=B1=BE=CE=C4=C0=B4=D7=D4=C2=DE=CB=F7=B9=A4=D7=F7=CA=D2=A3=AC=D7=AA=
+=D4=D8=C7=EB=B1=EA=C3=F7=B3=F6=B4=A6=A3=BA" + location.href;=0A=
+          //      clipboardData.setData("text", text);=0A=
+           // }=0A=
+//        }, 100);=0A=
+//    }=0A=
+}=0A=
+=0A=
+function returnfalse()=0A=
+{=0A=
+	return false;=0A=
+}=0A=
+=0A=
+//document.oncontextmenu=3Dreturnfalse;=0A=
+//document.ondragstart=3Dreturnfalse;=0A=
+//document.onselectstart =3Dreturnfalse;=0A=
+//document.onselect=3Dnocopy;=0A=
+document.oncopy=3Dnocopy;=0A=
+//document.onbeforecopy=3Dreturnfalse;=0A=
+//document.onmouseup=3Dnocopy;=0A=
+=0A=
+document.oncopy=3Dfunction(){=0A=
+	if (window.clipboardData) {=0A=
+		setTimeout(function() {=0A=
+			var text =3D clipboardData.getData("text");=0A=
+			if (text && text.length > 300) {=0A=
+				text =3D text + =
+"\r\n\n=B1=BE=CE=C4=C0=B4=D7=D4=C2=DE=CB=F7=B9=A4=D7=F7=CA=D2=A3=AC=D7=AA=
+=D4=D8=C7=EB=B1=EA=C3=F7=B3=F6=B4=A6=A3=BA" + location.href;=0A=
+				clipboardData.setData("text", text);=0A=
+			}=0A=
+		}, 100);=0A=
+	}=0A=
+}
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.rosoo.net/js/stat.php?type=0
+
+try{=0A=
+var pageTracker =3D _gat._getTracker("UA-12017658-1");=0A=
+pageTracker._setDomainName(".rosoo.net");=0A=
+pageTracker._setAllowLinker(true);=0A=
+pageTracker._addOrganic("www.baidu", "word");=0A=
+pageTracker._addOrganic("hi.baidu", "word");=0A=
+pageTracker._addOrganic("google.cn", "as_q");=0A=
+pageTracker._addOrganic("www.soso", "w");=0A=
+pageTracker._addOrganic("www.sogou", "query");=0A=
+pageTracker._addOrganic("3721", "p");=0A=
+pageTracker._addOrganic("seek.3721", "name");=0A=
+pageTracker._addOrganic("yodao", "q");=0A=
+pageTracker._addOrganic("youdao", "q");=0A=
+pageTracker._addOrganic("114", "kw");=0A=
+pageTracker._addOrganic("coop.yahoo.com.cn", "keyword");=0A=
+pageTracker._addOrganic("bing.com", "q");=0A=
+=0A=
+pageTracker._initData();=0A=
+pageTracker._trackPageview();=0A=
+}=0A=
+catch(err) {}=0A=
+=0A=
+document.write('<br/>');document.write("<script language=3D'javascript' =
+src=3D'http://count23.51yes.com/click.aspx?id=3D234143291&logo=3D6'></scr=
+ipt>");
+------=_NextPart_000_005E_01CBEEBD.1BCED300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.rosoo.net/js/rs_bottom.js
+
+try{=0A=
+var pageTracker =3D _gat._getTracker("UA-12017658-1");=0A=
+pageTracker._setDomainName(".yidaba.com");=0A=
+pageTracker._setAllowLinker(true);=0A=
+pageTracker._addOrganic("www.baidu", "word");=0A=
+pageTracker._addOrganic("hi.baidu", "word");=0A=
+pageTracker._addOrganic("google.cn", "as_q");=0A=
+pageTracker._addOrganic("www.soso", "w");=0A=
+pageTracker._addOrganic("www.sogou", "query");=0A=
+pageTracker._addOrganic("3721", "p");=0A=
+pageTracker._addOrganic("seek.3721", "name");=0A=
+pageTracker._addOrganic("yodao", "q");=0A=
+pageTracker._addOrganic("youdao", "q");=0A=
+pageTracker._addOrganic("114", "kw");=0A=
+pageTracker._addOrganic("coop.yahoo.com.cn", "keyword");=0A=
+pageTracker._addOrganic("bing.com", "q");=0A=
+=0A=
+pageTracker._initData();=0A=
+pageTracker._trackPageview();=0A=
+}=0A=
+=0A=
+catch(err) {}
+------=_NextPart_000_005E_01CBEEBD.1BCED300--

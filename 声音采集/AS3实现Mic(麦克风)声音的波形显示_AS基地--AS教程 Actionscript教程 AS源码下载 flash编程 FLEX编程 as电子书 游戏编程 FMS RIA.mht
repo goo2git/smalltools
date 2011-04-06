@@ -1,0 +1,3589 @@
+From: <ÓÉ Windows Internet Explorer 8 ±£´æ>
+Subject: =?gb2312?B?QVMzyrXP1k1pYyjC87/Lt+cpyfnS9LXEsqjQzs/Uyr5fQVO7+bXYLS1BU73M?=
+	=?gb2312?B?s8wgQWN0aW9uc2NyaXB0vcyzzCBBU9S0wuvPwtTYIGZsYXNoseCzzCBGTEVY?=
+	=?gb2312?B?seCzzCBhc7Xn19PK6SDTzs+3seCzzCBGTVMgUklB?=
+Date: Tue, 29 Mar 2011 14:52:18 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CBEE20.E66676B0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5994
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CBEE20.E66676B0
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.actionscript8.com/html/as3/2009/0728/507.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><META =
+content=3D"IE=3D7.0000"=20
+http-equiv=3D"X-UA-Compatible">
+<TITLE>AS3=CA=B5=CF=D6Mic(=C2=F3=BF=CB=B7=E7)=C9=F9=D2=F4=B5=C4=B2=A8=D0=CE=
+=CF=D4=CA=BE_AS=BB=F9=B5=D8--AS=BD=CC=B3=CC Actionscript=BD=CC=B3=CC =
+AS=D4=B4=C2=EB=CF=C2=D4=D8 flash=B1=E0=B3=CC FLEX=B1=E0=B3=CC =
+as=B5=E7=D7=D3=CA=E9 =D3=CE=CF=B7=B1=E0=B3=CC FMS RIA</TITLE>
+<META content=3D"text/html; charset=3Dgb2312" http-equiv=3DContent-Type>
+<META name=3Dkeywords =
+content=3DAS3,=B2=A5=B7=C5=C6=F7,MP3,=B2=A8=D0=CE=CD=BC,=B4=FA=C2=EB>
+<META name=3Ddescription=20
+content=3D"=BC=C7=B5=C3=D2=D4=C7=B0=B3=F6=C4=C7=C6=AAAS3=B2=A8=D0=CE=CD=BC=
+=BD=CC=B3=CC=D2=D4=BA=F3=A3=AC=D3=D0=BC=B8=B8=F6=C5=F3=D3=D1=BE=CD=D4=DAQ=
+=C9=CF=BB=F2=D5=DF=C6=E4=CB=FB=B5=D8=B7=BD=CE=CA=CE=D2 =
+=C4=DC=B2=BB=C4=DC=CA=B5=CF=D6=C2=F3=BF=CB=B7=E7=B5=C4=B2=A8=D0=CE=CD=BC =
+=B5=B1=CA=B1=C3=BB=CA=D4=B3=F6=C0=B4=BE=CD=BB=D8=C1=CB=BE=E4=C3=BB=D3=D0 =
+=BD=FC=C8=D5=CD=BB=B7=A2=C6=E6=CF=EB=A3=AC=D7=F6=C1=CB=D5=E2=C3=B4=B8=F6=C2=
+=F3=BF=CB=B7=E7=B2=A8=D0=CE=CD=BC=CF=D4=CA=BE=B5=C4DEMO =
+=D0=A7=B9=FB=BB=B9=CB=E3=BF=C9=D2=D4=A3=AC=D3=D0=D0=A9=CA=F4=D0=D4=D0=E8=D2=
+=AA=C9=E8=B6=A8=B5=BD=D2=BB=B8=F6=BA=DC=D0=A1=B5=C4=CC=D8=B6=A8=C7=F8=BC=E4=
+=C4=DA...=B7=F1=D4=F2=BE=CD=BB=E1=B3=F6=CE=CA=CC=E2 =D1=DD=CA=BE"><LINK=20
+rel=3Dstylesheet type=3Dtext/css=20
+href=3D"http://www.actionscript8.com/templets/style/dedecms.css"=20
+media=3Dscreen><LINK rel=3D"shortcut icon"=20
+href=3D"http://changlinzi.net21.net721.com/favicon.ico">
+<SCRIPT language=3Djavascript type=3Dtext/javascript=20
+src=3D"http://www.actionscript8.com/include/dedeajax2.js"></SCRIPT>
+
+<SCRIPT language=3Djavascript type=3Dtext/javascript>=0A=
+<!--=0A=
+	function CheckLogin(){=0A=
+	  var taget_obj =3D document.getElementById('_ajax_feedback');=0A=
+	  myajax =3D new DedeAjax(taget_obj,false,false,'','','');=0A=
+	  myajax.SendGet2("/member/ajax_feedback.php");=0A=
+	  DedeXHTTP =3D null;=0A=
+	}=0A=
+	function checkSubmit(){=0A=
+		if(document.feedback.msg.value!=3D'') document.feedback.submit();=0A=
+		else alert("=C6=C0=C2=DB=C4=DA=C8=DD=B2=BB=C4=DC=CE=AA=BF=D5=A3=A1");=0A=
+	}=0A=
+function postBadGood(ftype,fid)=0A=
+{=0A=
+	var taget_obj =3D document.getElementById(ftype+fid);=0A=
+	var saveid =3D GetCookie('badgoodid');=0A=
+	if(saveid !=3D null)=0A=
+	{=0A=
+		var saveids =3D saveid.split(',');=0A=
+		var hasid =3D false;=0A=
+		saveid =3D '';=0A=
+		j =3D 1;=0A=
+		for(i=3Dsaveids.length-1;i>=3D0;i--)=0A=
+		{=0A=
+			if(saveids[i]=3D=3Dfid && hasid) continue;=0A=
+			else {=0A=
+				if(saveids[i]=3D=3Dfid && !hasid) hasid =3D true;=0A=
+				saveid +=3D (saveid=3D=3D'' ? saveids[i] : ','+saveids[i]);=0A=
+				j++;=0A=
+				if(j=3D=3D10 && hasid) break;=0A=
+				if(j=3D=3D9 && !hasid) break;=0A=
+			}=0A=
+		}=0A=
+		if(hasid) { =
+alert('=C4=FA=B8=D5=B2=C5=D2=D1=B1=ED=BE=F6=B9=FD=C1=CB=E0=B8=A3=A1'); =
+return false;}=0A=
+		else saveid +=3D ','+fid;=0A=
+		SetCookie('badgoodid',saveid,1);=0A=
+	}=0A=
+	else=0A=
+	{=0A=
+		SetCookie('badgoodid',fid,1);=0A=
+	}=0A=
+	myajax =3D new DedeAjax(taget_obj,false,false,'','','');=0A=
+	=
+myajax.SendGet2("/plus/feedback.php?aid=3D"+fid+"&action=3D"+ftype+"&fid=3D=
+"+fid);=0A=
+	DedeXHTTP =3D null;=0A=
+}=0A=
+function postDigg(ftype,aid)=0A=
+{=0A=
+	var taget_obj =3D document.getElementById('newdigg');=0A=
+	var saveid =3D GetCookie('diggid');=0A=
+	if(saveid !=3D null)=0A=
+	{=0A=
+		var saveids =3D saveid.split(',');=0A=
+		var hasid =3D false;=0A=
+		saveid =3D '';=0A=
+		j =3D 1;=0A=
+		for(i=3Dsaveids.length-1;i>=3D0;i--)=0A=
+		{=0A=
+			if(saveids[i]=3D=3Daid && hasid) continue;=0A=
+			else {=0A=
+				if(saveids[i]=3D=3Daid && !hasid) hasid =3D true;=0A=
+				saveid +=3D (saveid=3D=3D'' ? saveids[i] : ','+saveids[i]);=0A=
+				j++;=0A=
+				if(j=3D=3D20 && hasid) break;=0A=
+				if(j=3D=3D19 && !hasid) break;=0A=
+			}=0A=
+		}=0A=
+		if(hasid) { =
+alert("=C4=FA=D2=D1=BE=AD=B6=A5=B9=FD=B8=C3=CC=FB=A3=AC=C7=EB=B2=BB=D2=AA=
+=D6=D8=B8=B4=B6=A5=CC=FB =A3=A1"); return; }=0A=
+		else saveid +=3D ','+aid;=0A=
+		SetCookie('diggid',saveid,1);=0A=
+	}=0A=
+	else=0A=
+	{=0A=
+		SetCookie('diggid',aid,1);=0A=
+	}=0A=
+	myajax =3D new DedeAjax(taget_obj,false,false,'','','');=0A=
+	var url =3D "/plus/digg_ajax.php?action=3D"+ftype+"&id=3D"+aid;=0A=
+	myajax.SendGet2(url);=0A=
+	DedeXHTTP =3D null;=0A=
+}=0A=
+function getDigg(aid)=0A=
+{=0A=
+	var taget_obj =3D document.getElementById('newdigg');=0A=
+	myajax =3D new DedeAjax(taget_obj,false,false,'','','');=0A=
+	myajax.SendGet2("/plus/digg_ajax.php?id=3D"+aid);=0A=
+	DedeXHTTP =3D null;=0A=
+}=0A=
+=0A=
+-->=0A=
+</SCRIPT>
+
+<META name=3DGENERATOR content=3D"MSHTML 8.00.6001.19019"></HEAD>
+<BODY class=3Darticleview>
+<DIV class=3Dheader>
+<DIV class=3D"top w960 center">
+<DIV class=3Dtitle>
+<H1><A =
+href=3D"http://www.actionscript8.com/">AS=BB=F9=B5=D8--AS=BD=CC=B3=CC =
+Actionscript=BD=CC=B3=CC AS=D4=B4=C2=EB=CF=C2=D4=D8=20
+flash=B1=E0=B3=CC FLEX=B1=E0=B3=CC as=B5=E7=D7=D3=CA=E9 =
+=D3=CE=CF=B7=B1=E0=B3=CC FMS RIA </A></H1></DIV><!-- /title -->
+<DIV class=3Dbanner>
+<SCRIPT type=3Dtext/javascript><!--
+google_ad_client =3D "pub-9683813378512985";
+/* 468x60, =B4=B4=BD=A8=D3=DA 10-3-18 */
+google_ad_slot =3D "4663399564";
+google_ad_width =3D 468;
+google_ad_height =3D 60;
+//-->
+</SCRIPT>
+
+<SCRIPT type=3Dtext/javascript=20
+src=3D"http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</SCRIPT>
+</DIV><!-- /banner -->
+<DIV class=3Drlink>
+<UL>
+  <LI class=3Dr3><A=20
+  =
+href=3D"http://www.actionscript8.com/member/article_add.php">=CE=D2=D2=AA=
+=CD=B6=B8=E5</A> </LI>
+  <LI class=3Dr1><A =
+href=3D"http://www.actionscript8.com/member">=BB=E1=D4=B1=D6=D0=D0=C4</A>=
+ </LI>
+  <LI class=3Dr2><A =
+href=3D"http://www.actionscript8.com/tags.php">TAG=B1=EA=C7=A9</A> </LI>
+  <LI class=3Dr4><A =
+href=3D"http://www.actionscript8.com/data/rssmap.html">RSS=B6=A9=D4=C4</A=
+>=20
+  </LI></UL></DIV><!-- /banner --></DIV><!-- /top -->
+<DIV class=3D"nav mt1">
+<DIV class=3D"w960 center">
+<UL>
+  <LI><A href=3D"http://www.actionscript8.com/">=D6=F7=D2=B3</A> </LI>
+  <LI><A=20
+  =
+href=3D"http://www.actionscript8.com/html/xinshourumenzhuanqu/index.html"=
+>=D0=C2=CA=D6=C8=EB=C3=C5=D7=A8=C7=F8</A></LI>
+  <LI class=3Dthisclass><A=20
+  =
+href=3D"http://www.actionscript8.com/html/as3/index.html">Actionscript3</=
+A>=20
+</LI>
+  <LI><A=20
+  =
+href=3D"http://www.actionscript8.com/html/as2/index.html">Actionscript2</=
+A>=20
+</LI>
+  <LI><A =
+href=3D"http://www.actionscript8.com/html/Flex/index.html">Flex=D7=A8=C0=B8=
+</A>=20
+  </LI>
+  <LI><A=20
+  =
+href=3D"http://www.actionscript8.com/html/youxizhizuo/index.html">=D3=CE=CF=
+=B7=D6=C6=D7=F7</A> </LI>
+  <LI><A=20
+  =
+href=3D"http://www.actionscript8.com/html/kaiyuanxiazai/index.html">=BF=AA=
+=D4=B4=CF=C2=D4=D8</A>=20
+  </LI>
+  <LI><A =
+href=3D"http://www.actionscript8.com/html/book/index.html">AS=B5=E7=D7=D3=
+=CA=E9</A>=20
+</LI>
+  <LI><A=20
+  =
+href=3D"http://www.actionscript8.com/html/zhaopinqiuzhi/index.html">=D5=D0=
+=C6=B8=C7=F3=D6=B0</A>=20
+  </LI>
+  <LI><A =
+href=3D"http://www.actionscript8.com/plus/guestbook.php">=D4=DA=CF=DF=C1=F4=
+=D1=D4</A>=20
+</LI></UL></DIV></DIV><!-- /nav -->
+<DIV style=3D"WIDTH: 450px; FLOAT: left; MARGIN-LEFT: 10px" =
+class=3Dsearch><!-- =CB=D1=CB=F7=B9=E3=B8=E6 -->&nbsp;&nbsp;&nbsp;&nbsp; =
+
+<STYLE type=3Dtext/css>@import url( =
+http://www.google.com/cse/api/branding.css );
+</STYLE>
+
+<DIV style=3D"BACKGROUND-COLOR: #ffffff; COLOR: #000000" =
+class=3Dcse-branding-right>
+<DIV class=3Dcse-branding-form>
+<FORM id=3Dcse-search-box =
+action=3Dhttp://www.actionscript8.com/sousuojg.html>
+<DIV><INPUT value=3Dpartner-pub-9683813378512985:42m8h0ygt9o =
+type=3Dhidden name=3Dcx>=20
+<INPUT value=3DFORID:10 type=3Dhidden name=3Dcof> <INPUT value=3DGB2312 =
+type=3Dhidden=20
+name=3Die> <INPUT size=3D60 name=3Dq> <INPUT value=3D=CB=D1=CB=F7 =
+type=3Dsubmit name=3Dsa>=20
+</DIV></FORM></DIV>
+<DIV class=3Dcse-branding-logo><IMG alt=3DGoogle=20
+src=3D"http://www.google.com/images/poweredby_transparent/poweredby_FFFFF=
+F.gif">=20
+</DIV>
+<DIV class=3Dcse-branding-text>=D7=D4=B6=A8=D2=E5=CB=D1=CB=F7 =
+</DIV></DIV></DIV>
+<DIV style=3D"WIDTH: 450px; FLOAT: left; MARGIN-LEFT: 10px" =
+class=3Dtags>
+<H4>=C8=C8=C3=C5=B1=EA=C7=A9</H4>
+<UL>
+  <LI><A=20
+  =
+href=3D"http://www.actionscript8.com/tags.php?/%CE%BB%CD%BC%B4%A6%C0%ED%C=
+0%E0/">=CE=BB=CD=BC=B4=A6=C0=ED=C0=E0</A>=20
+  </LI>
+  <LI><A =
+href=3D"http://www.actionscript8.com/tags.php?/%BA%CF%B7%A8/">=BA=CF=B7=A8=
+</A>=20
+</LI>
+  <LI><A =
+href=3D"http://www.actionscript8.com/tags.php?/%D3%CA%CF%E4/">=D3=CA=CF=E4=
+</A>=20
+</LI>
+  <LI><A =
+href=3D"http://www.actionscript8.com/tags.php?/%D7%D6%B7%FB/">=D7=D6=B7=FB=
+</A>=20
+</LI>
+  <LI><A =
+href=3D"http://www.actionscript8.com/tags.php?/%B2%CB%B5%A5/">=B2=CB=B5=A5=
+</A>=20
+</LI>
+  <LI><A =
+href=3D"http://www.actionscript8.com/tags.php?/%B5%BC%BA%BD/">=B5=BC=BA=BD=
+</A>=20
+</LI>
+  <LI><A =
+href=3D"http://www.actionscript8.com/tags.php?/bendMode/">bendMode</A>=20
+  </LI></UL></DIV><!-- /search --><!-- /=B9=E3=B8=E62 -->
+<SCRIPT type=3Dtext/javascript><!--
+google_ad_client =3D "pub-9683813378512985";
+/* 728x15, =B4=B4=BD=A8=D3=DA 10-7-28 */
+google_ad_slot =3D "7255907622";
+google_ad_width =3D 728;
+google_ad_height =3D 15;
+//-->
+</SCRIPT>
+
+<SCRIPT type=3Dtext/javascript=20
+src=3D"http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</SCRIPT>
+<!-- /=B9=E3=B8=E62 --></DIV><!-- /header --><!-- /header -->
+<DIV class=3D"channel-nav w960 center clear">
+<UL></UL><SPAN class=3Dback><A =
+href=3D"http://www.actionscript8.com/">=B7=B5=BB=D8=CA=D7=D2=B3</A>=20
+</SPAN></DIV><!-- /channel-nav -->
+<DIV class=3D"w960 center clear mt1">
+<DIV class=3Dpleft>
+<DIV class=3Dplace><STRONG>=B5=B1=C7=B0=CE=BB=D6=C3:</STRONG> <A=20
+href=3D"http://www.actionscript8.com/">=D6=F7=D2=B3</A> &gt; <A=20
+href=3D"http://www.actionscript8.com/html/as3/index.html">Actionscript3</=
+A> &gt;=20
+</DIV><!-- /place -->
+<DIV class=3Dviewbox>
+<DIV class=3Dtitle>
+<H2>AS3=CA=B5=CF=D6Mic(=C2=F3=BF=CB=B7=E7)=C9=F9=D2=F4=B5=C4=B2=A8=D0=CE=CF=
+=D4=CA=BE</H2></DIV><!-- /title -->
+<DIV class=3Dinfo><SMALL>=CA=B1=BC=E4:</SMALL>2009-07-28 =
+00:04<SMALL>=C0=B4=D4=B4:</SMALL>=C9=C1=BF=CD=D0=A1=B6=AB's Blog=20
+<SMALL>=D7=F7=D5=DF:</SMALL>Swfdong <SMALL>=B5=E3=BB=F7:</SMALL>
+<SCRIPT language=3Djavascript type=3Dtext/javascript=20
+src=3D"http://www.actionscript8.com/plus/count.php?view=3Dyes&amp;aid=3D5=
+07&amp;mid=3D15"></SCRIPT>
+=B4=CE <A href=3D"http://www.actionscript8.com/plus/stow.php?aid=3D507"=20
+target=3D_blank>=CA=D5=B2=D8</A></DIV><!-- /info -->
+<DIV =
+class=3Dintro>=BC=C7=B5=C3=D2=D4=C7=B0=B3=F6=C4=C7=C6=AAAS3=B2=A8=D0=CE=CD=
+=BC=BD=CC=B3=CC=D2=D4=BA=F3=A3=AC=D3=D0=BC=B8=B8=F6=C5=F3=D3=D1=BE=CD=D4=DA=
+Q=C9=CF=BB=F2=D5=DF=C6=E4=CB=FB=B5=D8=B7=BD=CE=CA=CE=D2 =
+=C4=DC=B2=BB=C4=DC=CA=B5=CF=D6=C2=F3=BF=CB=B7=E7=B5=C4=B2=A8=D0=CE=CD=BC =
+=B5=B1=CA=B1=C3=BB=CA=D4=B3=F6=C0=B4=BE=CD=BB=D8=C1=CB=BE=E4=C3=BB=D3=D0 =
+
+=BD=FC=C8=D5=CD=BB=B7=A2=C6=E6=CF=EB=A3=AC=D7=F6=C1=CB=D5=E2=C3=B4=B8=F6=C2=
+=F3=BF=CB=B7=E7=B2=A8=D0=CE=CD=BC=CF=D4=CA=BE=B5=C4DEMO =
+=D0=A7=B9=FB=BB=B9=CB=E3=BF=C9=D2=D4=A3=AC=D3=D0=D0=A9=CA=F4=D0=D4=D0=E8=D2=
+=AA=C9=E8=B6=A8=B5=BD=D2=BB=B8=F6=BA=DC=D0=A1=B5=C4=CC=D8=B6=A8=C7=F8=BC=E4=
+=C4=DA...=B7=F1=D4=F2=BE=CD=BB=E1=B3=F6=CE=CA=CC=E2 =D1=DD=CA=BE</DIV>
+<DIV class=3Dcontent>=A1=A1=A1=A1
+<P>=BC=C7=B5=C3=D2=D4=C7=B0=B3=F6=C4=C7=C6=AAAS3=B2=A8=D0=CE=CD=BC=BD=CC=B3=
+=CC=D2=D4=BA=F3=A3=AC=D3=D0=BC=B8=B8=F6=C5=F3=D3=D1=BE=CD=D4=DAQ=C9=CF=BB=
+=F2=D5=DF=C6=E4=CB=FB=B5=D8=B7=BD=CE=CA=CE=D2<BR>=C4=DC=B2=BB=C4=DC=CA=B5=
+=CF=D6=C2=F3=BF=CB=B7=E7=B5=C4=B2=A8=D0=CE=CD=BC<BR>=B5=B1=CA=B1=C3=BB=CA=
+=D4=B3=F6=C0=B4=BE=CD=BB=D8=C1=CB=BE=E4=C3=BB=D3=D0<BR>=BD=FC=C8=D5=CD=BB=
+=B7=A2=C6=E6=CF=EB=A3=AC=D7=F6=C1=CB=D5=E2=C3=B4=B8=F6=C2=F3=BF=CB=B7=E7=B2=
+=A8=D0=CE=CD=BC=CF=D4=CA=BE=B5=C4DEMO<BR>=D0=A7=B9=FB=BB=B9=CB=E3=BF=C9=D2=
+=D4=A3=AC=D3=D0=D0=A9=CA=F4=D0=D4=D0=E8=D2=AA=C9=E8=B6=A8=B5=BD=D2=BB=B8=F6=
+=BA=DC=D0=A1=B5=C4=CC=D8=B6=A8=C7=F8=BC=E4=C4=DA...=B7=F1=D4=F2=BE=CD=BB=E1=
+=B3=F6=CE=CA=CC=E2</P>
+<P><STRONG>=D1=DD=CA=BE=D0=A7=B9=FB=A3=BA</STRONG></P>
+<P><STRONG><EMBED height=3D246 type=3Dapplication/x-shockwave-flash =
+width=3D312=20
+src=3D/uploads/media/200907/15_28001033.swf></EMBED></STRONG></P>
+<P><SPAN=20
+style=3D"COLOR: =
+#800000"><STRONG>=D7=A2=A3=BA</STRONG></SPAN>=D5=E2=B8=F6=D4=DA=CE=DE=C9=F9=
+=CA=B1=CD=BC=D0=CE=B6=D4=D3=A6=B5=C4=B5=E3=CA=C7=D7=EE=B5=CD=B5=E3=A3=AC=C6=
+=E4=CA=B5=C8=E7=B9=FB=CF=EB=D7=F6=B3=F6=C6=D5=CD=A8MP3=CE=C4=BC=FE=C4=C7=D6=
+=D6=C9=CF=CF=C2=CC=F8=B6=AF=B5=C4=B2=A8=D0=CE=CD=BC=D2=B2=CA=C7=BF=C9=D2=D4=
+=B5=C4=A3=AC=C0=ED=C2=DB=C9=CF=CA=C7=C0=FB=D3=C3SoundTransfrom=B6=D4=CF=F3=
+...<BR><STRONG>=CF=C2=C3=E6=CA=C7=B4=FA=C2=EB=A3=BA</STRONG></P><PRE><OL =
+class=3Ddp-xml><LI class=3Dalt><SPAN><SPAN>package&nbsp;[</SPAN><SPAN =
+class=3Dattribute>color</SPAN><SPAN>=3D#0000ff]{ =
+&nbsp;</SPAN></SPAN><LI><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;import&nbsp;flash.s=
+ystem.Security; &nbsp;</SPAN><LI =
+class=3Dalt><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;import&nbsp;flash.display.Sprit=
+e; =
+&nbsp;</SPAN><LI><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;import&nbsp;flash.events.*=
+; &nbsp;</SPAN><LI =
+class=3Dalt><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;import&nbsp;flash.media.Microph=
+one; =
+&nbsp;</SPAN><LI><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;class&nbsp;Mic=
+Test&nbsp;extends&nbsp;Sprite&nbsp;{ &nbsp;</SPAN><LI =
+class=3Dalt><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;private=
+&nbsp;var&nbsp;</SPAN><SPAN =
+class=3Dattribute>Data:Array</SPAN><SPAN>=3D</SPAN><SPAN =
+class=3Dattribute-value>new</SPAN><SPAN>&nbsp;Array(120); =
+&nbsp;</SPAN><LI><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pr=
+ivate&nbsp;var&nbsp;</SPAN><SPAN =
+class=3Dattribute>Main:Sprite</SPAN><SPAN>=3D</SPAN><SPAN =
+class=3Dattribute-value>new</SPAN><SPAN>&nbsp;Sprite(); &nbsp;</SPAN><LI =
+class=3Dalt><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;private=
+&nbsp;var&nbsp;</SPAN><SPAN =
+class=3Dattribute>line:Sprite</SPAN><SPAN>=3D</SPAN><SPAN =
+class=3Dattribute-value>new</SPAN><SPAN>&nbsp;Sprite(); =
+&nbsp;</SPAN><LI><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pr=
+ivate&nbsp;var&nbsp;</SPAN><SPAN =
+class=3Dattribute>mic:Microphone</SPAN><SPAN>&nbsp;=3D&nbsp;Microphone.ge=
+tMicrophone(); &nbsp;</SPAN><LI =
+class=3Dalt><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public&=
+nbsp;function&nbsp;MicTest()&nbsp;{ =
+&nbsp;</SPAN><LI><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN =
+class=3Dattribute>stage.frameRate</SPAN><SPAN>=3D</SPAN><SPAN =
+class=3Dattribute-value>24</SPAN><SPAN>; &nbsp;</SPAN><LI =
+class=3Dalt><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;Main.addChild(line); =
+&nbsp;</SPAN><LI><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;addChild(Main); &nbsp;</SPAN><LI =
+class=3Dalt><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;Security.showSettings("2"); =
+&nbsp;</SPAN><LI><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;mic.setLoopBack(true); &nbsp;</SPAN><LI =
+class=3Dalt><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;</SPAN><SPAN =
+class=3Dattribute>mic.gain</SPAN><SPAN>=3D</SPAN><SPAN =
+class=3Dattribute-value>66</SPAN><SPAN>; =
+&nbsp;</SPAN><LI><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN =
+class=3Dattribute>mic.rate</SPAN><SPAN>=3D</SPAN><SPAN =
+class=3Dattribute-value>11</SPAN><SPAN>; &nbsp;</SPAN><LI =
+class=3Dalt><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;mic.setUseEchoSuppression(true); =
+&nbsp;</SPAN><LI><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;mic.setSilenceLevel(1,-1); &nbsp;</SPAN><LI =
+class=3Dalt><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;for&nbsp;(var&nbsp;</SPAN><SPAN =
+class=3Dattribute>i:Number</SPAN><SPAN>=3D</SPAN><SPAN =
+class=3Dattribute-value>0</SPAN><SPAN>;&nbsp;i</SPAN><SPAN =
+class=3Dtag>&lt;</SPAN><SPAN =
+class=3Dtag-name>120</SPAN><SPAN>;&nbsp;i++)&nbsp;{ =
+&nbsp;</SPAN><LI><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data[i]=3D0; =
+&nbsp;</SPAN><LI =
+class=3Dalt><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;} =
+&nbsp;</SPAN><LI><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;this.addEventListener(Event.ENTER_FRAME,activity); =
+&nbsp;</SPAN><LI =
+class=3Dalt><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} =
+&nbsp;</SPAN><LI><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pr=
+ivate&nbsp;function&nbsp;activity(events:Event):void&nbsp;{ =
+&nbsp;</SPAN><LI =
+class=3Dalt><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;line.graphics.clear(); =
+&nbsp;</SPAN><LI><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;line.graphics.lineStyle(1,0x2AEAEB,100); =
+&nbsp;</SPAN><LI =
+class=3Dalt><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;line.graphics.moveTo(0,120); =
+&nbsp;</SPAN><LI><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;Data.shift(); &nbsp;</SPAN><LI =
+class=3Dalt><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;Data.push(mic.activityLevel); =
+&nbsp;</SPAN><LI><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;for&nbsp;(var&nbsp;</SPAN><SPAN =
+class=3Dattribute>i:Number</SPAN><SPAN>=3D</SPAN><SPAN =
+class=3Dattribute-value>0</SPAN><SPAN>;&nbsp;i</SPAN><SPAN =
+class=3Dtag>&lt;</SPAN><SPAN =
+class=3Dtag-name>120</SPAN><SPAN>;&nbsp;i++)&nbsp;{ &nbsp;</SPAN><LI =
+class=3Dalt><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;line.graphics.lineTo(i*3,120-Dat=
+a[i]*2); =
+&nbsp;</SPAN><LI><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;} &nbsp;</SPAN><LI =
+class=3Dalt><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} =
+&nbsp;</SPAN><LI><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;} &nbsp;</SPAN><LI =
+class=3Dalt><SPAN>} &nbsp;</SPAN><LI><SPAN>&nbsp;</SPAN></LI></OL></PRE>
+<P>&nbsp;</P></DIV><!-- /content -->
+<DIV class=3Ddede_pages>
+<UL class=3Dpagelist></UL></DIV><!-- /pages -->
+<DIV id=3Dnewdigg class=3Dnewdigg>
+<DIV class=3D"diggbox digg_good"=20
+onmousemove=3D"this.style.backgroundPosition=3D'left bottom';"=20
+onmouseout=3D"this.style.backgroundPosition=3D'left top';"=20
+onclick=3D"javascript:postDigg('good',507)">
+<DIV class=3Ddigg_act>=B6=A5=D2=BB=CF=C2</DIV>
+<DIV class=3Ddigg_num>(2)</DIV>
+<DIV class=3Ddigg_percent>
+<DIV class=3Ddigg_percent_bar><SPAN style=3D"WIDTH: 66.7%"></SPAN></DIV>
+<DIV class=3Ddigg_percent_num>66.7%</DIV></DIV></DIV>
+<DIV class=3D"diggbox digg_bad"=20
+onmousemove=3D"this.style.backgroundPosition=3D'right bottom';"=20
+onmouseout=3D"this.style.backgroundPosition=3D'right top';"=20
+onclick=3D"javascript:postDigg('bad',507)">
+<DIV class=3Ddigg_act>=B2=C8=D2=BB=CF=C2</DIV>
+<DIV class=3Ddigg_num>(1)</DIV>
+<DIV class=3Ddigg_percent>
+<DIV class=3Ddigg_percent_bar><SPAN style=3D"WIDTH: 33.3%"></SPAN></DIV>
+<DIV class=3Ddigg_percent_num>33.3%</DIV></DIV></DIV></DIV>
+<SCRIPT language=3Djavascript =
+type=3Dtext/javascript>getDigg(507);</SCRIPT>
+
+<DIV =
+class=3Dboxoff><STRONG>------=B7=D6=B8=F4=CF=DF--------------------------=
+--</STRONG> </DIV>
+<DIV class=3Dhandle>
+<DIV class=3Dcontext>
+<UL>
+  <LI>=C9=CF=D2=BB=C6=AA=A3=BA<A=20
+  =
+href=3D"http://www.actionscript8.com/html/as3/2009/0727/505.html">AS3=CA=B5=
+=CF=D6=C6=B5=C6=D7=D3=EB=B2=A8=D0=CE=CD=BC</A>=20
+
+  <LI>=CF=C2=D2=BB=C6=AA=A3=BA<A =
+href=3D"http://www.actionscript8.com/html/as3/2009/0817/570.html">=20
+  Math=C0=E0=B5=C4=CE=F3=C7=F8</A> </LI></UL></DIV><!-- /context -->
+<DIV class=3Dactbox>
+<UL>
+  <LI id=3Dact-fav><A =
+href=3D"http://www.actionscript8.com/plus/stow.php?aid=3D507"=20
+  target=3D_blank>=CA=D5=B2=D8</A>=20
+  <LI id=3Dact-err><A=20
+  =
+href=3D"http://www.actionscript8.com/plus/erraddsave.php?aid=3D507&amp;ti=
+tle=3DAS3=CA=B5=CF=D6Mic(=C2=F3=BF=CB=B7=E7)=C9=F9=D2=F4=B5=C4=B2=A8=D0=CE=
+=CF=D4=CA=BE"=20
+  target=3D_blank>=CC=F4=B4=ED</A>=20
+  <LI id=3Dact-pus><A=20
+  href=3D"http://www.actionscript8.com/plus/recommend.php?aid=3D507"=20
+  target=3D_blank>=CD=C6=BC=F6</A>=20
+  <LI id=3Dact-pnt><A onclick=3Dwindow.print();=20
+  =
+href=3D"http://www.actionscript8.com/html/as3/2009/0728/507.html#">=B4=F2=
+=D3=A1</A>=20
+</LI></UL></DIV><!-- /actbox --></DIV><!-- /handle --></DIV><!-- =
+/viewbox -->
+<DIV class=3Dmt1>
+<DL class=3Dtbox>
+  <DT><STRONG>=D7=EE=D0=C2=C6=C0=C2=DB</STRONG> <SPAN class=3Dmore><A=20
+  =
+href=3D"http://www.actionscript8.com/plus/feedback.php?aid=3D507">=B2=E9=BF=
+=B4=CB=F9=D3=D0=C6=C0=C2=DB</A></SPAN>=20
+  </DT>
+  <DD>
+  <DIV class=3Ddede_comment>
+  <SCRIPT language=3Djavascript type=3Dtext/javascript=20
+  =
+src=3D"http://www.actionscript8.com/plus/feedback_js.php?aid=3D507"></SCR=
+IPT>
+  </DIV><!-- /dede_comment --></DD></DL></DIV><!-- /comment -->
+<DIV class=3Dmt1>
+<DL class=3Dtbox>
+  <DT><STRONG>=B7=A2=B1=ED=C6=C0=C2=DB</STRONG> <SPAN class=3Dmore><A=20
+  =
+href=3D"http://www.actionscript8.com/plus/feedback.php?aid=3D507">=B2=E9=BF=
+=B4=CB=F9=D3=D0=C6=C0=C2=DB</A></SPAN>=20
+  </DT>
+  <DD>
+  <DIV class=3Ddede_comment_post>
+  <FORM method=3Dpost name=3Dfeedback action=3D/plus/feedback.php><INPUT =
+value=3Dsend=20
+  type=3Dhidden name=3Daction> <INPUT value=3Dcomments type=3Dhidden =
+name=3Dcomtype>=20
+  <INPUT value=3D507 type=3Dhidden name=3Daid> <INPUT value=3Dyes =
+type=3Dhidden=20
+  name=3Disconfirm>=20
+  <DIV =
+class=3Ddcmp-title><SMALL>=C7=EB=D7=D4=BE=F5=D7=F1=CA=D8=BB=A5=C1=AA=CD=F8=
+=CF=E0=B9=D8=B5=C4=D5=FE=B2=DF=B7=A8=B9=E6=A3=AC=D1=CF=BD=FB=B7=A2=B2=BC=C9=
+=AB=C7=E9=A1=A2=B1=A9=C1=A6=A1=A2=B7=B4=B6=AF=B5=C4=D1=D4=C2=DB=A1=A3</SM=
+ALL> </DIV><!-- /dcmp-title -->
+  <DIV class=3Ddcmp-stand><STRONG>=C6=C0=BC=DB:</STRONG> <INPUT =
+id=3Ddcmp-stand-neu=20
+  value=3Dfeedback CHECKED type=3Dradio name=3Dfeedbacktype><LABEL=20
+  for=3Ddcmp-stand-neu><IMG=20
+  =
+src=3D"http://www.actionscript8.com/templets/images/cmt-neu.gif">=D6=D0=C1=
+=A2</LABEL>=20
+  <INPUT id=3Ddcmp-stand-good value=3Dgood type=3Dradio =
+name=3Dfeedbacktype><LABEL=20
+  for=3Ddcmp-stand-good><IMG=20
+  =
+src=3D"http://www.actionscript8.com/templets/images/cmt-good.gif">=BA=C3=C6=
+=C0</LABEL>=20
+  <INPUT id=3Ddcmp-stand-bad value=3Dbad type=3Dradio =
+name=3Dfeedbacktype><LABEL=20
+  for=3Ddcmp-stand-bad><IMG=20
+  =
+src=3D"http://www.actionscript8.com/templets/images/cmt-bad.gif">=B2=EE=C6=
+=C0</LABEL>=20
+  </DIV><!-- /dcmp-stand -->
+  <DIV class=3Ddcmp-content><TEXTAREA class=3Dipt-txt rows=3D5 cols=3D60 =
+name=3Dmsg></TEXTAREA>=20
+  </DIV><!-- /dcmp-content -->
+  <DIV class=3Ddcmp-mood><STRONG>=B1=ED=C7=E9:</STRONG>=20
+  <UL>
+    <LI><INPUT value=3D6 CHECKED type=3Dradio name=3Dface><IMG=20
+    =
+src=3D"http://www.actionscript8.com/templets/images/mood/ico-mood-6.gif">=
+=20
+</LI>
+    <LI><INPUT value=3D4 type=3Dradio name=3Dface><IMG=20
+    =
+src=3D"http://www.actionscript8.com/templets/images/mood/ico-mood-4.gif">=
+=20
+</LI>
+    <LI><INPUT value=3D3 type=3Dradio name=3Dface><IMG=20
+    =
+src=3D"http://www.actionscript8.com/templets/images/mood/ico-mood-3.gif">=
+=20
+</LI>
+    <LI><INPUT value=3D5 type=3Dradio name=3Dface><IMG=20
+    =
+src=3D"http://www.actionscript8.com/templets/images/mood/ico-mood-5.gif">=
+=20
+</LI>
+    <LI><INPUT value=3D2 type=3Dradio name=3Dface><IMG=20
+    =
+src=3D"http://www.actionscript8.com/templets/images/mood/ico-mood-2.gif">=
+=20
+</LI>
+    <LI><INPUT value=3D1 type=3Dradio name=3Dface><IMG=20
+    =
+src=3D"http://www.actionscript8.com/templets/images/mood/ico-mood-1.gif">=
+=20
+</LI>
+    <LI><INPUT value=3D7 type=3Dradio name=3Dface><IMG=20
+    =
+src=3D"http://www.actionscript8.com/templets/images/mood/ico-mood-7.gif">=
+=20
+  </LI></UL></DIV><!-- /dcmp-mood -->
+  <DIV class=3Ddcmp-post><!--=CE=B4=B5=C7=C2=BD-->
+  <DIV id=3D_ajax_feedback =
+class=3Ddcmp-userinfo>=D3=C3=BB=A7=C3=FB:<INPUT class=3Dipt-txt =
+size=3D16=20
+  name=3Dusername> =C3=DC=C2=EB:<INPUT class=3Dipt-txt size=3D16 =
+type=3Dpassword name=3Dpwd>=20
+  =D1=E9=D6=A4=C2=EB:<INPUT class=3Dipt-txt size=3D4 =
+name=3Dvalidate><IMG=20
+  src=3D"http://www.actionscript8.com/include/vdimgck.php"> <INPUT=20
+  id=3Ddcmp-submit-guest type=3Dcheckbox name=3Dnotuser><LABEL =
+for=3Ddcmp-submit-guest>=20
+  =C4=E4=C3=FB? </LABEL></DIV>
+  <SCRIPT language=3Djavascript =
+type=3Dtext/javascript>CheckLogin();</SCRIPT>
+
+  <DIV class=3Ddcmp-submit><BUTTON =
+onclick=3DcheckSubmit()>=B7=A2=B1=ED=C6=C0=C2=DB</BUTTON>=20
+  </DIV></DIV></FORM></DIV><!-- /dede_comment_post =
+--></DD></DL></DIV></DIV><!-- /pleft -->
+<DIV class=3Dpright>
+<DIV class=3Dinfos_userinfo>
+<DL class=3Dtbox>
+  <DT><STRONG>=B7=A2=B2=BC=D5=DF=D7=CA=C1=CF</STRONG> </DT>
+  <DD><A class=3Duserface=20
+  href=3D"http://www.actionscript8.com/member/index.php?uid=3DLiem"><IMG =
+
+  src=3D"http://www.actionscript8.com/member/images/nopic.gif" =
+width=3D52=20
+  height=3D52></A> <A class=3Dusername=20
+  =
+href=3D"http://www.actionscript8.com/member/index.php?uid=3DLiem">Liem</A=
+> <SPAN=20
+  class=3Duseract><A class=3Duseract-vi=20
+  =
+href=3D"http://www.actionscript8.com/member/index.php?uid=3DLiem">=B2=E9=BF=
+=B4=CF=EA=CF=B8=D7=CA=C1=CF</A> <A=20
+  class=3Duseract-pm=20
+  =
+href=3D"http://www.actionscript8.com/member/index.php?uid=3DLiem&amp;acti=
+on=3Dguestbook">=B7=A2=CB=CD=C1=F4=D1=D4</A>=20
+  <A class=3Duseract-af=20
+  =
+href=3D"http://www.actionscript8.com/member/index.php?uid=3DLiem&amp;acti=
+on=3Dnewfriend">=BC=D3=CE=AA=BA=C3=D3=D1</A>=20
+  </SPAN><SPAN =
+class=3Duserinfo-sp><SMALL>=D3=C3=BB=A7=B5=C8=BC=B6:</SMALL>=B8=DF=BC=B6=BB=
+=E1=D4=B1</SPAN> <SPAN=20
+  class=3Duserinfo-sp><SMALL>=D7=A2=B2=E1=CA=B1=BC=E4:</SMALL>1970-01-01 =
+08:01</SPAN> <SPAN=20
+  class=3Duserinfo-sp><SMALL>=D7=EE=BA=F3=B5=C7=C2=BC:</SMALL>2010-07-29 =
+15:07</SPAN> </DD></DL></DIV>
+<DIV class=3D"commend mt1">
+<DL class=3Dtbox>
+  <DT><STRONG>=CD=C6=BC=F6=C4=DA=C8=DD</STRONG> </DT>
+  <DD>
+  <UL class=3Dd4>
+    <LI><A=20
+    =
+href=3D"http://www.actionscript8.com/html/as3/2010/0707/652.html">=B3=B9=B5=
+=D7=B8=E3=C7=E5=B3=FEXML=D4=DAAS=D6=D0=B5=C4=D4=CB=D3=C3</A>=20
+
+    =
+<P>XML=CE=C4=BC=FE=BE=CD=CF=F1=D2=BB=B8=F6=CA=F7=D7=B4=B5=C4=C4=BF=C2=BC=A1=
+=A3=BF=C9=D2=D4=B0=D1=B5=DA=D2=BB=D0=D0=B5=B1=D7=F7=CB=FC=D4=FA=B8=F9=B5=C4=
+=CD=C1=B5=D8=A1=A3 =
+XML=CE=C4=BC=FE=CA=C7=D3=C9=BD=DA=B5=E3=B9=B9=B3=C9=B5=C4...</P></LI>
+    <LI><A=20
+    =
+href=3D"http://www.actionscript8.com/html/as3/2009/0922/583.html">=B9=D8=D3=
+=DApreventDefault=B5=C4=CA=B5=C0=FD</A>=20
+
+    <P>swf =CE=C4=BC=FE =
+=B6=C1=B3=F6=C0=B4=BA=F3,=CA=D4=D7=C5=C7=C3=B5=E3=D7=D6=C9=CF=C8=A5...=C4=
+=E3=BB=E1=B7=A2=CF=D6,=CD=DB,=D4=F5=C3=B4=B8=FA=CE=D2=B4=F2=B5=C4=D7=D6=B2=
+=BB=D2=BB=D1=F9~~~~ =BD=F1=CC=EC=BF=B4es...</P></LI>
+    <LI><A=20
+    =
+href=3D"http://www.actionscript8.com/html/as3/2009/0727/505.html">AS3=CA=B5=
+=CF=D6=C6=B5=C6=D7=D3=EB=B2=A8=D0=CE=CD=BC</A>=20
+
+    =
+<P>=B2=E9=BF=B4=D0=A7=B9=FB=A3=BAhttp://www.conanlwl.net/demo/Spectrum/mu=
+sicplayer.swf=20
+    AS3=C9=F9=D2=F4=B9=A6=C4=DC=D6=D0=D7=EE...</P></LI>
+    <LI><A=20
+    =
+href=3D"http://www.actionscript8.com/html/as3/2009/0718/381.html">AS=CF=EE=
+=C4=BF=CF=C2=CA=B9=D3=C3TextField=B5=C4IMG=B1=EA=C7=A9=CF=D4=CA=BEEmbed=B5=
+=C4</A>=20
+
+    =
+<P>=D4=DAFlashIDE=CF=C2..=CE=D2=C3=C7=D6=B1=BD=D3=CA=B9=D3=C3txt.html=3D=D5=
+=E2=C0=EF=CF=D4=CA=BE=D2=BB=D5=C5=BF=E2=C0=EF=B5=C4=CD=BC=C6=ACimgsrc=3D.=
+..</P></LI>
+    <LI><A=20
+    =
+href=3D"http://www.actionscript8.com/html/as3/2009/0718/380.html">Flash=BC=
+=F2=B5=A5=CF=E0=B2=E1=D4=B4=C2=EB(as3=20
+    xml =CD=BC=C6=AC=E4=AF=C0=C0)</A>=20
+    =
+<P>=B9=A6=C4=DC=A3=BA=A2=B1=CD=BC=C6=AC=C1=D0=B1=ED.=A2=B2=BF=D8=D6=C6=BC=
+=D3=D4=D8=B5=C4=CD=BC=C6=AC=B4=F3=D0=A1.=A2=B3=CD=BC=C6=AC=C7=D0=BB=BB=D0=
+=A7=B9=FB=A3=A8=BC=F2=B5=A5=B5=C4=D5=DA=D5=D5=B9=A6=C4=DC=A3=A9....A=A3=BA=
+=C7=EB...</P></LI></UL></DD></DL></DIV><!-- /commend -->
+<DIV class=3D"hot mt1">
+<DL class=3Dtbox>
+  <DT><STRONG>=C8=C8=B5=E3=C4=DA=C8=DD</STRONG> </DT>
+  <DD>
+  <UL class=3D"c1 ico2">
+    <LI><A=20
+    =
+href=3D"http://www.actionscript8.com/html/as3/2009/0718/380.html">Flash=BC=
+=F2=B5=A5=CF=E0=B2=E1=D4=B4=C2=EB(as3=20
+    xml =CD=BC=C6=AC</A> </LI>
+    <LI><A =
+href=3D"http://www.actionscript8.com/html/as3/2009/0718/393.html">as3.0=20
+    htmlText=D4=DA=CD=BC=CE=C4=BB=EC=C5=C5=C9=CF=B5=C4=B8=C4</A> </LI>
+    <LI><A=20
+    =
+href=3D"http://www.actionscript8.com/html/as3/2009/0728/507.html">AS3=CA=B5=
+=CF=D6Mic(=C2=F3=BF=CB=B7=E7)=C9=F9=D2=F4=B5=C4=B2=A8=D0=CE=CF=D4</A>=20
+    </LI>
+    <LI><A =
+href=3D"http://www.actionscript8.com/html/as3/2009/0721/465.html">FLASH=20
+    AS3=CA=B5=C0=FD=BD=CC=B3=CC=A3=BA=D6=C6=D7=F7=C3=B0=D1=CC=B6=AF</A> =
+</LI>
+    <LI><A =
+href=3D"http://www.actionscript8.com/html/as3/2009/0725/489.html">FLASH=20
+    AS3=CA=B5=C0=FD--=D3=C3Point+Graphic</A> </LI>
+    <LI><A=20
+    =
+href=3D"http://www.actionscript8.com/html/as3/2009/0720/456.html">AS3=C0=E0=
+=B9=D8=CF=B5=CD=BC=A3=AC=BA=DC=D3=D0=D3=C3</A>=20
+    </LI>
+    <LI><A=20
+    =
+href=3D"http://www.actionscript8.com/html/as3/2009/0723/474.html">Flash=BD=
+=CC=B3=CC=A3=BAAS3.0=CA=B5=C0=FD=D6=AE=CA=B1=D6=D3=B5=C4=D6=C6</A>=20
+    </LI>
+    <LI><A=20
+    =
+href=3D"http://www.actionscript8.com/html/as3/2009/0727/505.html">AS3=CA=B5=
+=CF=D6=C6=B5=C6=D7=D3=EB=B2=A8=D0=CE=CD=BC</A>=20
+    </LI>
+    <LI><A=20
+    =
+href=3D"http://www.actionscript8.com/html/as3/2009/0720/459.html">AS3=CE=C4=
+=B5=B5=C0=E0=B5=C4=D1=D0=BE=BF</A>=20
+    </LI>
+    <LI><A=20
+    =
+href=3D"http://www.actionscript8.com/html/as3/2009/0824/580.html">AS3=B3=A3=
+=D3=C3=B5=C4=C0=E0=BF=E2</A>=20
+    </LI></UL></DD></DL></DIV></DIV><!-- /pright --></DIV>
+<DIV class=3D"footer w960 center mt1 clear"><!-- =0A=
+		=
+=CE=AA=C1=CB=D6=A7=B3=D6=D6=AF=C3=CE=CD=C5=B6=D3=B5=C4=B7=A2=D5=B9,=C7=EB=
+=C4=FA=B1=A3=C1=F4=D6=AF=C3=CE=C4=DA=C8=DD=B9=DC=C0=ED=CF=B5=CD=B3=B5=C4=C1=
+=B4=BD=D3=D0=C5=CF=A2.=0A=
+		=
+=CE=D2=C3=C7=B6=D4=D6=A7=B3=D6=D6=AF=C3=CE=CD=C5=B6=D3=B7=A2=D5=B9=B5=C4=C5=
+=F3=D3=D1=B1=ED=CA=BE=D5=E6=D0=C4=B5=C4=B8=D0=D0=BB!=D6=AF=C3=CE=D2=F2=C4=
+=FA=B8=FC=BE=AB=B2=CA!=0A=
+	-->
+<P class=3Dpowered>Powered by <A=20
+title=3D=D6=AF=C3=CE=C4=DA=C8=DD=B9=DC=C0=ED=CF=B5=CD=B3(DedeCms)--=B9=FA=
+=C4=DA=D7=EE=D7=A8=D2=B5=B5=C4PHP=CD=F8=D5=BE=B9=DC=C0=ED=CF=B5=CD=B3=A3=AC=
+=C7=E1=CB=C9=BD=A8=D5=BE=B5=C4=CA=D7=D1=A1=C0=FB=C6=F7=A1=A3=20
+href=3D"http://www.dedecms.com/"=20
+target=3D_blank><STRONG>DedeCMS<SPAN>V53_1_GBK</SPAN></STRONG></A> =
+&copy; 2004-2009 <A=20
+href=3D"http://www.desdev.cn/" target=3D_blank>DesDev</A> Inc. </P>
+<P class=3Dmypowered>=B0=E6=C8=A8=CB=F9=D3=D0 <A =
+title=3DAS=BB=F9=B5=D8--=B9=FA=C4=DA=D7=A8=D2=B5Actionscript=BC=BC=CA=F5=CD=
+=F8=D5=BE=20
+href=3D"http://www.actionscript8.com/"=20
+target=3D_blank><STRONG>AS=BB=F9=B5=D8<SPAN>v1.0</SPAN></STRONG></A> =
+&copy; 2008-2009
+<SCRIPT language=3DJavaScript charset=3Dgb2312=20
+src=3D"http://s97.cnzz.com/stat.php?id=3D1551487&amp;web_id=3D1551487&amp=
+;show=3Dpic"></SCRIPT>
+ </P><!-- /powered -->
+<P class=3Dcopyright><!--Copyright 2008-2009 actionscript8.com =
+AS=BB=F9=B5=D8 =B0=E6=C8=A8=CB=F9=D3=D0=0A=
+<br />=BE=A9ICP1000000--><BR>Email=A3=BAactionscript8@163.com=20
+&nbsp;&nbsp;=BC=BC=CA=F5=BD=BB=C1=F7=C8=BA1=A3=BA9793091 </P></DIV><!-- =
+/footer --></BODY></HTML>
+
+------=_NextPart_000_0000_01CBEE20.E66676B0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.google.com/images/poweredby_transparent/poweredby_FFFFFF.gif
+
+R0lGODlhOAAUAPf/AMHBwefKSKqxxP3VNYyUi2d0lTlt4aScm0Jsx/w5H9hIMzrcQpmVl2OW/cnL
+xuXl5np7ho2exqG79JljXZObrHWDqXqBl6Kpvqd6dt1sXXJ8mrGsrPxROZG+kv/ZQ/JlUv7+/kls
+uqqlovz8/P9NNf/r6JK8+kuE//RzX87Oz9rZ2vj4+FeM/16K6jx18Zucopu+ljxr0EVx1DrhQkJ9
+/76+xPdjTlF81ldtovaHd/r5+fHx8dPh/djW1eHh3zNz//Lz8tDOzf7+/fv7+7W0tJaNjMXBvuno
+5+r66snMzOfm5oSo9L68u+vr62V4pK6rqLKxsbW0s7c9Oy5t82N6sLmzoK2UkFVwrcK4hNCgm+Vp
+V56hnt3d3bVhWOZdSszO069/e9m/vDt4/6Wlq6Schs2xOcfJyk9+4THUOOCIduDh0eDl5vTQQtvc
+3FN3zf7wkHeKtH2PuNDQ0+Xu/ufn6Pl6Z4Gk8KvJ+/Px8rm9vPI/JtTX4+/v7mJ0pM6Kg1CH///W
+Inag96mqqPT2+/75b7Sxsq2zsraPirKRjYGEkp/B+paSj1Vpmt3BW+OuqP/iPUdmrNXEd01xv91V
+QlJusldxssWgm+DZ2cW8ndRtX+xkTl+Q+aOtxrzBwPvNI51cVfTNNZGAfYSq+YKx+vjLHWOL4W+A
+qZqlwTJw9duCd2DuaDp3/8CpUaSioLvAv6yda7KFgKJsY+7x+c/Q1OPZtf/8/Pr19Pr8//f39kNy
+37ilaEx32m+NzWCE1HWV2dzl9NnW2ae65KG+ofhBKv9XQG67crSbPuPi4cG/vc7CwJ+SaZfAmfK4
+sYnvjtra3t7d2+nt9G6c/N64LLuthvvohKRISMbEwi9x/XGIvIexiPRJMTdw69bV1/B5afh1Ycu/
+eYdublJ72Vh+0KhdXZi+9bbN+vPx8YqTqI++j56jqLu7vtzY176+v/9AJ87X63GYcevr7OrLWGt8
+preeR8KJgpOEgzvoRPr7/UF79v/UK+pTQdLW132h8KuurGZmZv///yH5BAEAAP8ALAAAAAA4ABQA
+AAj/AP8JHEiwoMGDCBMqXMiwocOGcyTYWRJsx0OFSJqpWnaRoKIz8iw42YYvjo6OBoFks0cAJYhR
+V574ENgjBCQVKA0Km7HloL+f/v4FJUjuzIEVBOVAyWkQxgJBA2sRDAqUoIoGjI4kLJEjwwcv6wa+
+iReADaaB5fiJCtRij9N+/7hqsUFPIFWhBAU0KLDVW6h9SfQMA/aP0LwaznR5mPbPBBUjFcRoMNdh
+gSFbdeqtQUTCisIIf/giTDPJjMBkxMapebRoxD8QoEjNapAIxD8XMf5VzpNFHwBHmT4xsI2Q04kQ
+xP/d4sH8FwoFDwSCsCHl2wARAxvle8FCg0BeCPBU/+6UShssWIWiK6Tj4keNge7glGJBQVOCFAM/
+VMPigczASIBsIMMUX0BzAwQgoLOAK35wsMFDF9BgQBMDCREBDelYQgIYAunAATg+DCDNQAEYw40S
+BYgTjQXP6DYDO5eQoIBrDlXwAyqnwHOPLL5s88I/XSRwCDMoTADAP1V4wgot1JTBAFL/XPCHJK4V
+g8Y7QIDRjh6ZdBNGcgmNgUMMMezSiykQHDnEAbFgcEAKQwgEgDKvkKEOH//c0QI2lKwiAy4OEEAA
+F/+IMMEERbQBZkI7BIGMNT3kZMINrfSgxDk/UCCdEEx1Kt0mOHAqkAwWeGrqQG5cI8Agg0hQSRSn
+nhqqRB8G5BJOBURYFKupOgTBhAPHnLTrsJ0GBAA7
+
+------=_NextPart_000_0000_01CBEE20.E66676B0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.actionscript8.com/templets/images/cmt-neu.gif
+
+R0lGODlhDQANAJEAAHtTAP/uy+7IhP///yH5BAEHAAMALAAAAAANAA0AAAIrnA95axAOWIMvLorv
+21CHD1oJIAjjF5HCU5adupLgM60zetmzhei0NFIYCgA7
+
+------=_NextPart_000_0000_01CBEE20.E66676B0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.actionscript8.com/templets/images/cmt-good.gif
+
+R0lGODlhDQANAJEAAHtTAPTVnf/////uyyH5BAEHAAIALAAAAAANAA0AAAIqlAV5axAP2HFQohei
+pDn5iQ0iplGi912ByJ7NM6Cp2brqiYJrrTWyYigAADs=
+
+------=_NextPart_000_0000_01CBEE20.E66676B0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.actionscript8.com/templets/images/cmt-bad.gif
+
+R0lGODlhDQANAJEAAHtSAPXWnv/////vzCH5BAEHAAIALAAAAAANAA0AAAIolICJZhAxogTMwaFo
+e7Jri2Uf10XjJW7k8ASnmzFHq8kVbd9PnSd5AQA7
+
+------=_NextPart_000_0000_01CBEE20.E66676B0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.actionscript8.com/templets/images/mood/ico-mood-6.gif
+
+R0lGODlhEgASAMQAAEEeANTU1POPBo96ZP3PishrA//MALJfBP3EANezkP///9Guj8iAAP//eIhG
+Bv+wOppoOv//APDw8Lp9QOycOtLCr5yUjOSVAK+tq9d2EWkxAPiWC+Pj4/zXoP/mALBeGSH5BAEH
+AAoALAAAAAASABIAAAW6oCIqEvFsgkAR0ugq3YYgRm1cWfcqxGZ4wCBiU0i4Yr+MIJj5GIiVkc+T
+aTQEkUwk8kEIPi0CAri1boO1z0LxGHsiDVHjDERkJgpfoZDa+IkFHx8OAhoKAgYHOy8ahXmJHIsi
+HBoZhhQIDBYYAS0iEgEYFg4FEDwXFx+SChoFGmsKGRsMeDsaB66eHQWzHwkcEhwJtxkAUSMJfBcF
+DhoapAUAsC4VgkoCGa4axyPBoQMQzs8DnMCr5wohADs=
+
+------=_NextPart_000_0000_01CBEE20.E66676B0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.actionscript8.com/templets/images/mood/ico-mood-4.gif
+
+R0lGODlhEgASAMQAAAAAAABa4e4pDFxcXPOflf///8IQAUZGRv9CAOewr3YxLP93ALy8vKSkpGkD
+AJyPjP9mAP+ZM+Pj4/9gQapFQf/Ed+xOOtcbBXR0dP+QAEEBANGSj/1gALAcGczMzOgzACH5BAEH
+AAUALAAAAAASABIAAAXJIIMVZGmWTEOOJDEJsEWUXlpjBIJwUI98FwKj0MAwUhgEZMHscQSNKGYg
+PVyWTGaEg3k8MIfD1ArJmDOL3mBcIIQ7iEylYm4KwpvC5KeskOgZET0CFxQFAj1lC350FWkQTw6H
+SwAAHYtyCx2VBgKSAjwIBQwAZwBDnReSFkoLogEACwABBZ0CBoYEHzxYTU4IqnkFF6CJPg6gt5Ik
+CcQckQ6XCIQaCSYbnToLERGEBhrCJgkdHcTeDg7WJhISHkUK6A4KGA0e7CQhADs=
+
+------=_NextPart_000_0000_01CBEE20.E66676B0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.actionscript8.com/templets/images/mood/ico-mood-3.gif
+
+R0lGODlhEgASAMQAACUAAN7OyvmXDO2KC/9zULVmBcKslf/mAKwSEv/MAP//eGkxAP///5pzTf3E
+AP3Rj2kAAOycOuPAovvFiPDw8H9OGUEeANd2Bf+zQeeUAP//AP+wOk4AANuvhuPj4+axACH5BAEH
+AAwALAAAAAASABIAAAWwICMy1LMJwxBN1Ogyj+A4SZ1kl/Qyk5AcwKBDcOm4Yr+gMiEo6EQ+oGaq
+UToGhdbDAbRoFIpFFVgrGDHcA0MxGgMdlwYjeviKFO7DdcEYJKdgU0EJe302LxU2NRd8EVwDLwsf
+b1hyDxlXEBwcAACSB4sLBiIXKAiamwsZhFgLLQwSFwMIpwQECxdXFxZPIh2QLgsFFwUWoy8DASMB
+wgsLvSIUHszO1RUNBgEerzvdLyEAOw==
+
+------=_NextPart_000_0000_01CBEE20.E66676B0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.actionscript8.com/templets/images/mood/ico-mood-5.gif
+
+R0lGODlhEgASAMQAAEIfAMzMzPmXDJ+AZP3RkNd2Ef/mAK5YEf/TAOa5kf///6JFCO6LC//MALGt
+q/+zQblySOycOv//d4w5Af+yAPbt582ZesJlAf//AI9aK9zDreeUANmti2oxAOPj4+KtACH5BAEH
+AAoALAAAAAASABIAAAWzoCIqVRIxjPAQ1eiWxUYhNEIJhCsekND8hqChgXNxDgegUIgokhaWAy2I
+qVaHAhFn4YE0DIWqRHItUHIZi8KyGRYaokahMHwoJiO6u6B4f5t3IxdCGGMYTAyBIhcIBkgHVY8I
+iRkcFRaMS0s2EWsTC2Y1mkMbORUdFww/NRStNAJ8IhoABQwUPxQjNxcaLhYAF7Wtua0XCToKGh2o
+tQwFSL0vHgEOAxnLHRkDDgEeLcjgyCEAOw==
+
+------=_NextPart_000_0000_01CBEE20.E66676B0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.actionscript8.com/templets/images/mood/ico-mood-2.gif
+
+R0lGODlhEgASAMQAAEEeAABa4fiWC////+CICLZgDPPHlXjS/wAqaf/MALmvoqWnhqBCErNtQNjc
+4f3EADyk///xhGkxAP9zUNZ1D62MTtuvhnNjX/3PiuycOmkAAP/xANbOp3j///+5f/+zQSH5BAEH
+AAMALAAAAAASABIAAAW74CCKmCQIUmaMrGgIwJPMgECt7Qc/W0/bFhZGkOgZfQlBgTMi9iiCZ2H2
+IBRIvA3FAYlsDpDprBD8ZDsHkRdNpTQGTs4hQmEwJA9woiqBF8EUABqDEmgcfH4JaBSDdhoMHRAP
+FH0ZMpECjxMGE5AHVm8GBHkHGwIEFKlfEJQKIlAQEDM9XglgBX0uFAEHFzNUCxABAEwjFgUBARUP
+zATJCK4tHAgIFw2oAdTRLA4OChV3EhLVCt0t5+gjIQA7
+
+------=_NextPart_000_0000_01CBEE20.E66676B0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.actionscript8.com/templets/images/mood/ico-mood-1.gif
+
+R0lGODlhEgASAMQAAEEeANra2v+wAI96ZP3Pit57C8RoAP+zQYZdMf/mAP/yptzBq/////OPBrCt
+q//MAP/6dP327//yTuycOrBeGfzmXv3EANuvhv//xdd2D/Dw8L+njGkxAP//APPHleiPCCH5BAEH
+AAwALAAAAAASABIAAAW5ICMyEXE06ORFY8t4jWA1yfN9mecyhPAkiowkKGkYLi2PLwEUEh/GhSjS
++CU6RGLC8qGwesxOB+MU1gQU5MEShjAyEO02M2BUw5gGA4K9fbgcdlAoDQp8HQkQihIfgR8PFYqL
+EhJMZxmBEwKWEgWenkxcBggvf0ydFakFlxwbJBlVD6iqD6IcLAwLBg0WsxUFAjgAUiMXBh++BRkG
+AK4uCxQUn54cHMQjGgEBDgMI1RwIAw7aGjvm5iEAOw==
+
+------=_NextPart_000_0000_01CBEE20.E66676B0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.actionscript8.com/templets/images/mood/ico-mood-7.gif
+
+R0lGODlhEgASAMQAAAAAAOPj46+vr3p6elZWVkMBcmZmZqd7vczMzGMBqf///zMzM4yMjEZGRry8
+vERERIpPp3R0dPDw8KWlpZmZmd7e3sfHx7S0tNTU1FlZWfT09AAAAAAAAAAAAAAAAAAAACH5BAEH
+AAoALAAAAAASABIAAAWcoCKOzjQN1KiqpeMKZ7qKjuBYmFVPDDMrEwdmOCxNDDMXTsLMwXqrIEYi
+0kgwjh4hOrhiFFbN8LFVdQGAhrXSQF8eqwEGcEg02JAEAANXUTANCQV7AHoNFxErFXJtABZohw8I
+MwNyFjo7Bgs/DgYGAy4DBg8LEz8KAxMCGDAGBH2nBhEmDKOnKgQRurAzEgEIMBkPGaoIAVS3yQoh
+ADs=
+
+------=_NextPart_000_0000_01CBEE20.E66676B0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.actionscript8.com/include/vdimgck.php
+
+/9j/4AAQSkZJRgABAQAAAQABAAD//gA+Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcg
+SlBFRyB2NjIpLCBkZWZhdWx0IHF1YWxpdHkK/9sAQwAIBgYHBgUIBwcHCQkICgwUDQwLCwwZEhMP
+FB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJCQkMCwwYDQ0YMiEc
+ITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy/8AAEQgA
+FAAyAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMC
+BAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYn
+KCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeY
+mZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5
++v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwAB
+AgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpD
+REVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ip
+qrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMR
+AD8A9agi0i00C2vL2GwgiW3jMk1xAAuSAMlzgckj8TTLXUPCl/cpbWd1olzO5O2KFEdzgE8AHJ4H
+pWlprKNJsQWUf6PH1mK/wjt27VzPgJgP+EnO5B/xP7rH70jH3efcdOa5pSavqWaMOq+EJ544Ib7Q
+ZJZG2IkYjYsxOAAAcnNJJqXh2PUbnTxZpLdWu3z0t9Hlm8vcMrkohHI561Qsyvja9tdWZkTQrGfz
+bGMykPczISombuqKdwVeCercYWqem2k118RfF5t9VubDZ9iz5Dxnf+5PXzEbp+HXvSUmt3+f9f8A
+Di9DYOs+FfK0+VEtZl1FXa1FvprymXZjdhUUngHkHkYPoat6fNoWqNcR2ltama2IWaGTTmjeMkZX
+KsAQCOQcc84rjdc0I6ZrvgnRtB1D+znhW8WK5bExQ7FZiwbAyxLen3uAMAVteChFHeazHeyO/iFJ
+Il1KSS4G2QBMRNGUVV2EZIGNwyQ3bLu7XT/MFe9jn9TVU1W8RFCos7hQFwANx7dqKXVf+Qve/wDX
+eToc/wAR796K6FsSa1t4x1C1tooEhtSsaKgLK2cAYH8VNt/FdzaCX7NYafD5rtLJ5cJXe56ucHlj
+jr1oorOW39dxlCLULKCdJofDegxSxkMjx2KqysDkEEHgg961T431I/8ALC0HGOEb/wCKoooktwQf
+8JxqWR+4tOP9hv8A4qlHjjUwSfItOf8AYb/4qiiqtr/XYDnrmdrq6muHADyuzsF6ZJzxRRRViP/Z
+
+------=_NextPart_000_0000_01CBEE20.E66676B0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.actionscript8.com/member/images/nopic.gif
+
+GIF89ad=00d=00=E6=00=00=96=8E=87=FD=FC=FB=D7=DC=E0=BD=B8=B4=EC=E5=DF=AF=B4=
+=B8=C6=CB=CF=A6=AD=B5=F1=EC=E8=E0=E4=E7=D1=D2=D1=F5=F1=EE=BE=C3=C7=9C=A3=AB=
+=A8=B2=BC=E6=DE=D7=D7=D3=CF=CF=CB=C7=C7=C3=BF=B6=BB=BF=EE=E8=E5=97=9B=A0=CE=
+=D1=D6=E7=E3=E0=C4=C8=CD=DF=DB=D7=AA=A9=A7=BC=BF=C3=D4=D9=DD=EF=EF=EF=F7=F7=
+=F7=A5=A5=A5=DD=E0=E3=B4=B8=BD=E4=E0=DD=CC=C4=BD=E6=E6=E5=D5=CD=C6=DE=D6=CF=
+=C5=BD=B6=B9=B3=AE=D0=D6=DB=AE=AF=B1=B6=BD=C3=C9=CF=D6=94=93=93=BD=BD=BD=E4=
+=E8=EC=DE=DE=DE=CC=CC=CC=FB=FC=FC=C5=C5=C5=C0=C5=CB=CD=C8=C4=DD=D8=D4=D6=D6=
+=D6=D5=D0=CC=AD=A5=A5=F2=F3=F4=94=9A=A1=99=96=94=D8=DE=E3=9D=A7=B2=94=92=8F=
+=B1=B0=B0=F7=F7=EF=C0=BB=B6=C3=BF=BC=FF=FF=FF=B5=B5=B5=FF=F7=F7=AD=B5=BC=A2=
+=A6=AB=92=96=9B=EA=ED=EF=CF=D4=D8=99=99=99=AD=AD=AD=EF=F7=F7=99=9D=A2=93=8F=
+=8C=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=
+=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=
+=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=
+=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=
+=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=
+=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00=00!=FF=0BXMP =
+DataXMP<?xpacket begin=3D"=EF=BB=BF" id=3D"W5M0MpCehiHzreSzNTczkc9d"?>=0A=
+<x:xmpmeta xmlns:x=3D"adobe:ns:meta/" x:xmptk=3D"Adobe XMP Core 4.1-c034 =
+46.272976, Sat Jan 27 2007 22:37:37        ">=0A=
+   <rdf:RDF xmlns:rdf=3D"http://www.w3.org/1999/02/22-rdf-syntax-ns#">=0A=
+      <rdf:Description rdf:about=3D""=0A=
+            xmlns:xap=3D"http://ns.adobe.com/xap/1.0/">=0A=
+         <xap:CreatorTool>Adobe Fireworks CS3</xap:CreatorTool>=0A=
+         <xap:CreateDate>2009-07-16T08:54:03Z</xap:CreateDate>=0A=
+         <xap:ModifyDate>2009-07-17T01:53:11Z</xap:ModifyDate>=0A=
+      </rdf:Description>=0A=
+      <rdf:Description rdf:about=3D""=0A=
+            xmlns:dc=3D"http://purl.org/dc/elements/1.1/">=0A=
+         <dc:format>image/gif</dc:format>=0A=
+      </rdf:Description>=0A=
+   </rdf:RDF>=0A=
+</x:xmpmeta>=0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                                                                         =
+                           =0A=
+                            =0A=
+<?xpacket =
+end=3D"w"?>=01=FF=FE=FD=FC=FB=FA=F9=F8=F7=F6=F5=F4=F3=F2=F1=F0=EF=EE=ED=EC=
+=EB=EA=E9=E8=E7=E6=E5=E4=E3=E2=E1=E0=DF=DE=DD=DC=DB=DA=D9=D8=D7=D6=D5=D4=D3=
+=D2=D1=D0=CF=CE=CD=CC=CB=CA=C9=C8=C7=C6=C5=C4=C3=C2=C1=C0=BF=BE=BD=BC=BB=BA=
+=B9=B8=B7=B6=B5=B4=B3=B2=B1=B0=AF=AE=AD=AC=AB=AA=A9=A8=A7=A6=A5=A4=A3=A2=A1=
+=A0=9F=9E=9D=9C=9B=9A=99=98=97=96=95=94=93=92=91=90=8F=8E=8D=8C=8B=8A=89=88=
+=87=86=85=84=83=82=81=80=7F~}|{zyxwvutsrqponmlkjihgfedcba`_^]\[ZYXWVUTSRQ=
+PONMLKJIHGFEDCBA@?>=3D<=00:9876543210/.-,+*)('&%$#"! =
+=1F=1E=1D=1C=1B=1A=19=18=17=16=15=14=13=12=11=10=0F=0E=0D=0C=0B=0A=
+	=
+=08=07=06=05=04=03=02=01=00=00!=F9=04=00=07=00=FF=00,=00=00=00=00d=00d=00=
+=00=07=FF=80 =
+=82=83=84=85=86=87=88=89=8A=8B=8C=8D=8AD=90=91=92=93=94=95=96=97=98=99=9A=
+=9B=95=82=9C=9F=A0=A1=A2=A2=9E=A3=A6=A7=A8=9F=A5=A9=AC=AD=AC=AB=AE=B1=B2=9C=
+=B0=B3=B6=B7=92=B5=B8=BB=B2=BA=BC=BF=A9=BE=C0=C3=A4 =
+=C4=C7=A7=C2=C8=CB=97=CA=CC=CF=B9=C6=D0=91=1EJ0=0A=
+131=DB7=17=1D=1E=C3=CE=BF:01.E=E8=E8.=EB.33=0A=
+0J=1E=01=BB=E2=B8$1=E9=FA=EA=EB=EE=DB1=0A=
+n=80=90w=CB=DE,=123=F6)d=E7N=1B=C0=807`=90=D01=CB`,=05=0A=
+32l=B8M=01D=18=12u=D0ke=B1=15=C6=8C=0B=D9=B5=F3=D7=F1c=82=17=E0^I=03=06=A3=
+=C8=06=94=1AU=AE=F4=E71"=8C=04=1Dd=04=9B=C9=CBC=91=19=E7p=A2=D4=B9=B3=A3O=
+=12B=93=11=DDe.F=13 J=B3=F2[=E9=F4=06	T%O=E9(=92=EF=C3U =
+h=D3=A2=CD=A86m=BA~=0E=FF=E1=81=9Dz=EB=C6=06=05=1A=9E|=D0=D0=A4o=DB=B6o=99=0A=
+n=A7d.=B0m3=9E=E8=FD=C0=98=EFY=B5E=D8=0D=99<=A4=A1=E5uE=B0=C2=18:n=C6=8D=01=
+LB3f=EC=F7/=90=BE=1AR=AB^=9D=FA=EA=04=BA=C5~)=F1=DC=84=89=E2=DB{5=A8H=1Bb=
+=03=03=06=180=B0=18=CE=C2=80q=03=C1=93/=11=90 =
+=AA=D4_=E5=14|=B0}[=F1=DE=BEM=0C=A4H=C1=81C=8F=EF=DF=19q(l=98=D7=0DlOBS=C7=
+=FDA=05=8B=ED=02=E2=CB=07O=1F=BC=A1=91=A6=C2=8E=028C=FDz=DC=DAY=90B=0F	=
+=14h=E0=81=08=BE=A0=A0=82=3DP=F4=1C/=9E=B9=E0=DF=7FOl=B0=C4=85Kpp=E0=82=1C=
+v=C8!=08/=94=87=8B=0C.=DCPD=0B=13=AA=F7=81=01=16=B4( =81	=
+z=E8a=81=CE=C5=B6=8BQ7=00=81b=8A<=B87=1C=86=1C=80=10=A3=8C=1D=F6=10=D3(=FA=
+=85=A2=03=FF=107=A8=B0=E3=84<=14=E0b=8B=DB=A5=80=E0KD=1E=D8=E0=83=B8=E8=D0=
+=C4=0DM<=E9=1F=0F!=10=C7=C2=85=DDi=B8a=96=06=F6=D0=01=97=B7=E8=A0=81=02a=A6=
+=18=DA=04f=02=D9=DD=90=1C"8=10=9C=B6=E8=F0A=0C=1F=FC`'=99f=BE=C7]=9AB^=E9=
+h=81!=E6=07[,=1Eh0C=A1?=F0=A0=E9=A6Q&=AAgw0>=9A =
+=A0=B3T=EA=02=A6?=A4=AA=EA=0F=05xZe=9A=1C0'=AA=81B=92:K_O=A8Z=01=12H=A4=07=
+@=AB=9E=A2	=
+k=90=B3&=F0=9D=AD=B2=B8=A0=01=A6Hl=10=1C=03=13|P=C0q=06=10=F7i=9A=024=EAh=
+=B6=C8=C6B=E8=07P=B40=01=06=0Cl=B0=01=0D=E8&=97=E7=12=AF=0E=EB]=A8=06r+=E9=
+/$(=06E=05=E6=86=D0=DB=B9=E9=06=E7=EAv=EE=A6=F9=9D=81Av=EB=8A=0CE0=01E=85=
+=134<=81=B9=BFap=DC=BA=ECV=B9h=FFw=16=C7=B7=C4=A4=9B$)=8A=02L=FCP=C1=04=FA=
+=EA=BB=C2o=11Ol-=86=16=B7=BC=9D=8B	=
+=18=EC=8A=07=98=16`s=C9(3@=83=C4=C6=05=8B=E1=CF@/=C1B=CC=F3=02sC=0B-4p=C4=
+=D2=FA=FA=86r=BA*=B3=E0b=D0S=B6h@=A4Hr<K=11P$q=C0=D2G=F4V=AE=D3P=F7=9C=E8=
+=D9=89=1A@^=D6=C4=D0=0CE=03=0E=D8\=C0=B9=E6:=0D=1C=CFQ=A3]=DCq=0E=B2M=8C=12=
+L=B4=E0=03=D8=13=D0P=B7o=E8=96M=AD=99=D4R{=A4=8D=7F=7F=E05=D3=BF5\=B7=CE=89=
+'=D7=F8=E6=06=D0`=01~=90=B7]=C4=0E=07=D8=EC=9B=C3=10=FF=96=F8=CE=C9=B5=EE=
+:=03=02=88x=8C=12=0D4=F0=F5=E9=A8=A7=8E=F9=EA=BC=AF=BE=01=D6~#=F3=82=03=07=
+=14?A=B9=FA=E6n=F7=D3=BC=E7=CC@=DF=C1=1F=F3=C2=11=C5=97=9Eo=C9=0E?|=B9=F3=
+=CE=AF=C0=02g=CBL_=BC=FF=0F=07h=CFt=F2=D9=1F=AE~=DD!h=DD=B1=FB=B7$P=FD=01=
+=83=AF=B0B=08r=97=1CB=F6=FC=F7=FFx=F4=C4=00=C1=FC=8AW2=B0=9DO=7F=FB=CB=9E=
+=FE, =
+=13f=A4`=80=E4sX=F1=E4=96?=04"=F0=08o=02=1F20P=00=08=16=A0a=1D=AC=9E=CD=C0=
+F=C1=12=1A=80$=F0=9B=85=0EV@<=08=1E=01=84=03,]	=
+K=98A=0D=12C=00K=8B=E1=04a=A8C=1D2=10=85=C8=D0=C1=06=C0=A6C=F2=95=AC=87=03=
+\A=8Dd=F7=8B=0B=0CA_9,=A2=0F=0A=
+=A0/$=16=CF=015l 0(P=03=14=08=C1aQ=94b=E9=AC=08<-=EE=A2=03=11@=01=0A=
+=06 =04	=
+=D8=8F=88=3D=F4=81=1C{x=84=B5=B9=C2c=9C=E8=00=0E=840=80=01Pf=08=1Bxc=18=E3=
+(=C7B:=80=05=FF=03=A2-:=00=01	=
+=94=A0=045=90=80$)c?(R=CF=8A=04=9C=8C=0D@=17=0B<^B=FF=077=90=00=0E=1E@=00=
+=02=88=00=02=11=90=A4=10=84=10=C8=FB=85`=901t=80=03f@=80=0CD=00=07_=A9H=0A=
+9=11=80=0C=D4=A0=04=A4,%=05=86y=01=1B=A4r2=F6s%=1C=AB'KY=BE=F0=02=14=10=81=
+1!=00=3D3=A6=02=01=11=A8=81=0DJ=C9=CDaz=93=02=C6=AC=C1=0C=92	=
+=C5f6=D3=80K=83=00=02=10PK=1C=D4=E0=02=9D=DCe&`=E0=C8`v=F3=9B=DE,f=04=18=90=
+=CC=15=A0=F3=9F=0E=A3=C0:)P=CC=1A=DC =91=00=14=85=0C=1A	=
+=01=11p=F3=9E=F8=F4f=06 =C0=CF=EC=FD=13=81E=10=C1:=D7Y=CB=08D=A0=9A	=
+=05=85=07=B2i=82=0B<=14=A2=11%=A84g=D0?=92YP_8X=C0F=11=10Mw"=C0=86=A1=08=00=
+IMzR=02=A4t=A6=04=CD@=06=0C=A0@=0B=DE=8F=01=EE=98=E9@E=E0=CE,=86.=14=EE4=81=
+C{=EA=D3=88*5=A8=19=FF=B0=CB=D2Z=DA0=10|F=A0W=3De=0D=9C=0A=
+=0A=
+<f@=02&=B0gO=AD=AA=D4u^@=04=17=B8@=0C\i=C1=83=D6D=042=0D=AB;AJ=0ByJ=02=01=
+C=00&U=85=C9=D6=B6=D24=AE=17=80=81=05h=D0O=1A=C0=E0=1B$`R^7=EAM=A6=E2=80=93=
+}=15E=00jP=83=92=0E=B6=AA=F84=ACR;=D0=01=12=90=00$7=F0J=07t =
+=03%=90e=B2J=ED=A8=0DB=9A	=
+=11=0C=01=02j]kaE=8B=00=1D=F8=B6=03J=08np=3D=00=8E=B1=CC=A0=AD=DF$=80=0D$=
+p=D3P=E8=C7=03=12=88@=06>K=D8=D0=1Av=01=D8=C5.q=89=EB[=1Dx@=06B=F1=C0:=0C=
+=FBM=A6F=00=B3=99=D0=8F=13qK]=D0~S=B4=D9=D5.x=E7+=83=00=D8=97=08=1E0=17X=81=
+=EA=CDZ=BE=D3=B9~%=82G=B7=D9=DE=9F^7=BE=0B=B0=AF=82=17L=04=19$=84=04W=C5'=
+=FFSk=80=DEf=F8u=01C=18e{=DD=EBM=F8"x=01=90X=F0=821=00=84=0B =
+7=B96=A8=01=05=CA=EAW=1B=8C=C0=B3=05=DE=EDL?=BC=00=F0=8AX=C11=00=82F#=FC=CD=
+=07=94=00=02,=06=05g=A7=BBa=03=B7=95=C65=A6/}=15=A0c=1E=7F=F3=02=A8\"&J=B2=
+=80z>=F4=01X=A6=AA=91=95J=E3=EF*Y(9=DA1e#=AA=DC=1A4=F7}=9F=B8=00Z=AF=8C=E5=
+,=9Ft=CB\=FE=F0=97=C1=DC=E41=93=D9=97=B9D3'\L=E0R=B6=D9=CD=0F=85s=9C=E3=EB=
+e=FA=12=81=03E0=B1=9D=F1I=80=07=D4@=04=AA=90=A7G=D5=FA=E7=DCV=F7=BD=BC=95=
+=F3v=BD=8ChE=0F4=A5=8D=AEA=06"=CD	=
+=0F=8C@=B0~=AE=B4=96=05=0D_=19l=1A=1C5=F14=A8=FD\=83=CDdv=13=1D8=01=0E=D8=
+=AC=EA7=B3Z=B4=AF=9EG=AC?M=E6R=FA=12=D2=B7=D6=04=05N=BC`=02^=FFy=D52=CE=F4=
+=AB=890=EC=94R=E0=A1)=CE=B3&,"=82=13=F4=B9=D1=95=06t=A0=7F=DD=D6W=07=00=06=
+=03 =
+=00M=8B=CDM=08=D4=00=C4=C9=CED=06F@=E9p[=FA=D2=98=E6=ED:=BD=BB=DDs=BB@=DD=
+=B3=F6=F3#=83=BC	=
+=08=D0=DB=D9=CF=866=B97=BA=E9=00p=C0=05=D6>=A9/m=1DoL@=D2=9E=F6n=F3`=AD=3D=
+L}=F7=B6=BB2=B8=01=C4=03=DE=E8F"=D4=C2=9C=F0(O=C1=9D=F1{s=D8=DA=86=ED.ko0=
+=04=92=97=19=C8=04=CF=C4fK=80=F0p=7F=96=E3@_=ADo=3Dp=83=190=FA=A4>=96=00_=
+=A7=EC=88=A6;=FD=E9P=8F:=08=02=01=00;
+------=_NextPart_000_0000_01CBEE20.E66676B0
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.actionscript8.com/html/as3/2009/0728/layout.css
+
+.tbox {
+	BORDER-BOTTOM: #dadada 1px solid; WIDTH: 100%; OVERFLOW: hidden
+}
+.tbox DT {
+	BACKGROUND: url(../images/mbox-tbg.png) no-repeat right top; HEIGHT: =
+25px; CLEAR: both; OVERFLOW: hidden
+}
+.tbox DT STRONG {
+	LINE-HEIGHT: 25px; PADDING-LEFT: 10px; PADDING-RIGHT: 4px; DISPLAY: =
+block; BACKGROUND: url(../images/mbox-tbg.png) no-repeat left top; =
+FLOAT: left; LETTER-SPACING: 1px; HEIGHT: 25px; COLOR: #f60
+}
+.tbox DT STRONG A {
+	COLOR: #f60
+}
+.tbox DT STRONG A:hover {
+	COLOR: #c60; TEXT-DECORATION: none
+}
+.tbox DT SPAN.more {
+	POSITION: relative; LINE-HEIGHT: 25px; PADDING-RIGHT: 8px; FLOAT: =
+right; COLOR: #85a484
+}
+.tbox DT SPAN.more A {
+	COLOR: #666; TEXT-DECORATION: none
+}
+.tbox DT SPAN.more A:hover {
+	COLOR: #333
+}
+.tbox DT SPAN.label {
+	PADDING-RIGHT: 1px; FLOAT: right; HEIGHT: 24px; OVERFLOW: hidden; =
+PADDING-TOP: 2px
+}
+.tbox DT SPAN.label A {
+	BORDER-LEFT: #dadada 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 23px; =
+PADDING-LEFT: 8px; PADDING-RIGHT: 7px; DISPLAY: block; FLOAT: left; =
+LETTER-SPACING: 1px; HEIGHT: 25px; COLOR: #666; OVERFLOW: hidden; =
+TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.tbox DT SPAN.label A:hover {
+	COLOR: #360
+}
+.tbox DT SPAN.label A.thisclass {
+	BACKGROUND: #fff; COLOR: #333; BORDER-TOP: #f1f7ee 3px solid
+}
+.tbox DD {
+	BORDER-LEFT: #dadada 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 4px; =
+PADDING-RIGHT: 4px; OVERFLOW: hidden; BORDER-RIGHT: #dadada 1px solid; =
+PADDING-TOP: 4px
+}
+.c1 {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; CLEAR: =
+right; PADDING-TOP: 4px
+}
+.c1 LI {
+	LINE-HEIGHT: 27px; PADDING-LEFT: 16px; BACKGROUND: =
+url(../images/ico-2.gif) no-repeat 7px 11px; HEIGHT: 27px; OVERFLOW: =
+hidden
+}
+.c1 A {
+=09
+}
+.c2 {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: =
+0px; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 4px
+}
+.c2 LI {
+	LINE-HEIGHT: 27px; PADDING-LEFT: 16px; WIDTH: 44%; BACKGROUND: =
+url(../images/ico-2.gif) no-repeat 7px 11px; FLOAT: left; HEIGHT: 27px; =
+OVERFLOW: hidden; MARGIN-RIGHT: 1%
+}
+.d1 {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 4px
+}
+.d1 LI {
+	LINE-HEIGHT: 27px; HEIGHT: 27px; OVERFLOW: hidden
+}
+.d1 LI SPAN {
+	FLOAT: left; COLOR: #999; MARGIN-RIGHT: 5px
+}
+.d1 LI A {
+=09
+}
+.d2 {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 4px
+}
+.d2 LI {
+	LINE-HEIGHT: 27px; HEIGHT: 27px; OVERFLOW: hidden
+}
+.d2 LI SPAN {
+	PADDING-RIGHT: 10px; FLOAT: right; COLOR: #999; MARGIN-LEFT: 10px
+}
+.d2 LI A {
+	OVERFLOW: hidden
+}
+.d4 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 0px
+}
+.d4 LI {
+	BORDER-BOTTOM: #dcebd7 1px dashed; PADDING-BOTTOM: 4px; PADDING-LEFT: =
+8px; PADDING-RIGHT: 8px; HEIGHT: 60px; OVERFLOW: hidden; PADDING-TOP: =
+4px
+}
+.d4 LI A {
+	LINE-HEIGHT: 23px; TEXT-INDENT: 14px; DISPLAY: block; BACKGROUND: =
+url(../images/ico-3.gif) no-repeat 4px 9px; OVERFLOW: hidden
+}
+.d4 LI P {
+	LINE-HEIGHT: 17px; HEIGHT: 33px; COLOR: #888; OVERFLOW: hidden
+}
+.d5 {
+	BORDER-BOTTOM: #eee 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; =
+PADDING-RIGHT: 8px; PADDING-TOP: 8px
+}
+.d5 LI {
+	LINE-HEIGHT: 41px; PADDING-LEFT: 16px; BACKGROUND: =
+url(../images/ico-2.gif) no-repeat 2px 17px; HEIGHT: 41px
+}
+.d5 LI A {
+	FONT-SIZE: 14px
+}
+.d5 LI SPAN {
+	COLOR: #999; MARGIN-LEFT: 10px
+}
+.e1 {
+	PADDING-BOTTOM: 8px; WIDTH: 100%; CLEAR: both; OVERFLOW: hidden; =
+PADDING-TOP: 10px
+}
+.e1 LI {
+	TEXT-ALIGN: center; PADDING-LEFT: 12px; WIDTH: 126px; FLOAT: left; =
+OVERFLOW: hidden
+}
+.e1 LI A {
+	DISPLAY: block
+}
+.e1 LI A:hover IMG {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; =
+PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BORDER-TOP: =
+#999 1px solid; BORDER-RIGHT: #999 1px solid; PADDING-TOP: 2px
+}
+.e1 LI A IMG {
+	BORDER-BOTTOM: #e3e3e3 1px solid; BORDER-LEFT: #e3e3e3 1px solid; =
+PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; WIDTH: 120px; PADDING-RIGHT: =
+2px; DISPLAY: block; HEIGHT: 90px; BORDER-TOP: #e3e3e3 1px solid; =
+BORDER-RIGHT: #e3e3e3 1px solid; PADDING-TOP: 2px
+}
+.e1 LI A SPAN {
+	LINE-HEIGHT: 17px; DISPLAY: block; PADDING-TOP: 6px
+}
+.e1 LI SPAN {
+=09
+}
+.e2 {
+=09
+}
+.e2 LI {
+	BORDER-BOTTOM: #eee 1px solid; PADDING-BOTTOM: 12px; PADDING-LEFT: 0px; =
+WIDTH: 100%; PADDING-RIGHT: 0px; CLEAR: both; OVERFLOW: hidden; =
+PADDING-TOP: 12px
+}
+.e2 LI A.preview {
+	WIDTH: 84px; DISPLAY: inline; MARGIN-BOTTOM: 3px; FLOAT: left; =
+MARGIN-LEFT: 10px; MARGIN-RIGHT: 7px
+}
+.e2 LI A.preview IMG {
+	BORDER-BOTTOM: #eee 1px solid; BORDER-LEFT: #eee 1px solid; =
+PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; WIDTH: 80px; PADDING-RIGHT: 1px; =
+DISPLAY: block; BORDER-TOP: #eee 1px solid; BORDER-RIGHT: #eee 1px =
+solid; PADDING-TOP: 1px
+}
+.e2 LI A.preview:hover IMG {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; BORDER-TOP: =
+#aaa 1px solid; BORDER-RIGHT: #aaa 1px solid
+}
+.e2 LI A.title {
+	LINE-HEIGHT: 25px; MARGIN-LEFT: 2px; FONT-SIZE: 14px; OVERFLOW: hidden; =
+FONT-WEIGHT: bold
+}
+.e2 SPAN.info {
+	LINE-HEIGHT: 23px; PADDING-LEFT: 12px; DISPLAY: block; COLOR: #555
+}
+.e2 SPAN.info SMALL {
+	COLOR: #aaa; MARGIN-LEFT: 3px; FONT-SIZE: 12px
+}
+.e2 SPAN.info A {
+	COLOR: #f63
+}
+.e2 P.intro {
+	LINE-HEIGHT: 20px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; COLOR: =
+#776955; MARGIN-LEFT: 5px
+}
+.e3 {
+	CLEAR: both; OVERFLOW: hidden
+}
+.e3 LI {
+	BORDER-BOTTOM: #dcebd7 1px dashed; PADDING-BOTTOM: 6px; PADDING-LEFT: =
+6px; PADDING-RIGHT: 6px; HEIGHT: 50px; OVERFLOW: hidden; PADDING-TOP: =
+6px
+}
+.e3 LI A.preview {
+	WIDTH: 58px; DISPLAY: block; FLOAT: left; HEIGHT: 48px; OVERFLOW: =
+hidden; MARGIN-RIGHT: 6px
+}
+.e3 LI A.preview IMG {
+	WIDTH: 58px; HEIGHT: 48px
+}
+.e3 LI A.title {
+	LINE-HEIGHT: 21px; DISPLAY: block; HEIGHT: 21px; OVERFLOW: hidden
+}
+.e3 LI .intro {
+	LINE-HEIGHT: 23px; DISPLAY: block; FLOAT: left; COLOR: #777
+}
+.e5 {
+	LINE-HEIGHT: 0px; PADDING-LEFT: 8px; WIDTH: 112px; FLOAT: left; =
+FONT-SIZE: 0px
+}
+.e5 LI {
+	WIDTH: 104px; DISPLAY: block; OVERFLOW: hidden; PADDING-TOP: 8px
+}
+.e6 {
+	PADDING-LEFT: 6px; HEIGHT: 81px; CLEAR: both; OVERFLOW: hidden
+}
+.e6 LI {
+	WIDTH: 104px; PADDING-RIGHT: 8px; DISPLAY: block; FLOAT: left; =
+OVERFLOW: hidden; PADDING-TOP: 8px
+}
+.e5 LI A {
+	BORDER-BOTTOM: #676767 1px solid; BORDER-LEFT: #676767 1px solid; =
+WIDTH: 102px; DISPLAY: block; HEIGHT: 70px; OVERFLOW: hidden; =
+BORDER-TOP: #676767 1px solid; BORDER-RIGHT: #676767 1px solid
+}
+.e6 LI A {
+	BORDER-BOTTOM: #676767 1px solid; BORDER-LEFT: #676767 1px solid; =
+WIDTH: 102px; DISPLAY: block; HEIGHT: 70px; OVERFLOW: hidden; =
+BORDER-TOP: #676767 1px solid; BORDER-RIGHT: #676767 1px solid
+}
+.e5 LI A IMG {
+	WIDTH: 102px; DISPLAY: block; HEIGHT: 70px
+}
+.e6 LI A IMG {
+	WIDTH: 102px; DISPLAY: block; HEIGHT: 70px
+}
+.e5 LI A:hover {
+	BORDER-BOTTOM: #333 1px solid; BORDER-LEFT: #333 1px solid; BORDER-TOP: =
+#333 1px solid; BORDER-RIGHT: #333 1px solid
+}
+.e6 LI A:hover {
+	BORDER-BOTTOM: #333 1px solid; BORDER-LEFT: #333 1px solid; BORDER-TOP: =
+#333 1px solid; BORDER-RIGHT: #333 1px solid
+}
+.e7 {
+	CLEAR: both; OVERFLOW: hidden
+}
+.e7 LI {
+	PADDING-LEFT: 11px; WIDTH: 60px; FLOAT: left; HEIGHT: 86px; OVERFLOW: =
+hidden
+}
+.e7 LI A {
+	TEXT-ALIGN: center; MARGIN: 0px auto; DISPLAY: block
+}
+.e7 LI A IMG {
+	BORDER-BOTTOM: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; =
+PADDING-BOTTOM: 2px; MARGIN: 0px auto 6px; PADDING-LEFT: 2px; WIDTH: =
+52px; PADDING-RIGHT: 2px; DISPLAY: block; HEIGHT: 52px; BORDER-TOP: #ddd =
+1px solid; BORDER-RIGHT: #ddd 1px solid; PADDING-TOP: 2px
+}
+.e7 LI A:hover IMG {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; BORDER-TOP: =
+#aaa 1px solid; BORDER-RIGHT: #aaa 1px solid
+}
+.e8 {
+	MARGIN-TOP: 16px; WIDTH: 100%; MARGIN-LEFT: 12px; CLEAR: both; =
+OVERFLOW: hidden
+}
+.e8 LI {
+	TEXT-ALIGN: center; WIDTH: 168px; DISPLAY: block; FLOAT: left; HEIGHT: =
+184px; OVERFLOW: hidden; MARGIN-RIGHT: 8px
+}
+.e8 LI .pic {
+	TEXT-ALIGN: left; WIDTH: 160px; DISPLAY: block; BACKGROUND: =
+url(../images/picbox-listbg.gif) no-repeat; HEIGHT: 120px; OVERFLOW: =
+hidden
+}
+.e8 LI .pic IMG {
+	MARGIN-TOP: 3px; WIDTH: 152px; DISPLAY: block; HEIGHT: 112px; =
+MARGIN-LEFT: 3px
+}
+.e8 LI .title {
+	LINE-HEIGHT: 31px; DISPLAY: block; HEIGHT: 31px; OVERFLOW: hidden; =
+FONT-WEIGHT: bold
+}
+.e8 LI .date {
+	COLOR: #666
+}
+.e8 LI .date SMALL {
+	LINE-HEIGHT: 17px; COLOR: #999; FONT-SIZE: 12px
+}
+.e9 {
+	WIDTH: 100%; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 4px
+}
+.e9 LI {
+	TEXT-ALIGN: center; WIDTH: 106px; DISPLAY: inline; FLOAT: left; HEIGHT: =
+110px; MARGIN-LEFT: 6px; OVERFLOW: hidden
+}
+.e9 LI A {
+	COLOR: #777
+}
+.e9 LI A IMG {
+	BORDER-BOTTOM: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; =
+PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; WIDTH: 102px; PADDING-RIGHT: =
+1px; DISPLAY: block; HEIGHT: 76px; BORDER-TOP: #ddd 1px solid; =
+BORDER-RIGHT: #ddd 1px solid; PADDING-TOP: 1px
+}
+.e9 LI A SPAN.title {
+	LINE-HEIGHT: 29px; DISPLAY: block; HEIGHT: 29px; OVERFLOW: hidden
+}
+.f1 {
+	BACKGROUND: url(../images/number-range.gif) no-repeat 5px 5px; =
+OVERFLOW: hidden
+}
+.f1 LI {
+	BORDER-BOTTOM: #dcebd7 1px dashed; PADDING-BOTTOM: 4px; PADDING-LEFT: =
+38px; PADDING-RIGHT: 0px; DISPLAY: block; HEIGHT: 38px; OVERFLOW: =
+hidden; PADDING-TOP: 3px
+}
+.f1 LI A {
+	LINE-HEIGHT: 21px; DISPLAY: block; HEIGHT: 21px; OVERFLOW: hidden
+}
+.f1 LI SPAN {
+	LINE-HEIGHT: 15px; COLOR: #666666; MARGIN-LEFT: 5px
+}
+.f1 LI SPAN SMALL {
+	COLOR: #999; FONT-SIZE: 12px
+}
+.f1 LI SPAN A {
+	LINE-HEIGHT: 15px; DISPLAY: inline; COLOR: #f63
+}
+.f2 {
+	OVERFLOW: hidden
+}
+.f2 LI {
+	BORDER-BOTTOM: #dcebd7 1px dashed; PADDING-BOTTOM: 0px; PADDING-LEFT: =
+8px; PADDING-RIGHT: 8px; HEIGHT: 73px; CLEAR: both; OVERFLOW: hidden; =
+PADDING-TOP: 0px
+}
+.f2 SMALL {
+	LINE-HEIGHT: 21px; DISPLAY: block; HEIGHT: 21px; COLOR: #999; =
+FONT-SIZE: 12px; OVERFLOW: hidden; PADDING-TOP: 6px
+}
+.f2 SMALL A.username {
+	COLOR: #666
+}
+.f2 P {
+	LINE-HEIGHT: 21px; TEXT-INDENT: 17px; BACKGROUND: =
+url(../images/ico-comment-quote.gif) no-repeat 0px 4px; HEIGHT: 42px; =
+COLOR: #888; OVERFLOW: hidden
+}
+.f4 {
+=09
+}
+.f4 LI {
+	MARGIN: 10px 12px 2px 8px; WIDTH: 94px; DISPLAY: block; FLOAT: left; =
+HEIGHT: 37px; OVERFLOW: hidden
+}
+.f4 LI A {
+	BORDER-BOTTOM: #fff 3px solid; BORDER-LEFT: #fff 3px solid; WIDTH: =
+88px; FLOAT: left; HEIGHT: 31px; OVERFLOW: hidden; BORDER-TOP: #fff 3px =
+solid; BORDER-RIGHT: #fff 3px solid
+}
+.f4 LI A:hover {
+	BORDER-BOTTOM: #eee 3px solid; BORDER-LEFT: #eee 3px solid; BORDER-TOP: =
+#eee 3px solid; BORDER-RIGHT: #eee 3px solid
+}
+.f5 {
+	PADDING-BOTTOM: 10px; WIDTH: 100%; CLEAR: both; OVERFLOW: hidden
+}
+.f5 LI {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 14px; PADDING-LEFT: 10px; =
+PADDING-RIGHT: 10px; WHITE-SPACE: nowrap; FLOAT: left; PADDING-TOP: 8px
+}
+.f5 LI A {
+	FLOAT: left; COLOR: #666666
+}
+.f6 {
+	PADDING-BOTTOM: 10px; WIDTH: 100%; CLEAR: both; OVERFLOW: hidden
+}
+.f6 LI {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 14px; PADDING-LEFT: 10px; =
+PADDING-RIGHT: 10px; WHITE-SPACE: nowrap; FLOAT: left; PADDING-TOP: 8px
+}
+.f6 LI A {
+	FLOAT: left; COLOR: #666666
+}
+.ico1 LI {
+	PADDING-LEFT: 16px; BACKGROUND: url(../images/ico-1.gif) no-repeat 7px =
+11px
+}
+.ico2 LI {
+	PADDING-LEFT: 16px; BACKGROUND: url(../images/ico-2.gif) no-repeat 6px =
+11px
+}
+.ico3 LI {
+	PADDING-LEFT: 16px; BACKGROUND: url(../images/ico-3.gif) no-repeat 7px =
+11px
+}
+
+------=_NextPart_000_0000_01CBEE20.E66676B0
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.actionscript8.com/html/as3/2009/0728/page.css
+
+.pleft {
+	WIDTH: 712px; FLOAT: left; OVERFLOW: hidden
+}
+.pleft .place {
+	BORDER-BOTTOM: #fee3cb 1px solid; LINE-HEIGHT: 22px; TEXT-INDENT: 12px; =
+WIDTH: 712px; BACKGROUND: #fff5ec; HEIGHT: 22px; COLOR: #ccc; OVERFLOW: =
+hidden; BORDER-TOP: #fee3cb 1px solid
+}
+.pleft .place STRONG {
+	LETTER-SPACING: 1px; COLOR: #f96; FONT-WEIGHT: normal
+}
+.pleft .place A {
+	MARGIN: 0px 2px; COLOR: #666
+}
+.pleft .place A:hover {
+	COLOR: #333; TEXT-DECORATION: none
+}
+.pleft .place SMALL {
+	WIDTH: 8px; DISPLAY: inline-block; BACKGROUND: url(../images/ico-3.gif) =
+no-repeat 2px 8px; HEIGHT: 24px; FONT-SIZE: 0px; VERTICAL-ALIGN: middle; =
+OVERFLOW: hidden
+}
+.pright {
+	WIDTH: 240px; FLOAT: right; OVERFLOW: hidden
+}
+.dede_pages {
+=09
+}
+.dede_pages UL {
+	PADDING-BOTTOM: 12px; PADDING-LEFT: 16px; PADDING-RIGHT: 0px; FLOAT: =
+left; PADDING-TOP: 12px
+}
+.dede_pages UL LI {
+	LINE-HEIGHT: 17px; FONT-FAMILY: Tahoma; FLOAT: left; MARGIN-RIGHT: 6px
+}
+.dede_pages UL LI A {
+	BORDER-BOTTOM: #eee 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 4px; =
+PADDING-RIGHT: 4px; FLOAT: left; COLOR: #666; PADDING-TOP: 2px
+}
+.dede_pages UL LI A:hover {
+	BORDER-BOTTOM: #f63 2px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 4px; =
+PADDING-RIGHT: 4px; COLOR: #f63; TEXT-DECORATION: none; PADDING-TOP: 2px
+}
+.dede_pages UL LI.thisclass A {
+	BORDER-BOTTOM: #f63 2px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 4px; =
+PADDING-RIGHT: 4px; COLOR: #f63; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.pagebox UL LI.thisclass A:hover {
+	BORDER-BOTTOM: #f63 2px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 4px; =
+PADDING-RIGHT: 4px; COLOR: #f63; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.dede_pages .pageinfo {
+	PADDING-BOTTOM: 12px; LINE-HEIGHT: 21px; PADDING-LEFT: 16px; =
+PADDING-RIGHT: 10px; FLOAT: right; COLOR: #999; PADDING-TOP: 12px
+}
+.dede_pages .pageinfo STRONG {
+	MARGIN: 0px 2px; COLOR: #666; FONT-WEIGHT: normal
+}
+.index .bignews {
+	WIDTH: 424px; FLOAT: right; HEIGHT: 400px; OVERFLOW: hidden
+}
+.index .bignews A {
+	COLOR: #666666
+}
+.index .bignews .d1 A {
+	COLOR: #36c
+}
+.index .bignews .onenews {
+	BORDER-BOTTOM: #ebebeb 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: =
+12px; PADDING-RIGHT: 12px; PADDING-TOP: 8px
+}
+.index .bignews .onenews H2 {
+	LINE-HEIGHT: 25px; DISPLAY: block; HEIGHT: 28px
+}
+.index .bignews .onenews H2 A {
+	COLOR: #36c; FONT-SIZE: 16px; TEXT-DECORATION: none
+}
+.index .bignews .onenews H2 A:hover {
+	COLOR: #f33; FONT-SIZE: 16px; TEXT-DECORATION: none
+}
+.index .bignews .onenews P {
+	LINE-HEIGHT: 19px; COLOR: #777
+}
+.index .bignews UL.d1 {
+	BORDER-BOTTOM: #ebebeb 1px solid; PADDING-BOTTOM: 6px; PADDING-LEFT: =
+14px; PADDING-RIGHT: 14px; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: =
+6px
+}
+.index .bignews UL.c2 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 4px; WIDTH: 416px; PADDING-RIGHT: =
+4px; CLEAR: both; OVERFLOW: hidden; BORDER-TOP: #fafafa 2px solid; =
+PADDING-TOP: 6px
+}
+.index .flashnews {
+	WIDTH: 280px; FLOAT: left; HEIGHT: 192px; OVERFLOW: hidden
+}
+.index .latestnews {
+	MARGIN-TOP: 8px; WIDTH: 280px; FLOAT: left; HEIGHT: 200px
+}
+.index .latestnews DL DD {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; =
+PADDING-TOP: 2px
+}
+.index .latestnews UL A {
+	COLOR: #666666
+}
+.index .picnews {
+	MARGIN-TOP: 8px; WIDTH: 712px; FLOAT: left; CLEAR: both; OVERFLOW: =
+hidden
+}
+.index .listbox {
+	WIDTH: 720px; FLOAT: left; CLEAR: both; OVERFLOW: hidden
+}
+.index .listbox DL {
+	MARGIN-TOP: 8px; WIDTH: 352px; FLOAT: left; MARGIN-RIGHT: 8px
+}
+.index .listbox UL A {
+	COLOR: #777
+}
+.index .usercenter .tbox DD {
+	DISPLAY: none; HEIGHT: 370px
+}
+.index .usercenter .tbox DD#loading {
+	TEXT-ALIGN: center; LINE-HEIGHT: 200px; DISPLAY: block; LETTER-SPACING: =
+2px; COLOR: #999999
+}
+.index .userlogin {
+	PADDING-TOP: 10px
+}
+.index .userlogin .fb {
+	HEIGHT: 37px
+}
+.index .userlogin .fb SPAN {
+	TEXT-ALIGN: right; WIDTH: 60px; PADDING-RIGHT: 6px; FLOAT: left; COLOR: =
+#888
+}
+.index .userlogin .fb IMG {
+	MARGIN-LEFT: 5px; VERTICAL-ALIGN: middle
+}
+.index .userlogin .submit {
+	TEXT-ALIGN: center; PADDING-TOP: 3px
+}
+.index .userlogin .submit A {
+	COLOR: #930; MARGIN-LEFT: 7px
+}
+.index .userinfo {
+=09
+}
+.index .userinfo .welcome {
+	BORDER-BOTTOM: #eee 1px solid; LINE-HEIGHT: 23px; TEXT-INDENT: 10px; =
+MARGIN: 12px auto; WIDTH: 220px; BACKGROUND: #f9f9f9; HEIGHT: 24px; =
+COLOR: #777; BORDER-TOP: #eee 1px solid
+}
+.index .userinfo .welcome STRONG {
+	COLOR: #f60; FONT-WEIGHT: bold
+}
+.index .userinfo .userface {
+	PADDING-LEFT: 16px; WIDTH: 60px; FLOAT: left; HEIGHT: 64px; OVERFLOW: =
+hidden; PADDING-TOP: 2px
+}
+.index .userinfo .userface A {
+	TEXT-ALIGN: center; MARGIN: 0px auto; DISPLAY: block
+}
+.index .userinfo .userface A IMG {
+	BORDER-BOTTOM: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; =
+PADDING-BOTTOM: 2px; MARGIN: 0px auto 6px; PADDING-LEFT: 2px; WIDTH: =
+52px; PADDING-RIGHT: 2px; DISPLAY: block; HEIGHT: 52px; BORDER-TOP: #ddd =
+1px solid; BORDER-RIGHT: #ddd 1px solid; PADDING-TOP: 2px
+}
+.index .userinfo .mylink {
+	WIDTH: 144px; FLOAT: left; OVERFLOW: hidden
+}
+.index .userinfo .mylink UL {
+=09
+}
+.index .userinfo .mylink UL LI {
+	LINE-HEIGHT: 21px; TEXT-INDENT: 12px; WIDTH: 72px; FLOAT: left
+}
+.index .userinfo .mylink UL LI A {
+	COLOR: #666
+}
+.index .userinfo .uclink {
+	TEXT-ALIGN: center; LINE-HEIGHT: 31px; HEIGHT: 31px; COLOR: #ddd; =
+CLEAR: both; OVERFLOW: hidden
+}
+.index .userinfo .uclink A {
+	MARGIN: 0px 2px; COLOR: #f63
+}
+.index .latestlogin {
+	PADDING-TOP: 16px
+}
+.index .latestlogin STRONG {
+	Z-INDEX: 5; POSITION: relative; LINE-HEIGHT: 21px; PADDING-LEFT: 6px; =
+WIDTH: 102px; DISPLAY: block; BACKGROUND: #fff; LETTER-SPACING: 1px; =
+COLOR: #666
+}
+.index .latestlogin UL {
+	Z-INDEX: 3; MARGIN: -12px auto 0px; WIDTH: 224px; BORDER-TOP: #c5ddbc =
+1px solid; PADDING-TOP: 20px
+}
+.index .commend DL DD {
+	PADDING-TOP: 0px
+}
+.index .hot DL DD {
+	PADDING-TOP: 0px
+}
+.index .hot DL DD .c1 LI {
+	WIDTH: 210px; OVERFLOW: hidden
+}
+.index .vote DL DD STRONG {
+	BORDER-BOTTOM: #c5ddbc 1px solid; LINE-HEIGHT: 27px; MARGIN: 0px 4px; =
+PADDING-LEFT: 8px; DISPLAY: block; LETTER-SPACING: 1px; COLOR: #f93
+}
+.index .vote DL DD .fb {
+	PADDING-LEFT: 10px; HEIGHT: 21px; COLOR: #666; PADDING-TOP: 10px
+}
+.index .vote DL DD .fb INPUT {
+	MARGIN-RIGHT: 4px
+}
+.index .vote DL DD .submit {
+	TEXT-ALIGN: center; HEIGHT: 35px; PADDING-TOP: 8px
+}
+.index .vote DL DD .submit BUTTON {
+	MARGIN-RIGHT: 10px
+}
+.index .vote DL DD .submit A {
+	COLOR: #003300
+}
+.channel .flashnews {
+	WIDTH: 280px; BACKGROUND: #f00; FLOAT: left; HEIGHT: 192px; OVERFLOW: =
+hidden
+}
+.channel .topcommand {
+	WIDTH: 424px; FLOAT: right; OVERFLOW: hidden
+}
+.channel .topcommand DL DD {
+	HEIGHT: 162px
+}
+.channel .topcommand A {
+	COLOR: #777
+}
+.channel .topcommand .onenews {
+	BORDER-BOTTOM: #ebebeb 1px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: =
+12px; PADDING-RIGHT: 12px; PADDING-TOP: 3px
+}
+.channel .topcommand .onenews H2 {
+	LINE-HEIGHT: 25px; DISPLAY: block; HEIGHT: 28px
+}
+.channel .topcommand .onenews H2 A {
+	COLOR: #3366cc; FONT-SIZE: 16px
+}
+.channel .topcommand .onenews P {
+	LINE-HEIGHT: 19px; COLOR: #777
+}
+.channel .picnews {
+	MARGIN-TOP: 8px; WIDTH: 712px; FLOAT: left; CLEAR: both; OVERFLOW: =
+hidden
+}
+.channel .listbox {
+	WIDTH: 720px; FLOAT: left; CLEAR: both; OVERFLOW: hidden
+}
+.channel .listbox DL {
+	MARGIN-TOP: 8px; WIDTH: 352px; FLOAT: left; MARGIN-RIGHT: 8px
+}
+.channel .listbox UL A {
+	COLOR: #777
+}
+.viewbox {
+	PADDING-BOTTOM: 8px; WIDTH: 712px; OVERFLOW: hidden
+}
+.viewbox .title {
+	TEXT-ALIGN: center; LINE-HEIGHT: 56px; HEIGHT: 56px; OVERFLOW: hidden; =
+PADDING-TOP: 10px
+}
+.viewbox .title H2 {
+	COLOR: #369; FONT-SIZE: 24px
+}
+.viewbox .info {
+	TEXT-ALIGN: center; LINE-HEIGHT: 17px; HEIGHT: 24px; COLOR: #777; =
+OVERFLOW: hidden
+}
+.viewbox .info SMALL {
+	COLOR: #999; MARGIN-LEFT: 8px; FONT-SIZE: 12px; MARGIN-RIGHT: 3px
+}
+.viewbox .info A {
+	COLOR: #f63
+}
+.viewbox .intro {
+	BORDER-BOTTOM: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; =
+PADDING-BOTTOM: 8px; LINE-HEIGHT: 25px; MARGIN-TOP: 8px; PADDING-LEFT: =
+16px; PADDING-RIGHT: 16px; BACKGROUND: #fafdfe; COLOR: #666; FONT-SIZE: =
+14px; BORDER-TOP: #ddd 1px solid; BORDER-RIGHT: #ddd 1px solid; =
+PADDING-TOP: 8px
+}
+.viewbox .infolist {
+	WIDTH: 368px; FLOAT: left
+}
+.viewbox .infolist SMALL {
+	TEXT-ALIGN: right; LINE-HEIGHT: 31px; WIDTH: 100px; DISPLAY: block; =
+FLOAT: left; HEIGHT: 31px; COLOR: #999; CLEAR: left; FONT-SIZE: 12px; =
+OVERFLOW: hidden
+}
+.viewbox .infolist SPAN {
+	LINE-HEIGHT: 30px; WIDTH: 200px; FLOAT: left; HEIGHT: 31px; OVERFLOW: =
+hidden
+}
+.viewbox .picview {
+	WIDTH: 320px; PADDING-RIGHT: 24px; FLOAT: right; PADDING-TOP: 16px
+}
+.viewbox .labeltitle {
+	MARGIN: 0px auto; BACKGROUND: url(../images/view-labeltitle-bg.gif) =
+repeat-x left 10px; HEIGHT: 23px; CLEAR: both; OVERFLOW: hidden; =
+PADDING-TOP: 10px
+}
+.viewbox .labeltitle STRONG {
+	TEXT-ALIGN: center; LINE-HEIGHT: 23px; WIDTH: 80px; DISPLAY: block; =
+BACKGROUND: url(../images/view-labeltitle-bg.gif) no-repeat left -44px; =
+FLOAT: left; LETTER-SPACING: 1px; HEIGHT: 23px; COLOR: #fff; OVERFLOW: =
+hidden
+}
+.viewbox .content {
+	PADDING-BOTTOM: 12px; LINE-HEIGHT: 25px; PADDING-LEFT: 16px; =
+PADDING-RIGHT: 16px; COLOR: #333; FONT-SIZE: 14px; PADDING-TOP: 12px
+}
+.viewbox .dede_pages {
+	TEXT-ALIGN: center; WIDTH: 712px; FLOAT: none; OVERFLOW: hidden
+}
+.viewbox .dede_pages UL {
+	TEXT-ALIGN: center; MARGIN: 0px auto; WHITE-SPACE: nowrap; FLOAT: none; =
+CLEAR: both; OVERFLOW: hidden
+}
+.viewbox .dede_pages UL LI {
+	DISPLAY: inline; FLOAT: none
+}
+.viewbox .dede_pages UL LI A {
+	DISPLAY: inline; FLOAT: none
+}
+.viewbox .boxoff {
+	MARGIN: 4px auto; BACKGROUND: url(../images/boxoff.gif) repeat-x left =
+15px; HEIGHT: 10px; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+.viewbox .boxoff STRONG {
+	LINE-HEIGHT: 100px; WIDTH: 8px; DISPLAY: block; BACKGROUND: =
+url(../images/boxoff.gif) no-repeat right -10px; FLOAT: left; HEIGHT: =
+10px; FONT-SIZE: 0px; OVERFLOW: hidden
+}
+.viewbox .newdigg {
+	MARGIN: 8px auto; PADDING-LEFT: 8px; WIDTH: 406px; HEIGHT: 51px; CLEAR: =
+both; OVERFLOW: hidden
+}
+.viewbox .diggbox {
+	WIDTH: 195px; FLOAT: left; HEIGHT: 51px; OVERFLOW: hidden; CURSOR: =
+pointer; MARGIN-RIGHT: 8px
+}
+.viewbox .diggbox .digg_act {
+	LINE-HEIGHT: 31px; TEXT-INDENT: 32px; FLOAT: left; HEIGHT: 29px; =
+FONT-SIZE: 14px; OVERFLOW: hidden; FONT-WEIGHT: bold
+}
+.viewbox .diggbox .digg_num {
+	LINE-HEIGHT: 29px; TEXT-INDENT: 5px; FLOAT: left
+}
+.viewbox .diggbox .digg_percent {
+	PADDING-LEFT: 10px; WIDTH: 180px; CLEAR: both; OVERFLOW: hidden
+}
+.viewbox .diggbox .digg_percent .digg_percent_bar {
+	MARGIN-TOP: 3px; WIDTH: 100px; BACKGROUND: #e8e8e8; FLOAT: left; =
+HEIGHT: 7px; OVERFLOW: hidden; BORDER-RIGHT: #ccc 1px solid
+}
+.viewbox .diggbox .digg_percent .digg_percent_num {
+	PADDING-LEFT: 10px; FLOAT: left; FONT-SIZE: 10px
+}
+.viewbox .diggbox .digg_percent .digg_percent_bar SPAN {
+	DISPLAY: block; BACKGROUND: #000; HEIGHT: 5px; OVERFLOW: hidden
+}
+.viewbox .newdigg .digg_good {
+	BACKGROUND: url(../images/newdigg-bg.png) no-repeat left top
+}
+.viewbox .newdigg .digg_bad {
+	BACKGROUND: url(../images/newdigg-bg.png) no-repeat right top
+}
+.viewbox .newdigg .digg_good .digg_act {
+	COLOR: #c30
+}
+.viewbox .newdigg .digg_good .digg_num {
+	COLOR: #c63
+}
+.viewbox .newdigg .digg_bad .digg_act {
+	COLOR: #36c
+}
+.viewbox .newdigg .digg_bad .digg_num {
+	COLOR: #39c
+}
+.viewbox .newdigg .digg_good .digg_percent .digg_percent_bar SPAN {
+	BORDER-BOTTOM: #e37f24 1px solid; BORDER-LEFT: #e37f24 1px solid; =
+BACKGROUND: #ffc535; BORDER-TOP: #e37f24 1px solid; BORDER-RIGHT: =
+#e37f24 1px solid
+}
+.viewbox .newdigg .digg_bad .digg_percent .digg_percent_bar SPAN {
+	BORDER-BOTTOM: #689acc 1px solid; BORDER-LEFT: #689acc 1px solid; =
+BACKGROUND: #94c0e4; BORDER-TOP: #689acc 1px solid; BORDER-RIGHT: =
+#689acc 1px solid
+}
+.viewbox .handle {
+	HEIGHT: 59px; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 12px
+}
+.viewbox .handle .digg {
+	WIDTH: 59px; BACKGROUND: url(../images/digg-bg.gif) no-repeat; FLOAT: =
+left; HEIGHT: 59px; MARGIN-RIGHT: 12px
+}
+.viewbox .handle .digg .digg_num {
+	TEXT-ALIGN: center; LINE-HEIGHT: 34px; WIDTH: 56px; HEIGHT: 34px; =
+COLOR: #6b9169; FONT-SIZE: 20px; OVERFLOW: hidden
+}
+.viewbox .handle .digg .digg_act {
+	LINE-HEIGHT: 23px; WIDTH: 56px; HEIGHT: 22px; OVERFLOW: hidden
+}
+.viewbox .handle .digg .digg_act A {
+	FLOAT: left; COLOR: #777; MARGIN-LEFT: 11px
+}
+.viewbox .handle .context {
+	FLOAT: left
+}
+.viewbox .handle .context UL LI {
+	LINE-HEIGHT: 29px; COLOR: #888
+}
+.viewbox .actbox {
+	TEXT-ALIGN: center; WIDTH: 260px; PADDING-RIGHT: 10px; FLOAT: right; =
+PADDING-TOP: 20px
+}
+.viewbox .actbox UL LI {
+	BACKGROUND-IMAGE: url(../images/actbox-ico.gif); PADDING-LEFT: 22px; =
+DISPLAY: inline; BACKGROUND-REPEAT: no-repeat; MARGIN-RIGHT: 10px
+}
+.viewbox .actbox UL LI A {
+	COLOR: #777
+}
+.viewbox .actbox UL LI#act-fav {
+	BACKGROUND-POSITION: 4px 0px
+}
+.viewbox .actbox UL LI#act-err {
+	BACKGROUND-POSITION: 4px -37px
+}
+.viewbox .actbox UL LI#act-pus {
+	BACKGROUND-POSITION: 4px -73px
+}
+.viewbox .actbox UL LI#act-pnt {
+	BACKGROUND-POSITION: 4px -109px
+}
+.viewbox .downurllist {
+	WIDTH: 100%; CLEAR: both; OVERFLOW: hidden
+}
+.viewbox .downurllist LI {
+	MARGIN-TOP: 10px; PADDING-RIGHT: 4px; BACKGROUND: =
+url(../images/downurl-bg.gif) no-repeat right top; FLOAT: left; HEIGHT: =
+27px; OVERFLOW: hidden; MARGIN-RIGHT: 10px
+}
+.viewbox .downurllist LI A {
+	LINE-HEIGHT: 27px; TEXT-INDENT: 30px; PADDING-RIGHT: 5px; DISPLAY: =
+block; BACKGROUND: url(../images/downurl-bg.gif) no-repeat left top; =
+FLOAT: left; HEIGHT: 27px; COLOR: #555; FONT-SIZE: 12px
+}
+.viewbox .downurllist LI A:hover {
+	COLOR: #f63; TEXT-DECORATION: none
+}
+.viewbox .picbox {
+	TEXT-ALIGN: center; LINE-HEIGHT: 31px; WIDTH: 100%; FONT-SIZE: 14px; =
+OVERFLOW: hidden; PADDING-TOP: 10px
+}
+.viewbox .picbox IMG {
+	MARGIN: 16px auto 6px; DISPLAY: block
+}
+.viewbox .picbox UL.e8 {
+	LINE-HEIGHT: normal; FONT-SIZE: 12px
+}
+.viewbox .picbox UL.e8 LI .pic {
+	BORDER-BOTTOM: #eee 1px solid; BORDER-LEFT: #eee 1px solid; BACKGROUND: =
+none transparent scroll repeat 0% 0%; OVERFLOW: hidden; BORDER-TOP: #eee =
+1px solid; BORDER-RIGHT: #eee 1px solid
+}
+.viewbox .picbox UL.e8 IMG {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; MARGIN: =
+3px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.viewbox .picbox UL.e8 LI .title {
+	PADDING-TOP: 0px
+}
+.specialpic {
+	WIDTH: 200px; FLOAT: left; OVERFLOW: hidden; MARGIN-RIGHT: 20px; =
+PADDING-TOP: 10px
+}
+.specialpic IMG {
+	WIDTH: 200px; DISPLAY: block
+}
+.speciallist {
+	WIDTH: 720px; OVERFLOW: hidden
+}
+.speciallist DL.tbox {
+	MARGIN-TOP: 8px; WIDTH: 352px; FLOAT: left; MARGIN-RIGHT: 8px
+}
+.storypic {
+	WIDTH: 160px; FLOAT: left; OVERFLOW: hidden; MARGIN-RIGHT: 20px; =
+PADDING-TOP: 10px
+}
+.storypic IMG {
+	WIDTH: 160px; DISPLAY: block
+}
+.infos_userinfo {
+	WIDTH: 240px; OVERFLOW: hidden
+}
+.infos_userinfo DD {
+	PADDING-BOTTOM: 12px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px; =
+BACKGROUND: #fff; OVERFLOW: hidden; PADDING-TOP: 12px
+}
+.infos_userinfo DD .userface {
+	BORDER-BOTTOM: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; =
+PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; WIDTH: 52px; PADDING-RIGHT: 1px; =
+FLOAT: left; HEIGHT: 52px; OVERFLOW: hidden; BORDER-TOP: #ddd 1px solid; =
+MARGIN-RIGHT: 8px; BORDER-RIGHT: #ddd 1px solid; PADDING-TOP: 1px
+}
+.infos_userinfo DD .userface IMG {
+	WIDTH: 52px; DISPLAY: block; HEIGHT: 52px; OVERFLOW: hidden
+}
+.infos_userinfo DD .username {
+	LINE-HEIGHT: 19px; DISPLAY: block; HEIGHT: 19px; COLOR: #f60; OVERFLOW: =
+hidden; FONT-WEIGHT: bold
+}
+.infos_userinfo DD .useract {
+	PADDING-LEFT: 4px; WIDTH: 140px; FLOAT: left; HEIGHT: 44px; OVERFLOW: =
+hidden
+}
+.infos_userinfo DD .useract-pm {
+	LINE-HEIGHT: 19px; WIDTH: 70px; FLOAT: left; HEIGHT: 19px; OVERFLOW: =
+hidden
+}
+.infos_userinfo DD .useract-af {
+	LINE-HEIGHT: 19px; WIDTH: 70px; FLOAT: left; HEIGHT: 19px; OVERFLOW: =
+hidden
+}
+.infos_userinfo DD .useract-vi {
+	LINE-HEIGHT: 19px; DISPLAY: block; HEIGHT: 19px; COLOR: #777; CLEAR: =
+both; OVERFLOW: hidden
+}
+.infos_userinfo DD .userinfo-sp {
+	LINE-HEIGHT: 25px; PADDING-LEFT: 10px; DISPLAY: block; HEIGHT: 25px; =
+CLEAR: both
+}
+.infos_userinfo DD .userinfo-sp SMALL {
+	COLOR: #aaa; FONT-SIZE: 12px; MARGIN-RIGHT: 5px
+}
+.infos_search DD {
+	PADDING-BOTTOM: 12px; PADDING-LEFT: 8px; PADDING-RIGHT: 4px; =
+PADDING-TOP: 4px
+}
+.infos_search DD SELECT {
+	MARGIN-TOP: 8px; MARGIN-LEFT: 4px
+}
+.infos_search DD INPUT {
+	MARGIN-TOP: 8px; MARGIN-LEFT: 4px
+}
+.infos_search DD BUTTON {
+	MARGIN-TOP: 8px; MARGIN-LEFT: 4px
+}
+.infos_search DD SELECT {
+	FONT-SIZE: 14px
+}
+.tags_list DD {
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 220%; PADDING-LEFT: 12px; =
+PADDING-RIGHT: 12px; PADDING-TOP: 4px
+}
+.tags_list DD A {
+	WHITE-SPACE: nowrap; MARGIN-RIGHT: 10px
+}
+.tagc1 {
+	COLOR: #777; FONT-SIZE: 12px
+}
+.tagc2 {
+	COLOR: #666; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.sp-title {
+	BORDER-BOTTOM: #eee 1px solid; PADDING-BOTTOM: 4px; PADDING-LEFT: 12px; =
+PADDING-RIGHT: 12px; MARGIN-BOTTOM: 8px; BACKGROUND: #fafafa; COLOR: =
+#888; BORDER-TOP: #eee 1px solid; PADDING-TOP: 4px
+}
+.sp-title H2 {
+	LINE-HEIGHT: 27px; FONT-SIZE: 16px
+}
+.sp-title H2 A {
+	MARGIN-LEFT: 6px
+}
+.sp-title .more {
+	LINE-HEIGHT: 27px; MARGIN: -27px 0px; FLOAT: right
+}
+.linkbox {
+	BORDER-BOTTOM: #eee 1px solid; PADDING-BOTTOM: 10px; PADDING-LEFT: 8px; =
+PADDING-RIGHT: 8px; PADDING-TOP: 10px
+}
+.linkbox H3 {
+	COLOR: #693; FONT-SIZE: 14px
+}
+.linkbox H3 A {
+	COLOR: #693; FONT-SIZE: 14px
+}
+.buycar {
+=09
+}
+.buycar H2 {
+	LINE-HEIGHT: 31px; COLOR: #f60; FONT-SIZE: 14px
+}
+.buycar .flow {
+	BORDER-LEFT: #dee79e 1px solid; WIDTH: 100%; MARGIN-BOTTOM: 16px; =
+BORDER-TOP: #dee79e 1px solid; BORDER-RIGHT: #dee79e 1px solid
+}
+.buycar .flow TD {
+	BORDER-BOTTOM: #eff3cf 1px solid; TEXT-ALIGN: center; LINE-HEIGHT: =
+19px; BACKGROUND: #f8faeb; LETTER-SPACING: 3px; HEIGHT: 23px; COLOR: =
+#888; OVERFLOW: hidden; BORDER-TOP: #fff 3px solid; BORDER-RIGHT: =
+#eff3cf 1px solid
+}
+.buycar .flow TD.thisclass {
+	BORDER-BOTTOM: #fff 1px solid; BACKGROUND: #fff; COLOR: #333; =
+BORDER-TOP: #f8faeb 3px solid; FONT-WEIGHT: bold
+}
+.flinkbox {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; =
+PADDING-TOP: 4px
+}
+.formbox {
+	MARGIN: 0px auto; WIDTH: 90%
+}
+.formbox .fb {
+	MARGIN: 0px auto; WIDTH: 100%; CLEAR: both; OVERFLOW: hidden; =
+PADDING-TOP: 10px
+}
+.formbox .fb .name {
+	TEXT-ALIGN: right; LINE-HEIGHT: 31px; WIDTH: 180px; PADDING-RIGHT: =
+10px; DISPLAY: block; FLOAT: left; HEIGHT: 31px; COLOR: #777; FONT-SIZE: =
+14px
+}
+.formbox .fb .value {
+	FLOAT: left
+}
+.formbox .fb .value IMG {
+	VERTICAL-ALIGN: middle
+}
+.dede_comment {
+	PADDING-BOTTOM: 6px
+}
+.dede_comment .decmt-box {
+	BORDER-BOTTOM: #e5e5e5 1px solid; PADDING-BOTTOM: 8px; MARGIN: 0px =
+auto; PADDING-LEFT: 5px; WIDTH: 98%; PADDING-RIGHT: 5px; CLEAR: both; =
+OVERFLOW: hidden; PADDING-TOP: 6px
+}
+.dede_comment .decmt-box .decmt-title {
+	LINE-HEIGHT: 19px; FONT-FAMILY: Tahoma; COLOR: #999
+}
+.dede_comment .decmt-box .decmt-title SPAN {
+	VERTICAL-ALIGN: middle; MARGIN-RIGHT: 2px
+}
+.dede_comment .decmt-box .decmt-title .moodico {
+	WIDTH: 18px; DISPLAY: inline-block; HEIGHT: 18px
+}
+.dede_comment .decmt-box .decmt-title .username {
+	COLOR: #669
+}
+.dede_comment .decmt-box .decmt-title .username A {
+	COLOR: #669
+}
+.dede_comment .decmt-box .decmt-title .username A:hover {
+	COLOR: #690; TEXT-DECORATION: none
+}
+.dede_comment .decmt-box .decmt-title .ip {
+	COLOR: #669; FONT-SIZE: 11px
+}
+.dede_comment .decmt-box .decmt-title .date {
+	COLOR: #666; FONT-SIZE: 11px
+}
+.dede_comment .decmt-box .decmt-act {
+	POSITION: relative; MARGIN-TOP: -18px; PADDING-RIGHT: 10px; FLOAT: =
+right; COLOR: #999; CLEAR: both
+}
+.dede_comment .decmt-box .decmt-act SPAN {
+	MARGIN-RIGHT: 7px
+}
+.dede_comment .decmt-box .decmt-act SPAN A {
+	COLOR: #888
+}
+.dede_comment .decmt-box .decmt-content {
+	LINE-HEIGHT: 21px; MARGIN: 2px auto 0px; WIDTH: 99%; COLOR: #555; =
+CLEAR: both
+}
+.dede_comment .decmt-box .decmt-content IMG {
+	VERTICAL-ALIGN: middle
+}
+.dede_comment .decmt-box .decmt-box {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; MARGIN: 6px =
+auto; BACKGROUND: #ffe; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc =
+1px solid
+}
+.dede_comment .decmt-box .decmt-box .decmt-title {
+	TEXT-INDENT: 4px
+}
+.dede_comment .decmt-box .decmt-box .decmt-content {
+	COLOR: #666
+}
+.nocomment {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; COLOR: =
+#777; PADDING-TOP: 10px
+}
+.dede_comment_post {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; =
+PADDING-TOP: 5px
+}
+.dcmp-title {
+	LINE-HEIGHT: 25px
+}
+.dcmp-title STRONG {
+	COLOR: #444; FONT-WEIGHT: normal
+}
+.dcmp-title SMALL {
+	COLOR: #999999; FONT-SIZE: 12px
+}
+.dcmp-stand {
+	POSITION: relative; MARGIN-TOP: -18px; PADDING-RIGHT: 10px; FLOAT: =
+right; COLOR: #999; CLEAR: both
+}
+.dcmp-stand STRONG {
+	COLOR: #444; FONT-WEIGHT: normal
+}
+.dcmp-stand INPUT {
+	MARGIN-RIGHT: 2px
+}
+.dcmp-stand IMG {
+	VERTICAL-ALIGN: middle; MARGIN-RIGHT: 2px
+}
+.dcmp-content {
+	PADDING-TOP: 8px
+}
+.dcmp-content TEXTAREA {
+	WIDTH: 96%; HEIGHT: 60px
+}
+.dcmp-mood {
+	WIDTH: 80%; HEIGHT: 25px; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: =
+12px
+}
+.dcmp-mood STRONG {
+	LINE-HEIGHT: 25px; FLOAT: left; COLOR: #444; FONT-WEIGHT: normal
+}
+.dcmp-mood UL {
+	FLOAT: left
+}
+.dcmp-mood UL LI {
+	FLOAT: left; MARGIN-RIGHT: 8px
+}
+.dcmp-mood UL LI INPUT {
+	VERTICAL-ALIGN: middle; MARGIN-RIGHT: 0px
+}
+.dcmp-mood UL LI IMG {
+	VERTICAL-ALIGN: middle; MARGIN-RIGHT: 0px
+}
+.dcmp-post {
+	HEIGHT: 35px; COLOR: #444; CLEAR: both; OVERFLOW: hidden
+}
+.dcmp-post .dcmp-userinfo {
+	FLOAT: left; MARGIN-RIGHT: 6px
+}
+.dcmp-post .dcmp-userinfo INPUT {
+	PADDING-RIGHT: 0px; HEIGHT: 13px
+}
+.dcmp-post .dcmp-userinfo INPUT {
+	MARGIN: 5px; VERTICAL-ALIGN: middle
+}
+.dcmp-post .dcmp-userinfo IMG {
+	MARGIN: 5px; VERTICAL-ALIGN: middle
+}
+.dcmp-post .dcmp-submit {
+	FLOAT: left; PADDING-TOP: 6px
+}
+.dcmp-post .dcmp-submit INPUT {
+	VERTICAL-ALIGN: middle
+}
+.dcmp-post .dcmp-submit BUTTON {
+	VERTICAL-ALIGN: middle
+}
+.dcmp-post .dcmp-submit BUTTON {
+	BORDER-BOTTOM-STYLE: none; LINE-HEIGHT: 25px; BORDER-RIGHT-STYLE: none; =
+WIDTH: 70px; BORDER-TOP-STYLE: none; BACKGROUND: =
+url(../images/btn-bg2.gif) no-repeat; LETTER-SPACING: 1px; HEIGHT: 25px; =
+COLOR: #444; MARGIN-LEFT: 5px; BORDER-LEFT-STYLE: none; OVERFLOW: =
+hidden; CURSOR: pointer
+}
+
+------=_NextPart_000_0000_01CBEE20.E66676B0
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.actionscript8.com/templets/style/dedecms.css
+
+@import url( layout.css );
+@import url( page.css );
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+HTML {
+	BACKGROUND: #fff
+}
+BODY {
+	FONT: 12px Verdana,Arial,Tahoma
+}
+IMG {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: =
+none; BORDER-LEFT-STYLE: none
+}
+.a_36c A {
+	COLOR: #3366cc; TEXT-DECORATION: none
+}
+.a_36c A:hover {
+	COLOR: #f33; TEXT-DECORATION: underline
+}
+A {
+	COLOR: #3366cc; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #f33; TEXT-DECORATION: underline
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+INPUT {
+	FONT: 12px Verdana,Arial,Tahoma; VERTICAL-ALIGN: middle
+}
+SELECT {
+	FONT: 12px Verdana,Arial,Tahoma; VERTICAL-ALIGN: middle
+}
+BUTTON {
+	FONT: 12px Verdana,Arial,Tahoma; VERTICAL-ALIGN: middle
+}
+.center {
+	MARGIN: 0px auto
+}
+.w960 {
+	POSITION: relative; WIDTH: 960px
+}
+.mt1 {
+	MARGIN-TOP: 8px
+}
+.mt2 {
+	MARGIN-TOP: 16px
+}
+.clear {
+	OVERFLOW: hidden
+}
+.fs-12 {
+	FONT-SIZE: 12px
+}
+.fc-f60 {
+	COLOR: #f60
+}
+.fc-f90 {
+	COLOR: #f90
+}
+.ipt-txt {
+	BORDER-BOTTOM: #bbb 1px solid; BORDER-LEFT: #666 1px solid; =
+PADDING-BOTTOM: 4px; LINE-HEIGHT: 15px; PADDING-LEFT: 5px; =
+PADDING-RIGHT: 5px; FONT-SIZE: 12px; BORDER-TOP: #666 1px solid; =
+MARGIN-RIGHT: 2px; BORDER-RIGHT: #bbb 1px solid; PADDING-TOP: 4px
+}
+.btn-1 {
+	BORDER-BOTTOM-STYLE: none; LINE-HEIGHT: 25px; BORDER-RIGHT-STYLE: none; =
+WIDTH: 56px; BORDER-TOP-STYLE: none; BACKGROUND: =
+url(../images/btn-bg1.gif) no-repeat; LETTER-SPACING: 1px; HEIGHT: 23px; =
+COLOR: #fff; BORDER-LEFT-STYLE: none; OVERFLOW: hidden
+}
+.btn-2 {
+	BORDER-BOTTOM-STYLE: none; LINE-HEIGHT: 25px; BORDER-RIGHT-STYLE: none; =
+WIDTH: 70px; BORDER-TOP-STYLE: none; BACKGROUND: =
+url(../images/btn-bg2.gif) no-repeat left top; HEIGHT: 25px; COLOR: =
+#444; BORDER-LEFT-STYLE: none; OVERFLOW: hidden; MARGIN-RIGHT: 2px
+}
+.header {
+	WIDTH: 100%; OVERFLOW: hidden; PADDING-TOP: 5px
+}
+.header A {
+	COLOR: #777
+}
+.header A:hover {
+	COLOR: #390; TEXT-DECORATION: none
+}
+.header .top {
+	CLEAR: both; OVERFLOW: hidden
+}
+.header .title {
+	PADDING-LEFT: 16px; FLOAT: left
+}
+.header .title H1 A {
+	TEXT-INDENT: -200px; WIDTH: 200px; DISPLAY: block; BACKGROUND: =
+url(../images/top-logo.gif) no-repeat center center; HEIGHT: 56px; =
+FONT-SIZE: 0px; OVERFLOW: hidden
+}
+.header .banner {
+	WIDTH: 480px; FLOAT: left; HEIGHT: 60px; MARGIN-LEFT: 40px; OVERFLOW: =
+hidden
+}
+.header .banner IMG {
+	WIDTH: 480px; DISPLAY: block; HEIGHT: 56px
+}
+.header .rlink {
+	WIDTH: 172px; FLOAT: left; HEIGHT: 52px; MARGIN-LEFT: 32px; OVERFLOW: =
+hidden; PADDING-TOP: 4px
+}
+.header .rlink UL LI {
+	WIDTH: 78px; MARGIN-BOTTOM: 8px; BACKGROUND: =
+url(../images/toprlink-bg.gif) no-repeat left top; FLOAT: left; HEIGHT: =
+21px; OVERFLOW: hidden; MARGIN-RIGHT: 8px
+}
+.header .rlink UL LI A {
+	BACKGROUND-IMAGE: url(../images/toprlink-bg.gif); LINE-HEIGHT: 21px; =
+TEXT-INDENT: 22px; DISPLAY: block; BACKGROUND-REPEAT: no-repeat; COLOR: =
+#777
+}
+.header .rlink UL LI A:hover {
+	COLOR: #000
+}
+.header .rlink UL LI.r1 A {
+	BACKGROUND-POSITION: 0px -21px
+}
+.header .rlink UL LI.r2 A {
+	BACKGROUND-POSITION: 0px -42px
+}
+.header .rlink UL LI.r3 A {
+	BACKGROUND-POSITION: 0px -63px
+}
+.header .rlink UL LI.r4 A {
+	BACKGROUND-POSITION: 0px -84px
+}
+.header .welcome {
+	MARGIN-TOP: 20px; PADDING-RIGHT: 10px; FLOAT: right; COLOR: #999
+}
+.header .welcome A {
+	MARGIN: 0px 3px
+}
+.header .nav {
+	WIDTH: 100%; BACKGROUND: url(../images/nav-bg.gif) repeat-x; HEIGHT: =
+32px; CLEAR: both; OVERFLOW: hidden
+}
+.header .nav UL {
+	MARGIN: 0px auto; HEIGHT: 32px; OVERFLOW: hidden
+}
+.header .nav UL LI {
+	LINE-HEIGHT: 28px; BACKGROUND: url(../images/nav-bg.gif) no-repeat 0px =
+-32px; FLOAT: left; MARGIN-LEFT: -2px
+}
+.header .nav UL LI A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 17px; PADDING-RIGHT: 16px; DISPLAY: =
+block; FLOAT: left; HEIGHT: 32px; COLOR: #ea0000; FONT-WEIGHT: bold; =
+PADDING-TOP: 0px
+}
+.header .nav UL LI A:hover {
+	COLOR: #ff6600; FONT-WEIGHT: bold
+}
+.header .search {
+	BACKGROUND: url(../images/search-bg.png) repeat-x; HEIGHT: 40px; CLEAR: =
+both
+}
+.header .search .form {
+	PADDING-LEFT: 8px; FLOAT: left; PADDING-TOP: 5px
+}
+.header .search .form H4 {
+	DISPLAY: none
+}
+.header .search .form INPUT.search-keyword {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; LINE-HEIGHT: 15px; =
+BORDER-RIGHT-STYLE: none; PADDING-LEFT: 58px; WIDTH: 156px; =
+PADDING-RIGHT: 3px; BORDER-TOP-STYLE: none; BACKGROUND: =
+url(../images/search-bg.gif) no-repeat left top; HEIGHT: 18px; =
+FONT-SIZE: 12px; BORDER-LEFT-STYLE: none; OVERFLOW: hidden; PADDING-TOP: =
+5px
+}
+.header .search .form SELECT.search-option {
+	MARGIN-LEFT: 2px
+}
+.header .search .form BUTTON.search-submit {
+	BORDER-BOTTOM-STYLE: none; LINE-HEIGHT: 100px; BORDER-RIGHT-STYLE: =
+none; WIDTH: 68px; BORDER-TOP-STYLE: none; BACKGROUND: =
+url(../images/search-bg.gif) #f00 no-repeat right top; HEIGHT: 22px; =
+MARGIN-LEFT: 5px; FONT-SIZE: 0px; BORDER-LEFT-STYLE: none; OVERFLOW: =
+hidden
+}
+.header .tags {
+	FLOAT: left; MARGIN-LEFT: 16px; PADDING-TOP: 8px
+}
+.header .tags H4 {
+	LINE-HEIGHT: 100px; WIDTH: 66px; BACKGROUND: =
+url(../images/search-tags-title.gif) no-repeat; FLOAT: left; HEIGHT: =
+19px; FONT-SIZE: 0px; OVERFLOW: hidden
+}
+.header .tags UL {
+	FLOAT: left; HEIGHT: 21px; OVERFLOW: hidden
+}
+.header .tags UL LI {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 19px; PADDING-LEFT: 5px; =
+PADDING-RIGHT: 5px; FLOAT: left; PADDING-TOP: 0px
+}
+.channel-nav {
+	BORDER-BOTTOM: #e5efd6 1px solid; HEIGHT: 31px
+}
+.channel-nav UL {
+	PADDING-LEFT: 10px; FLOAT: left; HEIGHT: 22px; OVERFLOW: hidden; =
+PADDING-TOP: 3px
+}
+.channel-nav UL LI {
+	FLOAT: left; HEIGHT: 22px; OVERFLOW: hidden; MARGIN-RIGHT: 10px
+}
+.channel-nav UL LI A {
+	PADDING-RIGHT: 10px; DISPLAY: block; BACKGROUND: =
+url(../images/channel-nav-bg.gif) no-repeat right 0px; FLOAT: left; =
+HEIGHT: 22px; OVERFLOW: hidden
+}
+.channel-nav UL LI A SPAN {
+	LINE-HEIGHT: 23px; PADDING-LEFT: 10px; DISPLAY: block; BACKGROUND: =
+url(../images/channel-nav-bg.gif) no-repeat left 0px; FLOAT: left; =
+HEIGHT: 22px; COLOR: #666666; OVERFLOW: hidden; CURSOR: pointer
+}
+.channel-nav UL LI A:hover {
+	BACKGROUND: url(../images/channel-nav-bg.gif) no-repeat right -22px; =
+TEXT-DECORATION: none
+}
+.channel-nav UL LI A:hover SPAN {
+	BACKGROUND: url(../images/channel-nav-bg.gif) no-repeat left -22px; =
+COLOR: #78a63c; TEXT-DECORATION: none
+}
+.channel-nav UL LI.thisclass {
+=09
+}
+.channel-nav UL LI.thisclass A {
+	BACKGROUND: url(../images/channel-nav-bg.gif) no-repeat right -44px; =
+CURSOR: default
+}
+.channel-nav UL LI.thisclass A:hover {
+	BACKGROUND: url(../images/channel-nav-bg.gif) no-repeat right -44px; =
+CURSOR: default
+}
+.channel-nav UL LI.thisclass A SPAN {
+	BACKGROUND: url(../images/channel-nav-bg.gif) no-repeat left -44px; =
+COLOR: #fff; CURSOR: default
+}
+.channel-nav UL LI.thisclass A:hover SPAN {
+	BACKGROUND: url(../images/channel-nav-bg.gif) no-repeat left -44px; =
+COLOR: #fff; CURSOR: default
+}
+.channel-nav .back {
+	LINE-HEIGHT: 21px; PADDING-LEFT: 20px; PADDING-RIGHT: 10px; DISPLAY: =
+block; BACKGROUND: url(../images/ico-home.gif) no-repeat 4px 10px; =
+FLOAT: right; LETTER-SPACING: 2px; HEIGHT: 22px; PADDING-TOP: 6px
+}
+.channel-nav .back A {
+	COLOR: #f96
+}
+.channel-nav .back A:hover {
+	COLOR: #777; TEXT-DECORATION: none
+}
+.footer {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 10px; COLOR: #999; BORDER-TOP: =
+#e5efd6 1px solid; PADDING-TOP: 10px
+}
+.footer .link {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; =
+PADDING-RIGHT: 0px; PADDING-TOP: 5px
+}
+.footer .link A {
+	MARGIN: 0px 5px; COLOR: #666666
+}
+.footer .powered {
+	LINE-HEIGHT: 25px; DISPLAY: none; FONT-SIZE: 10px
+}
+.footer .powered STRONG {
+	COLOR: #690
+}
+.footer .powered STRONG SPAN {
+	COLOR: #f93
+}
+.footer .mypowered {
+	LINE-HEIGHT: 23px; FONT-SIZE: 11px
+}
+.footer .mypowered STRONG {
+	COLOR: #f63
+}
+.footer .mypowered STRONG SPAN {
+	COLOR: #f93
+}
+.footer .copyright {
+	LINE-HEIGHT: 16px; COLOR: #999; FONT-SIZE: 11px
+}
+
+------=_NextPart_000_0000_01CBEE20.E66676B0
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.google.com/cse/api/branding.css
+
+.cse-branding-bottom {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+.cse-branding-right {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+.cse-branding-bottom {
+	ZOOM: 1
+}
+.cse-branding-right {
+	ZOOM: 1
+}
+.cse-branding-bottom:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; CONTENT: =
+"."
+}
+.cse-branding-right:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; CONTENT: =
+"."
+}
+.cse-branding-text {
+	FONT: 10px Arial
+}
+.cse-branding-form FORM {
+	PADDING-BOTTOM: 0px; MARGIN-BOTTOM: 0px
+}
+.cse-branding-bottom .cse-branding-logo {
+	DISPLAY: block; FLOAT: left
+}
+.cse-branding-bottom .cse-branding-text {
+	DISPLAY: block; FLOAT: left
+}
+.cse-branding-bottom .cse-branding-form {
+	MARGIN-BOTTOM: 3px
+}
+.cse-branding-bottom .cse-branding-logo {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 0px
+}
+.cse-branding-bottom .cse-branding-text {
+	PADDING-TOP: 4px
+}
+.cse-branding-right .cse-branding-form {
+	FLOAT: left
+}
+.cse-branding-right .cse-branding-logo {
+	MARGIN-LEFT: 4px
+}
+.cse-branding-right .cse-branding-text {
+	MARGIN-LEFT: 4px
+}
+.cse-branding-right .cse-branding-form {
+	FLOAT: left; MARGIN-RIGHT: 4px
+}
+.cse-branding-right .cse-branding-logo {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 0px
+}
+.cse-branding-right .cse-branding-text {
+	MARGIN-TOP: -4px
+}
+
+------=_NextPart_000_0000_01CBEE20.E66676B0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.actionscript8.com/include/dedeajax2.js
+
+<!--=0A=
+//xmlhttp=BA=CDxmldom=B6=D4=CF=F3=0A=
+var DedeXHTTP =3D null;=0A=
+var DedeXDOM =3D null;=0A=
+var DedeContainer =3D null;=0A=
+var DedeShowError =3D false;=0A=
+var DedeShowWait =3D false;=0A=
+var DedeErrCon =3D "";=0A=
+var DedeErrDisplay =3D "=CF=C2=D4=D8=CA=FD=BE=DD=CA=A7=B0=DC";=0A=
+var DedeWaitDisplay =3D "=D5=FD=D4=DA=CF=C2=D4=D8=CA=FD=BE=DD...";=0A=
+=0A=
+//=BB=F1=C8=A1=D6=B8=B6=A8ID=B5=C4=D4=AA=CB=D8=0A=
+=0A=
+function $DE(id) {=0A=
+	return document.getElementById(id);=0A=
+}=0A=
+=0A=
+//gcontainer =
+=CA=C7=B1=A3=B4=E6=CF=C2=D4=D8=CD=EA=B3=C9=B5=C4=C4=DA=C8=DD=B5=C4=C8=DD=C6=
+=F7=0A=
+//mShowError =CA=C7=B7=F1=CC=E1=CA=BE=B4=ED=CE=F3=D0=C5=CF=A2=0A=
+//DedeShowWait =CA=C7=B7=F1=CC=E1=CA=BE=B5=C8=B4=FD=D0=C5=CF=A2=0A=
+//mErrCon =
+=B7=FE=CE=F1=C6=F7=B7=B5=BB=D8=CA=B2=C3=B4=D7=D6=B7=FB=B4=AE=CA=D3=CE=AA=B4=
+=ED=CE=F3=0A=
+//mErrDisplay =B7=A2=C9=FA=B4=ED=CE=F3=CA=B1=CF=D4=CA=BE=B5=C4=D0=C5=CF=A2=0A=
+//mWaitDisplay =B5=C8=B4=FD=CA=B1=CC=E1=CA=BE=D0=C5=CF=A2=0A=
+//=C4=AC=C8=CF=B5=F7=D3=C3 DedeAjax('divid',false,false,'','','')=0A=
+=0A=
+function =
+DedeAjax(gcontainer,mShowError,mShowWait,mErrCon,mErrDisplay,mWaitDisplay=
+)=0A=
+{=0A=
+=0A=
+	DedeContainer =3D gcontainer;=0A=
+	DedeShowError =3D mShowError;=0A=
+	DedeShowWait =3D mShowWait;=0A=
+	if(mErrCon!=3D"") DedeErrCon =3D mErrCon;=0A=
+	if(mErrDisplay!=3D"") DedeErrDisplay =3D mErrDisplay;=0A=
+	if(mErrDisplay=3D=3D"x") DedeErrDisplay =3D "";=0A=
+	if(mWaitDisplay!=3D"") DedeWaitDisplay =3D mWaitDisplay;=0A=
+=0A=
+=0A=
+	//post=BB=F2get=B7=A2=CB=CD=CA=FD=BE=DD=B5=C4=BC=FC=D6=B5=B6=D4=0A=
+	this.keys =3D Array();=0A=
+	this.values =3D Array();=0A=
+	this.keyCount =3D -1;=0A=
+=0A=
+	//http=C7=EB=C7=F3=CD=B7=0A=
+	this.rkeys =3D Array();=0A=
+	this.rvalues =3D Array();=0A=
+	this.rkeyCount =3D -1;=0A=
+=0A=
+	//=C7=EB=C7=F3=CD=B7=C0=E0=D0=CD=0A=
+	this.rtype =3D 'text';=0A=
+=0A=
+	//=B3=F5=CA=BC=BB=AFxmlhttp=0A=
+	//IE6=A1=A2IE5=0A=
+	if(window.ActiveXObject) {=0A=
+		try { DedeXHTTP =3D new ActiveXObject("Msxml2.XMLHTTP");} catch (e) { }=0A=
+		if (DedeXHTTP =3D=3D null) try { DedeXHTTP =3D new =
+ActiveXObject("Microsoft.XMLHTTP");} catch (e) { }=0A=
+	}=0A=
+	else {=0A=
+		DedeXHTTP =3D new XMLHttpRequest();=0A=
+	}=0A=
+=0A=
+	//=D4=F6=BC=D3=D2=BB=B8=F6POST=BB=F2GET=BC=FC=D6=B5=B6=D4=0A=
+	this.AddKey =3D function(skey,svalue) {=0A=
+		this.keyCount++;=0A=
+		this.keys[this.keyCount] =3D skey;=0A=
+		svalue =3D svalue.replace(/\+/g,'$#$');=0A=
+		this.values[this.keyCount] =3D escape(svalue);=0A=
+	};=0A=
+=0A=
+	//=D4=F6=BC=D3=D2=BB=B8=F6POST=BB=F2GET=BC=FC=D6=B5=B6=D4=0A=
+	this.AddKeyUtf8 =3D function(skey,svalue) {=0A=
+		this.keyCount++;=0A=
+		this.keys[this.keyCount] =3D skey;=0A=
+		svalue =3D svalue.replace(/\+/g,'$#$');=0A=
+		this.values[this.keyCount] =3D encodeURI(svalue);=0A=
+	};=0A=
+=0A=
+	//=D4=F6=BC=D3=D2=BB=B8=F6Http=C7=EB=C7=F3=CD=B7=BC=FC=D6=B5=B6=D4=0A=
+	this.AddHead =3D function(skey,svalue) {=0A=
+		this.rkeyCount++;=0A=
+		this.rkeys[this.rkeyCount] =3D skey;=0A=
+		this.rvalues[this.rkeyCount] =3D svalue;=0A=
+	};=0A=
+=0A=
+	//=C7=E5=B3=FD=B5=B1=C7=B0=B6=D4=CF=F3=B5=C4=B9=FE=CF=A3=B1=ED=B2=CE=CA=FD=0A=
+	this.ClearSet =3D function() {=0A=
+		this.keyCount =3D -1;=0A=
+		this.keys =3D Array();=0A=
+		this.values =3D Array();=0A=
+		this.rkeyCount =3D -1;=0A=
+		this.rkeys =3D Array();=0A=
+		this.rvalues =3D Array();=0A=
+	};=0A=
+=0A=
+=0A=
+	DedeXHTTP.onreadystatechange =3D function() {=0A=
+		=
+//=D4=DAIE6=D6=D0=B2=BB=B9=DC=D7=E8=B6=CF=BB=F2=D2=EC=B2=BD=C4=A3=CA=BD=B6=
+=BC=BB=E1=D6=B4=D0=D0=D5=E2=B8=F6=CA=C2=BC=FE=B5=C4=0A=
+		if(DedeXHTTP.readyState =3D=3D 4){=0A=
+			if(DedeXHTTP.status =3D=3D 200)=0A=
+			{=0A=
+				if(DedeXHTTP.responseText!=3DDedeErrCon) {=0A=
+					DedeContainer.innerHTML =3D DedeXHTTP.responseText;=0A=
+				}=0A=
+				else {=0A=
+					if(DedeShowError) DedeContainer.innerHTML =3D DedeErrDisplay;=0A=
+				}=0A=
+				DedeXHTTP =3D null;=0A=
+			}=0A=
+			else { if(DedeShowError) DedeContainer.innerHTML =3D DedeErrDisplay; }=0A=
+		}=0A=
+		else { if(DedeShowWait) DedeContainer.innerHTML =3D DedeWaitDisplay; }=0A=
+	};=0A=
+=0A=
+	//=BC=EC=B2=E2=D7=E8=B6=CF=C4=A3=CA=BD=B5=C4=D7=B4=CC=AC=0A=
+	this.BarrageStat =3D function() {=0A=
+		if(DedeXHTTP=3D=3Dnull) return;=0A=
+		if(typeof(DedeXHTTP.status)!=3Dundefined && DedeXHTTP.status =3D=3D =
+200)=0A=
+		{=0A=
+			if(DedeXHTTP.responseText!=3DDedeErrCon) {=0A=
+				DedeContainer.innerHTML =3D DedeXHTTP.responseText;=0A=
+			}=0A=
+			else {=0A=
+				if(DedeShowError) DedeContainer.innerHTML =3D DedeErrDisplay;=0A=
+			}=0A=
+		}=0A=
+	};=0A=
+=0A=
+	//=B7=A2=CB=CDhttp=C7=EB=C7=F3=CD=B7=0A=
+	this.SendHead =3D function() {=0A=
+		=
+//=B7=A2=CB=CD=D3=C3=BB=A7=D7=D4=D0=D0=C9=E8=B6=A8=B5=C4=C7=EB=C7=F3=CD=B7=0A=
+		if(this.rkeyCount!=3D-1)=0A=
+		{ =0A=
+			for(;i<=3Dthis.rkeyCount;i++)=0A=
+			{=0A=
+				DedeXHTTP.setRequestHeader(this.rkeys[i],this.rvalues[i]);=0A=
+			}=0A=
+		}=0A=
+		=A1=A1if(this.rtype=3D=3D'binary'){=0A=
+		=A1=A1DedeXHTTP.setRequestHeader("Content-Type","multipart/form-data");=0A=
+	}else{=0A=
+		=
+DedeXHTTP.setRequestHeader("Content-Type","application/x-www-form-urlenco=
+ded");=0A=
+	}=0A=
+};=0A=
+=0A=
+//=D3=C3Post=B7=BD=CA=BD=B7=A2=CB=CD=CA=FD=BE=DD=0A=
+this.SendPost =3D function(purl) {=0A=
+	var pdata =3D "";=0A=
+	var i=3D0;=0A=
+	this.state =3D 0;=0A=
+	DedeXHTTP.open("POST", purl, true);=0A=
+	this.SendHead();=0A=
+	//post=CA=FD=BE=DD=0A=
+	if(this.keyCount!=3D-1)=0A=
+	{=0A=
+		for(;i<=3Dthis.keyCount;i++)=0A=
+		{=0A=
+			if(pdata=3D=3D"") pdata =3D this.keys[i]+'=3D'+this.values[i];=0A=
+			else pdata +=3D "&"+this.keys[i]+'=3D'+this.values[i];=0A=
+		}=0A=
+	}=0A=
+	DedeXHTTP.send(pdata);=0A=
+};=0A=
+=0A=
+//=D3=C3GET=B7=BD=CA=BD=B7=A2=CB=CD=CA=FD=BE=DD=0A=
+this.SendGet =3D function(purl) {=0A=
+	var gkey =3D "";=0A=
+	var i=3D0;=0A=
+	this.state =3D 0;=0A=
+	//get=B2=CE=CA=FD=0A=
+	if(this.keyCount!=3D-1)=0A=
+	{ =0A=
+		for(;i<=3Dthis.keyCount;i++)=0A=
+		{=0A=
+			if(gkey=3D=3D"") gkey =3D this.keys[i]+'=3D'+this.values[i];=0A=
+			else gkey +=3D "&"+this.keys[i]+'=3D'+this.values[i];=0A=
+		}=0A=
+		if(purl.indexOf('?')=3D=3D-1) purl =3D purl + '?' + gkey;=0A=
+		else  purl =3D purl + '&' + gkey;=0A=
+	}=0A=
+	DedeXHTTP.open("GET", purl, true);=0A=
+	this.SendHead();=0A=
+	DedeXHTTP.send(null);=0A=
+};=0A=
+=0A=
+//=D3=C3GET=B7=BD=CA=BD=B7=A2=CB=CD=CA=FD=BE=DD=A3=AC=D7=E8=C8=FB=C4=A3=CA=
+=BD=0A=
+this.SendGet2 =3D function(purl) {=0A=
+	var gkey =3D "";=0A=
+	var i=3D0;=0A=
+	this.state =3D 0;=0A=
+	//get=B2=CE=CA=FD=0A=
+	if(this.keyCount!=3D-1)=0A=
+	{ =0A=
+		for(;i<=3Dthis.keyCount;i++)=0A=
+		{=0A=
+			if(gkey=3D=3D"") gkey =3D this.keys[i]+'=3D'+this.values[i];=0A=
+			else gkey +=3D "&"+this.keys[i]+'=3D'+this.values[i];=0A=
+		}=0A=
+		if(purl.indexOf('?')=3D=3D-1) purl =3D purl + '?' + gkey;=0A=
+		else  purl =3D purl + '&' + gkey;=0A=
+	}=0A=
+	DedeXHTTP.open("GET", purl, false);=0A=
+	this.SendHead();=0A=
+	DedeXHTTP.send(null);=0A=
+	//firefox=D6=D0=D6=B1=BD=D3=BC=EC=B2=E2XHTTP=D7=B4=CC=AC=0A=
+	this.BarrageStat();=0A=
+};=0A=
+=0A=
+//=D3=C3Post=B7=BD=CA=BD=B7=A2=CB=CD=CA=FD=BE=DD=0A=
+this.SendPost2 =3D function(purl) {=0A=
+	var pdata =3D "";=0A=
+	var i=3D0;=0A=
+	this.state =3D 0;=0A=
+	DedeXHTTP.open("POST", purl, false);=0A=
+	this.SendHead();=0A=
+	//post=CA=FD=BE=DD=0A=
+	if(this.keyCount!=3D-1)=0A=
+	{=0A=
+		for(;i<=3Dthis.keyCount;i++)=0A=
+		{=0A=
+			if(pdata=3D=3D"") pdata =3D this.keys[i]+'=3D'+this.values[i];=0A=
+			else pdata +=3D "&"+this.keys[i]+'=3D'+this.values[i];=0A=
+		}=0A=
+	}=0A=
+	DedeXHTTP.send(pdata);=0A=
+	//firefox=D6=D0=D6=B1=BD=D3=BC=EC=B2=E2XHTTP=D7=B4=CC=AC=0A=
+	this.BarrageStat();=0A=
+};=0A=
+=0A=
+=0A=
+} // End Class DedeAjax=0A=
+=0A=
+//=B3=F5=CA=BC=BB=AFxmldom=0A=
+function InitXDom() {=0A=
+	if(DedeXDOM!=3Dnull) return;=0A=
+	var obj =3D null;=0A=
+	// Gecko=A1=A2Mozilla=A1=A2Firefox=0A=
+	if (typeof(DOMParser) !=3D "undefined") { =0A=
+		var parser =3D new DOMParser();=0A=
+		obj =3D parser.parseFromString(xmlText, "text/xml");=0A=
+	}=0A=
+	// IE=0A=
+	else { =0A=
+		try { obj =3D new ActiveXObject("MSXML2.DOMDocument");} catch (e) { }=0A=
+		if (obj =3D=3D null) try { obj =3D new =
+ActiveXObject("Microsoft.XMLDOM"); } catch (e) { }=0A=
+	}=0A=
+	DedeXDOM =3D obj;=0A=
+};=0A=
+=0A=
+=0A=
+=0A=
+//=B6=C1=D0=B4cookie=BA=AF=CA=FD=0A=
+function GetCookie(c_name)=0A=
+{=0A=
+	if (document.cookie.length > 0)=0A=
+	{=0A=
+		c_start =3D document.cookie.indexOf(c_name + "=3D")=0A=
+		if (c_start !=3D -1)=0A=
+		{=0A=
+			c_start =3D c_start + c_name.length + 1;=0A=
+			c_end   =3D document.cookie.indexOf(";",c_start);=0A=
+			if (c_end =3D=3D -1)=0A=
+			{=0A=
+				c_end =3D document.cookie.length;=0A=
+			}=0A=
+			return unescape(document.cookie.substring(c_start,c_end));=0A=
+		}=0A=
+	}=0A=
+	return null=0A=
+}=0A=
+=0A=
+function SetCookie(c_name,value,expiredays)=0A=
+{=0A=
+	var exdate =3D new Date();=0A=
+	exdate.setDate(exdate.getDate() + expiredays);=0A=
+	document.cookie =3D c_name + "=3D" +escape(value) + ((expiredays =3D=3D =
+null) ? "" : ";expires=3D" + exdate.toGMTString()); =
+//=CA=B9=C9=E8=D6=C3=B5=C4=D3=D0=D0=A7=CA=B1=BC=E4=D5=FD=C8=B7=A1=A3=D4=F6=
+=BC=D3toGMTString()=0A=
+}=0A=
+=0A=
+-->=0A=
+
+------=_NextPart_000_0000_01CBEE20.E66676B0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://pagead2.googlesyndication.com/pagead/show_ads.js
+
+=0A=
+(function(){var g=3Dtrue,h=3Dnull,i=3Dfalse,j=3D(new Date).getTime();var =
+k=3Dthis,aa=3Dfunction(a,b,c){a=3Da.split(".");c=3Dc||k;!(a[0]in =
+c)&&c.execScript&&c.execScript("var "+a[0]);for(var =
+d;a.length&&(d=3Da.shift());)if(!a.length&&b!=3D=3Dundefined)c[d]=3Db;els=
+e c=3Dc[d]?c[d]:c[d]=3D{}},ba=3Dfunction(a){return =
+a.call.apply(a.bind,arguments)},ca=3Dfunction(a,b){var =
+c=3Db||k;if(arguments.length>2){var =
+d=3DArray.prototype.slice.call(arguments,2);return function(){var =
+f=3DArray.prototype.slice.call(arguments);Array.prototype.unshift.apply(f=
+,d);return a.apply(c,f)}}else return function(){return a.apply(c,=0A=
+arguments)}},l=3Dfunction(){l=3DFunction.prototype.bind&&Function.prototy=
+pe.bind.toString().indexOf("native code")!=3D-1?ba:ca;return =
+l.apply(h,arguments)};var =
+da=3D/&/g,ea=3D/</g,fa=3D/>/g,ga=3D/\"/g,m=3D{"\u0000":"\\0","\u0008":"\\=
+b","\u000c":"\\f","\n":"\\n","\r":"\\r","\t":"\\t","\u000b":"\\x0B",'"':'=
+\\"',"\\":"\\\\"},p=3D{"'":"\\'"},t=3Dfunction(a,b){if(a<b)return-1;else =
+if(a>b)return 1;return 0};var u,v,w,z,B=3Dfunction(){return =
+k.navigator?k.navigator.userAgent:h};z=3Dw=3Dv=3Du=3Di;var =
+C;if(C=3DB()){var =
+ha=3Dk.navigator;u=3DC.indexOf("Opera")=3D=3D0;v=3D!u&&C.indexOf("MSIE")!=
+=3D-1;w=3D!u&&C.indexOf("WebKit")!=3D-1;z=3D!u&&!w&&ha.product=3D=3D"Geck=
+o"}var D=3Dv,F=3Dz,ja=3Dw,G;=0A=
+a:{var H=3D"",I;if(u&&k.opera){var J=3Dk.opera.version;H=3Dtypeof =
+J=3D=3D"function"?J():J}else{if(F)I=3D/rv\:([^\);]+)(\)|;)/;else =
+if(D)I=3D/MSIE\s+([^\);]+)(\)|;)/;else =
+if(ja)I=3D/WebKit\/(\S+)/;if(I){var =
+ka=3DI.exec(B());H=3Dka?ka[1]:""}}if(D){var =
+K,la=3Dk.document;K=3Dla?la.documentMode:undefined;if(K>parseFloat(H)){G=3D=
+String(K);break a}}G=3DH}=0A=
+var ma=3DG,na=3D{},L=3Dfunction(a){var b;if(!(b=3Dna[a])){b=3D0;for(var =
+c=3DString(ma).replace(/^[\s\xa0]+|[\s\xa0]+$/g,"").split("."),d=3DString=
+(a).replace(/^[\s\xa0]+|[\s\xa0]+$/g,"").split("."),f=3DMath.max(c.length=
+,d.length),e=3D0;b=3D=3D0&&e<f;e++){var =
+ta=3Dc[e]||"",s=3Dd[e]||"",n=3DRegExp("(\\d*)(\\D*)","g"),A=3DRegExp("(\\=
+d*)(\\D*)","g");do{var =
+q=3Dn.exec(ta)||["","",""],o=3DA.exec(s)||["","",""];if(q[0].length=3D=3D=
+0&&o[0].length=3D=3D0)break;b=3Dt(q[1].length=3D=3D0?0:parseInt(q[1],10),=
+o[1].length=3D=3D0?0:parseInt(o[1],10))||t(q[2].length=3D=3D=0A=
+0,o[2].length=3D=3D0)||t(q[2],o[2])}while(b=3D=3D0)}b=3Dna[a]=3Db>=3D0}re=
+turn b};var M,N;N=3DM=3Di;var =
+O=3DB();if(O)if(O.indexOf("Firefox")!=3D-1)M=3Dg;else =
+if(O.indexOf("Camino")=3D=3D-1)if(!(O.indexOf("iPhone")!=3D-1||O.indexOf(=
+"iPod")!=3D-1))if(O.indexOf("iPad")=3D=3D-1)if(O.indexOf("Android")=3D=3D=
+-1)if(O.indexOf("Chrome")!=3D-1)N=3Dg;var oa=3DM,pa=3DN;var =
+qa=3Ddocument,P=3Dwindow;var Q=3Dfunction(a){a=3DparseFloat(a);return =
+isNaN(a)||a>1||a<0?0:a},ra=3Dfunction(a){if(a=3D=3D"true")return =
+g;return =
+i},sa=3D/^([\w-]+\.)*([\w-]{2,})(\:[0-9]+)?$/,ua=3Dfunction(a){if(!a)retu=
+rn"pagead2.googlesyndication.com";return(a=3Da.match(sa))?a[0]:"pagead2.g=
+ooglesyndication.com"};var =
+va=3DQ("0"),wa=3DQ("0"),xa=3DQ("1"),ya=3DQ("0.2");var =
+za=3Dra("false"),Aa=3Dra("false"),Ba=3Dra("false");var =
+Ca=3Dfunction(){return =
+ua("")};!D||L("9");!F&&!D||D&&L("9")||F&&L("1.9.1");D&&L("9");ua("");var =
+R=3Dfunction(a){return!!a&&typeof =
+a=3D=3D"function"&&!!a.call},Da=3Dfunction(a){if(!(arguments.length<2))fo=
+r(var b=3D1,c=3Darguments.length;b<c;++b)a.push(arguments[b])};function =
+S(a){return typeof =
+encodeURIComponent=3D=3D"function"?encodeURIComponent(a):escape(a)}functi=
+on Ea(a,b){if(a.attachEvent)a.attachEvent("onload",b);else =
+a.addEventListener&&a.addEventListener("load",b,i)}=0A=
+function Fa(a,b){if(!(Math.random()<1.0E-4)){var =
+c=3DMath.random();if(c<b)return =
+a[Math.floor(c/b*a.length)]}return""};aa("google_protectAndRun",function(=
+a,b,c){a=3Dl(b,k,a);b=3Dwindow.onerror;window.onerror=3Da;try{c()}catch(d=
+){c=3Dd.toString();var f=3D"";if(d.fileName)f=3Dd.fileName;var =
+e=3D-1;if(d.lineNumber)e=3Dd.lineNumber;if(!a(c,f,e))throw =
+d;}window.onerror=3Db},void 0);=0A=
+aa("google_handleError",function(a,b,c,d){if(Math.random()<0.01){a=3D["ht=
+tp://",Ca(),"/pagead/gen_204","?id=3Djserror","&jscb=3D",za?1:0,"&jscd=3D=
+",Aa?1:0,"&context=3D",S(a),"&msg=3D",S(b),"&file=3D",S(c),"&line=3D",S(d=
+.toString()),"&url=3D",S(qa.URL.substring(0,512)),"&ref=3D",S(qa.referrer=
+.substring(0,512))];a.push(["&client=3D",S(P.google_ad_client),"&format=3D=
+",S(P.google_ad_format),"&slotname=3D",S(P.google_ad_slot),"&output=3D",S=
+(P.google_ad_output),"&ad_type=3D",S(P.google_ad_type)].join(""));a=3Da.j=
+oin("");P.google_image_requests||=0A=
+(P.google_image_requests=3D[]);b=3Dnew =
+Image;b.src=3Da;P.google_image_requests.push(b)}return!Ba},void 0);var =
+Ha=3Dfunction(a){try{var =
+b=3Da.google_test;a.google_test=3D!b;if(a.google_test=3D=3D=3D!b){a.googl=
+e_test=3Db;return g}}catch(c){}return =
+i},Ia=3Dh,Ja=3Dfunction(){if(!Ia){for(var =
+a=3Dwindow;a!=3Da.parent&&Ha(a.parent);)a=3Da.parent;Ia=3Da}return =
+Ia};var =
+T,U=3Dfunction(a){this.d=3D[];this.b=3Da||window;this.a=3D0;this.c=3Dh},K=
+a=3Dfunction(a,b){this.j=3Da;this.o=3Db};U.prototype.i=3Dfunction(a,b){if=
+(this.a=3D=3D0&&this.d.length=3D=3D0&&(!b||b=3D=3Dwindow)){this.a=3D2;thi=
+s.h(new Ka(a,window))}else =
+this.f(a,b)};U.prototype.f=3Dfunction(a,b){this.d.push(new =
+Ka(a,b||this.b));La(this)};U.prototype.k=3Dfunction(a){this.a=3D1;if(a)th=
+is.c=3Dthis.b.setTimeout(l(this.g,this),a)};U.prototype.g=3Dfunction(){if=
+(this.a=3D=3D1){if(this.c!=3Dh){this.b.clearTimeout(this.c);this.c=3Dh}th=
+is.a=3D0}La(this)};=0A=
+U.prototype.m=3Dfunction(){return =
+g};U.prototype.nq=3DU.prototype.i;U.prototype.nqa=3DU.prototype.f;U.proto=
+type.al=3DU.prototype.k;U.prototype.rl=3DU.prototype.g;U.prototype.sz=3DU=
+.prototype.m;var =
+La=3Dfunction(a){a.b.setTimeout(l(a.n,a),0)};U.prototype.n=3Dfunction(){i=
+f(this.a=3D=3D0&&this.d.length){var =
+a=3Dthis.d.shift();this.a=3D2;a.o.setTimeout(l(this.h,this,a),0);La(this)=
+}};U.prototype.h=3Dfunction(a){this.a=3D0;a.j()};=0A=
+var Ma=3Dfunction(a){try{return a.sz()}catch(b){return =
+i}},Na=3Dfunction(a){return!!a&&(typeof a=3D=3D"object"||typeof =
+a=3D=3D"function")&&Ma(a)&&R(a.nq)&&R(a.nqa)&&R(a.al)&&R(a.rl)},Oa=3Dfunc=
+tion(){if(T&&Ma(T))return T;var =
+a=3DJa(),b=3Da.google_jobrunner;if(Na(b))return T=3Db;return =
+a.google_jobrunner=3DT=3Dnew =
+U(a)},Pa=3Dfunction(a,b){Oa().nq(a,b)},Qa=3Dfunction(a,b){Oa().nqa(a,b)};=
+var Ra=3Dfunction(a,b,c){var d=3D["<iframe"],f;for(f in =
+a)a.hasOwnProperty(f)&&Da(d,f+"=3D"+a[f]);d.push('style=3D"left:0;positio=
+n:absolute;top:0;"');d.push("></iframe>");b=3D"border:none;height:"+c+"px=
+;margin:0;padding:0;position:relative;visibility:visible;width:"+b+"px";r=
+eturn['<ins style=3D"display:inline-table;',b,'"><ins =
+id=3D"',a.id+"_anchor",'" style=3D"display:block;',b,'">',d.join(" =
+"),"</ins></ins>"].join("")};var =
+Sa=3Dfunction(){},Ua=3Dfunction(a,b,c){switch(typeof b){case =
+"string":Ta(a,b,c);break;case =
+"number":c.push(isFinite(b)&&!isNaN(b)?b:"null");break;case =
+"boolean":c.push(b);break;case "undefined":c.push("null");break;case =
+"object":if(b=3D=3Dh){c.push("null");break}if(b instanceof Array){var =
+d=3Db.length;c.push("[");for(var =
+f=3D"",e=3D0;e<d;e++){c.push(f);Ua(a,b[e],c);f=3D","}c.push("]");break}c.=
+push("{");d=3D"";for(f in b)if(b.hasOwnProperty(f)){e=3Db[f];if(typeof =
+e!=3D"function"){c.push(d);Ta(a,f,c);c.push(":");Ua(a,=0A=
+e,c);d=3D","}}c.push("}");break;case "function":break;default:throw =
+Error("Unknown type: "+typeof =
+b);}},Va=3D{'"':'\\"',"\\":"\\\\","/":"\\/","\u0008":"\\b","\u000c":"\\f"=
+,"\n":"\\n","\r":"\\r","\t":"\\t","\u000b":"\\u000b"},Wa=3D/\uffff/.test(=
+"\uffff")?/[\\\"\x00-\x1f\x7f-\uffff]/g:/[\\\"\x00-\x1f\x7f-\xff]/g,Ta=3D=
+function(a,b,c){c.push('"');c.push(b.replace(Wa,function(d){if(d in =
+Va)return Va[d];var =
+f=3Dd.charCodeAt(0),e=3D"\\u";if(f<16)e+=3D"000";else =
+if(f<256)e+=3D"00";else if(f<4096)e+=3D"0";return =
+Va[d]=3De+f.toString(16)}));=0A=
+c.push('"')};var =
+V=3D["google_ad_block","google_ad_channel","google_ad_client","google_ad_=
+format","google_ad_height","google_ad_host","google_ad_host_channel","goo=
+gle_ad_host_tier_id","google_ad_output","google_ad_override","google_ad_r=
+egion","google_ad_section","google_ad_slot","google_ad_type","google_ad_w=
+idth","google_adtest","google_allow_expandable_ads","google_alternate_ad_=
+url","google_alternate_color","google_analytics_domain_name","google_anal=
+ytics_uacct","google_bid","google_city","google_color_bg","google_color_b=
+order",=0A=
+"google_color_line","google_color_link","google_color_text","google_color=
+_url","google_container_id","google_contents","google_country","google_cp=
+m","google_ctr_threshold","google_cust_age","google_cust_ch","google_cust=
+_gender","google_cust_id","google_cust_interests","google_cust_job","goog=
+le_cust_l","google_cust_lh","google_cust_u_url","google_disable_video_aut=
+oplay","google_ed","google_eids","google_enable_osd","google_encoding","g=
+oogle_font_face","google_font_size","google_frame_id","google_gl",=0A=
+"google_hints","google_image_size","google_kw","google_kw_type","google_l=
+anguage","google_max_num_ads","google_max_radlink_len","google_num_radlin=
+ks","google_num_radlinks_per_unit","google_num_slots_to_rotate","google_o=
+nly_ads_with_video","google_only_pyv_ads","google_only_userchoice_ads","g=
+oogle_override_format","google_page_url","google_referrer_url","google_re=
+gion","google_reuse_colors","google_rl_dest_url","google_rl_filtering","g=
+oogle_rl_mode","google_rt","google_safe","google_skip","google_tag_info",=0A=
+"google_targeting","google_ui_features","google_ui_version","google_video=
+_doc_id","google_video_product_type","google_with_pyv_ads"];var =
+Xa=3Dfunction(a){this.b=3Da;a.google_iframe_oncopy||(a.google_iframe_onco=
+py=3D{handlers:{},log:[],img:Math.random()<0.01?[]:h});this.e=3Da.google_=
+iframe_oncopy;a.setTimeout(l(this.l,this),3E4)},Ya;var W=3D"var =
+i=3Dthis.id,s=3Dwindow.google_iframe_oncopy,H=3Ds&&s.handlers,h=3DH&&H[i]=
+,w=3Dthis.contentWindow,d;try{d=3Dw.document}catch(e){}if(h&&d&&(!d.body|=
+|!d.body.firstChild)){if(h.call){i+=3D'.call';setTimeout(h,0)}else =
+if(h.match){i+=3D'.nav';w.location.replace(h)}s.log&&s.log.push(i)}";=0A=
+if(/[&<>\"]/.test(W)){if(W.indexOf("&")!=3D-1)W=3DW.replace(da,"&amp;");i=
+f(W.indexOf("<")!=3D-1)W=3DW.replace(ea,"&lt;");if(W.indexOf(">")!=3D-1)W=
+=3DW.replace(fa,"&gt;");if(W.indexOf('"')!=3D-1)W=3DW.replace(ga,"&quot;"=
+)}Ya=3DW;Xa.prototype.set=3Dfunction(a,b){this.e.handlers[a]=3Db};=0A=
+Xa.prototype.l=3Dfunction(){if(this.e.img){var =
+a=3Dthis.e.log,b=3Dthis.b.document;if(a.length){b=3D["http://",Ca(),"/pag=
+ead/gen_204?id=3Diframecopy&log=3D",S(a.join("-")),"&url=3D",S(b.URL.subs=
+tring(0,512)),"&ref=3D",S(b.referrer.substring(0,512))].join("");a.length=
+=3D0;a=3Dnew Image;this.e.img.push(a);a.src=3Db}}};var =
+Za=3Dfunction(){var a=3D"script";return["<",a,' =
+src=3D"http://',ua(""),'/pagead/js/r20110315/r20110321-2/show_ads_impl.js=
+"></',a,">"].join("")},$a=3Dfunction(a,b,c,d){return function(){var =
+f=3Di;d&&Oa().al(3E4);try{var =
+e;try{e=3D!!a.document.getElementById(b).contentWindow.document}catch(ta)=
+{e=3Di}if(e){var s=3Da.document.getElementById(b).contentWindow,=0A=
+n=3Ds.document;if(!(n.body&&n.body.firstChild)){n.open();s.google_async_i=
+frame_close=3Dg;n.write(c)}}else{var =
+A=3Da.document.getElementById(b).contentWindow,q;e=3Dc;e=3DString(e);if(e=
+.quote)q=3De.quote();else{s=3D['"'];for(n=3D0;n<e.length;n++){var =
+o=3De.charAt(n),Ga=3Do.charCodeAt(0),ob=3Ds,pb=3Dn+1,ia;if(!(ia=3Dm[o])){=
+var E;if(Ga>31&&Ga<127)E=3Do;else{var r=3Do;if(r in p)E=3Dp[r];else if(r =
+in m)E=3Dp[r]=3Dm[r];else{var =
+x=3Dr,y=3Dr.charCodeAt(0);if(y>31&&y<127)x=3Dr;else{if(y<256){x=3D"\\x";i=
+f(y<16||y>256)x+=3D"0"}else{x=3D"\\u";if(y<4096)x+=3D=0A=
+"0"}x+=3Dy.toString(16).toUpperCase()}E=3Dp[r]=3Dx}}ia=3DE}ob[pb]=3Dia}s.=
+push('"');q=3Ds.join("")}A.location.replace("javascript:"+q)}f=3Dg}catch(=
+vb){A=3DJa().google_jobrunner;Na(A)&&A.rl()}f&&(new =
+Xa(a)).set(b,$a(a,b,c,i))}},ab=3Dfunction(){return va&&wa/va||typeof =
+window.google_hash_ratio=3D=3D"number"&&window.google_hash_ratio||h};wind=
+ow.google_loader_used=3Dg;(function(a){if(!("google_onload_fired"in =
+a)){a.google_onload_fired=3Di;Ea(a,function(){a.google_onload_fired=3Dg})=
+}})(window);if(!window.google_loader_experiment)window.google_loader_expe=
+riment=3DFa(["async1_all","block1"],ya)||Fa(["launch"],xa)||"none";var =
+bb,cb=3Dwindow.google_loader_experiment;=0A=
+if(bb=3Dwindow.google_enable_async=3D=3D=3Dg||cb=3D=3D"launch"||cb=3D=3D"=
+async1_all")bb=3Dwindow.google_enable_async=3D=3D=3Di?i:(D&&/MSIE =
+8/.test(navigator.userAgent)||pa||oa&&!!window.document.body)&&!window.go=
+ogle_container_id&&(!window.google_ad_output||window.google_ad_output=3D=3D=
+"html");=0A=
+if(bb){var db=3Dwindow;if(db.google_unique_id)++db.google_unique_id;else =
+db.google_unique_id=3D1;for(var =
+X=3Dwindow,_script$$inline_211=3D"script",Y,Z=3D{allowtransparency:'"true=
+"',frameborder:'"0"',height:'"'+X.google_ad_height+'"',hspace:'"0"',margi=
+nwidth:'"0"',marginheight:'"0"',onload:'"'+Ya+'"',scrolling:'"no"',vspace=
+:'"0"',width:'"'+X.google_ad_width+'"'},eb=3DX.document,$=3DZ.id,fb=3D0;!=
+$||X.document.getElementById($);)$=3D"aswift_"+fb++;Z.id=3D$;Z.name=3D$;e=
+b.write(Ra(Z,X.google_ad_width,X.google_ad_height));Y=3D=0A=
+$;var =
+gb;if(X.google_page_url)X.google_page_url=3DString(X.google_page_url);for=
+(var hb=3D[],ib=3D0,jb=3DV.length;ib<jb;ib++){var =
+kb=3DV[ib];if(X[kb]!=3Dh){var lb;try{var mb=3D[];Ua(new =
+Sa,X[kb],mb);lb=3Dmb.join("")}catch(nb){}lb&&Da(hb,kb,"=3D",lb,";")}}gb=3D=
+hb.join("");for(var qb=3D0,rb=3DV.length;qb<rb;qb++)X[V[qb]]=3Dh;var =
+sb=3D(new =
+Date).getTime(),tb=3Dab(),ub=3Dwindow.google_loader_experiment,wb=3D["<!d=
+octype =
+html><html><body><",_script$$inline_211,">",gb,"google_show_ads_impl=3Dtr=
+ue;google_unique_id=3D",X.google_unique_id,';google_async_iframe_id=3D"',=0A=
+Y,'";google_start_time=3D',j,";",tb?"google_hash_ratio=3D"+tb+";":"",ub?'=
+google_loader_experiment=3D"'+ub+'";':"","google_bpp=3D",sb>j?sb-j:1,";</=
+",_script$$inline_211,">",Za(),"</body></html>"].join("");(X.document.get=
+ElementById(Y)?Pa:Qa)($a(X,Y,wb,g))}else{window.google_start_time=3Dj;win=
+dow.google_hash_ratio=3Dab();document.write(Za())};})();=0A=
+
+------=_NextPart_000_0000_01CBEE20.E66676B0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: 7bit
+Content-Location: http://www.actionscript8.com/plus/count.php?view=yes&aid=507&mid=15
+
+document.write('856');
+
+------=_NextPart_000_0000_01CBEE20.E66676B0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.actionscript8.com/plus/feedback_js.php?aid=507
+
+document.write("<div class=3D'decmt-box'>");=0A=
+document.write("<div class=3D'decmt-title'>");=0A=
+document.write("<span class=3D'moodico'><img =
+src=3D'/templets/images/mood/ico-mood-6.gif'/></span>");=0A=
+document.write("<span class=3D'username'><a =
+href=3D'#'>=D3=CE=BF=CD</a></span>");=0A=
+document.write("<span class=3D'date'>2011-03-17</span>");=0A=
+document.write("<span>=B7=A2=B1=ED</span>");=0A=
+document.write("</div>");=0A=
+document.write("<div class=3D'decmt-act'>");=0A=
+document.write("<span id=3D'goodfb198733'><a href=3D#goodfb198733 =
+onclick=3DpostBadGood('goodfb',198733)>=D6=A7=B3=D6</a>[0]</span>");=0A=
+document.write("<span id=3D'badfb198733'><a href=3D#badfb198733 =
+onclick=3DpostBadGood('badfb',198733)>=B7=B4=B6=D4</a>[0]</span>");=0A=
+document.write("<span><a =
+href=3D'/plus/feedback.php?fid=3D198733&action=3Dquote'>=D2=FD=D3=C3</a><=
+/span>");=0A=
+document.write("</div>");=0A=
+document.write("<div class=3D'decmt-content'>ZEdn36&nbsp;&nbsp;&lt;a =
+href=3D&quot;http://ftnbfhcdxjoq.com/&quot;&gt;ftnbfhcdxjoq&lt;/a&gt;, =
+[url=3Dht<img src=3D'/templets/images/cmt-neu.gif' =
+alt=3D'=B8=C3=D3=C3=BB=A7=B1=ED=CA=BE=D6=D0=C1=A2' />");=0A=
+document.write("</div>");=0A=
+document.write("</div>");=0A=
+document.write("<div class=3D'decmt-box'>");=0A=
+document.write("<div class=3D'decmt-title'>");=0A=
+document.write("<span class=3D'moodico'><img =
+src=3D'/templets/images/mood/ico-mood-6.gif'/></span>");=0A=
+document.write("<span class=3D'username'><a =
+href=3D'#'>=D3=CE=BF=CD</a></span>");=0A=
+document.write("<span class=3D'date'>2010-05-23</span>");=0A=
+document.write("<span>=B7=A2=B1=ED</span>");=0A=
+document.write("</div>");=0A=
+document.write("<div class=3D'decmt-act'>");=0A=
+document.write("<span id=3D'goodfb258'><a href=3D#goodfb258 =
+onclick=3DpostBadGood('goodfb',258)>=D6=A7=B3=D6</a>[0]</span>");=0A=
+document.write("<span id=3D'badfb258'><a href=3D#badfb258 =
+onclick=3DpostBadGood('badfb',258)>=B7=B4=B6=D4</a>[0]</span>");=0A=
+document.write("<span><a =
+href=3D'/plus/feedback.php?fid=3D258&action=3Dquote'>=D2=FD=D3=C3</a></sp=
+an>");=0A=
+document.write("</div>");=0A=
+document.write("<div class=3D'decmt-content'>nB7869&nbsp;&nbsp;&lt;a =
+href=3D&quot;http://ypyltywigwvf.com/&quot;&gt;ypyltywigwvf&lt;/a&gt;, =
+[url=3Dht<img src=3D'/templets/images/cmt-neu.gif' =
+alt=3D'=B8=C3=D3=C3=BB=A7=B1=ED=CA=BE=D6=D0=C1=A2' />");=0A=
+document.write("</div>");=0A=
+document.write("</div>");=0A=
+
+------=_NextPart_000_0000_01CBEE20.E66676B0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://s97.cnzz.com/stat.php?id=1551487&web_id=1551487&show=pic
+
+function gv_cnzz(of){=0A=
+	var es =3D document.cookie.indexOf(";",of);=0A=
+	if(es=3D=3D-1) es=3Ddocument.cookie.length;=0A=
+	return unescape(document.cookie.substring(of,es));=0A=
+}=0A=
+function gc_cnzz(n){=0A=
+	var arg=3Dn+"=3D";=0A=
+	var alen=3Darg.length;=0A=
+	var clen=3Ddocument.cookie.length;=0A=
+	var i=3D0;=0A=
+	while(i<clen){=0A=
+	var j=3Di+alen;=0A=
+	if(document.cookie.substring(i,j)=3D=3Darg) return gv_cnzz(j);=0A=
+	i=3Ddocument.cookie.indexOf(" ",i)+1;=0A=
+	if(i=3D=3D0)	break;=0A=
+	}=0A=
+	return -1;=0A=
+}=0A=
+var cnzz_ed=3Dnew Date();=0A=
+var cnzz_now=3DparseInt(cnzz_ed.getTime());=0A=
+var cnzz_ref=3Ddocument.referrer;=0A=
+var =
+cnzz_data=3D'&r=3D'+escape(cnzz_ref.substr(0,512))+'&lg=3D'+escape(naviga=
+tor.systemLanguage)+'&ntime=3D0.15043200 1301380617';=0A=
+var cnzz_a=3Dgc_cnzz("cnzz_a1551487");=0A=
+if(cnzz_a!=3D-1) cnzz_a=3DparseInt(cnzz_a)+1;=0A=
+else cnzz_a=3D0;=0A=
+var cnzz_rt=3DparseInt(gc_cnzz("rtime"));=0A=
+var cnzz_lt=3DparseInt(gc_cnzz("ltime"));=0A=
+var cnzz_st =3D parseInt((cnzz_now-cnzz_lt)/1000);=0A=
+var cnzz_sin =3D gc_cnzz("sin1551487");=0A=
+if(cnzz_sin=3D=3D-1) cnzz_sin=3D'none';=0A=
+if( cnzz_ref.split('/')[2]!=3Ddocument.domain ) cnzz_sin=3Dcnzz_ref;=0A=
+var cnzz_eid=3Dgc_cnzz("cnzz_eid");=0A=
+if(cnzz_eid=3D=3D-1) =
+cnzz_eid=3DMath.floor(Math.random()*100000000)+"-"+1301380617+"-"+cnzz_re=
+f.substr(0,64);=0A=
+if(cnzz_lt<1000000){cnzz_rt=3D0;cnzz_lt=3D0;}=0A=
+if(cnzz_rt<1) cnzz_rt=3D0;=0A=
+if(((cnzz_now-cnzz_lt)>500*86400)&&(cnzz_lt>0)) cnzz_rt++;=0A=
+cnzz_data=3Dcnzz_data+'&repeatip=3D'+cnzz_a+'&rtime=3D'+cnzz_rt+'&cnzz_ei=
+d=3D'+escape(cnzz_eid)+'&showp=3D'+escape(screen.width+'x'+screen.height)=
++'&st=3D'+cnzz_st+'&sin=3D'+escape(cnzz_sin.substr(0,512))+'&res=3D0';=0A=
+document.write('<a =
+href=3D"http://www.cnzz.com/stat/website.php?web_id=3D1551487" =
+target=3D_blank title=3D"&#31449;&#38271;&#32479;&#35745;"><img =
+border=3D0 hspace=3D0 vspace=3D0 src=3D"http://icon.cnzz.com/pic.gif" =
+/></a>');=0A=
+document.write('<img =
+src=3D"http://zs5.cnzz.com/stat.htm?id=3D1551487'+cnzz_data+'" =
+border=3D0 width=3D0 height=3D0 />');=0A=
+=0A=
+var =
+cnzz_et=3D(86400-cnzz_ed.getHours()*3600-cnzz_ed.getMinutes()*60-cnzz_ed.=
+getSeconds());=0A=
+cnzz_ed.setTime(cnzz_now+1000*(cnzz_et-cnzz_ed.getTimezoneOffset()*60));=0A=
+document.cookie=3D"cnzz_a1551487=3D"+cnzz_a+";expires=3D"+cnzz_ed.toGMTSt=
+ring()+ "; path=3D/";=0A=
+document.cookie=3D"sin1551487=3D"+escape(cnzz_sin)+ =
+";expires=3D"+cnzz_ed.toGMTString()+";path=3D/";=0A=
+cnzz_ed.setTime(cnzz_now+1000*86400*182);=0A=
+document.cookie=3D"rtime=3D"+cnzz_rt+";expires=3D"+cnzz_ed.toGMTString()+=
+ ";path=3D/";=0A=
+document.cookie=3D"ltime=3D"+cnzz_now+";expires=3D" + =
+cnzz_ed.toGMTString()+ ";path=3D/";=0A=
+document.cookie=3D"cnzz_eid=3D"+escape(cnzz_eid)+ =
+";expires=3D"+cnzz_ed.toGMTString()+";path=3D/";=0A=
+
+------=_NextPart_000_0000_01CBEE20.E66676B0--
